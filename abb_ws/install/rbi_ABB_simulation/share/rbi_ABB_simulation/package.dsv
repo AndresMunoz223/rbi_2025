@@ -1,0 +1,9 @@
+source;share/rbi_ABB_simulation/hook/pythonpath.ps1
+source;share/rbi_ABB_simulation/hook/pythonpath.dsv
+source;share/rbi_ABB_simulation/hook/pythonpath.sh
+source;share/rbi_ABB_simulation/hook/ament_prefix_path.ps1
+source;share/rbi_ABB_simulation/hook/ament_prefix_path.dsv
+source;share/rbi_ABB_simulation/hook/ament_prefix_path.sh
+source;../../build/rbi_ABB_simulation/share/rbi_ABB_simulation/hook/pythonpath_develop.ps1
+source;../../build/rbi_ABB_simulation/share/rbi_ABB_simulation/hook/pythonpath_develop.dsv
+source;../../build/rbi_ABB_simulation/share/rbi_ABB_simulation/hook/pythonpath_develop.sh

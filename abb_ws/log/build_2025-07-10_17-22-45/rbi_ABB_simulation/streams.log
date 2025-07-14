@@ -1,0 +1,28 @@
+[0.676s] Invoking command in '/home/eia/repo/rbi_2025_2/abb_ws/build/rbi_ABB_simulation': PYTHONPATH=/home/eia/repo/rbi_2025_2/abb_ws/build/rbi_ABB_simulation/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/abb_ws/build/rbi_ABB_simulation/build --no-deps symlink_data
+[0.948s] running develop
+[1.139s] running egg_info
+[1.139s] creating rbi_ABB_simulation.egg-info
+[1.153s] writing rbi_ABB_simulation.egg-info/PKG-INFO
+[1.153s] writing dependency_links to rbi_ABB_simulation.egg-info/dependency_links.txt
+[1.153s] writing entry points to rbi_ABB_simulation.egg-info/entry_points.txt
+[1.153s] writing requirements to rbi_ABB_simulation.egg-info/requires.txt
+[1.153s] writing top-level names to rbi_ABB_simulation.egg-info/top_level.txt
+[1.154s] writing manifest file 'rbi_ABB_simulation.egg-info/SOURCES.txt'
+[1.182s] reading manifest file 'rbi_ABB_simulation.egg-info/SOURCES.txt'
+[1.183s] writing manifest file 'rbi_ABB_simulation.egg-info/SOURCES.txt'
+[1.198s] running build_ext
+[1.198s] Creating /home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/lib/python3.10/site-packages/rbi-ABB-simulation.egg-link (link to .)
+[1.199s] Installing denavit script to /home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/lib/rbi_ABB_simulation
+[1.199s] 
+[1.199s] Installed /home/eia/repo/rbi_2025_2/abb_ws/build/rbi_ABB_simulation
+[1.199s] running symlink_data
+[1.199s] creating /home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/share/ament_index
+[1.199s] creating /home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/share/ament_index/resource_index
+[1.199s] creating /home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/share/ament_index/resource_index/packages
+[1.199s] symbolically linking /home/eia/repo/rbi_2025_2/abb_ws/build/rbi_ABB_simulation/resource/rbi_ABB_simulation -> /home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/share/ament_index/resource_index/packages
+[1.200s] symbolically linking /home/eia/repo/rbi_2025_2/abb_ws/build/rbi_ABB_simulation/package.xml -> /home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/share/rbi_ABB_simulation
+[1.200s] creating /home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/share/rbi_ABB_simulation/launch
+[1.200s] creating /home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/share/rbi_ABB_simulation/descriptions
+[1.200s] symbolically linking /home/eia/repo/rbi_2025_2/abb_ws/build/rbi_ABB_simulation/descriptions/basic_scenario.xml -> /home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/share/rbi_ABB_simulation/descriptions
+[1.200s] creating /home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/share/rbi_ABB_simulation/config
+[1.220s] Invoked command in '/home/eia/repo/rbi_2025_2/abb_ws/build/rbi_ABB_simulation' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/abb_ws/build/rbi_ABB_simulation/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/abb_ws/install/rbi_ABB_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/abb_ws/build/rbi_ABB_simulation/build --no-deps symlink_data
