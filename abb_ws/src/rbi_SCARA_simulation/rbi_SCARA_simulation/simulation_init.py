@@ -41,7 +41,7 @@ from terminaltexteffects.effects.effect_beams import Beams
 
 #! ------------------------Descripción del robót--------------------------
 
-package_name = 'rbi_ABB_simulation' #* Nombre del paquete.
+package_name = 'rbi_SCARA_simulation' #* Nombre del paquete.
 
 #* Importamos la descripción del paquete.
 MJCF = os.path.join(get_package_share_directory(package_name),'descriptions','basic_scenario.xml') 

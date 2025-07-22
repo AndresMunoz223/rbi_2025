@@ -1,8 +1,6 @@
 from setuptools import find_packages, setup
-import os
-from glob import glob
 
-package_name = 'rbi_ABB_simulation'
+package_name = 'rbi_SCARA_simulation'
 
 setup(
     name=package_name,
@@ -26,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "abb_sim_mujoco = rbi_ABB_simulation.simulation_init:main"
+            "abb_sim_mujoco = rbi_SCARA_simulation.simulation_init:main"
         ],
     },
 )
