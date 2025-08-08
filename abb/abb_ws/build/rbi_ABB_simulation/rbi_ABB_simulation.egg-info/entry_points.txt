@@ -1,0 +1,2 @@
+[console_scripts]
+abb_sim_mujoco = rbi_ABB_simulation.simulation_init:main

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+descriptions/basic_scenario.xml
+descriptions/irb140.xacro
+rbi_ABB_simulation/__init__.py
+rbi_ABB_simulation/simulation_init.py
+rbi_ABB_simulation.egg-info/PKG-INFO
+rbi_ABB_simulation.egg-info/SOURCES.txt
+rbi_ABB_simulation.egg-info/dependency_links.txt
+rbi_ABB_simulation.egg-info/entry_points.txt
+rbi_ABB_simulation.egg-info/requires.txt
+rbi_ABB_simulation.egg-info/top_level.txt
+rbi_ABB_simulation.egg-info/zip-safe
+resource/rbi_ABB_simulation

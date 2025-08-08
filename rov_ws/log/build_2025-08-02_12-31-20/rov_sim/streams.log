@@ -1,0 +1,14 @@
+[0.011s] Invoking command in '/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim -- -j12 -l12
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target rov_mujoco_sim[0m
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/rov_mujoco_sim.dir/src/mujoco_interface.cpp.o[0m
+[2.257s] [01m[K/home/eia/repo/rbi_2025_2/rov_ws/src/rov_sim/src/mujoco_interface.cpp:[m[K In constructor ‘[01m[KRovSimulator::RovSimulator()[m[K’:
+[2.257s] [01m[K/home/eia/repo/rbi_2025_2/rov_ws/src/rov_sim/src/mujoco_interface.cpp:42:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RovSimulator[m[K’ has no member named ‘[01m[Kwindow[m[K’
+[2.257s]    42 |             this->[01;31m[Kwindow[m[K = glfwCreateWindow(1244, 700, "Demo", NULL, NULL);
+[2.257s]       |                   [01;31m[K^~~~~~[m[K
+[2.257s] [01m[K/home/eia/repo/rbi_2025_2/rov_ws/src/rov_sim/src/mujoco_interface.cpp:43:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RovSimulator[m[K’ has no member named ‘[01m[Kwindow[m[K’
+[2.257s]    43 |             glfwMakeContextCurrent(this->[01;31m[Kwindow[m[K);
+[2.257s]       |                                          [01;31m[K^~~~~~[m[K
+[4.544s] gmake[2]: *** [CMakeFiles/rov_mujoco_sim.dir/build.make:76: CMakeFiles/rov_mujoco_sim.dir/src/mujoco_interface.cpp.o] Error 1
+[4.544s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rov_mujoco_sim.dir/all] Error 2
+[4.544s] gmake: *** [Makefile:146: all] Error 2
+[4.546s] Invoked command in '/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim -- -j12 -l12

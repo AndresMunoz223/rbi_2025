@@ -1,0 +1,12 @@
+[0.012s] Invoking command in '/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim -- -j12 -l12
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target rov_mujoco_sim[0m
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/rov_mujoco_sim.dir/src/mujoco_interface.cpp.o[0m
+[0.285s] In file included from [01m[K/home/eia/repo/rbi_2025_2/rov_ws/src/rov_sim/src/mujoco_interface.cpp:1[m[K:
+[0.285s] [01m[K/home/eia/repo/rbi_2025_2/rov_ws/src/rov_sim/include/rov_sim/mujoco_interface.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/system_interface.hpp: No such file or directory
+[0.285s]    24 | #include [01;31m[K"hardware_interface/system_interface.hpp"[m[K //! -> system for simplicity.
+[0.285s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.285s] compilation terminated.
+[0.295s] gmake[2]: *** [CMakeFiles/rov_mujoco_sim.dir/build.make:76: CMakeFiles/rov_mujoco_sim.dir/src/mujoco_interface.cpp.o] Error 1
+[0.295s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rov_mujoco_sim.dir/all] Error 2
+[0.295s] gmake: *** [Makefile:146: all] Error 2
+[0.297s] Invoked command in '/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim -- -j12 -l12

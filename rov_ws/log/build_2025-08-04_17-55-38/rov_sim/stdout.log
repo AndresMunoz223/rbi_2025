@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/rov_mujoco_sim.dir/src/mujoco_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rov_mujoco_sim[0m
+[100%] Built target rov_mujoco_sim
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/lib/rov_sim/rov_mujoco_sim
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/ament_index/resource_index/package_run_dependencies/rov_sim
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/ament_index/resource_index/parent_prefix_path/rov_sim
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/environment/path.sh
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/environment/path.dsv
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/local_setup.bash
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/local_setup.sh
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/local_setup.zsh
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/local_setup.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/package.dsv
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/ament_index/resource_index/packages/rov_sim
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/cmake/rov_simConfig.cmake
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/cmake/rov_simConfig-version.cmake
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/package.xml

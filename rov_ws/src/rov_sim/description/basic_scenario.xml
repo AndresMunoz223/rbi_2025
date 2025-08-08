@@ -1,0 +1,72 @@
+<mujoco model="rov_sim">
+    
+  <compiler angle="degree"/>    
+
+    <option timestep="0.01" density="997" viscosity="0.001"/>
+
+
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" rgb1=".1 .2 .3"
+     rgb2=".2 .3 .4" width="300" height="300" mark="none"/>
+    <material name="grid" texture="grid" texrepeat="1 1"
+     texuniform="true" reflectance=".1"/>
+  </asset>
+
+  <visual>
+    <scale framelength="0.2" framewidth="0.02"/>
+  </visual>
+
+  <option gravity="0 0 -0.001"/>
+
+  <worldbody>
+
+    <light name="light" pos="0 0 4"/>
+    <geom name="floor" type="plane" pos="0 0 0" size="30 30 .01" material="grid" friction=".001"/>
+    <camera name="follow_cam"
+            mode="track"
+            target="Thrusters"
+            pos="0 -2 1.5"/>
+
+
+    <body name="hull_link" pos="0 0 1" euler = "0 -90 0">
+        <geom name="hull_link_geom" type="cylinder" size="0.0695 0.144" rgba="1 0 0 0.2" fluidshape="ellipsoid" fluidcoef="1.0"/>
+
+        <body name="Thrusters" pos="0 0 0" euler = "0 90 0">
+            <geom name="thrust_1_geom" type="cylinder" size="0.03 0.03" rgba="0 0 1 0.4" pos= "0. -0.078 -0.092" euler = "0 -90 0" fluidshape="ellipsoid" fluidcoef="1.0"/>      
+            <geom name="thrust_2_geom" type="cylinder" size="0.03 0.03" rgba="0 0 1 0.4" pos= "0. 0.078 -0.092" euler = "0 -90 0" fluidshape="ellipsoid" fluidcoef="1.0"/>
+            <geom name="thrust_3_geom" type="cylinder" size="0.03 0.03" rgba="0 0 1 0.4" pos= "-0.0678 0.109 0" fluidshape="ellipsoid" fluidcoef="1.0"/>
+            <geom name="thrust_4_geom" type="cylinder" size="0.03 0.03" rgba="0 0 1 0.4" pos= "0.0678 0.109 0" fluidshape="ellipsoid" fluidcoef="1.0"/>
+            <geom name="thrust_5_geom" type="cylinder" size="0.03 0.03" rgba="0 0 1 0.4" pos= "-0.0678 -0.109 0" fluidshape="ellipsoid" fluidcoef="1.0"/>
+            <geom name="thrust_6_geom" type="cylinder" size="0.03 0.03" rgba="0 0 1 0.4" pos= "0.0678 -0.109 0" fluidshape="ellipsoid" fluidcoef="1.0"/>
+
+              <!-- Sites to apply force -->
+            <site name="thrust_1_site" pos="0 -0.078 -0.092" size="0.005" rgba="1 0 0 1"/>
+            <site name="thrust_2_site" pos="0 0.078 -0.092" size="0.005" rgba="1 0 0 1"/>
+            <site name="thrust_3_site" pos="-0.0678 0.109 0" size="0.005" rgba="1 0 0 1"/>
+            <site name="thrust_4_site" pos="0.0678 0.109 0" size="0.005" rgba="1 0 0 1"/>
+            <site name="thrust_5_site" pos="-0.0678 -0.109 0" size="0.005" rgba="1 0 0 1"/>
+            <site name="thrust_6_site" pos="0.0678 -0.109 0" size="0.005" rgba="1 0 0 1"/>
+
+        </body>
+       
+        <joint name="first_joint" type="free"/>
+
+    </body>
+
+  </worldbody>
+  
+<actuator>
+       <!-- Vertical thrusters -->
+    <motor name="thrust1" site="thrust_1_site" gear="1 0 0"/>  <!-- Up -->
+    <motor name="thrust2" site="thrust_2_site" gear="1 0 0"/>  <!-- Up -->
+
+    <!-- Lateral thrusters -->
+    <motor name="thrust3" site="thrust_3_site" gear="0 0 1"/>  <!-- Forward -->
+    <motor name="thrust4" site="thrust_4_site" gear="0 0 1"/>  <!-- Forward -->
+
+    <!-- Side thrusters -->
+    <motor name="thrust5" site="thrust_5_site" gear="0 0 1"/>  <!-- Right -->
+    <motor name="thrust6" site="thrust_6_site" gear="0 0 1"/>  <!-- Left -->
+</actuator>
+
+</mujoco>

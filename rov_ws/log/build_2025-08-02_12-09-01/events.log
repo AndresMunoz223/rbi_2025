@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000148] (rov_sim) JobQueued: {'identifier': 'rov_sim', 'dependencies': OrderedDict()}
+[0.000457] (rov_sim) JobStarted: {'identifier': 'rov_sim'}
+[0.008541] (rov_sim) JobProgress: {'identifier': 'rov_sim', 'progress': 'cmake'}
+[0.009842] (rov_sim) JobProgress: {'identifier': 'rov_sim', 'progress': 'build'}
+[0.009882] (rov_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim', '--', '-j12', '-l12'], 'cwd': '/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eia'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eia'), ('OLDPWD', '/home/eia'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1925'), ('SYSTEMD_EXEC_PID', '2087'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ASTRA_SDK_INCLUDE', '/home/eia/AstraSDK-v2.1.3-94bca0f52e-20210608T062039Z-Ubuntu18.04-x86_64/install/include'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4617'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eia/repo/rbi_2025_2/rov_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eia'), ('JOURNAL_STREAM', '8:17660'), ('_', '/home/eia/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eia'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/eia/.juliaup/bin:/home/eia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/eia/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/eia-Precision-3551:@/tmp/.ICE-unix/2056,unix/eia-Precision-3551:/tmp/.ICE-unix/2056'), ('INVOCATION_ID', '4393cf4cf1a44454b1e26e21541b2ad3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('ASTRA_SDK_LIB', '/home/eia/AstraSDK-v2.1.3-94bca0f52e-20210608T062039Z-Ubuntu18.04-x86_64/install/lib'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I4WEA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8db618d2-2594-4363-8b4a-b5f5b20f3d56'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim:/usr/lib/x86_64-linux-gnu/::/opt/ros/humble')]), 'shell': False}
+[0.044813] (rov_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rov_mujoco_sim\x1b[0m\n'}
+[0.058476] (rov_sim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rov_mujoco_sim.dir/src/mujoco_interface.cpp.o\x1b[0m\n'}
+[0.099882] (-) TimerEvent: {}
+[0.200131] (-) TimerEvent: {}
+[0.300495] (-) TimerEvent: {}
+[0.400765] (-) TimerEvent: {}
+[0.501027] (-) TimerEvent: {}
+[0.601381] (-) TimerEvent: {}
+[0.701618] (-) TimerEvent: {}
+[0.801866] (-) TimerEvent: {}
+[0.902119] (-) TimerEvent: {}
+[1.002359] (-) TimerEvent: {}
+[1.102629] (-) TimerEvent: {}
+[1.202901] (-) TimerEvent: {}
+[1.303152] (-) TimerEvent: {}
+[1.403399] (-) TimerEvent: {}
+[1.503688] (-) TimerEvent: {}
+[1.603941] (-) TimerEvent: {}
+[1.704215] (-) TimerEvent: {}
+[1.804499] (-) TimerEvent: {}
+[1.904778] (-) TimerEvent: {}
+[2.005028] (-) TimerEvent: {}
+[2.105315] (-) TimerEvent: {}
+[2.205629] (-) TimerEvent: {}
+[2.305872] (-) TimerEvent: {}
+[2.406152] (-) TimerEvent: {}
+[2.506392] (-) TimerEvent: {}
+[2.606634] (-) TimerEvent: {}
+[2.706908] (-) TimerEvent: {}
+[2.807208] (-) TimerEvent: {}
+[2.907455] (-) TimerEvent: {}
+[3.007701] (-) TimerEvent: {}
+[3.107943] (-) TimerEvent: {}
+[3.208157] (-) TimerEvent: {}
+[3.308454] (-) TimerEvent: {}
+[3.408715] (-) TimerEvent: {}
+[3.509025] (-) TimerEvent: {}
+[3.609268] (-) TimerEvent: {}
+[3.709508] (-) TimerEvent: {}
+[3.809756] (-) TimerEvent: {}
+[3.910038] (-) TimerEvent: {}
+[4.010300] (-) TimerEvent: {}
+[4.110603] (-) TimerEvent: {}
+[4.210910] (-) TimerEvent: {}
+[4.311224] (-) TimerEvent: {}
+[4.411523] (-) TimerEvent: {}
+[4.511796] (-) TimerEvent: {}
+[4.612053] (-) TimerEvent: {}
+[4.712342] (-) TimerEvent: {}
+[4.812580] (-) TimerEvent: {}
+[4.912878] (-) TimerEvent: {}
+[5.013089] (-) TimerEvent: {}
+[5.113386] (-) TimerEvent: {}
+[5.213644] (-) TimerEvent: {}
+[5.313903] (-) TimerEvent: {}
+[5.414161] (-) TimerEvent: {}
+[5.514444] (-) TimerEvent: {}
+[5.614709] (-) TimerEvent: {}
+[5.714973] (-) TimerEvent: {}
+[5.815241] (-) TimerEvent: {}
+[5.915501] (-) TimerEvent: {}
+[6.015759] (-) TimerEvent: {}
+[6.116022] (-) TimerEvent: {}
+[6.216290] (-) TimerEvent: {}
+[6.316554] (-) TimerEvent: {}
+[6.416815] (-) TimerEvent: {}
+[6.517077] (-) TimerEvent: {}
+[6.617347] (-) TimerEvent: {}
+[6.717576] (-) TimerEvent: {}
+[6.817836] (-) TimerEvent: {}
+[6.918096] (-) TimerEvent: {}
+[7.018376] (-) TimerEvent: {}
+[7.118634] (-) TimerEvent: {}
+[7.218896] (-) TimerEvent: {}
+[7.319156] (-) TimerEvent: {}
+[7.419421] (-) TimerEvent: {}
+[7.519686] (-) TimerEvent: {}
+[7.619950] (-) TimerEvent: {}
+[7.720216] (-) TimerEvent: {}
+[7.820480] (-) TimerEvent: {}
+[7.920753] (-) TimerEvent: {}
+[7.945140] (rov_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rov_mujoco_sim\x1b[0m\n'}
+[8.020842] (-) TimerEvent: {}
+[8.121075] (-) TimerEvent: {}
+[8.221347] (-) TimerEvent: {}
+[8.321654] (-) TimerEvent: {}
+[8.345456] (rov_sim) StdoutLine: {'line': b'[100%] Built target rov_mujoco_sim\n'}
+[8.358429] (rov_sim) CommandEnded: {'returncode': 0}
+[8.359187] (rov_sim) JobProgress: {'identifier': 'rov_sim', 'progress': 'install'}
+[8.368574] (rov_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim'], 'cwd': '/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eia'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eia'), ('OLDPWD', '/home/eia'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1925'), ('SYSTEMD_EXEC_PID', '2087'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ASTRA_SDK_INCLUDE', '/home/eia/AstraSDK-v2.1.3-94bca0f52e-20210608T062039Z-Ubuntu18.04-x86_64/install/include'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4617'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eia/repo/rbi_2025_2/rov_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eia'), ('JOURNAL_STREAM', '8:17660'), ('_', '/home/eia/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eia'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/eia/.juliaup/bin:/home/eia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/eia/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/eia-Precision-3551:@/tmp/.ICE-unix/2056,unix/eia-Precision-3551:/tmp/.ICE-unix/2056'), ('INVOCATION_ID', '4393cf4cf1a44454b1e26e21541b2ad3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('ASTRA_SDK_LIB', '/home/eia/AstraSDK-v2.1.3-94bca0f52e-20210608T062039Z-Ubuntu18.04-x86_64/install/lib'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I4WEA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8db618d2-2594-4363-8b4a-b5f5b20f3d56'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim:/usr/lib/x86_64-linux-gnu/::/opt/ros/humble')]), 'shell': False}
+[8.376039] (rov_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.376546] (rov_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.376798] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/lib/rov_sim/rov_mujoco_sim\n'}
+[8.377018] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/ament_index/resource_index/package_run_dependencies/rov_sim\n'}
+[8.377242] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/ament_index/resource_index/parent_prefix_path/rov_sim\n'}
+[8.377423] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/environment/ament_prefix_path.sh\n'}
+[8.377595] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/environment/ament_prefix_path.dsv\n'}
+[8.377775] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/environment/path.sh\n'}
+[8.377946] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/environment/path.dsv\n'}
+[8.378121] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/local_setup.bash\n'}
+[8.378311] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/local_setup.sh\n'}
+[8.378471] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/local_setup.zsh\n'}
+[8.378632] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/local_setup.dsv\n'}
+[8.378750] (rov_sim) StdoutLine: {'line': b'-- Symlinking: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/package.dsv\n'}
+[8.386675] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/ament_index/resource_index/packages/rov_sim\n'}
+[8.386910] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/cmake/rov_simConfig.cmake\n'}
+[8.386994] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/cmake/rov_simConfig-version.cmake\n'}
+[8.387090] (rov_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov_ws/install/rov_sim/share/rov_sim/package.xml\n'}
+[8.388652] (rov_sim) CommandEnded: {'returncode': 0}
+[8.405251] (rov_sim) JobEnded: {'identifier': 'rov_sim', 'rc': 0}
+[8.405874] (-) EventReactorShutdown: {}

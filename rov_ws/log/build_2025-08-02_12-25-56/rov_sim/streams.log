@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim -- -j12 -l12
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target rov_mujoco_sim[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/rov_mujoco_sim.dir/src/mujoco_interface.cpp.o[0m
+[2.262s] [01m[K/home/eia/repo/rbi_2025_2/rov_ws/src/rov_sim/src/mujoco_interface.cpp:[m[K In member function ‘[01m[Kvoid RovSimulator::sim_thread()[m[K’:
+[2.262s] [01m[K/home/eia/repo/rbi_2025_2/rov_ws/src/rov_sim/src/mujoco_interface.cpp:97:33:[m[K [01;31m[Kerror: [m[K‘[01m[KmjVISFLAG_GEOM[m[K’ was not declared in this scope
+[2.262s]    97 |             this->sim_opt.flags[[01;31m[KmjVISFLAG_GEOM[m[K] = true;
+[2.262s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.281s] [01m[K/home/eia/repo/rbi_2025_2/rov_ws/src/rov_sim/src/mujoco_interface.cpp:98:33:[m[K [01;31m[Kerror: [m[K‘[01m[KmjVISFLAG_SHADOW[m[K’ was not declared in this scope; did you mean ‘[01m[KmjFONT_SHADOW[m[K’?
+[2.281s]    98 |             this->sim_opt.flags[[01;31m[KmjVISFLAG_SHADOW[m[K] = true;
+[2.281s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.281s]       |                                 [32m[KmjFONT_SHADOW[m[K
+[4.533s] gmake[2]: *** [CMakeFiles/rov_mujoco_sim.dir/build.make:76: CMakeFiles/rov_mujoco_sim.dir/src/mujoco_interface.cpp.o] Error 1
+[4.533s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rov_mujoco_sim.dir/all] Error 2
+[4.533s] gmake: *** [Makefile:146: all] Error 2
+[4.536s] Invoked command in '/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim -- -j12 -l12

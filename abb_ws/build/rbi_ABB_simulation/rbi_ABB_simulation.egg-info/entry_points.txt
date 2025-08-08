@@ -1,2 +1,0 @@
-[console_scripts]
-denavit = rbi_ABB_simulation.simulation_init:main
