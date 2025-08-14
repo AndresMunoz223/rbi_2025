@@ -139,7 +139,7 @@ void RovSimulatorInterface::sim_thread(){
                 mju_error("Could not initialize GLFW");
 
             // create window, make OpenGL context current, request v-sync
-            window = glfwCreateWindow(1244, 700, "Demo", NULL, NULL);
+            window = glfwCreateWindow(1244, 700, "ROV-Sim", NULL, NULL);
             glfwMakeContextCurrent(window);
             glfwSwapInterval(1);
 
