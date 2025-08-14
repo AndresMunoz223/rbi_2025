@@ -1,0 +1,15 @@
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/ament_index/resource_index/package_run_dependencies/scara_hardware_interface
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/ament_index/resource_index/parent_prefix_path/scara_hardware_interface
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/environment/ament_prefix_path.sh
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/environment/ament_prefix_path.dsv
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/environment/path.sh
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/environment/path.dsv
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/local_setup.bash
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/local_setup.sh
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/local_setup.zsh
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/local_setup.dsv
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.dsv
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/ament_index/resource_index/packages/scara_hardware_interface
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/cmake/scara_hardware_interfaceConfig.cmake
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/cmake/scara_hardware_interfaceConfig-version.cmake
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.xml

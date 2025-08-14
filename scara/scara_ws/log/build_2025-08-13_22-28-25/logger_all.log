@@ -1,0 +1,1012 @@
+[0.111s] DEBUG:colcon:Command line arguments: ['/home/eia/.local/bin/colcon', 'build']
+[0.111s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c2751341a50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c27514be6b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c27514be6b0>>)
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.145s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eia/repo/rbi_2025_2/scara/scara_ws'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'ros'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extensions ['cmake', 'python']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'cmake'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_bringup) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_bringup) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_bringup) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_bringup) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_bringup) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_bringup) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_bringup) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_bringup) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scara_gz_bringup' with type 'ros.ament_cmake' and name 'scara_gz_bringup'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_description) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_description) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_description) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_description) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_description) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_description) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_description) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_description) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_gz_description) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scara_gz_description' with type 'ros.ament_cmake' and name 'scara_gz_description'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_hardware_interface) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_hardware_interface) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_hardware_interface) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_hardware_interface) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_hardware_interface) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_hardware_interface) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_hardware_interface) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_hardware_interface) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scara_hardware_interface' with type 'ros.ament_cmake' and name 'scara_hardware_interface'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scara_mujoco' with type 'ros.ament_python' and name 'scara_mujoco'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_bringup) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_bringup) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_bringup) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_bringup) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_bringup) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_bringup) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_bringup) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_bringup) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scara_mujoco_bringup' with type 'ros.ament_cmake' and name 'scara_mujoco_bringup'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_description) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_description) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_description) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_description) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_description) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_description) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_description) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_description) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_description) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scara_mujoco_description' with type 'ros.ament_cmake' and name 'scara_mujoco_description'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_sim) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_sim) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_sim) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_sim) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_sim) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_sim) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_sim) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_mujoco_sim) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scara_mujoco_sim' with type 'ros.ament_cmake' and name 'scara_mujoco_sim'
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_bringup' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_bringup' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'scara_gz_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup', 'merge_install': False, 'path': '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_gz_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_description' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_description' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_gz_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'scara_gz_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description', 'merge_install': False, 'path': '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_gz_description', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'scara_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'scara_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface', 'merge_install': False, 'path': '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'scara_mujoco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco', 'merge_install': False, 'path': '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_bringup' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_bringup' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'scara_mujoco_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup', 'merge_install': False, 'path': '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_description' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_description' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'scara_mujoco_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description', 'merge_install': False, 'path': '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_description', 'symlink_install': False, 'test_result_base': None}
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_sim' build argument 'cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_sim' build argument 'cmake_target' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'scara_mujoco_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.218s] DEBUG:colcon.colcon_core.verb:Building package 'scara_mujoco_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim', 'merge_install': False, 'path': '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_sim', 'symlink_install': False, 'test_result_base': None}
+[0.218s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.219s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.219s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_gz_bringup' with build type 'ament_cmake'
+[0.219s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_gz_bringup'
+[0.221s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.227s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_gz_description' with build type 'ament_cmake'
+[0.227s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_gz_description'
+[0.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.232s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface' with build type 'ament_cmake'
+[0.232s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface'
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco' with build type 'ament_python'
+[0.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_mujoco', 'ament_prefix_path')
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco/hook/ament_prefix_path.ps1'
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco/hook/ament_prefix_path.dsv'
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco/hook/ament_prefix_path.sh'
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_bringup' with build type 'ament_cmake'
+[0.242s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_bringup'
+[0.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_description' with build type 'ament_cmake'
+[0.246s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_description'
+[0.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_sim' with build type 'ament_cmake'
+[0.252s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_sim'
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_gz_bringup -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup
+[0.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description -- -j12 -l12
+[0.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface
+[0.489s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco'
+[0.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_bringup -- -j12 -l12
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_description -- -j12 -l12
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim -- -j12 -l12
+[0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description -- -j12 -l12
+[0.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description
+[0.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_description -- -j12 -l12
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_description
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_bringup -- -j12 -l12
+[0.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_bringup
+[0.546s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_gz_description)
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description' for CMake module files
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description' for CMake config files
+[0.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_gz_description', 'cmake_prefix_path')
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/hook/cmake_prefix_path.ps1'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/hook/cmake_prefix_path.dsv'
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/hook/cmake_prefix_path.sh'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/bin'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/lib/pkgconfig/scara_gz_description.pc'
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/lib/python3.10/site-packages'
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/bin'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/package.ps1'
+[0.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/package.dsv'
+[0.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/package.sh'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/package.bash'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/package.zsh'
+[0.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/colcon-core/packages/scara_gz_description)
+[0.561s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_gz_description)
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description' for CMake module files
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description' for CMake config files
+[0.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_gz_description', 'cmake_prefix_path')
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/hook/cmake_prefix_path.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/hook/cmake_prefix_path.dsv'
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/hook/cmake_prefix_path.sh'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/bin'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/lib/pkgconfig/scara_gz_description.pc'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/lib/python3.10/site-packages'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/bin'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/package.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/package.dsv'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/package.sh'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/package.bash'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/scara_gz_description/package.zsh'
+[0.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_description/share/colcon-core/packages/scara_gz_description)
+[0.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_mujoco_description)
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description' for CMake module files
+[0.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_description
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description' for CMake config files
+[0.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_mujoco_description', 'cmake_prefix_path')
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/hook/cmake_prefix_path.ps1'
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/hook/cmake_prefix_path.dsv'
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/hook/cmake_prefix_path.sh'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/bin'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/lib/pkgconfig/scara_mujoco_description.pc'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/lib/python3.10/site-packages'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/bin'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/package.ps1'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/package.dsv'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/package.sh'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/package.bash'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/package.zsh'
+[0.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/colcon-core/packages/scara_mujoco_description)
+[0.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_mujoco_description)
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description' for CMake module files
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description' for CMake config files
+[0.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_mujoco_description', 'cmake_prefix_path')
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/hook/cmake_prefix_path.ps1'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/hook/cmake_prefix_path.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/hook/cmake_prefix_path.sh'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/bin'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/lib/pkgconfig/scara_mujoco_description.pc'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/lib/python3.10/site-packages'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/bin'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/package.ps1'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/package.dsv'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/package.sh'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/package.bash'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description/package.zsh'
+[0.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/colcon-core/packages/scara_mujoco_description)
+[0.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_mujoco_bringup)
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup' for CMake module files
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup' for CMake config files
+[0.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_bringup
+[0.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_mujoco_bringup', 'cmake_prefix_path')
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/hook/cmake_prefix_path.ps1'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/hook/cmake_prefix_path.dsv'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/hook/cmake_prefix_path.sh'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/bin'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/lib/pkgconfig/scara_mujoco_bringup.pc'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/lib/python3.10/site-packages'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/bin'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/package.ps1'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/package.dsv'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/package.sh'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/package.bash'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/package.zsh'
+[0.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/colcon-core/packages/scara_mujoco_bringup)
+[0.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_mujoco_bringup)
+[0.586s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup' for CMake module files
+[0.586s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup' for CMake config files
+[0.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_mujoco_bringup', 'cmake_prefix_path')
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/hook/cmake_prefix_path.ps1'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/hook/cmake_prefix_path.dsv'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/hook/cmake_prefix_path.sh'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/bin'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/lib/pkgconfig/scara_mujoco_bringup.pc'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/lib/python3.10/site-packages'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/bin'
+[0.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/package.ps1'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/package.dsv'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/package.sh'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/package.bash'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/scara_mujoco_bringup/package.zsh'
+[0.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_bringup/share/colcon-core/packages/scara_mujoco_bringup)
+[0.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim -- -j12 -l12
+[0.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim
+[0.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_mujoco_sim)
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim' for CMake module files
+[0.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim' for CMake config files
+[0.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_mujoco_sim', 'cmake_prefix_path')
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/hook/cmake_prefix_path.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/hook/cmake_prefix_path.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/hook/cmake_prefix_path.sh'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/lib'
+[0.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_mujoco_sim', 'ld_library_path_lib')
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/hook/ld_library_path_lib.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/hook/ld_library_path_lib.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/hook/ld_library_path_lib.sh'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/bin'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/lib/pkgconfig/scara_mujoco_sim.pc'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/lib/python3.10/site-packages'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/bin'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/package.ps1'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/package.dsv'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/package.sh'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/package.bash'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/package.zsh'
+[0.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/colcon-core/packages/scara_mujoco_sim)
+[0.610s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_mujoco_sim)
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim' for CMake module files
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim' for CMake config files
+[0.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_mujoco_sim', 'cmake_prefix_path')
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/hook/cmake_prefix_path.ps1'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/hook/cmake_prefix_path.dsv'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/hook/cmake_prefix_path.sh'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/lib'
+[0.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_mujoco_sim', 'ld_library_path_lib')
+[0.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/hook/ld_library_path_lib.ps1'
+[0.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/hook/ld_library_path_lib.dsv'
+[0.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/hook/ld_library_path_lib.sh'
+[0.614s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/bin'
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/lib/pkgconfig/scara_mujoco_sim.pc'
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/lib/python3.10/site-packages'
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/bin'
+[0.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/package.ps1'
+[0.616s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/package.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/package.sh'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/package.bash'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/package.zsh'
+[0.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_sim/share/colcon-core/packages/scara_mujoco_sim)
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_gz_bringup -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup
+[1.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_bringup -- -j12 -l12
+[1.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_bringup -- -j12 -l12
+[1.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_bringup
+[1.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_gz_bringup)
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup' for CMake module files
+[1.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_bringup
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup' for CMake config files
+[1.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_gz_bringup', 'cmake_prefix_path')
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/hook/cmake_prefix_path.ps1'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/hook/cmake_prefix_path.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/hook/cmake_prefix_path.sh'
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/bin'
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/lib/pkgconfig/scara_gz_bringup.pc'
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/lib/python3.10/site-packages'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/bin'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/package.ps1'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/package.dsv'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/package.sh'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/package.bash'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/package.zsh'
+[1.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/colcon-core/packages/scara_gz_bringup)
+[1.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_gz_bringup)
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup' for CMake module files
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup' for CMake config files
+[1.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_gz_bringup', 'cmake_prefix_path')
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/hook/cmake_prefix_path.ps1'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/hook/cmake_prefix_path.dsv'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/hook/cmake_prefix_path.sh'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/bin'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/lib/pkgconfig/scara_gz_bringup.pc'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/lib/python3.10/site-packages'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/bin'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/package.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/package.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/package.sh'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/package.bash'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/scara_gz_bringup/package.zsh'
+[1.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_gz_bringup/share/colcon-core/packages/scara_gz_bringup)
+[1.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface
+[1.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface -- -j12 -l12
+[1.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_mujoco build --build-base /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/build install --record /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/install.log --single-version-externally-managed install_data
+[1.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface -- -j12 -l12
+[1.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface
+[1.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_hardware_interface)
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface' for CMake module files
+[1.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface' for CMake config files
+[1.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_hardware_interface', 'cmake_prefix_path')
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/hook/cmake_prefix_path.ps1'
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/hook/cmake_prefix_path.dsv'
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/hook/cmake_prefix_path.sh'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/bin'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/lib/pkgconfig/scara_hardware_interface.pc'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/lib/python3.10/site-packages'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/bin'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.ps1'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.dsv'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.sh'
+[1.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.bash'
+[1.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.zsh'
+[1.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/colcon-core/packages/scara_hardware_interface)
+[1.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_hardware_interface)
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface' for CMake module files
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface' for CMake config files
+[1.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_hardware_interface', 'cmake_prefix_path')
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/hook/cmake_prefix_path.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/hook/cmake_prefix_path.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/hook/cmake_prefix_path.sh'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/bin'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/lib/pkgconfig/scara_hardware_interface.pc'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/lib/python3.10/site-packages'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/bin'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.dsv'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.sh'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.bash'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.zsh'
+[1.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/colcon-core/packages/scara_hardware_interface)
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco' for CMake module files
+[1.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_mujoco build --build-base /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/build install --record /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/install.log --single-version-externally-managed install_data
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco' for CMake config files
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/lib'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/bin'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/lib/pkgconfig/scara_mujoco.pc'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/lib/python3.10/site-packages'
+[1.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_mujoco', 'pythonpath')
+[1.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco/hook/pythonpath.ps1'
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco/hook/pythonpath.dsv'
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco/hook/pythonpath.sh'
+[1.684s] Level 1:colcon.colcon_core.environment:checking '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/bin'
+[1.684s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_mujoco)
+[1.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco/package.ps1'
+[1.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco/package.dsv'
+[1.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco/package.sh'
+[1.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco/package.bash'
+[1.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco/package.zsh'
+[1.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/colcon-core/packages/scara_mujoco)
+[1.686s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.687s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.691s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.691s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.691s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.698s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.698s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/local_setup.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/_local_setup_util_ps1.py'
+[1.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/setup.ps1'
+[1.702s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/local_setup.sh'
+[1.702s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/_local_setup_util_sh.py'
+[1.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/setup.sh'
+[1.704s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/local_setup.bash'
+[1.704s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/setup.bash'
+[1.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/local_setup.zsh'
+[1.706s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/setup.zsh'
