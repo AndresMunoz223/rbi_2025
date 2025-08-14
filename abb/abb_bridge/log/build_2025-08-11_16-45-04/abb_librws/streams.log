@@ -1,0 +1,52 @@
+[0.035s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_librws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_librws -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.120s] -- Detecting CXX compiler ABI info
+[0.217s] -- Detecting CXX compiler ABI info - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.233s] -- Detecting CXX compile features - done
+[0.237s] -- Searching for Poco library...
+[0.255s] --   Found Poco!
+[0.255s] -- components found: Foundation, Net, Util, XML.
+[0.259s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[0.351s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[0.352s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[0.443s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[0.443s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[0.529s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[0.532s] -- Configuring done
+[0.539s] -- Generating done
+[0.541s] -- Build files have been written to: /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_librws
+[0.551s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_librws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_librws -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws
+[0.552s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_librws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_librws -- -j12 -l12
+[1.121s] [ 57%] [32mBuilding CXX object CMakeFiles/abb_librws.dir/src/rws_client.cpp.o[0m
+[1.121s] [ 57%] [32mBuilding CXX object CMakeFiles/abb_librws.dir/src/rws_interface.cpp.o[0m
+[1.121s] [ 57%] [32mBuilding CXX object CMakeFiles/abb_librws.dir/src/rws_common.cpp.o[0m
+[1.121s] [ 57%] [32mBuilding CXX object CMakeFiles/abb_librws.dir/src/rws_poco_client.cpp.o[0m
+[1.121s] [ 71%] [32mBuilding CXX object CMakeFiles/abb_librws.dir/src/rws_state_machine_interface.cpp.o[0m
+[1.122s] [ 85%] [32mBuilding CXX object CMakeFiles/abb_librws.dir/src/rws_rapid.cpp.o[0m
+[4.116s] [100%] [32m[1mLinking CXX shared library libabb_librws.so[0m
+[4.432s] [100%] Built target abb_librws
+[4.460s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_librws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_librws -- -j12 -l12
+[4.461s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_librws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_librws
+[4.479s] -- Install configuration: ""
+[4.480s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/include
+[4.482s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/include/abb_librws
+[4.482s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/include/abb_librws/rws_cfg.h
+[4.483s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/include/abb_librws/rws_rapid.h
+[4.483s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/include/abb_librws/rws_poco_client.h
+[4.483s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/include/abb_librws/rws_interface.h
+[4.483s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/include/abb_librws/rws_common.h
+[4.483s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/include/abb_librws/rws_client.h
+[4.483s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/include/abb_librws/rws_state_machine_interface.h
+[4.483s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/include/abb_librws/abb_librws_export.h
+[4.484s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake
+[4.484s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake/README.md
+[4.484s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake/FindPoco.cmake
+[4.484s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/libabb_librws.so
+[4.491s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/abb_librwsConfig.cmake
+[4.491s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/abb_librwsConfigVersion.cmake
+[4.491s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/package.xml
+[4.491s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/abb_librwsTargets.cmake
+[4.491s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/abb_librwsTargets-noconfig.cmake
+[4.493s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_librws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_librws

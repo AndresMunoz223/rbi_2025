@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2ae5b63d4e77c0145f59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rov_sim",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rov_mujoco_sim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rov_mujoco_sim-e6132774fa6fa1092fa1.json",
+					"name" : "rov_mujoco_sim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rov_sim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rov_sim-29dfe1dcda5479388571.json",
+					"name" : "rov_sim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rov_sim_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rov_sim_uninstall-f58069f94e7ced3dab08.json",
+					"name" : "rov_sim_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bb8e3fb676b54dce3432.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_sim",
+		"source" : "/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_sim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

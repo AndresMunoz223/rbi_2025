@@ -1,0 +1,9 @@
+<library path="abb_mujoco_sim">
+    <class name="abb_simulator_layer/AbbSimulatorInterface"
+           type="abb_simulator_layer::AbbSimulatorInterface"
+           base_class_type="hardware_interface::SystemInterface">
+           <description>
+                Hardware Interface for a 6 DOF MSE
+           </description>
+    </class>
+</library>

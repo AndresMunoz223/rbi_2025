@@ -1,0 +1,9 @@
+<library path="rov_sim">
+    <class name="rov_simulator_layer/RovSimulatorInterface"
+           type="rov_simulator_layer::RovSimulatorInterface"
+           base_class_type="hardware_interface::SystemInterface">
+           <description>
+                Hardware Interface for a 6 DOF Rover
+           </description>
+    </class>
+</library>

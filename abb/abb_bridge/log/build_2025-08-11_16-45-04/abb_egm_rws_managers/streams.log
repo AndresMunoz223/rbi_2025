@@ -1,0 +1,59 @@
+[0.059s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_rws_managers': CMAKE_MODULE_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm:/opt/ros/humble LD_LIBRARY_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/pkgconfig /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_egm_rws_managers -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers
+[0.283s] -- The CXX compiler identification is GNU 11.4.0
+[0.311s] -- Detecting CXX compiler ABI info
+[0.507s] -- Detecting CXX compiler ABI info - done
+[0.533s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.540s] -- Detecting CXX compile features - done
+[0.547s] -- Looking for C++ include pthread.h
+[0.823s] -- Looking for C++ include pthread.h - found
+[0.824s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.122s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.123s] -- Found Threads: TRUE  
+[1.201s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: regex system thread 
+[1.211s] -- Searching for Poco library...
+[1.268s] --   Found Poco!
+[1.269s] -- components found: Foundation, Net, Util, XML.
+[1.331s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.332s] -- Generating protobuf C++ for: proto/robot_controller_description.proto
+[1.332s] -- abb_egm_rws_managers: Defaulting build type to RelWithDebInfo
+[1.341s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[1.597s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[1.598s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[1.802s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[1.802s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.013s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.019s] -- Configuring done
+[2.039s] -- Generating done
+[2.047s] -- Build files have been written to: /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_rws_managers
+[2.068s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_rws_managers' returned '0': CMAKE_MODULE_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm:/opt/ros/humble LD_LIBRARY_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/pkgconfig /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_egm_rws_managers -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers
+[2.069s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_rws_managers': CMAKE_MODULE_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm:/opt/ros/humble LD_LIBRARY_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/pkgconfig /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_rws_managers -- -j12 -l12
+[2.181s] [ 14%] [34m[1mRunning cpp protocol buffer compiler on proto/robot_controller_description.proto[0m
+[2.335s] [ 28%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/src/egm_manager.cpp.o[0m
+[2.340s] [ 42%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/src/rws_manager.cpp.o[0m
+[2.345s] [ 57%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/src/utilities.cpp.o[0m
+[2.348s] [ 71%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/src/system_data_parser.cpp.o[0m
+[2.349s] [ 85%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/robot_controller_description.pb.cc.o[0m
+[27.034s] [100%] [32m[1mLinking CXX shared library libabb_egm_rws_managers.so[0m
+[27.283s] [100%] Built target abb_egm_rws_managers
+[27.295s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_rws_managers' returned '0': CMAKE_MODULE_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm:/opt/ros/humble LD_LIBRARY_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/pkgconfig /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_rws_managers -- -j12 -l12
+[27.296s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_rws_managers': CMAKE_MODULE_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm:/opt/ros/humble LD_LIBRARY_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/pkgconfig /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_rws_managers
+[27.304s] -- Install configuration: "RelWithDebInfo"
+[27.304s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include
+[27.304s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers
+[27.304s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h
+[27.304s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h
+[27.304s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h
+[27.304s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/data_containers.h
+[27.305s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h
+[27.305s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/robot_controller_description.proto
+[27.305s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/robot_controller_description.pb.h
+[27.305s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/abb_egm_rws_managers_export.h
+[27.305s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/share/abb_egm_rws_managers/abb_egm_rws_managersConfig.cmake
+[27.305s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/share/abb_egm_rws_managers/abb_egm_rws_managersConfigVersion.cmake
+[27.305s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/share/abb_egm_rws_managers/package.xml
+[27.306s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/libabb_egm_rws_managers.so
+[27.314s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/libabb_egm_rws_managers.so" to ""
+[27.314s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/share/abb_egm_rws_managers/abb_egm_rws_managersTargets.cmake
+[27.314s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/share/abb_egm_rws_managers/abb_egm_rws_managersTargets-relwithdebinfo.cmake
+[27.316s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_rws_managers' returned '0': CMAKE_MODULE_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm:/opt/ros/humble LD_LIBRARY_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/pkgconfig /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_rws_managers

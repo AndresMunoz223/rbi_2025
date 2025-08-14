@@ -1,1 +1,0 @@
-/home/eia/repo/rbi_2025_2/rov_ws/build/rov_sim/ament_cmake_core/rov_simConfig-version.cmake

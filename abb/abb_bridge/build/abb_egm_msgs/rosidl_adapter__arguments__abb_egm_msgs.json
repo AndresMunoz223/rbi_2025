@@ -1,0 +1,7 @@
+{
+  "package_name": "abb_egm_msgs",
+  "non_idl_tuples": [
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_egm_msgs:msg/EGMChannelState.msg",
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_egm_msgs:msg/EGMState.msg"
+  ]
+}

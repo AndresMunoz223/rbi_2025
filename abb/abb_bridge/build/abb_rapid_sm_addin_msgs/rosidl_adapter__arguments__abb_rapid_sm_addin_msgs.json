@@ -1,0 +1,16 @@
+{
+  "package_name": "abb_rapid_sm_addin_msgs",
+  "non_idl_tuples": [
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_rapid_sm_addin_msgs:msg/EGMActivateSettings.msg",
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_rapid_sm_addin_msgs:msg/EGMRunSettings.msg",
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_rapid_sm_addin_msgs:msg/EGMSettings.msg",
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_rapid_sm_addin_msgs:msg/EGMSetupSettings.msg",
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_rapid_sm_addin_msgs:msg/EGMStopSettings.msg",
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_rapid_sm_addin_msgs:msg/RuntimeState.msg",
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_rapid_sm_addin_msgs:msg/StateMachineState.msg",
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_rapid_sm_addin_msgs:srv/GetEGMSettings.srv",
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_rapid_sm_addin_msgs:srv/SetEGMSettings.srv",
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_rapid_sm_addin_msgs:srv/SetRAPIDRoutine.srv",
+    "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_rapid_sm_addin_msgs:srv/SetSGCommand.srv"
+  ]
+}

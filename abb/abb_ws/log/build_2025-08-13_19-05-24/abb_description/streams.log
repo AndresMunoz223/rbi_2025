@@ -1,0 +1,63 @@
+[0.030s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_description -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description
+[0.281s] -- The C compiler identification is GNU 11.4.0
+[0.281s] -- The CXX compiler identification is GNU 11.4.0
+[0.282s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.282s] -- Detecting C compile features
+[0.282s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.284s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.805s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.019s] -- Configuring done
+[1.023s] -- Generating done
+[1.025s] -- Build files have been written to: /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description
+[1.034s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_description -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description
+[1.034s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description -- -j12 -l12
+[1.076s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description -- -j12 -l12
+[1.078s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description
+[1.088s] -- Install configuration: ""
+[1.088s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//urdf
+[1.088s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//urdf/irb140.urdf.xacro
+[1.088s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//urdf/common_properties.xacro
+[1.088s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//urdf/irb140_description.xacro
+[1.088s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//launch
+[1.088s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//launch/display.launch.xml
+[1.089s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes
+[1.089s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140
+[1.089s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual
+[1.089s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/link_2.stl
+[1.089s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/link_6.stl
+[1.089s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/link_3.stl
+[1.089s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/link_5.stl
+[1.089s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/link_4.stl
+[1.090s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/base_link.stl
+[1.090s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/link_1.stl
+[1.090s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision
+[1.090s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/link_2.stl
+[1.091s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/link_6.stl
+[1.091s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/link_3.stl
+[1.091s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/link_5.stl
+[1.091s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/link_4.stl
+[1.091s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/base_link.stl
+[1.091s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/link_1.stl
+[1.092s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/ament_index/resource_index/package_run_dependencies/abb_description
+[1.092s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/ament_index/resource_index/parent_prefix_path/abb_description
+[1.092s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/environment/ament_prefix_path.sh
+[1.092s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/environment/ament_prefix_path.dsv
+[1.092s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/environment/path.sh
+[1.093s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/environment/path.dsv
+[1.093s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/local_setup.bash
+[1.093s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/local_setup.sh
+[1.093s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/local_setup.zsh
+[1.093s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/local_setup.dsv
+[1.093s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/package.dsv
+[1.094s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/ament_index/resource_index/packages/abb_description
+[1.095s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/cmake/abb_descriptionConfig.cmake
+[1.095s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/cmake/abb_descriptionConfig-version.cmake
+[1.095s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/package.xml
+[1.112s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description

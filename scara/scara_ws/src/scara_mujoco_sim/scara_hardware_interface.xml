@@ -1,0 +1,9 @@
+<library path="scara_mujoco_sim">
+    <class name="scara_simulator_layer/ScaraSimulatorInterface"
+           type="scara_simulator_layer::ScaraSimulatorInterface"
+           base_class_type="hardware_interface::SystemInterface">
+           <description>
+                Hardware Interface for a 4 DOF Scara
+           </description>
+    </class>
+</library>

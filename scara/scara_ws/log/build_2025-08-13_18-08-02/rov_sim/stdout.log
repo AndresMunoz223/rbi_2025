@@ -1,0 +1,36 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/rov_sim.dir/src/mujoco_sim_interface.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rov_mujoco_sim.dir/src/mujoco_interface.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library librov_sim.so[0m
+[ 75%] Built target rov_sim
+[100%] [32m[1mLinking CXX executable rov_mujoco_sim[0m
+[100%] Built target rov_mujoco_sim
+-- Install configuration: ""
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/rov_hardware_interface.xml
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/lib/librov_sim.so
+-- Set runtime path of "/home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/lib/librov_sim.so" to "/home/eia/repo/rbi_2025_2/scara/scara_ws/src/rov_sim/../../mujoco/lib"
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/include/include
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/include/include/rov_sim
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/include/include/rov_sim/mujoco_sim_interface.hpp
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/include/include/rov_sim/mujoco_interface.hpp
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/environment/library_path.sh
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/environment/library_path.dsv
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/lib/rov_sim/rov_mujoco_sim
+-- Set runtime path of "/home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/lib/rov_sim/rov_mujoco_sim" to "/home/eia/repo/rbi_2025_2/scara/scara_ws/src/rov_sim/../../mujoco/lib"
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/ament_index/resource_index/package_run_dependencies/rov_sim
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/ament_index/resource_index/parent_prefix_path/rov_sim
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/environment/ament_prefix_path.sh
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/environment/ament_prefix_path.dsv
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/environment/path.sh
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/environment/path.dsv
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/local_setup.bash
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/local_setup.sh
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/local_setup.zsh
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/local_setup.dsv
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/package.dsv
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/ament_index/resource_index/packages/rov_sim
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rov_sim
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/cmake/rov_simConfig.cmake
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/cmake/rov_simConfig-version.cmake
+-- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/package.xml

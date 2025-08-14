@@ -1,0 +1,17 @@
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/ament_index/resource_index/package_run_dependencies/abb_resources
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/ament_index/resource_index/parent_prefix_path/abb_resources
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/environment/ament_prefix_path.sh
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/environment/ament_prefix_path.dsv
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/environment/path.sh
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/environment/path.dsv
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/local_setup.bash
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/local_setup.sh
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/local_setup.zsh
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/local_setup.dsv
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/package.dsv
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/ament_index/resource_index/packages/abb_resources
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/cmake/abb_resourcesConfig.cmake
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/cmake/abb_resourcesConfig-version.cmake
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/package.xml
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/urdf/common_materials.xacro
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources/share/abb_resources/urdf/common_colours.xacro

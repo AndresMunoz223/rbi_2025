@@ -1,0 +1,2 @@
+[console_scripts]
+scara_sim_mujoco = scara_mujoco.simulation_init:main

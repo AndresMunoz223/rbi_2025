@@ -1,0 +1,83 @@
+[0.011s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_hardware_interface': CMAKE_MODULE_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm:/opt/ros/humble LD_LIBRARY_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/pkgconfig /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2/abb_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.277s] -- Detecting CXX compile features
+[0.277s] -- Detecting CXX compile features - done
+[0.280s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.642s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.737s] -- Looking for pthread.h
+[0.802s] -- Looking for pthread.h - found
+[0.802s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.870s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.871s] -- Found Threads: TRUE  
+[0.892s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: regex system thread 
+[0.894s] -- Searching for Poco library...
+[0.907s] --   Found Poco!
+[0.908s] -- components found: Foundation, Net, Util, XML.
+[0.922s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.926s] -- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.964s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.970s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.979s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.992s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.010s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.253s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.256s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.283s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.331s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.334s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.349s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.353s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.361s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.372s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.440s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.632s] -- Configuring done
+[1.722s] -- Generating done
+[1.733s] -- Build files have been written to: /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_hardware_interface
+[1.769s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_hardware_interface' returned '0': CMAKE_MODULE_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm:/opt/ros/humble LD_LIBRARY_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/pkgconfig /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2/abb_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface
+[1.770s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_hardware_interface': CMAKE_MODULE_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm:/opt/ros/humble LD_LIBRARY_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/pkgconfig /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_hardware_interface -- -j12 -l12
+[1.851s] [ 33%] [32mBuilding CXX object CMakeFiles/abb_hardware_interface.dir/src/abb_hardware_interface.cpp.o[0m
+[1.856s] [ 66%] [32mBuilding CXX object CMakeFiles/abb_hardware_interface.dir/src/utilities.cpp.o[0m
+[9.432s] [100%] [32m[1mLinking CXX shared library libabb_hardware_interface.so[0m
+[9.741s] [100%] Built target abb_hardware_interface
+[9.753s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_hardware_interface' returned '0': CMAKE_MODULE_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm:/opt/ros/humble LD_LIBRARY_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/pkgconfig /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_hardware_interface -- -j12 -l12
+[9.755s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_hardware_interface': CMAKE_MODULE_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm:/opt/ros/humble LD_LIBRARY_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/pkgconfig /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_hardware_interface
+[9.761s] -- Install configuration: ""
+[9.761s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/abb_hardware_interface.xml
+[9.761s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/lib/libabb_hardware_interface.so
+[9.762s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/lib/libabb_hardware_interface.so" to ""
+[9.762s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/include
+[9.763s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/include/abb_hardware_interface
+[9.763s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/include/abb_hardware_interface/abb_hardware_interface.hpp
+[9.763s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/include/abb_hardware_interface/visibility_control.h
+[9.763s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/include/abb_hardware_interface/utilities.hpp
+[9.763s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/environment/library_path.sh
+[9.763s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/environment/library_path.dsv
+[9.763s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/ament_index/resource_index/package_run_dependencies/abb_hardware_interface
+[9.763s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/ament_index/resource_index/parent_prefix_path/abb_hardware_interface
+[9.763s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/environment/ament_prefix_path.sh
+[9.763s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/environment/ament_prefix_path.dsv
+[9.764s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/environment/path.sh
+[9.764s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/environment/path.dsv
+[9.764s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/local_setup.bash
+[9.764s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/local_setup.sh
+[9.764s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/local_setup.zsh
+[9.764s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/local_setup.dsv
+[9.764s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/package.dsv
+[9.764s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/ament_index/resource_index/packages/abb_hardware_interface
+[9.764s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/abb_hardware_interface
+[9.765s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.765s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[9.765s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.765s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/cmake/abb_hardware_interfaceConfig.cmake
+[9.765s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/cmake/abb_hardware_interfaceConfig-version.cmake
+[9.765s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_hardware_interface/share/abb_hardware_interface/package.xml
+[9.767s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_hardware_interface' returned '0': CMAKE_MODULE_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/share/abb_librws/cmake CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm:/opt/ros/humble LD_LIBRARY_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_librws/lib/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/pkgconfig /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_hardware_interface

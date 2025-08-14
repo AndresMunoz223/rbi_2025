@@ -1,0 +1,26 @@
+[3.250s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_mujoco build --build-base /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/build install --record /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/install.log --single-version-externally-managed install_data
+[4.311s] running egg_info
+[4.385s] writing ../../build/scara_mujoco/scara_mujoco.egg-info/PKG-INFO
+[4.386s] writing dependency_links to ../../build/scara_mujoco/scara_mujoco.egg-info/dependency_links.txt
+[4.387s] writing entry points to ../../build/scara_mujoco/scara_mujoco.egg-info/entry_points.txt
+[4.388s] writing requirements to ../../build/scara_mujoco/scara_mujoco.egg-info/requires.txt
+[4.388s] writing top-level names to ../../build/scara_mujoco/scara_mujoco.egg-info/top_level.txt
+[4.543s] reading manifest file '../../build/scara_mujoco/scara_mujoco.egg-info/SOURCES.txt'
+[4.546s] writing manifest file '../../build/scara_mujoco/scara_mujoco.egg-info/SOURCES.txt'
+[4.547s] running build
+[4.547s] running build_py
+[4.547s] copying scara_mujoco/simulation_init.py -> /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/build/lib/scara_mujoco
+[4.548s] copying scara_mujoco/__init__.py -> /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/build/lib/scara_mujoco
+[4.549s] running install
+[4.571s] running install_lib
+[4.646s] running install_data
+[4.647s] copying resource/scara_mujoco -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/ament_index/resource_index/packages
+[4.648s] copying package.xml -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco
+[4.648s] copying descriptions/basic_scenario.xml -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/share/scara_mujoco/descriptions
+[4.649s] running install_egg_info
+[4.726s] removing '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/lib/python3.10/site-packages/scara_mujoco-0.0.0-py3.10.egg-info' (and everything under it)
+[4.727s] Copying ../../build/scara_mujoco/scara_mujoco.egg-info to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/lib/python3.10/site-packages/scara_mujoco-0.0.0-py3.10.egg-info
+[4.730s] running install_scripts
+[5.340s] Installing scara_sim_mujoco script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/lib/scara_mujoco
+[5.341s] writing list of installed files to '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/install.log'
+[5.419s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_mujoco build --build-base /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/build install --record /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco/install.log --single-version-externally-managed install_data

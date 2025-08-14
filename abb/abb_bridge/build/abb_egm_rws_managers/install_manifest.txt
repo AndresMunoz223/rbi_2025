@@ -1,0 +1,14 @@
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/data_containers.h
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/robot_controller_description.proto
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/robot_controller_description.pb.h
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/include/abb_egm_rws_managers/abb_egm_rws_managers_export.h
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/share/abb_egm_rws_managers/abb_egm_rws_managersConfig.cmake
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/share/abb_egm_rws_managers/abb_egm_rws_managersConfigVersion.cmake
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/share/abb_egm_rws_managers/package.xml
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/lib/libabb_egm_rws_managers.so
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/share/abb_egm_rws_managers/abb_egm_rws_managersTargets.cmake
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_rws_managers/share/abb_egm_rws_managers/abb_egm_rws_managersTargets-relwithdebinfo.cmake

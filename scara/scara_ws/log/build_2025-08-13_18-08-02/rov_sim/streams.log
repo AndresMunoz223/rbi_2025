@@ -1,0 +1,40 @@
+[0.021s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/rov_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/rov_sim -- -j12 -l12
+[0.078s] [ 25%] [32mBuilding CXX object CMakeFiles/rov_sim.dir/src/mujoco_sim_interface.cpp.o[0m
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/rov_mujoco_sim.dir/src/mujoco_interface.cpp.o[0m
+[4.979s] [ 75%] [32m[1mLinking CXX shared library librov_sim.so[0m
+[5.180s] [ 75%] Built target rov_sim
+[8.189s] [100%] [32m[1mLinking CXX executable rov_mujoco_sim[0m
+[8.545s] [100%] Built target rov_mujoco_sim
+[8.558s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/rov_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/rov_sim -- -j12 -l12
+[8.568s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/rov_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/rov_sim
+[8.575s] -- Install configuration: ""
+[8.575s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/rov_hardware_interface.xml
+[8.576s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/lib/librov_sim.so
+[8.576s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/lib/librov_sim.so" to "/home/eia/repo/rbi_2025_2/scara/scara_ws/src/rov_sim/../../mujoco/lib"
+[8.577s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/include/include
+[8.577s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/include/include/rov_sim
+[8.577s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/include/include/rov_sim/mujoco_sim_interface.hpp
+[8.577s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/include/include/rov_sim/mujoco_interface.hpp
+[8.577s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/environment/library_path.sh
+[8.577s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/environment/library_path.dsv
+[8.578s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/lib/rov_sim/rov_mujoco_sim
+[8.580s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/lib/rov_sim/rov_mujoco_sim" to "/home/eia/repo/rbi_2025_2/scara/scara_ws/src/rov_sim/../../mujoco/lib"
+[8.580s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/ament_index/resource_index/package_run_dependencies/rov_sim
+[8.581s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/ament_index/resource_index/parent_prefix_path/rov_sim
+[8.581s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/environment/ament_prefix_path.sh
+[8.581s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/environment/ament_prefix_path.dsv
+[8.581s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/environment/path.sh
+[8.582s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/environment/path.dsv
+[8.582s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/local_setup.bash
+[8.582s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/local_setup.sh
+[8.582s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/local_setup.zsh
+[8.582s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/local_setup.dsv
+[8.583s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/package.dsv
+[8.583s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/ament_index/resource_index/packages/rov_sim
+[8.583s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rov_sim
+[8.583s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/cmake/ament_cmake_export_libraries-extras.cmake
+[8.584s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.584s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/cmake/rov_simConfig.cmake
+[8.584s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/cmake/rov_simConfig-version.cmake
+[8.584s] -- Installing: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim/share/rov_sim/package.xml
+[8.587s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/rov_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/rov_sim

@@ -1,0 +1,32 @@
+[0.221s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_sim -- -j12 -l12
+[0.250s] [35m[1mConsolidate compiler generated dependencies of target abb_mujoco_sim[0m
+[0.265s] [100%] Built target abb_mujoco_sim
+[0.282s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_sim -- -j12 -l12
+[0.283s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_sim
+[0.294s] -- Install configuration: ""
+[0.294s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/abb_hardware_interface.xml
+[0.294s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/lib/libabb_mujoco_sim.so
+[0.294s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/include/include
+[0.294s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/include/include/abb_mujoco_sim
+[0.294s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/include/include/abb_mujoco_sim/mujoco_sim_interface.hpp
+[0.294s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/library_path.sh
+[0.294s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/library_path.dsv
+[0.294s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/ament_index/resource_index/package_run_dependencies/abb_mujoco_sim
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/ament_index/resource_index/parent_prefix_path/abb_mujoco_sim
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/ament_prefix_path.sh
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/ament_prefix_path.dsv
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/path.sh
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/path.dsv
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/local_setup.bash
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/local_setup.sh
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/local_setup.zsh
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/local_setup.dsv
+[0.295s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/package.dsv
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/ament_index/resource_index/packages/abb_mujoco_sim
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/abb_mujoco_sim
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/cmake/ament_cmake_export_libraries-extras.cmake
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.295s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/cmake/abb_mujoco_simConfig.cmake
+[0.296s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/cmake/abb_mujoco_simConfig-version.cmake
+[0.296s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/package.xml
+[0.327s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_sim

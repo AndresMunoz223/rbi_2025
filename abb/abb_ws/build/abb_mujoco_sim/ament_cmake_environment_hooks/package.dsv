@@ -1,0 +1,4 @@
+source;share/abb_mujoco_sim/local_setup.bash
+source;share/abb_mujoco_sim/local_setup.dsv
+source;share/abb_mujoco_sim/local_setup.sh
+source;share/abb_mujoco_sim/local_setup.zsh

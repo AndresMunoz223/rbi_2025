@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3c1b186d33475a4a0d37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "abb_rws_client",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_rws_client_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_rws_client_uninstall-063ff49f68851fd41802.json",
+					"name" : "abb_rws_client_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rws_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rws_client-9acf191ec295c8e0d776.json",
+					"name" : "rws_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rws_client_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rws_client_lib-c416a9e1e836f2388ad6.json",
+					"name" : "rws_client_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1f5441e291b8aebf65d4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rws_client",
+		"source" : "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2/abb_rws_client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

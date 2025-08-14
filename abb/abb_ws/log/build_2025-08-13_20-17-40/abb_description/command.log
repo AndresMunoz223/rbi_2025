@@ -1,0 +1,4 @@
+Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description -- -j12 -l12
+Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description -- -j12 -l12
+Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description
+Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "abb_rapid_msgs__py",
+		"source" : "/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rapid_msgs/abb_rapid_msgs__py"
+	}
+}

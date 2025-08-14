@@ -1,0 +1,67 @@
+<mujoco>
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" rgb1=".1 .2 .3"
+     rgb2=".2 .3 .4" width="300" height="300" mark="none"/>
+    <material name="grid" texture="grid" texrepeat="1 1"
+     texuniform="true" reflectance=".1"/>
+  </asset>
+
+  <visual>
+    <scale framelength="0.2" framewidth="0.02"/>
+  </visual>
+
+  <default>
+  <joint armature="0.01" damping="100."/> 
+  </default>
+
+  <worldbody>
+
+    <light name="light" pos="0 0 4"/>
+    <geom name="floor" type="plane" pos="0 0 0" size="30 30 .01" material="grid" friction=".001"/>
+    <camera name="fixed" pos="0 -1.5 2." euler="45 0 0"/>
+
+    <!-- Scara base-->
+    <body name="scara_base" pos="0 0 0.05" euler = "0 0 -60">
+        <geom name="scara_base_geom" type="box" size="0.1 0.1 0.05" rgba="1 0 0 1"/>
+
+        <!-- first Joint -->
+        <body name="first_joint_body" pos="0 0 0.254">
+            <geom name="first_joint_geom" type="cylinder" size="0.1 0.10" rgba="0 0 1 1" pos="0 0 -0.1"/>
+            <geom name="first_link" type="box" size="0.18 0.05 0.02" rgba="1 0 0 1" pos="0.08 0 0.025"/>
+            <joint name="first_joint" type="hinge"/>
+
+
+            <!-- Second -->
+            <body name="second_joint_body" pos="0.210 0 0">
+                <geom name="second_joint_geom" type="cylinder" size="0.05 0.05" rgba="0 0 1 1" pos="0 0 0.1"/>
+                <geom name="second_link_a" type="box" size="0.13 0.05 0.02" rgba="1 0 0 1" pos="0.07 0 0.175"/>
+                <geom name="second_link_b" type="box" size="0.05 0.05 0.1" rgba="1 0 0 1" pos="0.145 0 0.3"/>
+                <joint name="second_joint" type="hinge"/>
+                
+                <!-- Third -->
+                <body name="third_joint_body" pos="0.250 0 0">
+                    <geom name="third_joint_geom" type="cylinder" size="0.05 0.05" rgba="0 0 1 1" pos="0 0 0.3"/>
+                    <joint name="third_joint" type="hinge"/>
+                    
+                    <!-- Fourth -->
+                    <body name="fourth_joint_body" pos="0 0 0">
+                        <geom name="fourth_joint_geom" type="box" size="0.02 0.02 0.1" rgba="0 1 0 1" pos="0 0 0.1"/>
+                        <joint name="fourth_joint" type="slide"/>
+                    </body>
+                </body>
+            </body>
+        </body>
+    </body>
+
+  </worldbody>
+
+    <actuator>
+
+        <position name="J_3" joint="third_joint" kp="5000" />
+        <position name="J_4" joint="fourth_joint" kp="500"/>
+        <motor name="first_motor" joint="first_joint" gear="100"/>
+        <motor name="second_motor" joint="second_joint" gear="100" />
+        
+    </actuator>
+
+</mujoco>

@@ -1,0 +1,70 @@
+[0.039s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_libegm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_libegm -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting CXX compiler ABI info
+[0.217s] -- Detecting CXX compiler ABI info - done
+[0.231s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.232s] -- Detecting CXX compile features - done
+[0.476s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: regex system thread 
+[0.520s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.520s] -- Generating protobuf C++ for: proto/egm.proto;proto/egm_wrapper.proto;proto/egm_wrapper_trajectory.proto
+[0.523s] -- Found Threads: TRUE  
+[0.527s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[0.629s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[0.629s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[0.849s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[0.850s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[1.084s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[1.093s] -- Configuring done
+[1.103s] -- Generating done
+[1.109s] -- Build files have been written to: /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_libegm
+[1.127s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_libegm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_libegm -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm
+[1.128s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_libegm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_libegm -- -j12 -l12
+[1.453s] [  6%] [34m[1mRunning cpp protocol buffer compiler on proto/egm_wrapper_trajectory.proto[0m
+[1.453s] [ 13%] [34m[1mRunning cpp protocol buffer compiler on proto/egm.proto[0m
+[1.453s] [ 20%] [34m[1mRunning cpp protocol buffer compiler on proto/egm_wrapper.proto[0m
+[1.453s] [ 26%] [32mBuilding CXX object CMakeFiles/abb_libegm.dir/src/egm_base_interface.cpp.o[0m
+[1.453s] [ 33%] [32mBuilding CXX object CMakeFiles/abb_libegm.dir/src/egm_common_auxiliary.cpp.o[0m
+[1.454s] [ 40%] [32mBuilding CXX object CMakeFiles/abb_libegm.dir/src/egm_interpolator.cpp.o[0m
+[1.454s] [ 46%] [32mBuilding CXX object CMakeFiles/abb_libegm.dir/src/egm_common.cpp.o[0m
+[1.454s] [ 53%] [32mBuilding CXX object CMakeFiles/abb_libegm.dir/src/egm_controller_interface.cpp.o[0m
+[1.454s] [ 60%] [32mBuilding CXX object CMakeFiles/abb_libegm.dir/src/egm_logger.cpp.o[0m
+[1.454s] [ 66%] [32mBuilding CXX object CMakeFiles/abb_libegm.dir/src/egm_udp_server.cpp.o[0m
+[1.454s] [ 73%] [32mBuilding CXX object CMakeFiles/abb_libegm.dir/src/egm_trajectory_interface.cpp.o[0m
+[1.454s] [ 80%] [32mBuilding CXX object CMakeFiles/abb_libegm.dir/egm.pb.cc.o[0m
+[1.454s] [ 86%] [32mBuilding CXX object CMakeFiles/abb_libegm.dir/egm_wrapper.pb.cc.o[0m
+[1.454s] [ 93%] [32mBuilding CXX object CMakeFiles/abb_libegm.dir/egm_wrapper_trajectory.pb.cc.o[0m
+[3.276s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[3.276s]                  from [01m[K/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_libegm/src/egm_udp_server.cpp:37[m[K:
+[3.276s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[3.277s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[3.277s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[10.493s] [100%] [32m[1mLinking CXX shared library libabb_libegm.so[0m
+[10.931s] [100%] Built target abb_libegm
+[10.968s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_libegm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_libegm -- -j12 -l12
+[10.969s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_libegm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_libegm
+[10.987s] -- Install configuration: ""
+[10.988s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include
+[10.991s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm
+[10.991s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm_common_auxiliary.h
+[10.991s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm_trajectory_interface.h
+[10.991s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm_logger.h
+[10.991s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm_base_interface.h
+[10.992s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm_common.h
+[10.994s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm_udp_server.h
+[10.994s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm_interpolator.h
+[10.994s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm_controller_interface.h
+[10.994s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm.proto
+[10.998s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm_wrapper.proto
+[11.007s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm_wrapper_trajectory.proto
+[11.007s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm.pb.h
+[11.007s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm_wrapper.pb.h
+[11.007s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/egm_wrapper_trajectory.pb.h
+[11.007s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/include/abb_libegm/abb_libegm_export.h
+[11.010s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/lib/libabb_libegm.so
+[11.011s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/share/abb_libegm/abb_libegmConfig.cmake
+[11.012s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/share/abb_libegm/abb_libegmConfigVersion.cmake
+[11.012s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/share/abb_libegm/package.xml
+[11.013s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/share/abb_libegm/abb_libegmTargets.cmake
+[11.014s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_libegm/share/abb_libegm/abb_libegmTargets-noconfig.cmake
+[11.024s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_libegm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_libegm

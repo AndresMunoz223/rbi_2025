@@ -1,0 +1,22 @@
+[0.025s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/Experimentation_Scara': /usr/bin/cmake /home/eia/repo/rbi_2025_2/scara/scara_ws/esp32-dev/Experimentation_Scara -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/scara/scara_ws/install/Experimentation_Scara
+[0.339s] [31mCMake Error at CMakeLists.txt:2 (include):
+[0.339s]   include could not find requested file:
+[0.340s] 
+[0.340s]     /tools/cmake/project.cmake
+[0.340s] 
+[0.341s] [0m
+[0.341s] -- The C compiler identification is GNU 11.4.0
+[0.341s] -- The CXX compiler identification is GNU 11.4.0
+[0.342s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.342s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.342s] -- Detecting C compile features
+[0.342s] -- Detecting C compile features - done
+[0.342s] -- Detecting CXX compiler ABI info
+[0.387s] -- Detecting CXX compiler ABI info - done
+[0.398s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.398s] -- Detecting CXX compile features
+[0.399s] -- Detecting CXX compile features - done
+[0.400s] -- Configuring incomplete, errors occurred!
+[0.400s] See also "/home/eia/repo/rbi_2025_2/scara/scara_ws/build/Experimentation_Scara/CMakeFiles/CMakeOutput.log".
+[0.404s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/Experimentation_Scara' returned '1': /usr/bin/cmake /home/eia/repo/rbi_2025_2/scara/scara_ws/esp32-dev/Experimentation_Scara -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/scara/scara_ws/install/Experimentation_Scara

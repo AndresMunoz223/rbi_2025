@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "abb_robot_msgs__py",
+		"source" : "/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_robot_msgs/abb_robot_msgs__py"
+	}
+}

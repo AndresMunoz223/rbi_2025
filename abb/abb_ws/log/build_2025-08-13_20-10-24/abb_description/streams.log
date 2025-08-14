@@ -1,0 +1,44 @@
+[0.052s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description -- -j12 -l12
+[0.387s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description -- -j12 -l12
+[0.389s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description
+[0.403s] -- Install configuration: ""
+[0.403s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//urdf
+[0.404s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//urdf/irb140.urdf.xacro
+[0.404s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//urdf/common_properties.xacro
+[0.406s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//urdf/irb140_description.xacro
+[0.406s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//launch
+[0.406s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//launch/display.launch.xml
+[0.406s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes
+[0.407s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140
+[0.407s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual
+[0.407s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/link_2.stl
+[0.407s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/link_6.stl
+[0.407s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/link_3.stl
+[0.408s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/link_5.stl
+[0.408s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/link_4.stl
+[0.408s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/base_link.stl
+[0.408s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/visual/link_1.stl
+[0.408s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision
+[0.408s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/link_2.stl
+[0.408s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/link_6.stl
+[0.409s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/link_3.stl
+[0.409s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/link_5.stl
+[0.409s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/link_4.stl
+[0.409s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/base_link.stl
+[0.409s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description//meshes/irb140/collision/link_1.stl
+[0.410s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/ament_index/resource_index/package_run_dependencies/abb_description
+[0.410s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/ament_index/resource_index/parent_prefix_path/abb_description
+[0.410s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/environment/ament_prefix_path.sh
+[0.410s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/environment/ament_prefix_path.dsv
+[0.410s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/environment/path.sh
+[0.410s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/environment/path.dsv
+[0.411s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/local_setup.bash
+[0.411s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/local_setup.sh
+[0.411s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/local_setup.zsh
+[0.411s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/local_setup.dsv
+[0.412s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/package.dsv
+[0.412s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/ament_index/resource_index/packages/abb_description
+[0.412s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/cmake/abb_descriptionConfig.cmake
+[0.412s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/cmake/abb_descriptionConfig-version.cmake
+[0.412s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_description/share/abb_description/package.xml
+[0.442s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_description

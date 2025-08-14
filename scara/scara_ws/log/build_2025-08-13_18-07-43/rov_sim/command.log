@@ -1,0 +1,1 @@
+Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/rov_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/scara/scara_ws/src/rov_sim -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/scara/scara_ws/install/rov_sim

@@ -1,0 +1,84 @@
+[0.038s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_bringup': AMENT_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_5_90_moveit_config:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_5_90_moveit_config:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_support:/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2/abb_bringup -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup
+[0.211s] -- The C compiler identification is GNU 11.4.0
+[0.413s] -- The CXX compiler identification is GNU 11.4.0
+[0.438s] -- Detecting C compiler ABI info
+[0.629s] -- Detecting C compiler ABI info - done
+[0.660s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.660s] -- Detecting C compile features
+[0.661s] -- Detecting C compile features - done
+[0.673s] -- Detecting CXX compiler ABI info
+[0.923s] -- Detecting CXX compiler ABI info - done
+[0.954s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.956s] -- Detecting CXX compile features
+[0.956s] -- Detecting CXX compile features - done
+[0.964s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.868s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.056s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.073s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.077s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[2.213s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.224s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.244s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.400s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.415s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.714s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.829s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.986s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.033s] -- Looking for pthread.h
+[3.264s] -- Looking for pthread.h - found
+[3.264s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.503s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.509s] -- Found Threads: TRUE  
+[3.793s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[3.800s] -- Found launch_testing_ament_cmake: 1.0.10 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[3.808s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.892s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.928s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.928s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.929s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.929s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.029s] -- Found PythonExtra: .so  
+[4.036s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[4.179s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.407s] -- Configuring done
+[4.471s] -- Generating done
+[4.488s] -- Build files have been written to: /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_bringup
+[4.527s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_bringup' returned '0': AMENT_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_5_90_moveit_config:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_5_90_moveit_config:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_support:/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2/abb_bringup -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup
+[4.533s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_bringup': AMENT_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_5_90_moveit_config:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_5_90_moveit_config:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_support:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_bringup -- -j12 -l12
+[4.681s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.682s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.351s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.397s] [ 50%] Built target gtest_main
+[11.086s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.254s] [ 66%] Built target gtest
+[11.331s] [ 83%] [32mBuilding CXX object CMakeFiles/test_command_topics.dir/test/test_command_topics.cpp.o[0m
+[21.374s] [100%] [32m[1mLinking CXX executable test_command_topics[0m
+[21.887s] [100%] Built target test_command_topics
+[21.923s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_bringup' returned '0': AMENT_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_5_90_moveit_config:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_5_90_moveit_config:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_support:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_bringup -- -j12 -l12
+[21.928s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_bringup': AMENT_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_5_90_moveit_config:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_5_90_moveit_config:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_support:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_bringup
+[21.950s] -- Install configuration: ""
+[21.951s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/config
+[21.951s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/config/abb_controllers.yaml
+[21.951s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/launch
+[21.953s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/launch/abb_moveit.launch.py
+[21.953s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/launch/abb_control.launch.py
+[21.954s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/launch/abb_rws_client.launch.py
+[21.954s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/ament_index/resource_index/package_run_dependencies/abb_bringup
+[21.954s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/ament_index/resource_index/parent_prefix_path/abb_bringup
+[21.954s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/environment/ament_prefix_path.sh
+[21.954s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/environment/ament_prefix_path.dsv
+[21.954s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/environment/path.sh
+[21.954s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/environment/path.dsv
+[21.954s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/local_setup.bash
+[21.959s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/local_setup.sh
+[21.961s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/local_setup.zsh
+[21.962s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/local_setup.dsv
+[21.973s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/package.dsv
+[21.973s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/ament_index/resource_index/packages/abb_bringup
+[21.973s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.973s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/cmake/abb_bringupConfig.cmake
+[21.974s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/cmake/abb_bringupConfig-version.cmake
+[21.974s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_bringup/share/abb_bringup/package.xml
+[21.974s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_bringup' returned '0': AMENT_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_5_90_moveit_config:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_5_90_moveit_config:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_resources:/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_irb1200_support:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_bringup

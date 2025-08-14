@@ -1,0 +1,24 @@
+[0.402s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_bringup -- -j12 -l12
+[0.528s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_bringup -- -j12 -l12
+[0.531s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_bringup
+[0.563s] -- Install configuration: ""
+[0.563s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup//config
+[0.563s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup//config/abb_controllers.yaml
+[0.563s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup//launch
+[0.563s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup//launch/abb_bringup_launch.launch.xml
+[0.563s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/ament_index/resource_index/package_run_dependencies/abb_mujoco_bringup
+[0.564s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/ament_index/resource_index/parent_prefix_path/abb_mujoco_bringup
+[0.564s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup/environment/ament_prefix_path.sh
+[0.564s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup/environment/ament_prefix_path.dsv
+[0.564s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup/environment/path.sh
+[0.564s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup/environment/path.dsv
+[0.564s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup/local_setup.bash
+[0.564s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup/local_setup.sh
+[0.564s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup/local_setup.zsh
+[0.564s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup/local_setup.dsv
+[0.564s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup/package.dsv
+[0.564s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/ament_index/resource_index/packages/abb_mujoco_bringup
+[0.565s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup/cmake/abb_mujoco_bringupConfig.cmake
+[0.565s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup/cmake/abb_mujoco_bringupConfig-version.cmake
+[0.565s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_bringup/share/abb_mujoco_bringup/package.xml
+[0.569s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_bringup

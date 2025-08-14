@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-864c5a9e127fa86795df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "abb_robot_msgs__py",
+					"jsonFile" : "directory-abb_robot_msgs__py-70c8893d0f17ee7c4a5b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_robot_msgs/abb_robot_msgs__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "abb_robot_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs-993502369c81b8bfd836.json",
+					"name" : "abb_robot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs__cpp-30cee5b09b974ed7d5e2.json",
+					"name" : "abb_robot_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "abb_robot_msgs__py::@c08245fe70d38fe610a7",
+					"jsonFile" : "target-abb_robot_msgs__py-2281e95362548804cdc8.json",
+					"name" : "abb_robot_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs__rosidl_generator_c-e9946755f09d74c5404c.json",
+					"name" : "abb_robot_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs__rosidl_generator_py-b3949db726ac33884852.json",
+					"name" : "abb_robot_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs__rosidl_typesupport_c-384cde1537c12aae937a.json",
+					"name" : "abb_robot_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs__rosidl_typesupport_c__pyext-53f284d990a82365168d.json",
+					"name" : "abb_robot_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs__rosidl_typesupport_cpp-196d8b53529688ca7daf.json",
+					"name" : "abb_robot_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs__rosidl_typesupport_fastrtps_c-7d04cdc59c3061a6fe10.json",
+					"name" : "abb_robot_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs__rosidl_typesupport_fastrtps_c__pyext-7fc6d2940a9b7dd04470.json",
+					"name" : "abb_robot_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs__rosidl_typesupport_fastrtps_cpp-68ea589fa52e79d82d96.json",
+					"name" : "abb_robot_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs__rosidl_typesupport_introspection_c-8d68cf7ee13a9ceeae7a.json",
+					"name" : "abb_robot_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs__rosidl_typesupport_introspection_c__pyext-1e9ac6d330819b73577e.json",
+					"name" : "abb_robot_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs__rosidl_typesupport_introspection_cpp-c1b3cb11b363895dce2b.json",
+					"name" : "abb_robot_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_robot_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_robot_msgs_uninstall-e2efe21e3567ce84cbbc.json",
+					"name" : "abb_robot_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_abb_robot_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_abb_robot_msgs_egg-9ad82ab078917a02371e.json",
+					"name" : "ament_cmake_python_build_abb_robot_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_abb_robot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_abb_robot_msgs-a6feb621a2761aa727fe.json",
+					"name" : "ament_cmake_python_copy_abb_robot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-929921d6d12da2266ceb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_robot_msgs",
+		"source" : "/home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_robot_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

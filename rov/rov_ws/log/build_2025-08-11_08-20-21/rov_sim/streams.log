@@ -1,0 +1,34 @@
+[0.014s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_sim -- -j12 -l12
+[0.058s] [100%] Built target rov_sim
+[0.058s] [100%] Built target rov_mujoco_sim
+[0.074s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_sim -- -j12 -l12
+[0.076s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_sim
+[0.081s] -- Install configuration: ""
+[0.082s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/rov_hardware_interface.xml
+[0.082s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/lib/librov_sim.so
+[0.082s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/include/include
+[0.082s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/include/include/rov_sim
+[0.082s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/include/include/rov_sim/mujoco_sim_interface.hpp
+[0.082s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/include/include/rov_sim/mujoco_interface.hpp
+[0.082s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/environment/library_path.sh
+[0.082s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/environment/library_path.dsv
+[0.082s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/lib/rov_sim/rov_mujoco_sim
+[0.082s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/ament_index/resource_index/package_run_dependencies/rov_sim
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/ament_index/resource_index/parent_prefix_path/rov_sim
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/environment/ament_prefix_path.sh
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/environment/ament_prefix_path.dsv
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/environment/path.sh
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/environment/path.dsv
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/local_setup.bash
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/local_setup.sh
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/local_setup.zsh
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/local_setup.dsv
+[0.083s] -- Installing: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/package.dsv
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/ament_index/resource_index/packages/rov_sim
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rov_sim
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/cmake/ament_cmake_export_libraries-extras.cmake
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/cmake/rov_simConfig.cmake
+[0.083s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/cmake/rov_simConfig-version.cmake
+[0.084s] -- Up-to-date: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_sim/share/rov_sim/package.xml
+[0.089s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_sim

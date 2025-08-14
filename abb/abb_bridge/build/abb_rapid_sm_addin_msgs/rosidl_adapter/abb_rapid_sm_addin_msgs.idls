@@ -1,0 +1,11 @@
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rapid_sm_addin_msgs/rosidl_adapter/abb_rapid_sm_addin_msgs:msg/EGMActivateSettings.idl
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rapid_sm_addin_msgs/rosidl_adapter/abb_rapid_sm_addin_msgs:msg/EGMRunSettings.idl
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rapid_sm_addin_msgs/rosidl_adapter/abb_rapid_sm_addin_msgs:msg/EGMSettings.idl
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rapid_sm_addin_msgs/rosidl_adapter/abb_rapid_sm_addin_msgs:msg/EGMSetupSettings.idl
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rapid_sm_addin_msgs/rosidl_adapter/abb_rapid_sm_addin_msgs:msg/EGMStopSettings.idl
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rapid_sm_addin_msgs/rosidl_adapter/abb_rapid_sm_addin_msgs:msg/RuntimeState.idl
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rapid_sm_addin_msgs/rosidl_adapter/abb_rapid_sm_addin_msgs:msg/StateMachineState.idl
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rapid_sm_addin_msgs/rosidl_adapter/abb_rapid_sm_addin_msgs:srv/GetEGMSettings.idl
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rapid_sm_addin_msgs/rosidl_adapter/abb_rapid_sm_addin_msgs:srv/SetEGMSettings.idl
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rapid_sm_addin_msgs/rosidl_adapter/abb_rapid_sm_addin_msgs:srv/SetRAPIDRoutine.idl
+/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_rapid_sm_addin_msgs/rosidl_adapter/abb_rapid_sm_addin_msgs:srv/SetSGCommand.idl

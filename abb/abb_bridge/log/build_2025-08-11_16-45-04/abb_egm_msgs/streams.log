@@ -1,0 +1,254 @@
+[0.031s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_egm_msgs -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs
+[0.103s] -- The C compiler identification is GNU 11.4.0
+[0.168s] -- The CXX compiler identification is GNU 11.4.0
+[0.178s] -- Detecting C compiler ABI info
+[0.260s] -- Detecting C compiler ABI info - done
+[0.275s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.275s] -- Detecting C compile features
+[0.276s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.372s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.389s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.029s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.216s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.235s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.314s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.389s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[2.267s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.083s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.899s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.980s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.987s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.056s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.057s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.057s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.098s] -- Found PythonExtra: .so  
+[4.276s] -- Configuring done
+[4.404s] -- Generating done
+[4.451s] -- Build files have been written to: /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_msgs
+[4.479s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_bridge/src/abb_ros2_msgs/abb_egm_msgs -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs
+[4.479s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_msgs -- -j12 -l12
+[4.569s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.598s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.633s] [  5%] Built target ament_cmake_python_copy_abb_egm_msgs
+[5.169s] running egg_info
+[5.171s] creating abb_egm_msgs.egg-info
+[5.239s] writing abb_egm_msgs.egg-info/PKG-INFO
+[5.240s] writing dependency_links to abb_egm_msgs.egg-info/dependency_links.txt
+[5.240s] writing top-level names to abb_egm_msgs.egg-info/top_level.txt
+[5.240s] writing manifest file 'abb_egm_msgs.egg-info/SOURCES.txt'
+[5.409s] reading manifest file 'abb_egm_msgs.egg-info/SOURCES.txt'
+[5.411s] writing manifest file 'abb_egm_msgs.egg-info/SOURCES.txt'
+[5.524s] [  5%] Built target ament_cmake_python_build_abb_egm_msgs_egg
+[5.865s] [  7%] [32mBuilding C object CMakeFiles/abb_egm_msgs__rosidl_generator_c.dir/rosidl_generator_c/abb_egm_msgs/msg/detail/egm_channel_state__functions.c.o[0m
+[5.869s] [ 10%] [32mBuilding C object CMakeFiles/abb_egm_msgs__rosidl_generator_c.dir/rosidl_generator_c/abb_egm_msgs/msg/detail/egm_state__functions.c.o[0m
+[6.030s] [ 12%] [32m[1mLinking C shared library libabb_egm_msgs__rosidl_generator_c.so[0m
+[6.097s] [ 12%] Built target abb_egm_msgs__rosidl_generator_c
+[6.113s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.122s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.124s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.348s] [ 20%] Built target abb_egm_msgs__cpp
+[6.375s] [ 23%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.377s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.379s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.195s] [ 30%] [32mBuilding CXX object CMakeFiles/abb_egm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/abb_egm_msgs/msg/detail/egm_channel_state__type_support_c.cpp.o[0m
+[7.199s] [ 33%] [32mBuilding CXX object CMakeFiles/abb_egm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/abb_egm_msgs/msg/detail/egm_state__type_support_c.cpp.o[0m
+[7.243s] [ 35%] [32mBuilding C object CMakeFiles/abb_egm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/abb_egm_msgs/msg/detail/egm_channel_state__type_support.c.o[0m
+[7.248s] [ 38%] [32mBuilding C object CMakeFiles/abb_egm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/abb_egm_msgs/msg/detail/egm_state__type_support.c.o[0m
+[7.372s] [ 41%] [32m[1mLinking C shared library libabb_egm_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.465s] [ 41%] Built target abb_egm_msgs__rosidl_typesupport_introspection_c
+[7.478s] [ 43%] [32mBuilding CXX object CMakeFiles/abb_egm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/abb_egm_msgs/msg/egm_channel_state__type_support.cpp.o[0m
+[7.482s] [ 46%] [32mBuilding CXX object CMakeFiles/abb_egm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/abb_egm_msgs/msg/egm_state__type_support.cpp.o[0m
+[7.577s] [ 48%] [32m[1mLinking CXX shared library libabb_egm_msgs__rosidl_typesupport_c.so[0m
+[7.612s] [ 51%] [32mBuilding CXX object CMakeFiles/abb_egm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/abb_egm_msgs/msg/egm_state__type_support.cpp.o[0m
+[7.615s] [ 53%] [32mBuilding CXX object CMakeFiles/abb_egm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/abb_egm_msgs/msg/egm_channel_state__type_support.cpp.o[0m
+[7.737s] [ 53%] Built target abb_egm_msgs__rosidl_typesupport_c
+[7.761s] [ 56%] [32mBuilding CXX object CMakeFiles/abb_egm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/abb_egm_msgs/msg/detail/egm_channel_state__type_support.cpp.o[0m
+[7.765s] [ 58%] [32mBuilding CXX object CMakeFiles/abb_egm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/abb_egm_msgs/msg/detail/egm_state__type_support.cpp.o[0m
+[7.959s] [ 61%] [32mBuilding CXX object CMakeFiles/abb_egm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/abb_egm_msgs/msg/detail/dds_fastrtps/egm_channel_state__type_support.cpp.o[0m
+[7.992s] [ 64%] [32mBuilding CXX object CMakeFiles/abb_egm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/abb_egm_msgs/msg/detail/dds_fastrtps/egm_state__type_support.cpp.o[0m
+[8.121s] [ 66%] [32m[1mLinking CXX shared library libabb_egm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.248s] [ 66%] Built target abb_egm_msgs__rosidl_typesupport_fastrtps_c
+[8.579s] [ 69%] [32m[1mLinking CXX shared library libabb_egm_msgs__rosidl_typesupport_cpp.so[0m
+[8.695s] [ 69%] Built target abb_egm_msgs__rosidl_typesupport_cpp
+[8.769s] [ 71%] [32m[1mLinking CXX shared library libabb_egm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.955s] [ 71%] Built target abb_egm_msgs__rosidl_typesupport_introspection_cpp
+[9.055s] [ 74%] [32m[1mLinking CXX shared library libabb_egm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.265s] [ 74%] Built target abb_egm_msgs__rosidl_typesupport_fastrtps_cpp
+[9.315s] [ 74%] Built target abb_egm_msgs
+[9.372s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.114s] [ 76%] Built target abb_egm_msgs__py
+[11.168s] [ 79%] [32mBuilding C object CMakeFiles/abb_egm_msgs__rosidl_generator_py.dir/rosidl_generator_py/abb_egm_msgs/msg/_egm_channel_state_s.c.o[0m
+[11.171s] [ 82%] [32mBuilding C object CMakeFiles/abb_egm_msgs__rosidl_generator_py.dir/rosidl_generator_py/abb_egm_msgs/msg/_egm_state_s.c.o[0m
+[11.481s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/abb_egm_msgs/libabb_egm_msgs__rosidl_generator_py.so[0m
+[11.576s] [ 84%] Built target abb_egm_msgs__rosidl_generator_py
+[11.643s] [ 87%] [32mBuilding C object CMakeFiles/abb_egm_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/abb_egm_msgs/_abb_egm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.657s] [ 89%] [32mBuilding C object CMakeFiles/abb_egm_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/abb_egm_msgs/_abb_egm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.660s] [ 92%] [32mBuilding C object CMakeFiles/abb_egm_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/abb_egm_msgs/_abb_egm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[11.952s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/abb_egm_msgs/abb_egm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.988s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/abb_egm_msgs/abb_egm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.040s] [100%] [32m[1mLinking C shared library rosidl_generator_py/abb_egm_msgs/abb_egm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.082s] [100%] Built target abb_egm_msgs__rosidl_typesupport_c__pyext
+[12.106s] [100%] Built target abb_egm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[12.159s] [100%] Built target abb_egm_msgs__rosidl_typesupport_introspection_c__pyext
+[12.194s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_msgs -- -j12 -l12
+[12.199s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_msgs
+[12.226s] -- Install configuration: ""
+[12.226s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/ament_index/resource_index/rosidl_interfaces/abb_egm_msgs
+[12.227s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs
+[12.227s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg
+[12.227s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.227s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail
+[12.227s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__functions.c
+[12.227s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__functions.c
+[12.227s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__type_support.h
+[12.228s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__type_support.h
+[12.229s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__functions.h
+[12.229s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__struct.h
+[12.229s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__functions.h
+[12.229s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__struct.h
+[12.229s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/egm_state.h
+[12.229s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/egm_channel_state.h
+[12.234s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/environment/library_path.sh
+[12.234s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/environment/library_path.dsv
+[12.234s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_generator_c.so
+[12.234s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_generator_c.so" to ""
+[12.234s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs
+[12.234s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg
+[12.234s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail
+[12.235s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__rosidl_typesupport_fastrtps_c.h
+[12.235s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__rosidl_typesupport_fastrtps_c.h
+[12.235s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.235s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_typesupport_fastrtps_c.so
+[12.235s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[12.235s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs
+[12.235s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg
+[12.235s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.236s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail
+[12.236s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__rosidl_typesupport_introspection_c.h
+[12.236s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__type_support.c
+[12.244s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__rosidl_typesupport_introspection_c.h
+[12.244s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__type_support.c
+[12.244s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_typesupport_introspection_c.so
+[12.244s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_typesupport_introspection_c.so" to ""
+[12.244s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_typesupport_c.so
+[12.244s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_typesupport_c.so" to ""
+[12.245s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs
+[12.245s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg
+[12.245s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.248s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/egm_state.hpp
+[12.249s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail
+[12.249s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__traits.hpp
+[12.250s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__struct.hpp
+[12.250s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__traits.hpp
+[12.250s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__struct.hpp
+[12.250s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__type_support.hpp
+[12.250s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__builder.hpp
+[12.254s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__builder.hpp
+[12.255s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__type_support.hpp
+[12.255s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/egm_channel_state.hpp
+[12.255s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs
+[12.255s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg
+[12.255s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.258s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail
+[12.258s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__rosidl_typesupport_fastrtps_cpp.hpp
+[12.258s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/dds_fastrtps
+[12.258s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__rosidl_typesupport_fastrtps_cpp.hpp
+[12.258s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.258s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.259s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs
+[12.259s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg
+[12.259s] -- Up-to-date: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail
+[12.259s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__rosidl_typesupport_introspection_cpp.hpp
+[12.259s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_channel_state__type_support.cpp
+[12.259s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__type_support.cpp
+[12.259s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/include/abb_egm_msgs/abb_egm_msgs/msg/detail/egm_state__rosidl_typesupport_introspection_cpp.hpp
+[12.259s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_typesupport_introspection_cpp.so
+[12.260s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[12.260s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_typesupport_cpp.so
+[12.260s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_typesupport_cpp.so" to ""
+[12.260s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/environment/pythonpath.sh
+[12.260s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/environment/pythonpath.dsv
+[12.260s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs-1.0.0-py3.10.egg-info
+[12.262s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[12.266s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[12.266s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[12.266s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[12.266s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs
+[12.266s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/abb_egm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.266s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/msg
+[12.266s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/msg/_egm_channel_state_s.c
+[12.267s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/msg/_egm_state.py
+[12.267s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/msg/_egm_channel_state.py
+[12.267s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/msg/_egm_state_s.c
+[12.267s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/msg/__init__.py
+[12.267s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/abb_egm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.267s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/_abb_egm_msgs_s.ep.rosidl_typesupport_c.c
+[12.267s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/_abb_egm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[12.267s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/libabb_egm_msgs__rosidl_generator_py.so
+[12.268s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/_abb_egm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.268s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/abb_egm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.268s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/__init__.py
+[12.372s] Listing '/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs'...
+[12.372s] Compiling '/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/__init__.py'...
+[12.372s] Listing '/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/msg'...
+[12.372s] Compiling '/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/msg/__init__.py'...
+[12.373s] Compiling '/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/msg/_egm_channel_state.py'...
+[12.373s] Compiling '/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/msg/_egm_state.py'...
+[12.381s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/abb_egm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.382s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/abb_egm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.383s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/abb_egm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.383s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/abb_egm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.384s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/abb_egm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.385s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/local/lib/python3.10/dist-packages/abb_egm_msgs/abb_egm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.385s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_generator_py.so
+[12.386s] -- Set runtime path of "/home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/lib/libabb_egm_msgs__rosidl_generator_py.so" to ""
+[12.387s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/msg/EGMChannelState.idl
+[12.387s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/msg/EGMState.idl
+[12.387s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/msg/EGMChannelState.msg
+[12.388s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/msg/EGMState.msg
+[12.389s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/ament_index/resource_index/package_run_dependencies/abb_egm_msgs
+[12.389s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/ament_index/resource_index/parent_prefix_path/abb_egm_msgs
+[12.389s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/environment/ament_prefix_path.sh
+[12.390s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/environment/ament_prefix_path.dsv
+[12.391s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/environment/path.sh
+[12.391s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/environment/path.dsv
+[12.392s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/local_setup.bash
+[12.393s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/local_setup.sh
+[12.393s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/local_setup.zsh
+[12.393s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/local_setup.dsv
+[12.394s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/package.dsv
+[12.395s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/ament_index/resource_index/packages/abb_egm_msgs
+[12.395s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/export_abb_egm_msgs__rosidl_generator_cExport.cmake
+[12.396s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/export_abb_egm_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.396s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/export_abb_egm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[12.397s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/export_abb_egm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.397s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/abb_egm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.398s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/abb_egm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.398s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/abb_egm_msgs__rosidl_typesupport_cExport.cmake
+[12.399s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/abb_egm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.399s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/export_abb_egm_msgs__rosidl_generator_cppExport.cmake
+[12.399s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/export_abb_egm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.400s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/export_abb_egm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.400s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/abb_egm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.401s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/abb_egm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.402s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/abb_egm_msgs__rosidl_typesupport_cppExport.cmake
+[12.402s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/abb_egm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.402s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/export_abb_egm_msgs__rosidl_generator_pyExport.cmake
+[12.403s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/export_abb_egm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[12.403s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/rosidl_cmake-extras.cmake
+[12.404s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.404s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.405s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.405s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.405s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.406s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.406s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/abb_egm_msgsConfig.cmake
+[12.407s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/cmake/abb_egm_msgsConfig-version.cmake
+[12.407s] -- Installing: /home/eia/repo/rbi_2025_2/abb/abb_bridge/install/abb_egm_msgs/share/abb_egm_msgs/package.xml
+[12.414s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/abb/abb_bridge/build/abb_egm_msgs
