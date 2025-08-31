@@ -13,6 +13,12 @@
 #include "esp_log.h"
 #include "esp_system.h"
 #include <esp_timer.h>
+#include <string.h>
+#include <stdio.h>
+
+
+#define UART_PORT_NUM UART_NUM_0 
+#define BUF_SIZE (1024)
 
 #define TX_GPIO_NUM                     GPIO_NUM_21
 #define RX_GPIO_NUM                     GPIO_NUM_22
@@ -96,6 +102,10 @@ static const twai_filter_config_t f_config = TWAI_FILTER_CONFIG_ACCEPT_ALL();
 
 float torque1 = 0.;
 float torque2 = 0.;
+
+float z_position = 0.;
+float yaw_position = 0.;
+
 
 int32_t prev_pose1 = 0.;
 int32_t prev_pose2 = 0.;
@@ -248,7 +258,6 @@ void init_torque_mode(int driver) {
     }
 }
 
-
 int32_t read_encoder_position(int driver) {
     uint8_t sdo_read_request[8] = {0x40, 0x64, 0x60, 0x00, 0x00, 0x00, 0x00, 0x00};
     uint32_t sdo_response_id = (driver == 1) ? 0x583 : 0x582; // T_SDO COB-ID for response
@@ -343,30 +352,58 @@ void init_pwm(void) {
 }
 
 void print_task(void *pv) {
+    
+    uint8_t data[BUF_SIZE];
+    const char* delimiter = "|";
+
     while(1){
-        printf("%f|%f|%f|%f|%f\n", pos1*1., pos2*1., torque1, torque2, esp_timer_get_time()*1. / 1000000);
+        // printf("%f|%f|%f|%f|%f\n", pos1*1., pos2*1., torque1, torque2, esp_timer_get_time()*1. / 1000000);
+        
+        int len = uart_read_bytes(UART_PORT_NUM, data, BUF_SIZE, 20 / portTICK_PERIOD_MS);
+        if (len > 0) {
+            data[len] = '\0'; // Null-terminate the received data
+            // ESP_LOGI("SERIAL_READ", "Received: %f", (data[0] - '0')*10 + (data[1] - '0')*1 + (data[3] - '0')*0.1 + (data[4] - '0')*00.1);
+            // ESP_LOGI("SERIAL_READ", "Received: %f", (data[6] - '0')*10 + (data[7] - '0')*1 + (data[9] - '0')*0.1 + (data[10] - '0')*00.1);
+            // ESP_LOGI("SERIAL_READ", "Received: %f", (data[12] - '0')*10 + (data[13] - '0')*1 + (data[15] - '0')*0.1 + (data[16] - '0')*00.1);
+            // ESP_LOGI("SERIAL_READ", "Received: %f", (data[18] - '0')*10 + (data[19] - '0')*1 + (data[21] - '0')*0.1 + (data[22] - '0')*00.1);
+            
+            torque1 = (data[0] - '0')*10 + (data[1] - '0')*1 + (data[3] - '0')*0.1 + (data[4] - '0')*00.1;
+            torque2 = (data[6] - '0')*10 + (data[7] - '0')*1 + (data[9] - '0')*0.1 + (data[10] - '0')*00.1;
+            z_position = (data[12] - '0')*10 + (data[13] - '0')*1 + (data[15] - '0')*0.1 + (data[16] - '0')*00.1;
+            yaw_position = (data[18] - '0')*10 + (data[19] - '0')*1 + (data[21] - '0')*0.1 + (data[22] - '0')*00.1;
+
+            ESP_LOGI("SERIAL_READ", "Received: %f", torque1);
+            ESP_LOGI("SERIAL_READ", "Received: %f", torque2);
+            ESP_LOGI("SERIAL_READ", "Received: %f", z_position);
+            ESP_LOGI("SERIAL_READ", "Received: %f", yaw_position);
+
+            // ESP_LOGI("SERIAL_READ", "Received: %c", data[4]);
+            // ESP_LOGI("SERIAL_READ", "Received: %c", data[5]);
+
+        }
+
         vTaskDelay(pdMS_TO_TICKS(20));
     }
 }
 
 void torque_task(void *pv) {
 
-    const float amplitude1 = 13.0;
-    const float amplitude2 = 13.0;
-    const float period_ms_1 = 7000;
-    const float period_ms_2 = 7000;
-    float time = 0.0;
-    const TickType_t delay_ms = 100;
+    // const float amplitude1 = 13.0;
+    // const float amplitude2 = 13.0;
+    // const float period_ms_1 = 7000;
+    // const float period_ms_2 = 7000;
+    // float time = 0.0;
+    // const TickType_t delay_ms = 100;
 
     while (1) {
-        torque1 = amplitude1 * sin(2 * M_PI * time / period_ms_1);
-        torque2 = amplitude2 * sin(2 * M_PI * time / period_ms_2);
+        // torque1 = amplitude1 * sin(2 * M_PI * time / period_ms_1);
+        // torque2 = amplitude2 * sin(2 * M_PI * time / period_ms_2);
         
         // set_motor_torque(1, torque1);
-        set_motor_torque(2, torque2);
+        // set_motor_torque(2, torque2);
 
-        time += delay_ms;
-        vTaskDelay(pdMS_TO_TICKS(delay_ms));
+        // time += delay_ms;
+        vTaskDelay(pdMS_TO_TICKS(100));
     }
 }
 
@@ -399,6 +436,20 @@ void encoder_task(void *pv) {
 }
 
 void app_main() {
+
+    //! Setting up UART
+    uart_config_t uart_config = {
+        .baud_rate = 115200,
+        .data_bits = UART_DATA_8_BITS,
+        .parity = UART_PARITY_DISABLE,
+        .stop_bits = UART_STOP_BITS_1,
+        .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
+        .source_clk = UART_SCLK_APB,
+    };
+    uart_driver_install(UART_PORT_NUM, BUF_SIZE * 2, 0, 0, NULL, 0);
+    uart_param_config(UART_PORT_NUM, &uart_config);
+
+
     vTaskDelay(pdMS_TO_TICKS(3000));
     init_gpio();
     init_pwm();

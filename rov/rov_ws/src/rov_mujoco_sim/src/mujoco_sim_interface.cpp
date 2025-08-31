@@ -29,7 +29,7 @@ hardware_interface::CallbackReturn RovSimulatorInterface::on_configure
         return hardware_interface::CallbackReturn::FAILURE;
     }else{
         this->sim_data_object = mj_makeData(this->sim_model_object);
-    }
+    }    
 
         //! Getting the body id
     hull_name_id = mj_name2id(sim_model_object, mjOBJ_BODY, body_name.c_str());
@@ -40,6 +40,14 @@ hardware_interface::CallbackReturn RovSimulatorInterface::on_configure
     this->thruster_efforts_[3] = 0.;
     this->thruster_efforts_[4] = 0.;
     this->thruster_efforts_[5] = 0.;
+
+    this->body_pose_[0] = 0.;
+    this->body_pose_[1] = 0.;
+    this->body_pose_[2] = 0.;
+    this->body_pose_[3] = 0.;
+    this->body_pose_[4] = 0.;
+    this->body_pose_[5] = 0.;
+    this->body_pose_[6] = 0.;
 
     RCLCPP_INFO(rclcpp::get_logger("rov sim"), "I CONFIG");
     return hardware_interface::CallbackReturn::SUCCESS;
@@ -85,20 +93,6 @@ hardware_interface::return_type RovSimulatorInterface::write
     (void)time;
     (void)period;
 
-    // this->sim_data_object->ctrl[0] = thruster_commands_[0];
-    // this->sim_data_object->ctrl[1] = thruster_commands_[1];
-    // this->sim_data_object->ctrl[2] = thruster_commands_[2];
-    // this->sim_data_object->ctrl[3] = thruster_commands_[3];
-    // this->sim_data_object->ctrl[4] = thruster_commands_[4];
-    // this->sim_data_object->ctrl[5] = thruster_commands_[5];
-
-    // target_accel_to_forces_map << (hull_mass/2)*u_input_ + mu_x,
-    //                                     0,
-    //                             (hull_mass/6)*z_input_ + mu_z,
-    //                         (hull_lw*hull_inertia_xx/8)*roll_input_,
-    //                         (hull_ld*hull_inertia_yy/8)*pitch_input_,
-    //                         (hull_lb*hull_inertia_zz/8)*yaw_input_;
-
     return hardware_interface::return_type::OK;
 
 }
@@ -113,7 +107,34 @@ RovSimulatorInterface::export_state_interfaces()
             "effort",
             &thruster_efforts_[i] // You need to define this array
         );
+    } 
+
+    for (size_t i = 0; i < 7; ++i) {
+    state_interfaces.emplace_back(
+        "pose" + std::to_string(i+1),
+        "state",
+        &body_pose_[i] // You need to define this array
+    );
     }
+    
+    for (int i = 0; i < 3; ++i) {
+    state_interfaces.emplace_back(
+        "IMU_vel/" + std::to_string(i+1),
+        "state",
+        &imu_angular_velocity_[i] // You need to define this array
+    );
+
+    }
+
+    for (int i = 0; i < 3; ++i) {
+    state_interfaces.emplace_back(
+        "IMU_accel/" + std::to_string(i+1),
+        "state",
+        &imu_acceleration_[i] // You need to define this array
+    );
+
+    }     
+
     return state_interfaces;
 }
 
@@ -160,20 +181,42 @@ void RovSimulatorInterface::sim_thread(){
                 this->sim_cam.trackbodyid = body_id;
             }
 
+
+            // Get sensor IDs
+            int accel_sensor_id_ = mj_name2id(sim_model_object, mjOBJ_SENSOR, "accel");
+            int gyro_sensor_id_ = mj_name2id(sim_model_object, mjOBJ_SENSOR, "gyro");
+
+            // Check if sensors were found
+            if (accel_sensor_id_ == -1 || gyro_sensor_id_ == -1) {
+                RCLCPP_WARN(rclcpp::get_logger("rov sim"), "IMU sensors not found in model!");
+            } else {
+                RCLCPP_INFO(rclcpp::get_logger("rov sim"), "IMU sensors initialized");
+            }
+
             this->sim_cam.type = mjCAMERA_TRACKING;
             this->sim_cam.trackbodyid = mj_name2id(sim_model_object, mjOBJ_BODY, "hull_link");
 
             // Eigen::VectorXd input_vector = target_accel_to_forces_map * target_forces_to_actuator_map;
 
+
             //! Get body parameters.
             hull_inertia_xx = sim_model_object->body_inertia[3 * hull_name_id + 0];
             hull_inertia_yy = sim_model_object->body_inertia[3 * hull_name_id + 1];
             hull_inertia_zz = sim_model_object->body_inertia[3 * hull_name_id + 2];
+            double hull_mass = sim_model_object->body_mass[hull_name_id];
+
+            RCLCPP_INFO(rclcpp::get_logger("interface_logger"), 
+                "Hull mass: %f, Ixx: %f, Iyy: %f, Izz: %f", 
+                hull_mass, hull_inertia_xx, hull_inertia_yy, hull_inertia_zz);
+
 
 
             while( !glfwWindowShouldClose(window) && !sim_stop_flag){   
                 mjtNum simstart = this->sim_data_object->time;
                 while( this->sim_data_object->time - simstart < 1.0/60.0 ){
+
+                    this->sim_data_object->xfrc_applied[6 * hull_name_id + 2] = hull_mass*9.8;
+
                     mj_step(this->sim_model_object, this->sim_data_object);
                 }
 
@@ -188,6 +231,23 @@ void RovSimulatorInterface::sim_thread(){
                 this->sim_data_object->ctrl[3] = thruster_commands_[3];
                 this->sim_data_object->ctrl[4] = thruster_commands_[4];
                 this->sim_data_object->ctrl[5] = thruster_commands_[5];
+
+                this->body_pose_[0] = sim_data_object->xpos[3 * hull_name_id + 0];
+                this->body_pose_[1] = sim_data_object->xpos[3 * hull_name_id + 1];
+                this->body_pose_[2] = sim_data_object->xpos[3 * hull_name_id + 2];
+
+                this->body_pose_[3] = sim_data_object->xquat[4 * hull_name_id + 0];
+                this->body_pose_[4] = sim_data_object->xquat[4 * hull_name_id + 1];
+                this->body_pose_[5] = sim_data_object->xquat[4 * hull_name_id + 2];
+                this->body_pose_[6] = sim_data_object->xquat[4 * hull_name_id + 3];
+
+                for (int i = 0; i < 3; ++i) {
+                    imu_angular_velocity_[i] = sim_data_object->sensordata[gyro_sensor_id_ * 3 + i];
+                }
+
+                for (int i = 0; i < 3; ++i) {
+                    imu_acceleration_[i] = sim_data_object->sensordata[accel_sensor_id_ * 3 + i];
+                }
 
                 //! ------------------------------------------
 

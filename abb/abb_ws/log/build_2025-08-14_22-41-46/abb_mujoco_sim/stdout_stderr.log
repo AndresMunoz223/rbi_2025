@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/abb_mujoco_sim.dir/src/mujoco_sim_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libabb_mujoco_sim.so[0m
+[100%] Built target abb_mujoco_sim
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim//abb_hardware_interface.xml
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/lib/libabb_mujoco_sim.so
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/include/include/abb_mujoco_sim/mujoco_sim_interface.hpp
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/library_path.sh
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/library_path.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/ament_index/resource_index/package_run_dependencies/abb_mujoco_sim
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/ament_index/resource_index/parent_prefix_path/abb_mujoco_sim
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/ament_prefix_path.sh
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/ament_prefix_path.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/path.sh
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/path.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/local_setup.bash
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/local_setup.sh
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/local_setup.zsh
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/local_setup.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/package.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/ament_index/resource_index/packages/abb_mujoco_sim
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/abb_mujoco_sim
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/cmake/abb_mujoco_simConfig.cmake
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/cmake/abb_mujoco_simConfig-version.cmake
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/package.xml

@@ -15,7 +15,10 @@
     <node pkg="controller_manager" exec="spawner" args="forward_command_controller"
           name="spawner_forward_command_controller"
           output="screen">
+          
         <param name="controller_manager_timeout" value="10"/>
     </node>
+
+    <node pkg="scara_ik_solver" exec="scara_ik_solver"/>
 
 </launch>

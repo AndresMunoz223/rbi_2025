@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/rov_path_generator
+rov_path_generator/__init__.py
+rov_path_generator/rov_path_generator.py
+rov_path_generator.egg-info/PKG-INFO
+rov_path_generator.egg-info/SOURCES.txt
+rov_path_generator.egg-info/dependency_links.txt
+rov_path_generator.egg-info/entry_points.txt
+rov_path_generator.egg-info/requires.txt
+rov_path_generator.egg-info/top_level.txt
+rov_path_generator.egg-info/zip-safe

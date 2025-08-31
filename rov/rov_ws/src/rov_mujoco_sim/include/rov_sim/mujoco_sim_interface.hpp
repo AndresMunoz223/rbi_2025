@@ -84,6 +84,11 @@ class RovSimulatorInterface : public hardware_interface::SystemInterface
 
     std::array<double, 6> thruster_efforts_{};
     std::array<double, 6> thruster_commands_{};
+    std::array<double, 7> body_pose_{};
+
+
+    std::array<double, 3> imu_acceleration_{0., 0., 0.};
+    std::array<double, 3> imu_angular_velocity_{0., 0., 0.};
 
     std::vector<double> free_joint_pos = {0., 0., 0.};
     Eigen::Quaterniond q;

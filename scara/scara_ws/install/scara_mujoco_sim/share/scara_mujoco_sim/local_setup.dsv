@@ -1,3 +1,1 @@
-source;share/scara_mujoco_sim/environment/ament_prefix_path.sh
-source;share/scara_mujoco_sim/environment/library_path.sh
-source;share/scara_mujoco_sim/environment/path.sh
+/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim/ament_cmake_environment_hooks/local_setup.dsv

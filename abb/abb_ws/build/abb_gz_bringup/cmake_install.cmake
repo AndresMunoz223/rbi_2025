@@ -43,69 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gz_bringup/" TYPE DIRECTORY FILES
-    "/home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_gz_bringup/launch"
-    "/home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_gz_bringup/config"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/abb_gz_bringup")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/abb_gz_bringup")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gz_bringup/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gz_bringup/environment" TYPE FILE FILES "/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gz_bringup/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gz_bringup/environment" TYPE FILE FILES "/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gz_bringup" TYPE FILE FILES "/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gz_bringup" TYPE FILE FILES "/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gz_bringup" TYPE FILE FILES "/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gz_bringup" TYPE FILE FILES "/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gz_bringup" TYPE FILE FILES "/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_index/share/ament_index/resource_index/packages/abb_gz_bringup")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gz_bringup/cmake" TYPE FILE FILES
-    "/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_core/abb_gz_bringupConfig.cmake"
-    "/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_core/abb_gz_bringupConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_gz_bringup" TYPE FILE FILES "/home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_gz_bringup/package.xml")
+  include("/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_bringup/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

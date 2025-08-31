@@ -1,0 +1,36 @@
+[1.182s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller': PYTHONPATH=/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/build
+[1.508s] running develop
+[1.752s] Removing /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb-path-controller.egg-link (link to .)
+[1.776s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/build
+[1.777s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_path_controller': PYTHONPATH=/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/abb_path_controller build --build-base /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/build install --record /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/install.log --single-version-externally-managed install_data --force
+[2.045s] running egg_info
+[2.063s] writing ../../build/abb_path_controller/abb_path_controller.egg-info/PKG-INFO
+[2.063s] writing dependency_links to ../../build/abb_path_controller/abb_path_controller.egg-info/dependency_links.txt
+[2.063s] writing entry points to ../../build/abb_path_controller/abb_path_controller.egg-info/entry_points.txt
+[2.064s] writing requirements to ../../build/abb_path_controller/abb_path_controller.egg-info/requires.txt
+[2.064s] writing top-level names to ../../build/abb_path_controller/abb_path_controller.egg-info/top_level.txt
+[2.102s] reading manifest file '../../build/abb_path_controller/abb_path_controller.egg-info/SOURCES.txt'
+[2.103s] writing manifest file '../../build/abb_path_controller/abb_path_controller.egg-info/SOURCES.txt'
+[2.103s] running build
+[2.103s] running build_py
+[2.103s] creating /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/build
+[2.103s] creating /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/build/lib
+[2.103s] creating /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/build/lib/abb_path_controller
+[2.104s] copying abb_path_controller/__init__.py -> /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/build/lib/abb_path_controller
+[2.104s] copying abb_path_controller/abb_path_controller.py -> /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/build/lib/abb_path_controller
+[2.104s] running install
+[2.110s] running install_lib
+[2.130s] creating /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller
+[2.130s] copying /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/build/lib/abb_path_controller/__init__.py -> /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller
+[2.130s] copying /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/build/lib/abb_path_controller/abb_path_controller.py -> /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller
+[2.130s] byte-compiling /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller/__init__.py to __init__.cpython-310.pyc
+[2.131s] byte-compiling /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller/abb_path_controller.py to abb_path_controller.cpython-310.pyc
+[2.131s] running install_data
+[2.131s] copying resource/abb_path_controller -> /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/share/ament_index/resource_index/packages
+[2.132s] copying package.xml -> /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/share/abb_path_controller
+[2.132s] running install_egg_info
+[2.155s] Copying ../../build/abb_path_controller/abb_path_controller.egg-info to /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller-0.0.0-py3.10.egg-info
+[2.156s] running install_scripts
+[2.327s] Installing abb_path_controller script to /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/abb_path_controller
+[2.328s] writing list of installed files to '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/install.log'
+[2.351s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_path_controller' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/abb_path_controller build --build-base /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/build install --record /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller/install.log --single-version-externally-managed install_data --force

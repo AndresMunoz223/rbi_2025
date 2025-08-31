@@ -1,9 +1,1 @@
-<library path="rov_mujoco_sim">
-    <class name="rov_simulator_layer/RovSimulatorInterface"
-           type="rov_simulator_layer::RovSimulatorInterface"
-           base_class_type="hardware_interface::SystemInterface">
-           <description>
-                Hardware Interface for a 6 DOF Rover
-           </description>
-    </class>
-</library>
+/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_sim/rov_hardware_interface.xml

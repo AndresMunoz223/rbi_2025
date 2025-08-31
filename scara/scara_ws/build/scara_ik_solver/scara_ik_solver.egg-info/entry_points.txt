@@ -1,0 +1,3 @@
+[console_scripts]
+scara_ik_solver = scara_ik_solver.scara_ik_solver:main
+

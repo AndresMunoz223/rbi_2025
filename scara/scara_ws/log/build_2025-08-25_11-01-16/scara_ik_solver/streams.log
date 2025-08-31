@@ -1,0 +1,21 @@
+[1.090s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_ik_solver': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_ik_solver build --build-base /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build install --record /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/install.log --single-version-externally-managed install_data
+[1.421s] running egg_info
+[1.422s] writing ../../build/scara_ik_solver/scara_ik_solver.egg-info/PKG-INFO
+[1.422s] writing dependency_links to ../../build/scara_ik_solver/scara_ik_solver.egg-info/dependency_links.txt
+[1.422s] writing entry points to ../../build/scara_ik_solver/scara_ik_solver.egg-info/entry_points.txt
+[1.422s] writing requirements to ../../build/scara_ik_solver/scara_ik_solver.egg-info/requires.txt
+[1.423s] writing top-level names to ../../build/scara_ik_solver/scara_ik_solver.egg-info/top_level.txt
+[1.424s] reading manifest file '../../build/scara_ik_solver/scara_ik_solver.egg-info/SOURCES.txt'
+[1.425s] writing manifest file '../../build/scara_ik_solver/scara_ik_solver.egg-info/SOURCES.txt'
+[1.425s] running build
+[1.425s] running build_py
+[1.425s] running install
+[1.426s] running install_lib
+[1.427s] running install_data
+[1.427s] running install_egg_info
+[1.429s] removing '/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver-0.0.0-py3.10.egg-info' (and everything under it)
+[1.429s] Copying ../../build/scara_ik_solver/scara_ik_solver.egg-info to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver-0.0.0-py3.10.egg-info
+[1.430s] running install_scripts
+[1.449s] Installing scara_ik_solver script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/scara_ik_solver
+[1.449s] writing list of installed files to '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/install.log'
+[1.467s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_ik_solver' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_ik_solver build --build-base /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build install --record /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/install.log --single-version-externally-managed install_data

@@ -1,2 +1,1 @@
-source;share/rov_mujoco_bringup/environment/ament_prefix_path.sh
-source;share/rov_mujoco_bringup/environment/path.sh
+/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.dsv

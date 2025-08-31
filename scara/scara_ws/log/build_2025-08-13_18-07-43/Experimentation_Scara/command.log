@@ -1,2 +1,0 @@
-Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/Experimentation_Scara': /usr/bin/cmake /home/eia/repo/rbi_2025_2/scara/scara_ws/esp32-dev/Experimentation_Scara -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/scara/scara_ws/install/Experimentation_Scara
-Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/Experimentation_Scara' returned '1': /usr/bin/cmake /home/eia/repo/rbi_2025_2/scara/scara_ws/esp32-dev/Experimentation_Scara -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/scara/scara_ws/install/Experimentation_Scara

@@ -1,0 +1,19 @@
+[0.036s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_mujoco_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_description
+[0.880s] -- The C compiler identification is GNU 11.4.0
+[0.880s] -- The CXX compiler identification is GNU 11.4.0
+[0.880s] -- Detecting C compiler ABI info
+[0.880s] -- Detecting C compiler ABI info - done
+[0.880s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.881s] -- Detecting C compile features
+[0.881s] -- Detecting C compile features - done
+[0.881s] -- Detecting CXX compiler ABI info
+[0.881s] -- Detecting CXX compiler ABI info - done
+[0.881s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.881s] -- Detecting CXX compile features
+[0.881s] -- Detecting CXX compile features - done
+[0.881s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.335s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.453s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.690s] -- Configuring done
+[1.693s] -- Generating done
+[1.695s] -- Build files have been written to: /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_description

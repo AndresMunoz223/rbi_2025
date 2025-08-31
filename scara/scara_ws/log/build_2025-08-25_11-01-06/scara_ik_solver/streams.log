@@ -1,0 +1,36 @@
+[1.124s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build
+[1.438s] running develop
+[1.661s] Removing /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara-ik-solver.egg-link (link to .)
+[1.682s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build
+[1.683s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_ik_solver': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_ik_solver build --build-base /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build install --record /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/install.log --single-version-externally-managed install_data --force
+[1.949s] running egg_info
+[1.949s] writing ../../build/scara_ik_solver/scara_ik_solver.egg-info/PKG-INFO
+[1.949s] writing dependency_links to ../../build/scara_ik_solver/scara_ik_solver.egg-info/dependency_links.txt
+[1.950s] writing entry points to ../../build/scara_ik_solver/scara_ik_solver.egg-info/entry_points.txt
+[1.950s] writing requirements to ../../build/scara_ik_solver/scara_ik_solver.egg-info/requires.txt
+[1.950s] writing top-level names to ../../build/scara_ik_solver/scara_ik_solver.egg-info/top_level.txt
+[1.951s] reading manifest file '../../build/scara_ik_solver/scara_ik_solver.egg-info/SOURCES.txt'
+[1.952s] writing manifest file '../../build/scara_ik_solver/scara_ik_solver.egg-info/SOURCES.txt'
+[1.952s] running build
+[1.952s] running build_py
+[1.952s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build
+[1.952s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build/lib
+[1.952s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build/lib/scara_ik_solver
+[1.952s] copying scara_ik_solver/scara_ik_solver.py -> /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build/lib/scara_ik_solver
+[1.952s] copying scara_ik_solver/__init__.py -> /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build/lib/scara_ik_solver
+[1.952s] running install
+[1.953s] running install_lib
+[1.953s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver
+[1.953s] copying /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build/lib/scara_ik_solver/scara_ik_solver.py -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver
+[1.953s] copying /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build/lib/scara_ik_solver/__init__.py -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver
+[1.954s] byte-compiling /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver/scara_ik_solver.py to scara_ik_solver.cpython-310.pyc
+[1.955s] byte-compiling /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver/__init__.py to __init__.cpython-310.pyc
+[1.955s] running install_data
+[1.955s] copying resource/scara_ik_solver -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/share/ament_index/resource_index/packages
+[1.955s] copying package.xml -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/share/scara_ik_solver
+[1.955s] running install_egg_info
+[1.957s] Copying ../../build/scara_ik_solver/scara_ik_solver.egg-info to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver-0.0.0-py3.10.egg-info
+[1.957s] running install_scripts
+[1.975s] Installing scara_ik_solver script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/scara_ik_solver
+[1.975s] writing list of installed files to '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/install.log'
+[1.993s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_ik_solver' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_ik_solver build --build-base /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build install --record /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/install.log --single-version-externally-managed install_data --force

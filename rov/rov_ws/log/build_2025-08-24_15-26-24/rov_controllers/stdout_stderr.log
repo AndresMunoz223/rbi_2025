@@ -1,0 +1,26 @@
+[100%] Built target rov_controllers
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers//rov_controller.xml
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/lib/librov_controllers.so
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/include/include/rov_controllers/rov_forward_controller.hpp
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/environment/library_path.sh
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/environment/library_path.dsv
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/ament_index/resource_index/package_run_dependencies/rov_controllers
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/ament_index/resource_index/parent_prefix_path/rov_controllers
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/environment/path.sh
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/environment/path.dsv
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/local_setup.bash
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/local_setup.sh
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/local_setup.zsh
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/local_setup.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.dsv
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/ament_index/resource_index/packages/rov_controllers
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/rov_controllers
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/cmake/rov_controllersConfig.cmake
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/cmake/rov_controllersConfig-version.cmake
+-- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.xml

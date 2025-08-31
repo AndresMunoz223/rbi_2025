@@ -1,0 +1,9 @@
+source;share/abb_path_controller/hook/pythonpath.ps1
+source;share/abb_path_controller/hook/pythonpath.dsv
+source;share/abb_path_controller/hook/pythonpath.sh
+source;share/abb_path_controller/hook/ament_prefix_path.ps1
+source;share/abb_path_controller/hook/ament_prefix_path.dsv
+source;share/abb_path_controller/hook/ament_prefix_path.sh
+source;../../build/abb_path_controller/share/abb_path_controller/hook/pythonpath_develop.ps1
+source;../../build/abb_path_controller/share/abb_path_controller/hook/pythonpath_develop.dsv
+source;../../build/abb_path_controller/share/abb_path_controller/hook/pythonpath_develop.sh

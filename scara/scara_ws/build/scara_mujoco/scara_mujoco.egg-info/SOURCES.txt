@@ -12,6 +12,10 @@ descriptions/basic_scenario.xml
 resource/scara_mujoco
 scara_mujoco/__init__.py
 scara_mujoco/simulation_init.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+scara_mujoco.egg-info/PKG-INFO
+scara_mujoco.egg-info/SOURCES.txt
+scara_mujoco.egg-info/dependency_links.txt
+scara_mujoco.egg-info/entry_points.txt
+scara_mujoco.egg-info/requires.txt
+scara_mujoco.egg-info/top_level.txt
+scara_mujoco.egg-info/zip-safe

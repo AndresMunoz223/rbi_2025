@@ -1,0 +1,9 @@
+<library path="scara_hardware_interface">
+    <class name="scara_hardware_layer/ScaraSimulatorInterface"
+           type="scara_hardware_layer::ScaraSimulatorInterface"
+           base_class_type="hardware_interface::SystemInterface">
+           <description>
+                Hardware Interface for a 4 DOF Scara
+           </description>
+    </class>
+</library>

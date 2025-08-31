@@ -1,0 +1,17 @@
+[2.229s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower': PYTHONPATH=/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower/build --no-deps symlink_data
+[2.688s] running develop
+[2.910s] running egg_info
+[2.910s] writing rov_path_follower.egg-info/PKG-INFO
+[2.910s] writing dependency_links to rov_path_follower.egg-info/dependency_links.txt
+[2.910s] writing entry points to rov_path_follower.egg-info/entry_points.txt
+[2.910s] writing requirements to rov_path_follower.egg-info/requires.txt
+[2.910s] writing top-level names to rov_path_follower.egg-info/top_level.txt
+[2.912s] reading manifest file 'rov_path_follower.egg-info/SOURCES.txt'
+[2.913s] writing manifest file 'rov_path_follower.egg-info/SOURCES.txt'
+[2.957s] running build_ext
+[2.957s] Creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/lib/python3.10/site-packages/rov-path-follower.egg-link (link to .)
+[2.958s] Installing rov_path_follower script to /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/lib/rov_path_follower
+[2.958s] 
+[2.958s] Installed /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower
+[2.958s] running symlink_data
+[3.034s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower/build --no-deps symlink_data

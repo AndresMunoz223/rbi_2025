@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

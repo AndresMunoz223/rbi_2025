@@ -1,5 +1,1 @@
-- ros_topic_name: "/clock"
-  gz_topic_name: "/clock"
-  ros_type_name: "rosgraph_msgs/msg/Clock"
-  gz_type_name: "gz.msgs.Clock"
-  direction: GZ_TO_ROS
+/home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_gz_bringup/config/gazebo_bridge.yaml

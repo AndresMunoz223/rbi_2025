@@ -82,6 +82,7 @@
         "valarray": "cpp",
         "variant": "cpp",
         "*.inc": "cpp",
-        "numericaldiff": "cpp"
+        "numericaldiff": "cpp",
+        "dense": "cpp"
     }
 }

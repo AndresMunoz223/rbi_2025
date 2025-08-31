@@ -1,0 +1,17 @@
+[1.523s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_python': PYTHONPATH=/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_python/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_python/build --no-deps symlink_data
+[2.014s] running develop
+[2.410s] running egg_info
+[2.434s] writing abb_mujoco_python.egg-info/PKG-INFO
+[2.434s] writing dependency_links to abb_mujoco_python.egg-info/dependency_links.txt
+[2.434s] writing entry points to abb_mujoco_python.egg-info/entry_points.txt
+[2.434s] writing requirements to abb_mujoco_python.egg-info/requires.txt
+[2.435s] writing top-level names to abb_mujoco_python.egg-info/top_level.txt
+[2.486s] reading manifest file 'abb_mujoco_python.egg-info/SOURCES.txt'
+[2.487s] writing manifest file 'abb_mujoco_python.egg-info/SOURCES.txt'
+[2.522s] running build_ext
+[2.522s] Creating /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_python/lib/python3.10/site-packages/abb-mujoco-python.egg-link (link to .)
+[2.523s] Installing abb_sim_mujoco script to /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_python/lib/abb_mujoco_python
+[2.524s] 
+[2.524s] Installed /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_python
+[2.524s] running symlink_data
+[2.568s] Invoked command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_python' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_python/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_python/build --no-deps symlink_data

@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating rov_path_follower.egg-info
+writing rov_path_follower.egg-info/PKG-INFO
+writing dependency_links to rov_path_follower.egg-info/dependency_links.txt
+writing entry points to rov_path_follower.egg-info/entry_points.txt
+writing requirements to rov_path_follower.egg-info/requires.txt
+writing top-level names to rov_path_follower.egg-info/top_level.txt
+writing manifest file 'rov_path_follower.egg-info/SOURCES.txt'
+reading manifest file 'rov_path_follower.egg-info/SOURCES.txt'
+writing manifest file 'rov_path_follower.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/lib/python3.10/site-packages/rov-path-follower.egg-link (link to .)
+Installing rov_path_generator script to /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/lib/rov_path_follower
+
+Installed /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower
+running symlink_data
+creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/ament_index
+creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/ament_index/resource_index
+creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/ament_index/resource_index/packages
+symbolically linking /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower/resource/rov_path_follower -> /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/ament_index/resource_index/packages
+symbolically linking /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower/package.xml -> /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/rov_path_follower
+creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/launch
+creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/descriptions
+creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/config

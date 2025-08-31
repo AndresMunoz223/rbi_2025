@@ -12,10 +12,20 @@
         <param name="robot_description" value="$(command 'xacro $(var urdf_path)')" />
     </node>
 
-    <node pkg="controller_manager" exec="spawner" args="forward_command_controller"
+    <!-- <node pkg="controller_manager" exec="spawner" args="forward_command_controller"
           name="spawner_forward_command_controller"
           output="screen">
         <param name="controller_manager_timeout" value="10"/>
-    </node>
+    </node> -->rov_path_follower
+
+    <node pkg="rov_path_follower" exec="rov_path_follower"/>
+
+    <node pkg="rov_attitude_controller" exec="rov_attitude_controller"/>
+
+    <node pkg="rov_position_controller" exec="rov_position_controller"/>
+
+    <node pkg="rov_path_generator" exec="rov_path_generator"/>
+
+    <node pkg="controller_manager" exec="spawner" args="rov_controller"/>
 
 </launch>

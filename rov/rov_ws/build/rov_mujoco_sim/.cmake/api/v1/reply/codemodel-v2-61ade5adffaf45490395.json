@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6a99bcc8b1d14920c6c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rov_mujoco_sim",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rov_mujoco_sim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rov_mujoco_sim-0e0ac063f3bfc896ab17.json",
+					"name" : "rov_mujoco_sim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rov_mujoco_sim_direct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rov_mujoco_sim_direct-3ff1b95eb7ddd8e2f6df.json",
+					"name" : "rov_mujoco_sim_direct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rov_mujoco_sim_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rov_mujoco_sim_uninstall-7ae3d3f73c5703f817e4.json",
+					"name" : "rov_mujoco_sim_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d385b1c78dd482681959.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_sim",
+		"source" : "/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_sim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

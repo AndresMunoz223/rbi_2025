@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing abb_path_controller.egg-info/PKG-INFO
+writing dependency_links to abb_path_controller.egg-info/dependency_links.txt
+writing entry points to abb_path_controller.egg-info/entry_points.txt
+writing requirements to abb_path_controller.egg-info/requires.txt
+writing top-level names to abb_path_controller.egg-info/top_level.txt
+reading manifest file 'abb_path_controller.egg-info/SOURCES.txt'
+writing manifest file 'abb_path_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb-path-controller.egg-link (link to .)
+Installing abb_path_controller script to /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/abb_path_controller
+Installing abb_path_generator script to /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_path_controller/lib/abb_path_controller
+
+Installed /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_path_controller
+running symlink_data

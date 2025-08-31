@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating rov_path_generator.egg-info
+writing rov_path_generator.egg-info/PKG-INFO
+writing dependency_links to rov_path_generator.egg-info/dependency_links.txt
+writing entry points to rov_path_generator.egg-info/entry_points.txt
+writing requirements to rov_path_generator.egg-info/requires.txt
+writing top-level names to rov_path_generator.egg-info/top_level.txt
+writing manifest file 'rov_path_generator.egg-info/SOURCES.txt'
+reading manifest file 'rov_path_generator.egg-info/SOURCES.txt'
+writing manifest file 'rov_path_generator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov-path-generator.egg-link (link to .)
+Installing rov_path_generator script to /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator/lib/rov_path_generator
+
+Installed /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_generator
+running symlink_data
+creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator/share/ament_index
+creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator/share/ament_index/resource_index
+creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator/share/ament_index/resource_index/packages
+symbolically linking /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_generator/resource/rov_path_generator -> /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator/share/ament_index/resource_index/packages
+symbolically linking /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_generator/package.xml -> /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator/share/rov_path_generator
+creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/launch
+creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/descriptions
+creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/config

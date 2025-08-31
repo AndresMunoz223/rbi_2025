@@ -1,0 +1,35 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//urdf/common_properties.xacro
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//urdf/irb140.urdf.xacro
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//urdf/irb140_description.xacro
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//launch/display.launch.xml
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/collision/base_link.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/collision/link_1.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/collision/link_2.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/collision/link_3.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/collision/link_4.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/collision/link_5.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/collision/link_6.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/visual/base_link.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/visual/link_1.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/visual/link_2.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/visual/link_3.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/visual/link_4.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/visual/link_5.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description//meshes/irb140/visual/link_6.stl
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/ament_index/resource_index/package_run_dependencies/abb_gz_description
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/ament_index/resource_index/parent_prefix_path/abb_gz_description
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description/environment/path.sh
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description/environment/path.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description/local_setup.bash
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description/local_setup.sh
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description/local_setup.zsh
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description/local_setup.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description/package.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/ament_index/resource_index/packages/abb_gz_description
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description/cmake/abb_gz_descriptionConfig.cmake
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description/cmake/abb_gz_descriptionConfig-version.cmake
+-- Symlinking: /home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_gz_description/share/abb_gz_description/package.xml

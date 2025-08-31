@@ -2,10 +2,18 @@ controller_manager:
   ros__parameters:
     update_rate: 50
 
-    forward_command_controller:
-      type: forward_command_controller/ForwardCommandController
+    rov_controller:
+      type: rov_controller/RovController
 
-forward_command_controller:
+rov_controller:
   ros__parameters:
     joints: ["thruster_joint_1","thruster_joint_2", "thruster_joint_3","thruster_joint_4","thruster_joint_5","thruster_joint_6"]  
-    interface_name: "effort"
+
+
+#     forward_command_controller:
+#       type: forward_command_controller/ForwardCommandController
+
+# forward_command_controller:
+#   ros__parameters:
+#     joints: ["thruster_joint_1","thruster_joint_2", "thruster_joint_3","thruster_joint_4","thruster_joint_5","thruster_joint_6"]  
+#     interface_name: "effort"

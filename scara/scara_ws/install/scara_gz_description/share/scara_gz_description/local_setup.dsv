@@ -1,2 +1,1 @@
-source;share/scara_gz_description/environment/ament_prefix_path.sh
-source;share/scara_gz_description/environment/path.sh
+/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description/ament_cmake_environment_hooks/local_setup.dsv

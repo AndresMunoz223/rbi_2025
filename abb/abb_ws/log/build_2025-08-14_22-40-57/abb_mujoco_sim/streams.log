@@ -1,0 +1,42 @@
+[0.532s] Invoking command in '/home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_mujoco_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/abb/abb_ws/install/abb_mujoco_sim
+[0.872s] -- The C compiler identification is GNU 11.4.0
+[0.872s] -- The CXX compiler identification is GNU 11.4.0
+[0.872s] -- Detecting C compiler ABI info
+[0.872s] -- Detecting C compiler ABI info - done
+[0.872s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.872s] -- Detecting C compile features
+[0.872s] -- Detecting C compile features - done
+[0.872s] -- Detecting CXX compiler ABI info
+[0.965s] -- Detecting CXX compiler ABI info - done
+[0.979s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.979s] -- Detecting CXX compile features
+[0.980s] -- Detecting CXX compile features - done
+[0.985s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.750s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.828s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.863s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.863s] -- Checking for module 'glfw3'
+[1.873s] --   Found glfw3, version 3.3.6
+[1.903s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.957s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.964s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.975s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.992s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.014s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.070s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.074s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.171s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.209s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.266s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.279s] -- Looking for pthread.h
+[2.365s] -- Looking for pthread.h - found
+[2.365s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.433s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.434s] -- Found Threads: TRUE  
+[2.495s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.521s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.552s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.571s] -- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.811s] -- Configuring done
+[2.830s] -- Generating done
+[2.835s] -- Build files have been written to: /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_mujoco_sim
