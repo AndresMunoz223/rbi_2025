@@ -1,0 +1,2 @@
+Invoking command in '/scara_ws/build/scara_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /scara_ws/src/scara_hardware_interface -DCMAKE_INSTALL_PREFIX=/scara_ws/install/scara_hardware_interface
+Invoked command in '/scara_ws/build/scara_hardware_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /scara_ws/src/scara_hardware_interface -DCMAKE_INSTALL_PREFIX=/scara_ws/install/scara_hardware_interface

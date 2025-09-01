@@ -1,31 +1,27 @@
 <launch>
+
+    <!--! Defining paths  -->
     <let name="urdf_path" 
          value="$(find-pkg-share rov_mujoco_description)/urdf/rov_description.urdf.xacro" />
 
-    <!-- <node pkg="robot_state_publisher" exec="robot_state_publisher">
-        <param name="robot_description"
-               value="$(command 'xacro $(var urdf_path)')" />
-    </node> -->
 
+    <!--! Spawn controller manager  -->
     <node pkg="controller_manager" exec="ros2_control_node">
         <param from="$(find-pkg-share rov_mujoco_bringup)/config/rov_controllers.yaml"/>
         <param name="robot_description" value="$(command 'xacro $(var urdf_path)')" />
     </node>
 
-    <!-- <node pkg="controller_manager" exec="spawner" args="forward_command_controller"
-          name="spawner_forward_command_controller"
-          output="screen">
-        <param name="controller_manager_timeout" value="10"/>
-    </node> -->rov_path_follower
+    <!--! Innit the controller  -->
+    <node pkg="controller_manager" exec="spawner" args="rov_controller"/>
 
-    <node pkg="rov_path_follower" exec="rov_path_follower"/>
+
+    <!--! Path following stuff -->
+    <node pkg="rov_path_generator" exec="rov_path_generator"/>
 
     <node pkg="rov_attitude_controller" exec="rov_attitude_controller"/>
 
     <node pkg="rov_position_controller" exec="rov_position_controller"/>
 
-    <node pkg="rov_path_generator" exec="rov_path_generator"/>
-
-    <node pkg="controller_manager" exec="spawner" args="rov_controller"/>
+    <node pkg="rov_path_follower" exec="rov_path_follower"/>
 
 </launch>

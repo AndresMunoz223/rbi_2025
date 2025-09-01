@@ -1,1 +1,1 @@
-/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_description/ament_cmake_core/rov_mujoco_descriptionConfig.cmake
+/rov_ws/build/rov_mujoco_description/ament_cmake_core/rov_mujoco_descriptionConfig.cmake

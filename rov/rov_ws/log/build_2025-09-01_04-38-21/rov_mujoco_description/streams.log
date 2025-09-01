@@ -1,0 +1,20 @@
+[0.466s] Invoking command in '/rov_ws/build/rov_mujoco_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_mujoco_description -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_mujoco_description
+[1.506s] -- The C compiler identification is GNU 11.4.0
+[1.506s] -- The CXX compiler identification is GNU 11.4.0
+[1.507s] -- Detecting C compiler ABI info
+[1.507s] -- Detecting C compiler ABI info - done
+[1.507s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.507s] -- Detecting C compile features
+[1.507s] -- Detecting C compile features - done
+[1.507s] -- Detecting CXX compiler ABI info
+[1.507s] -- Detecting CXX compiler ABI info - done
+[1.508s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.508s] -- Detecting CXX compile features
+[1.508s] -- Detecting CXX compile features - done
+[1.508s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.508s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.509s] -- Configuring done
+[1.509s] -- Generating done
+[1.509s] -- Build files have been written to: /rov_ws/build/rov_mujoco_description
+[1.980s] Invoked command in '/rov_ws/build/rov_mujoco_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_mujoco_description -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_mujoco_description
+[1.983s] Invoking command in '/rov_ws/build/rov_mujoco_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --build /rov_ws/build/rov_mujoco_description -- -j12 -l12

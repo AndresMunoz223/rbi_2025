@@ -1,0 +1,48 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /scara_ws/build/scara_mujoco_sim
+[35m[1mConsolidate compiler generated dependencies of target scara_mujoco_sim[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/scara_mujoco_sim.dir/src/mujoco_sim_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libscara_mujoco_sim.so[0m
+[100%] Built target scara_mujoco_sim
+-- Install configuration: ""
+-- Installing: /scara_ws/install/scara_mujoco_sim/lib/libscara_mujoco_sim.so
+-- Set runtime path of "/scara_ws/install/scara_mujoco_sim/lib/libscara_mujoco_sim.so" to "/scara_ws/src/scara_mujoco_sim/../../mujoco/lib"
+-- Installing: /scara_ws/install/scara_mujoco_sim/include/include
+-- Installing: /scara_ws/install/scara_mujoco_sim/include/include/scara_mujoco_sim
+-- Installing: /scara_ws/install/scara_mujoco_sim/include/include/scara_mujoco_sim/mujoco_sim_interface.hpp
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/environment/library_path.sh
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/environment/library_path.dsv
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/scara_hardware_interface.xml
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/ament_index/resource_index/package_run_dependencies/scara_mujoco_sim
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/ament_index/resource_index/parent_prefix_path/scara_mujoco_sim
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/environment/ament_prefix_path.sh
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/environment/ament_prefix_path.dsv
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/environment/path.sh
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/environment/path.dsv
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/local_setup.bash
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/local_setup.sh
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/local_setup.zsh
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/local_setup.dsv
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/package.dsv
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/ament_index/resource_index/packages/scara_mujoco_sim
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/scara_mujoco_sim
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/cmake/scara_mujoco_simConfig.cmake
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/cmake/scara_mujoco_simConfig-version.cmake
+-- Installing: /scara_ws/install/scara_mujoco_sim/share/scara_mujoco_sim/package.xml

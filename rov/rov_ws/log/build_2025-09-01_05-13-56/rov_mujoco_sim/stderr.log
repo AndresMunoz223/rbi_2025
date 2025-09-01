@@ -1,0 +1,17 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/rov_ws/src/rov_mujoco_sim/include/rov_sim/mujoco_sim_interface.hpp:20[m[K,
+                 from [01m[K/rov_ws/src/rov_mujoco_sim/src/mujoco_sim_interface.cpp:1[m[K:
+[01m[K/rov_ws/src/rov_mujoco_sim/src/mujoco_sim_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn rov_simulator_layer::RovSimulatorInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/rov_ws/src/rov_mujoco_sim/src/mujoco_sim_interface.cpp:27:52:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-security-Wformat-security]8;;[m[K]
+   27 |         RCLCPP_INFO(rclcpp::get_logger("rov sim"), [01;35m[Kerr_string[m[K);
+      |                                                    [01;35m[K^~~~~~~~~~[m[K

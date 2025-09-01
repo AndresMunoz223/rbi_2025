@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/abb_path_controller/abb_path_controller.egg-info
+writing ../../build/abb_path_controller/abb_path_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/abb_path_controller/abb_path_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/abb_path_controller/abb_path_controller.egg-info/entry_points.txt
+writing requirements to ../../build/abb_path_controller/abb_path_controller.egg-info/requires.txt
+writing top-level names to ../../build/abb_path_controller/abb_path_controller.egg-info/top_level.txt
+writing manifest file '../../build/abb_path_controller/abb_path_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/abb_path_controller/abb_path_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/abb_path_controller/abb_path_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /abb_ws/build/abb_path_controller/build
+creating /abb_ws/build/abb_path_controller/build/lib
+creating /abb_ws/build/abb_path_controller/build/lib/abb_path_controller
+copying abb_path_controller/abb_path_generator.py -> /abb_ws/build/abb_path_controller/build/lib/abb_path_controller
+copying abb_path_controller/__init__.py -> /abb_ws/build/abb_path_controller/build/lib/abb_path_controller
+copying abb_path_controller/abb_path_controller.py -> /abb_ws/build/abb_path_controller/build/lib/abb_path_controller
+running install
+running install_lib
+creating /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller
+copying /abb_ws/build/abb_path_controller/build/lib/abb_path_controller/abb_path_generator.py -> /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller
+copying /abb_ws/build/abb_path_controller/build/lib/abb_path_controller/__init__.py -> /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller
+copying /abb_ws/build/abb_path_controller/build/lib/abb_path_controller/abb_path_controller.py -> /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller
+byte-compiling /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller/abb_path_generator.py to abb_path_generator.cpython-310.pyc
+byte-compiling /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller/abb_path_controller.py to abb_path_controller.cpython-310.pyc
+running install_data
+creating /abb_ws/install/abb_path_controller/share/ament_index
+creating /abb_ws/install/abb_path_controller/share/ament_index/resource_index
+creating /abb_ws/install/abb_path_controller/share/ament_index/resource_index/packages
+copying resource/abb_path_controller -> /abb_ws/install/abb_path_controller/share/ament_index/resource_index/packages
+copying package.xml -> /abb_ws/install/abb_path_controller/share/abb_path_controller
+creating /abb_ws/install/abb_path_controller/share/abb_path_controller/launch
+creating /abb_ws/install/abb_path_controller/share/abb_path_controller/descriptions
+creating /abb_ws/install/abb_path_controller/share/abb_path_controller/config
+running install_egg_info
+Copying ../../build/abb_path_controller/abb_path_controller.egg-info to /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing abb_path_controller script to /abb_ws/install/abb_path_controller/lib/abb_path_controller
+Installing abb_path_generator script to /abb_ws/install/abb_path_controller/lib/abb_path_controller
+writing list of installed files to '/abb_ws/build/abb_path_controller/install.log'

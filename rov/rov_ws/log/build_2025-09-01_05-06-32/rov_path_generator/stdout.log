@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing rov_path_generator.egg-info/PKG-INFO
+writing dependency_links to rov_path_generator.egg-info/dependency_links.txt
+writing entry points to rov_path_generator.egg-info/entry_points.txt
+writing requirements to rov_path_generator.egg-info/requires.txt
+writing top-level names to rov_path_generator.egg-info/top_level.txt
+reading manifest file 'rov_path_generator.egg-info/SOURCES.txt'
+writing manifest file 'rov_path_generator.egg-info/SOURCES.txt'
+running build_ext
+Creating /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov-path-generator.egg-link (link to .)
+Installing rov_path_generator script to /rov_ws/install/rov_path_generator/lib/rov_path_generator
+
+Installed /rov_ws/build/rov_path_generator
+running symlink_data
+symbolically linking /rov_ws/build/rov_path_generator/resource/rov_path_generator -> /rov_ws/install/rov_path_generator/share/ament_index/resource_index/packages
+symbolically linking /rov_ws/build/rov_path_generator/package.xml -> /rov_ws/install/rov_path_generator/share/rov_path_generator

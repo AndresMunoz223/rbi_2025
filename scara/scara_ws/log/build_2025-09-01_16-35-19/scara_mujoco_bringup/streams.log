@@ -1,0 +1,3 @@
+[0.429s] Invoking command in '/scara_ws/build/scara_mujoco_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /scara_ws/build/scara_mujoco_bringup -- -j12 -l12
+[0.480s] Invoked command in '/scara_ws/build/scara_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /scara_ws/build/scara_mujoco_bringup -- -j12 -l12
+[0.482s] Invoking command in '/scara_ws/build/scara_mujoco_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /scara_ws/build/scara_mujoco_bringup

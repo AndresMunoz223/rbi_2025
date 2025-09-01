@@ -1,0 +1,2 @@
+Invoking command in '/rov_ws/build/rov_mujoco_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_mujoco_sim -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_mujoco_sim
+Invoked command in '/rov_ws/build/rov_mujoco_sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_mujoco_sim -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_mujoco_sim

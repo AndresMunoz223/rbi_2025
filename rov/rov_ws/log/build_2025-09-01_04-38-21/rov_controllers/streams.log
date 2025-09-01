@@ -1,0 +1,53 @@
+[0.475s] Invoking command in '/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_controllers -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_controllers
+[1.513s] -- The C compiler identification is GNU 11.4.0
+[1.515s] -- The CXX compiler identification is GNU 11.4.0
+[1.515s] -- Detecting C compiler ABI info
+[1.515s] -- Detecting C compiler ABI info - done
+[1.515s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.515s] -- Detecting C compile features
+[1.516s] -- Detecting C compile features - done
+[1.516s] -- Detecting CXX compiler ABI info
+[1.516s] -- Detecting CXX compiler ABI info - done
+[1.516s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.516s] -- Detecting CXX compile features
+[1.516s] -- Detecting CXX compile features - done
+[1.517s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.517s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.517s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.517s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.517s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.517s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.549s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.554s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.689s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.732s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.791s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.807s] -- Looking for pthread.h
+[1.896s] -- Looking for pthread.h - found
+[1.896s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.989s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.992s] -- Found Threads: TRUE  
+[2.112s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.145s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.187s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.239s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[2.239s]   By not providing "Findcontroller_interface.cmake" in CMAKE_MODULE_PATH this
+[2.239s]   project has asked CMake to find a package configuration file provided by
+[2.239s]   "controller_interface", but CMake did not find one.
+[2.239s] 
+[2.239s]   Could not find a package configuration file provided by
+[2.240s]   "controller_interface" with any of the following names:
+[2.240s] 
+[2.240s]     controller_interfaceConfig.cmake
+[2.240s]     controller_interface-config.cmake
+[2.240s] 
+[2.240s]   Add the installation prefix of "controller_interface" to CMAKE_PREFIX_PATH
+[2.240s]   or set "controller_interface_DIR" to a directory containing one of the
+[2.240s]   above files.  If "controller_interface" provides a separate development
+[2.241s]   package or SDK, be sure it has been installed.
+[2.241s] 
+[2.241s] [0m
+[2.241s] -- Configuring incomplete, errors occurred!
+[2.241s] See also "/rov_ws/build/rov_controllers/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,40 @@
+[2.289s] Invoking command in '/rov_ws/src/rov_path_generator': PYTHONPATH=/rov_ws/build/rov_path_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rov_ws/install/rov_path_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rov_path_generator build --build-base /rov_ws/build/rov_path_generator/build install --record /rov_ws/build/rov_path_generator/install.log --single-version-externally-managed install_data
+[2.740s] running egg_info
+[2.740s] creating ../../build/rov_path_generator/rov_path_generator.egg-info
+[2.741s] writing ../../build/rov_path_generator/rov_path_generator.egg-info/PKG-INFO
+[2.741s] writing dependency_links to ../../build/rov_path_generator/rov_path_generator.egg-info/dependency_links.txt
+[2.741s] writing entry points to ../../build/rov_path_generator/rov_path_generator.egg-info/entry_points.txt
+[2.742s] writing requirements to ../../build/rov_path_generator/rov_path_generator.egg-info/requires.txt
+[2.742s] writing top-level names to ../../build/rov_path_generator/rov_path_generator.egg-info/top_level.txt
+[2.742s] writing manifest file '../../build/rov_path_generator/rov_path_generator.egg-info/SOURCES.txt'
+[2.744s] reading manifest file '../../build/rov_path_generator/rov_path_generator.egg-info/SOURCES.txt'
+[2.745s] writing manifest file '../../build/rov_path_generator/rov_path_generator.egg-info/SOURCES.txt'
+[2.745s] running build
+[2.745s] running build_py
+[2.746s] creating /rov_ws/build/rov_path_generator/build
+[2.746s] creating /rov_ws/build/rov_path_generator/build/lib
+[2.746s] creating /rov_ws/build/rov_path_generator/build/lib/rov_path_generator
+[2.746s] copying rov_path_generator/rov_path_generator.py -> /rov_ws/build/rov_path_generator/build/lib/rov_path_generator
+[2.746s] copying rov_path_generator/__init__.py -> /rov_ws/build/rov_path_generator/build/lib/rov_path_generator
+[2.747s] running install
+[2.747s] running install_lib
+[2.747s] creating /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov_path_generator
+[2.748s] copying /rov_ws/build/rov_path_generator/build/lib/rov_path_generator/rov_path_generator.py -> /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov_path_generator
+[2.748s] copying /rov_ws/build/rov_path_generator/build/lib/rov_path_generator/__init__.py -> /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov_path_generator
+[2.748s] byte-compiling /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov_path_generator/rov_path_generator.py to rov_path_generator.cpython-310.pyc
+[2.751s] byte-compiling /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov_path_generator/__init__.py to __init__.cpython-310.pyc
+[2.751s] running install_data
+[2.751s] creating /rov_ws/install/rov_path_generator/share/ament_index
+[2.752s] creating /rov_ws/install/rov_path_generator/share/ament_index/resource_index
+[2.752s] creating /rov_ws/install/rov_path_generator/share/ament_index/resource_index/packages
+[2.752s] copying resource/rov_path_generator -> /rov_ws/install/rov_path_generator/share/ament_index/resource_index/packages
+[2.752s] copying package.xml -> /rov_ws/install/rov_path_generator/share/rov_path_generator
+[2.752s] creating /rov_ws/install/rov_path_generator/share/rov_path_generator/launch
+[2.753s] creating /rov_ws/install/rov_path_generator/share/rov_path_generator/descriptions
+[2.753s] creating /rov_ws/install/rov_path_generator/share/rov_path_generator/config
+[2.753s] running install_egg_info
+[2.754s] Copying ../../build/rov_path_generator/rov_path_generator.egg-info to /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov_path_generator-0.0.0-py3.10.egg-info
+[2.756s] running install_scripts
+[2.780s] Installing rov_path_generator script to /rov_ws/install/rov_path_generator/lib/rov_path_generator
+[2.781s] writing list of installed files to '/rov_ws/build/rov_path_generator/install.log'
+[2.847s] Invoked command in '/rov_ws/src/rov_path_generator' returned '0': PYTHONPATH=/rov_ws/build/rov_path_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rov_ws/install/rov_path_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rov_path_generator build --build-base /rov_ws/build/rov_path_generator/build install --record /rov_ws/build/rov_path_generator/install.log --single-version-externally-managed install_data

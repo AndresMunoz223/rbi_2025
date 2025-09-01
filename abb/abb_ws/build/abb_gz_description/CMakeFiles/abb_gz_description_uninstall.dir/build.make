@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_gz_description
+CMAKE_SOURCE_DIR = /abb_ws/src/abb_gz_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_description
+CMAKE_BINARY_DIR = /abb_ws/build/abb_gz_description
 
 # Utility rule file for abb_gz_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/abb_gz_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/abb_gz_description_uninstall.dir/progress.make
 
 CMakeFiles/abb_gz_description_uninstall:
-	/usr/bin/cmake -P /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /abb_ws/build/abb_gz_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 abb_gz_description_uninstall: CMakeFiles/abb_gz_description_uninstall
 abb_gz_description_uninstall: CMakeFiles/abb_gz_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/abb_gz_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/abb_gz_description_uninstall.dir/clean
 
 CMakeFiles/abb_gz_description_uninstall.dir/depend:
-	cd /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_gz_description /home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_gz_description /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_description /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_description /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_description/CMakeFiles/abb_gz_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /abb_ws/build/abb_gz_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /abb_ws/src/abb_gz_description /abb_ws/src/abb_gz_description /abb_ws/build/abb_gz_description /abb_ws/build/abb_gz_description /abb_ws/build/abb_gz_description/CMakeFiles/abb_gz_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/abb_gz_description_uninstall.dir/depend
 

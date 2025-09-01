@@ -1,0 +1,31 @@
+[2.249s] Invoking command in '/rov_ws/build/rov_attitude_controller': PYTHONPATH=/rov_ws/build/rov_attitude_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /rov_ws/build/rov_attitude_controller/build
+[2.646s] running develop
+[2.845s] Removing /rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov-attitude-controller.egg-link (link to .)
+[2.891s] Invoked command in '/rov_ws/build/rov_attitude_controller' returned '0': PYTHONPATH=/rov_ws/build/rov_attitude_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /rov_ws/build/rov_attitude_controller/build
+[2.892s] Invoking command in '/rov_ws/src/rov_attitude_controller': PYTHONPATH=/rov_ws/build/rov_attitude_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rov_attitude_controller build --build-base /rov_ws/build/rov_attitude_controller/build install --record /rov_ws/build/rov_attitude_controller/install.log --single-version-externally-managed install_data --force
+[3.267s] running egg_info
+[3.268s] writing ../../build/rov_attitude_controller/rov_attitude_controller.egg-info/PKG-INFO
+[3.268s] writing dependency_links to ../../build/rov_attitude_controller/rov_attitude_controller.egg-info/dependency_links.txt
+[3.269s] writing entry points to ../../build/rov_attitude_controller/rov_attitude_controller.egg-info/entry_points.txt
+[3.269s] writing requirements to ../../build/rov_attitude_controller/rov_attitude_controller.egg-info/requires.txt
+[3.269s] writing top-level names to ../../build/rov_attitude_controller/rov_attitude_controller.egg-info/top_level.txt
+[3.272s] reading manifest file '../../build/rov_attitude_controller/rov_attitude_controller.egg-info/SOURCES.txt'
+[3.273s] writing manifest file '../../build/rov_attitude_controller/rov_attitude_controller.egg-info/SOURCES.txt'
+[3.273s] running build
+[3.273s] running build_py
+[3.273s] running install
+[3.274s] running install_lib
+[3.275s] creating /rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov_attitude_controller
+[3.275s] copying /rov_ws/build/rov_attitude_controller/build/lib/rov_attitude_controller/rov_attitude_controller.py -> /rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov_attitude_controller
+[3.275s] copying /rov_ws/build/rov_attitude_controller/build/lib/rov_attitude_controller/__init__.py -> /rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov_attitude_controller
+[3.276s] byte-compiling /rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov_attitude_controller/rov_attitude_controller.py to rov_attitude_controller.cpython-310.pyc
+[3.278s] byte-compiling /rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov_attitude_controller/__init__.py to __init__.cpython-310.pyc
+[3.278s] running install_data
+[3.279s] copying resource/rov_attitude_controller -> /rov_ws/install/rov_attitude_controller/share/ament_index/resource_index/packages
+[3.279s] copying package.xml -> /rov_ws/install/rov_attitude_controller/share/rov_attitude_controller
+[3.279s] running install_egg_info
+[3.282s] Copying ../../build/rov_attitude_controller/rov_attitude_controller.egg-info to /rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov_attitude_controller-0.0.0-py3.10.egg-info
+[3.284s] running install_scripts
+[3.316s] Installing rov_attitude_controller script to /rov_ws/install/rov_attitude_controller/lib/rov_attitude_controller
+[3.316s] writing list of installed files to '/rov_ws/build/rov_attitude_controller/install.log'
+[3.370s] Invoked command in '/rov_ws/src/rov_attitude_controller' returned '0': PYTHONPATH=/rov_ws/build/rov_attitude_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rov_attitude_controller build --build-base /rov_ws/build/rov_attitude_controller/build install --record /rov_ws/build/rov_attitude_controller/install.log --single-version-externally-managed install_data --force

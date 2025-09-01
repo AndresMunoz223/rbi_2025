@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/rov_path_generator/rov_path_generator.egg-info
+writing ../../build/rov_path_generator/rov_path_generator.egg-info/PKG-INFO
+writing dependency_links to ../../build/rov_path_generator/rov_path_generator.egg-info/dependency_links.txt
+writing entry points to ../../build/rov_path_generator/rov_path_generator.egg-info/entry_points.txt
+writing requirements to ../../build/rov_path_generator/rov_path_generator.egg-info/requires.txt
+writing top-level names to ../../build/rov_path_generator/rov_path_generator.egg-info/top_level.txt
+writing manifest file '../../build/rov_path_generator/rov_path_generator.egg-info/SOURCES.txt'
+reading manifest file '../../build/rov_path_generator/rov_path_generator.egg-info/SOURCES.txt'
+writing manifest file '../../build/rov_path_generator/rov_path_generator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /rov_ws/build/rov_path_generator/build
+creating /rov_ws/build/rov_path_generator/build/lib
+creating /rov_ws/build/rov_path_generator/build/lib/rov_path_generator
+copying rov_path_generator/rov_path_generator.py -> /rov_ws/build/rov_path_generator/build/lib/rov_path_generator
+copying rov_path_generator/__init__.py -> /rov_ws/build/rov_path_generator/build/lib/rov_path_generator
+running install
+running install_lib
+creating /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov_path_generator
+copying /rov_ws/build/rov_path_generator/build/lib/rov_path_generator/rov_path_generator.py -> /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov_path_generator
+copying /rov_ws/build/rov_path_generator/build/lib/rov_path_generator/__init__.py -> /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov_path_generator
+byte-compiling /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov_path_generator/rov_path_generator.py to rov_path_generator.cpython-310.pyc
+byte-compiling /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov_path_generator/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /rov_ws/install/rov_path_generator/share/ament_index
+creating /rov_ws/install/rov_path_generator/share/ament_index/resource_index
+creating /rov_ws/install/rov_path_generator/share/ament_index/resource_index/packages
+copying resource/rov_path_generator -> /rov_ws/install/rov_path_generator/share/ament_index/resource_index/packages
+copying package.xml -> /rov_ws/install/rov_path_generator/share/rov_path_generator
+creating /rov_ws/install/rov_path_generator/share/rov_path_generator/launch
+creating /rov_ws/install/rov_path_generator/share/rov_path_generator/descriptions
+creating /rov_ws/install/rov_path_generator/share/rov_path_generator/config
+running install_egg_info
+Copying ../../build/rov_path_generator/rov_path_generator.egg-info to /rov_ws/install/rov_path_generator/lib/python3.10/site-packages/rov_path_generator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rov_path_generator script to /rov_ws/install/rov_path_generator/lib/rov_path_generator
+writing list of installed files to '/rov_ws/build/rov_path_generator/install.log'

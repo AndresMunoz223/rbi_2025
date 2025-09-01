@@ -1,0 +1,39 @@
+[0.430s] Invoking command in '/rov_ws/build/rov_mujoco_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_mujoco_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_mujoco_bringup
+[1.347s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.347s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.347s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.348s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.348s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.348s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.348s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.348s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.348s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.348s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.348s] -- Configuring done
+[1.348s] -- Generating done
+[1.348s] -- Build files have been written to: /rov_ws/build/rov_mujoco_bringup
+[1.684s] Invoked command in '/rov_ws/build/rov_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_mujoco_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_mujoco_bringup
+[1.685s] Invoking command in '/rov_ws/build/rov_mujoco_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --build /rov_ws/build/rov_mujoco_bringup -- -j12 -l12
+[1.756s] Invoked command in '/rov_ws/build/rov_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --build /rov_ws/build/rov_mujoco_bringup -- -j12 -l12
+[1.759s] Invoking command in '/rov_ws/build/rov_mujoco_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --install /rov_ws/build/rov_mujoco_bringup
+[1.772s] -- Install configuration: ""
+[1.773s] -- Execute custom install script
+[1.774s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//config/rov_controllers.yaml
+[1.789s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//launch/rov_bringup_launch.launch.xml
+[1.802s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_bringup
+[1.817s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_bringup
+[1.830s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/ament_prefix_path.sh
+[1.841s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/ament_prefix_path.dsv
+[1.856s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/path.sh
+[1.871s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/path.dsv
+[1.887s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.bash
+[1.903s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.sh
+[1.916s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.zsh
+[1.930s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.dsv
+[1.946s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.dsv
+[1.961s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/ament_index/resource_index/packages/rov_mujoco_bringup
+[1.977s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/cmake/rov_mujoco_bringupConfig.cmake
+[1.993s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/cmake/rov_mujoco_bringupConfig-version.cmake
+[2.007s] -- Symlinking: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.xml
+[2.024s] Invoked command in '/rov_ws/build/rov_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --install /rov_ws/build/rov_mujoco_bringup

@@ -1,0 +1,14 @@
+[0.399s] Invoking command in '/rov_ws/build/rov_mujoco_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_mujoco_sim -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_mujoco_sim
+[1.543s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.543s] -- Checking for module 'glfw3'
+[1.544s] --   No package 'glfw3' found
+[1.544s] -- Configuring incomplete, errors occurred!
+[1.544s] See also "/rov_ws/build/rov_mujoco_sim/CMakeFiles/CMakeOutput.log".
+[1.544s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):
+[1.544s]   A required package was not found
+[1.544s] Call Stack (most recent call first):
+[1.545s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)
+[1.545s]   CMakeLists.txt:22 (pkg_check_modules)
+[1.545s] 
+[1.545s] [0m
+[1.555s] Invoked command in '/rov_ws/build/rov_mujoco_sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_mujoco_sim -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_mujoco_sim

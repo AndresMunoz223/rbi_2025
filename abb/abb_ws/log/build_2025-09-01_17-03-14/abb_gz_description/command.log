@@ -1,0 +1,4 @@
+Invoking command in '/abb_ws/build/abb_gz_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_gz_description -- -j12 -l12
+Invoked command in '/abb_ws/build/abb_gz_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_gz_description -- -j12 -l12
+Invoking command in '/abb_ws/build/abb_gz_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /abb_ws/build/abb_gz_description
+Invoked command in '/abb_ws/build/abb_gz_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /abb_ws/build/abb_gz_description

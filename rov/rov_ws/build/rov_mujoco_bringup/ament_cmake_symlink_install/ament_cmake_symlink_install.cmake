@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_mujoco_bringup/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/rov_ws/install/rov_mujoco_bringup/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_mujoco_bringup/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/rov_ws/install/rov_mujoco_bringup/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_mujoco_bringup/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/rov_ws/install/rov_mujoco_bringup/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_mujoco_bringup/${destination}")
+      set(destination "/rov_ws/install/rov_mujoco_bringup/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "config" "launch" "DESTINATION" "share/rov_mujoco_bringup/")
-ament_cmake_symlink_install_directory("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" DIRECTORY "config" "launch" "DESTINATION" "share/rov_mujoco_bringup/")
+ament_cmake_symlink_install_directory("/rov_ws/src/rov_mujoco_bringup" DIRECTORY "config" "launch" "DESTINATION" "share/rov_mujoco_bringup/")
 
-# install(FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rov_mujoco_bringup/environment")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rov_mujoco_bringup/environment")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rov_mujoco_bringup/environment")
 
-# install(FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rov_mujoco_bringup/environment")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rov_mujoco_bringup/environment")
+# install(FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rov_mujoco_bringup/environment")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rov_mujoco_bringup/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rov_mujoco_bringup/environment")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rov_mujoco_bringup/environment")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rov_mujoco_bringup/environment")
 
-# install(FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rov_mujoco_bringup/environment")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rov_mujoco_bringup/environment")
+# install(FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rov_mujoco_bringup/environment")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rov_mujoco_bringup/environment")
 
-# install(FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rov_mujoco_bringup")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rov_mujoco_bringup")
+# install(FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rov_mujoco_bringup")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rov_mujoco_bringup")
 
-# install(FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rov_mujoco_bringup")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rov_mujoco_bringup")
+# install(FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rov_mujoco_bringup")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rov_mujoco_bringup")
 
-# install(FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rov_mujoco_bringup")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rov_mujoco_bringup")
+# install(FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rov_mujoco_bringup")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rov_mujoco_bringup")
 
-# install(FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rov_mujoco_bringup")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rov_mujoco_bringup")
+# install(FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rov_mujoco_bringup")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rov_mujoco_bringup")
 
-# install(FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rov_mujoco_bringup")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rov_mujoco_bringup")
+# install(FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rov_mujoco_bringup")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rov_mujoco_bringup")
 
-# install(FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_index/share/ament_index/resource_index/packages/rov_mujoco_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_index/share/ament_index/resource_index/packages/rov_mujoco_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_index/share/ament_index/resource_index/packages/rov_mujoco_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_index/share/ament_index/resource_index/packages/rov_mujoco_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_core/rov_mujoco_bringupConfig.cmake" "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_core/rov_mujoco_bringupConfig-version.cmake" "DESTINATION" "share/rov_mujoco_bringup/cmake")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_core/rov_mujoco_bringupConfig.cmake" "/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_core/rov_mujoco_bringupConfig-version.cmake" "DESTINATION" "share/rov_mujoco_bringup/cmake")
+# install(FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_core/rov_mujoco_bringupConfig.cmake" "/rov_ws/build/rov_mujoco_bringup/ament_cmake_core/rov_mujoco_bringupConfig-version.cmake" "DESTINATION" "share/rov_mujoco_bringup/cmake")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/rov_ws/build/rov_mujoco_bringup/ament_cmake_core/rov_mujoco_bringupConfig.cmake" "/rov_ws/build/rov_mujoco_bringup/ament_cmake_core/rov_mujoco_bringupConfig-version.cmake" "DESTINATION" "share/rov_mujoco_bringup/cmake")
 
-# install(FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup/package.xml" "DESTINATION" "share/rov_mujoco_bringup")
-ament_cmake_symlink_install_files("/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup" FILES "/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_mujoco_bringup/package.xml" "DESTINATION" "share/rov_mujoco_bringup")
+# install(FILES "/rov_ws/src/rov_mujoco_bringup/package.xml" "DESTINATION" "share/rov_mujoco_bringup")
+ament_cmake_symlink_install_files("/rov_ws/src/rov_mujoco_bringup" FILES "/rov_ws/src/rov_mujoco_bringup/package.xml" "DESTINATION" "share/rov_mujoco_bringup")

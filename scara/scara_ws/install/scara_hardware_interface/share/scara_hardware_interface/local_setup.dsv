@@ -1,1 +1,2 @@
-/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface/ament_cmake_environment_hooks/local_setup.dsv
+source;share/scara_hardware_interface/environment/ament_prefix_path.sh
+source;share/scara_hardware_interface/environment/path.sh

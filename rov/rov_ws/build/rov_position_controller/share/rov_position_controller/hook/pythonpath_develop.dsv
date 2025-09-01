@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_position_controller
+prepend-non-duplicate;PYTHONPATH;/rov_ws/build/rov_position_controller

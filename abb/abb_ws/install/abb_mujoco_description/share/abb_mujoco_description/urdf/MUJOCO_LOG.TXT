@@ -1,1 +1,15 @@
-/home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_mujoco_description/urdf/MUJOCO_LOG.TXT
+Wed Aug 13 20:14:32 2025
+ERROR: mjv_updateCamera: track body id is outside valid range
+
+Wed Aug 13 20:14:56 2025
+ERROR: mjv_updateCamera: track body id is outside valid range
+
+Wed Aug 13 20:15:09 2025
+ERROR: mjv_updateCamera: track body id is outside valid range
+
+Wed Aug 13 20:16:02 2025
+ERROR: mjv_updateCamera: track body id is outside valid range
+
+Wed Aug 13 20:17:11 2025
+ERROR: mjv_updateCamera: track body id is outside valid range
+

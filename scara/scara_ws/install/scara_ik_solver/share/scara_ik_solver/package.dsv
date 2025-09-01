@@ -4,6 +4,3 @@ source;share/scara_ik_solver/hook/pythonpath.sh
 source;share/scara_ik_solver/hook/ament_prefix_path.ps1
 source;share/scara_ik_solver/hook/ament_prefix_path.dsv
 source;share/scara_ik_solver/hook/ament_prefix_path.sh
-source;../../build/scara_ik_solver/share/scara_ik_solver/hook/pythonpath_develop.ps1
-source;../../build/scara_ik_solver/share/scara_ik_solver/hook/pythonpath_develop.dsv
-source;../../build/scara_ik_solver/share/scara_ik_solver/hook/pythonpath_develop.sh

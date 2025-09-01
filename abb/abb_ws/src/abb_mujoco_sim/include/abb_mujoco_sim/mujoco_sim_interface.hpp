@@ -25,7 +25,7 @@
 //! Ros2 control stuff....
 #include "hardware_interface/system_interface.hpp" //! -> system for simplicity.
 
-char filename[] = "/home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_mujoco_sim/description/abb.xml";
+char filename[] = "/abb_ws/src/abb_mujoco_sim/description/abb.xml";
 
 namespace abb_simulator_layer {
 

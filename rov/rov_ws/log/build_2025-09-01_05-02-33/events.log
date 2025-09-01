@@ -1,0 +1,330 @@
+[0.000000] (-) TimerEvent: {}
+[0.001029] (rov_attitude_controller) JobQueued: {'identifier': 'rov_attitude_controller', 'dependencies': OrderedDict()}
+[0.001110] (rov_controllers) JobQueued: {'identifier': 'rov_controllers', 'dependencies': OrderedDict()}
+[0.001232] (rov_mujoco_bringup) JobQueued: {'identifier': 'rov_mujoco_bringup', 'dependencies': OrderedDict()}
+[0.001335] (rov_mujoco_description) JobQueued: {'identifier': 'rov_mujoco_description', 'dependencies': OrderedDict()}
+[0.001849] (rov_mujoco_sim) JobQueued: {'identifier': 'rov_mujoco_sim', 'dependencies': OrderedDict()}
+[0.001905] (rov_path_follower) JobQueued: {'identifier': 'rov_path_follower', 'dependencies': OrderedDict()}
+[0.001939] (rov_path_generator) JobQueued: {'identifier': 'rov_path_generator', 'dependencies': OrderedDict()}
+[0.001989] (rov_position_controller) JobQueued: {'identifier': 'rov_position_controller', 'dependencies': OrderedDict()}
+[0.002021] (rov_attitude_controller) JobStarted: {'identifier': 'rov_attitude_controller'}
+[0.011982] (rov_controllers) JobStarted: {'identifier': 'rov_controllers'}
+[0.017109] (rov_mujoco_bringup) JobStarted: {'identifier': 'rov_mujoco_bringup'}
+[0.022199] (rov_mujoco_description) JobStarted: {'identifier': 'rov_mujoco_description'}
+[0.027472] (rov_mujoco_sim) JobStarted: {'identifier': 'rov_mujoco_sim'}
+[0.032632] (rov_path_follower) JobStarted: {'identifier': 'rov_path_follower'}
+[0.040959] (rov_path_generator) JobStarted: {'identifier': 'rov_path_generator'}
+[0.048034] (rov_position_controller) JobStarted: {'identifier': 'rov_position_controller'}
+[0.099803] (-) TimerEvent: {}
+[0.200216] (-) TimerEvent: {}
+[0.300569] (-) TimerEvent: {}
+[0.400941] (-) TimerEvent: {}
+[0.412835] (rov_controllers) JobProgress: {'identifier': 'rov_controllers', 'progress': 'cmake'}
+[0.413891] (rov_controllers) Command: {'cmd': ['/usr/bin/cmake', '/rov_ws/src/rov_controllers', '-DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_controllers'], 'cwd': '/rov_ws/build/rov_controllers', 'env': OrderedDict([('HOSTNAME', 'eia-Precision-3551'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8a84a947-2713-4856-ad0e-480346dd64b9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-d10fb794-9918-427e-8e31-8d917432ec78.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock","/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-62c058eb99.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/rov_ws/build/rov_controllers'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.416749] (rov_mujoco_bringup) JobProgress: {'identifier': 'rov_mujoco_bringup', 'progress': 'cmake'}
+[0.417519] (rov_mujoco_bringup) JobProgress: {'identifier': 'rov_mujoco_bringup', 'progress': 'build'}
+[0.418761] (rov_mujoco_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/rov_ws/build/rov_mujoco_bringup', '--', '-j12', '-l12'], 'cwd': '/rov_ws/build/rov_mujoco_bringup', 'env': OrderedDict([('HOSTNAME', 'eia-Precision-3551'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8a84a947-2713-4856-ad0e-480346dd64b9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-d10fb794-9918-427e-8e31-8d917432ec78.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock","/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-62c058eb99.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/rov_ws/build/rov_mujoco_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.420565] (rov_mujoco_description) JobProgress: {'identifier': 'rov_mujoco_description', 'progress': 'cmake'}
+[0.420853] (rov_mujoco_description) JobProgress: {'identifier': 'rov_mujoco_description', 'progress': 'build'}
+[0.421235] (rov_mujoco_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/rov_ws/build/rov_mujoco_description', '--', '-j12', '-l12'], 'cwd': '/rov_ws/build/rov_mujoco_description', 'env': OrderedDict([('HOSTNAME', 'eia-Precision-3551'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8a84a947-2713-4856-ad0e-480346dd64b9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-d10fb794-9918-427e-8e31-8d917432ec78.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock","/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-62c058eb99.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/rov_ws/build/rov_mujoco_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.423663] (rov_mujoco_sim) JobProgress: {'identifier': 'rov_mujoco_sim', 'progress': 'cmake'}
+[0.424075] (rov_mujoco_sim) Command: {'cmd': ['/usr/bin/cmake', '/rov_ws/src/rov_mujoco_sim', '-DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_mujoco_sim'], 'cwd': '/rov_ws/build/rov_mujoco_sim', 'env': OrderedDict([('HOSTNAME', 'eia-Precision-3551'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8a84a947-2713-4856-ad0e-480346dd64b9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-d10fb794-9918-427e-8e31-8d917432ec78.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock","/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-62c058eb99.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/rov_ws/build/rov_mujoco_sim'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.501072] (-) TimerEvent: {}
+[0.601453] (-) TimerEvent: {}
+[0.701884] (-) TimerEvent: {}
+[0.802379] (-) TimerEvent: {}
+[0.902687] (-) TimerEvent: {}
+[1.003054] (-) TimerEvent: {}
+[1.103461] (-) TimerEvent: {}
+[1.203798] (-) TimerEvent: {}
+[1.304140] (-) TimerEvent: {}
+[1.404571] (-) TimerEvent: {}
+[1.504922] (-) TimerEvent: {}
+[1.562384] (rov_controllers) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.563836] (rov_controllers) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.565087] (rov_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.567623] (rov_controllers) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.568012] (rov_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.568213] (rov_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.568889] (rov_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.569076] (rov_controllers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.569252] (rov_controllers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.569428] (rov_controllers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.569579] (rov_controllers) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.569725] (rov_controllers) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[1.569849] (rov_controllers) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.569973] (rov_controllers) StdoutLine: {'line': b'-- Found controller_interface: 2.51.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[1.570106] (rov_controllers) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.570262] (rov_controllers) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.570443] (rov_controllers) StdoutLine: {'line': b'-- Generating done\n'}
+[1.570602] (rov_controllers) StdoutLine: {'line': b'-- Build files have been written to: /rov_ws/build/rov_controllers\n'}
+[1.570769] (rov_mujoco_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.570975] (rov_mujoco_sim) StdoutLine: {'line': b"-- Checking for module 'glfw3'\n"}
+[1.571142] (rov_mujoco_sim) StdoutLine: {'line': b"--   No package 'glfw3' found\n"}
+[1.571335] (rov_mujoco_sim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.571501] (rov_mujoco_sim) StdoutLine: {'line': b'See also "/rov_ws/build/rov_mujoco_sim/CMakeFiles/CMakeOutput.log".\n'}
+[1.571660] (rov_mujoco_sim) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):\n'}
+[1.571843] (rov_mujoco_sim) StderrLine: {'line': b'  A required package was not found\n'}
+[1.572004] (rov_mujoco_sim) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.572159] (rov_mujoco_sim) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)\n'}
+[1.572331] (rov_mujoco_sim) StderrLine: {'line': b'  CMakeLists.txt:22 (pkg_check_modules)\n'}
+[1.572496] (rov_mujoco_sim) StderrLine: {'line': b'\n'}
+[1.572653] (rov_mujoco_sim) StderrLine: {'line': b'\x1b[0m\n'}
+[1.572807] (rov_mujoco_bringup) CommandEnded: {'returncode': 0}
+[1.573367] (rov_mujoco_bringup) JobProgress: {'identifier': 'rov_mujoco_bringup', 'progress': 'install'}
+[1.578878] (rov_mujoco_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/rov_ws/build/rov_mujoco_bringup'], 'cwd': '/rov_ws/build/rov_mujoco_bringup', 'env': OrderedDict([('HOSTNAME', 'eia-Precision-3551'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8a84a947-2713-4856-ad0e-480346dd64b9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-d10fb794-9918-427e-8e31-8d917432ec78.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock","/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-62c058eb99.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/rov_ws/build/rov_mujoco_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.580590] (rov_mujoco_description) CommandEnded: {'returncode': 0}
+[1.581358] (rov_mujoco_description) JobProgress: {'identifier': 'rov_mujoco_description', 'progress': 'install'}
+[1.581750] (rov_mujoco_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/rov_ws/build/rov_mujoco_description'], 'cwd': '/rov_ws/build/rov_mujoco_description', 'env': OrderedDict([('HOSTNAME', 'eia-Precision-3551'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8a84a947-2713-4856-ad0e-480346dd64b9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-d10fb794-9918-427e-8e31-8d917432ec78.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock","/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-62c058eb99.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/rov_ws/build/rov_mujoco_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.582960] (rov_mujoco_sim) CommandEnded: {'returncode': 1}
+[1.592836] (rov_controllers) CommandEnded: {'returncode': 0}
+[1.594028] (rov_mujoco_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.594653] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description//urdf\n'}
+[1.594768] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description//urdf/common_properties.xacro\n'}
+[1.594868] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description//urdf/rov_description.urdf.xacro\n'}
+[1.594963] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description//launch\n'}
+[1.595056] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description//launch/display.launch.xml\n'}
+[1.595149] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description//rviz\n'}
+[1.595251] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_description\n'}
+[1.595445] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_description\n'}
+[1.595540] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/environment/ament_prefix_path.sh\n'}
+[1.595677] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/environment/ament_prefix_path.dsv\n'}
+[1.595883] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/environment/path.sh\n'}
+[1.596039] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.597580] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//config\n'}
+[1.597703] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//config/rov_controllers.yaml\n'}
+[1.597799] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//launch\n'}
+[1.597890] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//launch/rov_bringup_launch.launch.xml\n'}
+[1.597979] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_bringup\n'}
+[1.598069] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_bringup\n'}
+[1.598156] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/ament_prefix_path.sh\n'}
+[1.598255] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/ament_prefix_path.dsv\n'}
+[1.599223] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/path.sh\n'}
+[1.599678] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/path.dsv\n'}
+[1.599828] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.bash\n'}
+[1.599951] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.sh\n'}
+[1.600069] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.zsh\n'}
+[1.600185] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.dsv\n'}
+[1.600364] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.dsv\n'}
+[1.600783] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/ament_index/resource_index/packages/rov_mujoco_bringup\n'}
+[1.600918] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/cmake/rov_mujoco_bringupConfig.cmake\n'}
+[1.601043] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/cmake/rov_mujoco_bringupConfig-version.cmake\n'}
+[1.601164] (rov_mujoco_bringup) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.xml\n'}
+[1.601336] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/environment/path.dsv\n'}
+[1.601560] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/local_setup.bash\n'}
+[1.601698] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/local_setup.sh\n'}
+[1.601821] (rov_controllers) JobProgress: {'identifier': 'rov_controllers', 'progress': 'build'}
+[1.601861] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/local_setup.zsh\n'}
+[1.602518] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/local_setup.dsv\n'}
+[1.604287] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/package.dsv\n'}
+[1.604881] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/ament_index/resource_index/packages/rov_mujoco_description\n'}
+[1.605040] (-) TimerEvent: {}
+[1.605345] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/cmake/rov_mujoco_descriptionConfig.cmake\n'}
+[1.606269] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/cmake/rov_mujoco_descriptionConfig-version.cmake\n'}
+[1.607986] (rov_mujoco_description) StdoutLine: {'line': b'-- Installing: /rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/package.xml\n'}
+[1.608178] (rov_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/rov_ws/build/rov_controllers', '--', '-j12', '-l12'], 'cwd': '/rov_ws/build/rov_controllers', 'env': OrderedDict([('HOSTNAME', 'eia-Precision-3551'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8a84a947-2713-4856-ad0e-480346dd64b9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-d10fb794-9918-427e-8e31-8d917432ec78.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e3550cfac4b63ca4eafca7b601f0d2885817fd1f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock","/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-62c058eb99.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6af00d8a-ac85-4f25-b7bb-1f13fe2f8446.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/rov_ws/build/rov_controllers'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.609036] (rov_mujoco_bringup) CommandEnded: {'returncode': 0}
+[1.644903] (rov_mujoco_bringup) JobEnded: {'identifier': 'rov_mujoco_bringup', 'rc': 0}
+[1.653951] (rov_mujoco_sim) JobEnded: {'identifier': 'rov_mujoco_sim', 'rc': 1}
+[1.656074] (rov_mujoco_description) CommandEnded: {'returncode': 0}
+[1.669393] (rov_controllers) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rov_controllers.dir/src/rov_forward_controller.cpp.o\x1b[0m\n'}
+[1.682138] (rov_mujoco_description) JobEnded: {'identifier': 'rov_mujoco_description', 'rc': 0}
+[1.705163] (-) TimerEvent: {}
+[1.805593] (-) TimerEvent: {}
+[1.906033] (-) TimerEvent: {}
+[2.006356] (-) TimerEvent: {}
+[2.106699] (-) TimerEvent: {}
+[2.207076] (-) TimerEvent: {}
+[2.244726] (rov_path_follower) JobEnded: {'identifier': 'rov_path_follower', 'rc': 'SIGINT'}
+[2.245192] (rov_attitude_controller) JobEnded: {'identifier': 'rov_attitude_controller', 'rc': 'SIGINT'}
+[2.245559] (rov_path_generator) JobEnded: {'identifier': 'rov_path_generator', 'rc': 'SIGINT'}
+[2.253882] (rov_position_controller) JobEnded: {'identifier': 'rov_position_controller', 'rc': 'SIGINT'}
+[2.307249] (-) TimerEvent: {}
+[2.407563] (-) TimerEvent: {}
+[2.508006] (-) TimerEvent: {}
+[2.608343] (-) TimerEvent: {}
+[2.708686] (-) TimerEvent: {}
+[2.809014] (-) TimerEvent: {}
+[2.909341] (-) TimerEvent: {}
+[3.009666] (-) TimerEvent: {}
+[3.110011] (-) TimerEvent: {}
+[3.210399] (-) TimerEvent: {}
+[3.310755] (-) TimerEvent: {}
+[3.411148] (-) TimerEvent: {}
+[3.511584] (-) TimerEvent: {}
+[3.611967] (-) TimerEvent: {}
+[3.712333] (-) TimerEvent: {}
+[3.812678] (-) TimerEvent: {}
+[3.913032] (-) TimerEvent: {}
+[4.013513] (-) TimerEvent: {}
+[4.113848] (-) TimerEvent: {}
+[4.214199] (-) TimerEvent: {}
+[4.314587] (-) TimerEvent: {}
+[4.415041] (-) TimerEvent: {}
+[4.515439] (-) TimerEvent: {}
+[4.615838] (-) TimerEvent: {}
+[4.716278] (-) TimerEvent: {}
+[4.816694] (-) TimerEvent: {}
+[4.917130] (-) TimerEvent: {}
+[5.017485] (-) TimerEvent: {}
+[5.117823] (-) TimerEvent: {}
+[5.218141] (-) TimerEvent: {}
+[5.318474] (-) TimerEvent: {}
+[5.418832] (-) TimerEvent: {}
+[5.519184] (-) TimerEvent: {}
+[5.619576] (-) TimerEvent: {}
+[5.719936] (-) TimerEvent: {}
+[5.820352] (-) TimerEvent: {}
+[5.920660] (-) TimerEvent: {}
+[6.020999] (-) TimerEvent: {}
+[6.121475] (-) TimerEvent: {}
+[6.221770] (-) TimerEvent: {}
+[6.322105] (-) TimerEvent: {}
+[6.422451] (-) TimerEvent: {}
+[6.522844] (-) TimerEvent: {}
+[6.623233] (-) TimerEvent: {}
+[6.723627] (-) TimerEvent: {}
+[6.823970] (-) TimerEvent: {}
+[6.924335] (-) TimerEvent: {}
+[7.024676] (-) TimerEvent: {}
+[7.125149] (-) TimerEvent: {}
+[7.225552] (-) TimerEvent: {}
+[7.325867] (-) TimerEvent: {}
+[7.426212] (-) TimerEvent: {}
+[7.526599] (-) TimerEvent: {}
+[7.626963] (-) TimerEvent: {}
+[7.727384] (-) TimerEvent: {}
+[7.827707] (-) TimerEvent: {}
+[7.928057] (-) TimerEvent: {}
+[8.028479] (-) TimerEvent: {}
+[8.128863] (-) TimerEvent: {}
+[8.229381] (-) TimerEvent: {}
+[8.329695] (-) TimerEvent: {}
+[8.430098] (-) TimerEvent: {}
+[8.530516] (-) TimerEvent: {}
+[8.630923] (-) TimerEvent: {}
+[8.731321] (-) TimerEvent: {}
+[8.831740] (-) TimerEvent: {}
+[8.932063] (-) TimerEvent: {}
+[9.032426] (-) TimerEvent: {}
+[9.132756] (-) TimerEvent: {}
+[9.233101] (-) TimerEvent: {}
+[9.333480] (-) TimerEvent: {}
+[9.433834] (-) TimerEvent: {}
+[9.534181] (-) TimerEvent: {}
+[9.634630] (-) TimerEvent: {}
+[9.735053] (-) TimerEvent: {}
+[9.835485] (-) TimerEvent: {}
+[9.935824] (-) TimerEvent: {}
+[10.036178] (-) TimerEvent: {}
+[10.136521] (-) TimerEvent: {}
+[10.236856] (-) TimerEvent: {}
+[10.337213] (-) TimerEvent: {}
+[10.437613] (-) TimerEvent: {}
+[10.538000] (-) TimerEvent: {}
+[10.638386] (-) TimerEvent: {}
+[10.738725] (-) TimerEvent: {}
+[10.839098] (-) TimerEvent: {}
+[10.939527] (-) TimerEvent: {}
+[11.039880] (-) TimerEvent: {}
+[11.140306] (-) TimerEvent: {}
+[11.240671] (-) TimerEvent: {}
+[11.340984] (-) TimerEvent: {}
+[11.441338] (-) TimerEvent: {}
+[11.541920] (-) TimerEvent: {}
+[11.642295] (-) TimerEvent: {}
+[11.742656] (-) TimerEvent: {}
+[11.843017] (-) TimerEvent: {}
+[11.943353] (-) TimerEvent: {}
+[12.043707] (-) TimerEvent: {}
+[12.144050] (-) TimerEvent: {}
+[12.244442] (-) TimerEvent: {}
+[12.344727] (-) TimerEvent: {}
+[12.445091] (-) TimerEvent: {}
+[12.545442] (-) TimerEvent: {}
+[12.645808] (-) TimerEvent: {}
+[12.746159] (-) TimerEvent: {}
+[12.846561] (-) TimerEvent: {}
+[12.946925] (-) TimerEvent: {}
+[13.047332] (-) TimerEvent: {}
+[13.147719] (-) TimerEvent: {}
+[13.248096] (-) TimerEvent: {}
+[13.348476] (-) TimerEvent: {}
+[13.448898] (-) TimerEvent: {}
+[13.549311] (-) TimerEvent: {}
+[13.649723] (-) TimerEvent: {}
+[13.750039] (-) TimerEvent: {}
+[13.850411] (-) TimerEvent: {}
+[13.950798] (-) TimerEvent: {}
+[14.051155] (-) TimerEvent: {}
+[14.151587] (-) TimerEvent: {}
+[14.251943] (-) TimerEvent: {}
+[14.352353] (-) TimerEvent: {}
+[14.452692] (-) TimerEvent: {}
+[14.553050] (-) TimerEvent: {}
+[14.653432] (-) TimerEvent: {}
+[14.753816] (-) TimerEvent: {}
+[14.854186] (-) TimerEvent: {}
+[14.954570] (-) TimerEvent: {}
+[15.054888] (-) TimerEvent: {}
+[15.155325] (-) TimerEvent: {}
+[15.255729] (-) TimerEvent: {}
+[15.356129] (-) TimerEvent: {}
+[15.456576] (-) TimerEvent: {}
+[15.556919] (-) TimerEvent: {}
+[15.657314] (-) TimerEvent: {}
+[15.757648] (-) TimerEvent: {}
+[15.858016] (-) TimerEvent: {}
+[15.958384] (-) TimerEvent: {}
+[16.058783] (-) TimerEvent: {}
+[16.159116] (-) TimerEvent: {}
+[16.259494] (-) TimerEvent: {}
+[16.359859] (-) TimerEvent: {}
+[16.460234] (-) TimerEvent: {}
+[16.560605] (-) TimerEvent: {}
+[16.660950] (-) TimerEvent: {}
+[16.761278] (-) TimerEvent: {}
+[16.861728] (-) TimerEvent: {}
+[16.962079] (-) TimerEvent: {}
+[17.062452] (-) TimerEvent: {}
+[17.162820] (-) TimerEvent: {}
+[17.263165] (-) TimerEvent: {}
+[17.363581] (-) TimerEvent: {}
+[17.464000] (-) TimerEvent: {}
+[17.564370] (-) TimerEvent: {}
+[17.664739] (-) TimerEvent: {}
+[17.765060] (-) TimerEvent: {}
+[17.865422] (-) TimerEvent: {}
+[17.965752] (-) TimerEvent: {}
+[18.066103] (-) TimerEvent: {}
+[18.166486] (-) TimerEvent: {}
+[18.266844] (-) TimerEvent: {}
+[18.367348] (-) TimerEvent: {}
+[18.467725] (-) TimerEvent: {}
+[18.568104] (-) TimerEvent: {}
+[18.668576] (-) TimerEvent: {}
+[18.768919] (-) TimerEvent: {}
+[18.869235] (-) TimerEvent: {}
+[18.969663] (-) TimerEvent: {}
+[19.069980] (-) TimerEvent: {}
+[19.170347] (-) TimerEvent: {}
+[19.270729] (-) TimerEvent: {}
+[19.371153] (-) TimerEvent: {}
+[19.471684] (-) TimerEvent: {}
+[19.572103] (-) TimerEvent: {}
+[19.672581] (-) TimerEvent: {}
+[19.772925] (-) TimerEvent: {}
+[19.873364] (-) TimerEvent: {}
+[19.959836] (rov_controllers) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librov_controllers.so\x1b[0m\n'}
+[19.973442] (-) TimerEvent: {}
+[20.073750] (-) TimerEvent: {}
+[20.174102] (-) TimerEvent: {}
+[20.274505] (-) TimerEvent: {}
+[20.374927] (-) TimerEvent: {}
+[20.475323] (-) TimerEvent: {}
+[20.575731] (-) TimerEvent: {}
+[20.676142] (-) TimerEvent: {}
+[20.776574] (-) TimerEvent: {}
+[20.846227] (rov_controllers) StdoutLine: {'line': b'[100%] Built target rov_controllers\n'}
+[20.855223] (rov_controllers) JobEnded: {'identifier': 'rov_controllers', 'rc': 'SIGINT'}
+[20.866074] (-) EventReactorShutdown: {}

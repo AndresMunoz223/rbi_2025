@@ -15,7 +15,6 @@ set(MUJOCO_INCLUDE_DIR_2 ${CMAKE_SOURCE_DIR}/../../mujoco/include)
 
 include_directories(include ${MUJOCO_INCLUDE_DIR})
 include_directories(${MUJOCO_INCLUDE_DIR_2})
-
 link_directories(${MUJOCO_LIB_DIR}/lib)
 
 find_package(PkgConfig REQUIRED)
@@ -24,15 +23,15 @@ pkg_check_modules(GLFW REQUIRED glfw3)
 include_directories(${GLFW_INCLUDE_DIRS})
 link_directories(${GLFW_LIBRARY_DIRS})
 
-add_executable(rov_mujoco_sim_direct src/mujoco_interface.cpp)
-target_link_libraries(rov_mujoco_sim_direct mujoco ${GLFW_LIBRARIES})
-
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_lifecycle REQUIRED)
 find_package(pluginlib REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(hardware_interface REQUIRED)  # <--- Add this line
+
+add_executable(rov_mujoco_sim_direct src/mujoco_interface.cpp)
+target_link_libraries(rov_mujoco_sim_direct mujoco ${GLFW_LIBRARIES})
 
 add_library(
   rov_mujoco_sim

@@ -1,0 +1,27 @@
+running develop
+Removing /rov_ws/install/rov_position_controller/lib/python3.10/site-packages/rov-position-controller.egg-link (link to .)
+running egg_info
+writing ../../build/rov_position_controller/rov_position_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/rov_position_controller/rov_position_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/rov_position_controller/rov_position_controller.egg-info/entry_points.txt
+writing requirements to ../../build/rov_position_controller/rov_position_controller.egg-info/requires.txt
+writing top-level names to ../../build/rov_position_controller/rov_position_controller.egg-info/top_level.txt
+reading manifest file '../../build/rov_position_controller/rov_position_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/rov_position_controller/rov_position_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /rov_ws/install/rov_position_controller/lib/python3.10/site-packages/rov_position_controller
+copying /rov_ws/build/rov_position_controller/build/lib/rov_position_controller/rov_position_controller.py -> /rov_ws/install/rov_position_controller/lib/python3.10/site-packages/rov_position_controller
+copying /rov_ws/build/rov_position_controller/build/lib/rov_position_controller/__init__.py -> /rov_ws/install/rov_position_controller/lib/python3.10/site-packages/rov_position_controller
+byte-compiling /rov_ws/install/rov_position_controller/lib/python3.10/site-packages/rov_position_controller/rov_position_controller.py to rov_position_controller.cpython-310.pyc
+byte-compiling /rov_ws/install/rov_position_controller/lib/python3.10/site-packages/rov_position_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/rov_position_controller -> /rov_ws/install/rov_position_controller/share/ament_index/resource_index/packages
+copying package.xml -> /rov_ws/install/rov_position_controller/share/rov_position_controller
+running install_egg_info
+Copying ../../build/rov_position_controller/rov_position_controller.egg-info to /rov_ws/install/rov_position_controller/lib/python3.10/site-packages/rov_position_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rov_position_controller script to /rov_ws/install/rov_position_controller/lib/rov_position_controller
+writing list of installed files to '/rov_ws/build/rov_position_controller/install.log'

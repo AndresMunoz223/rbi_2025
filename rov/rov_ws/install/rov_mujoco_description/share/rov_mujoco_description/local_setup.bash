@@ -1,1 +1,1 @@
-/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_description/ament_cmake_environment_hooks/local_setup.bash
+/rov_ws/build/rov_mujoco_description/ament_cmake_environment_hooks/local_setup.bash

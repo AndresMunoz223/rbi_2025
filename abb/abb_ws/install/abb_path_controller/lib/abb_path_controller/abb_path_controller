@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'abb-path-controller','console_scripts','abb_path_controller'
+# EASY-INSTALL-ENTRY-SCRIPT: 'abb-path-controller==0.0.0','console_scripts','abb_path_controller'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'abb-path-controller'
+__requires__ = 'abb-path-controller==0.0.0'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('abb-path-controller', 'console_scripts', 'abb_path_controller')())
+    sys.exit(load_entry_point('abb-path-controller==0.0.0', 'console_scripts', 'abb_path_controller')())

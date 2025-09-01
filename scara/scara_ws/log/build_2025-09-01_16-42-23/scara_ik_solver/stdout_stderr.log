@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/scara_ik_solver/scara_ik_solver.egg-info
+writing ../../build/scara_ik_solver/scara_ik_solver.egg-info/PKG-INFO
+writing dependency_links to ../../build/scara_ik_solver/scara_ik_solver.egg-info/dependency_links.txt
+writing entry points to ../../build/scara_ik_solver/scara_ik_solver.egg-info/entry_points.txt
+writing requirements to ../../build/scara_ik_solver/scara_ik_solver.egg-info/requires.txt
+writing top-level names to ../../build/scara_ik_solver/scara_ik_solver.egg-info/top_level.txt
+writing manifest file '../../build/scara_ik_solver/scara_ik_solver.egg-info/SOURCES.txt'
+reading manifest file '../../build/scara_ik_solver/scara_ik_solver.egg-info/SOURCES.txt'
+writing manifest file '../../build/scara_ik_solver/scara_ik_solver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /scara_ws/build/scara_ik_solver/build
+creating /scara_ws/build/scara_ik_solver/build/lib
+creating /scara_ws/build/scara_ik_solver/build/lib/scara_ik_solver
+copying scara_ik_solver/scara_ik_solver.py -> /scara_ws/build/scara_ik_solver/build/lib/scara_ik_solver
+copying scara_ik_solver/__init__.py -> /scara_ws/build/scara_ik_solver/build/lib/scara_ik_solver
+running install
+running install_lib
+creating /scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver
+copying /scara_ws/build/scara_ik_solver/build/lib/scara_ik_solver/scara_ik_solver.py -> /scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver
+copying /scara_ws/build/scara_ik_solver/build/lib/scara_ik_solver/__init__.py -> /scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver
+byte-compiling /scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver/scara_ik_solver.py to scara_ik_solver.cpython-310.pyc
+byte-compiling /scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /scara_ws/install/scara_ik_solver/share/ament_index
+creating /scara_ws/install/scara_ik_solver/share/ament_index/resource_index
+creating /scara_ws/install/scara_ik_solver/share/ament_index/resource_index/packages
+copying resource/scara_ik_solver -> /scara_ws/install/scara_ik_solver/share/ament_index/resource_index/packages
+copying package.xml -> /scara_ws/install/scara_ik_solver/share/scara_ik_solver
+creating /scara_ws/install/scara_ik_solver/share/scara_ik_solver/launch
+creating /scara_ws/install/scara_ik_solver/share/scara_ik_solver/descriptions
+creating /scara_ws/install/scara_ik_solver/share/scara_ik_solver/config
+running install_egg_info
+Copying ../../build/scara_ik_solver/scara_ik_solver.egg-info to /scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara_ik_solver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing scara_ik_solver script to /scara_ws/install/scara_ik_solver/lib/scara_ik_solver
+writing list of installed files to '/scara_ws/build/scara_ik_solver/install.log'

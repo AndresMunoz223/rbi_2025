@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing rov_position_controller.egg-info/PKG-INFO
+writing dependency_links to rov_position_controller.egg-info/dependency_links.txt
+writing entry points to rov_position_controller.egg-info/entry_points.txt
+writing requirements to rov_position_controller.egg-info/requires.txt
+writing top-level names to rov_position_controller.egg-info/top_level.txt
+reading manifest file 'rov_position_controller.egg-info/SOURCES.txt'
+writing manifest file 'rov_position_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /rov_ws/install/rov_position_controller/lib/python3.10/site-packages/rov-position-controller.egg-link (link to .)
+Installing rov_position_controller script to /rov_ws/install/rov_position_controller/lib/rov_position_controller
+
+Installed /rov_ws/build/rov_position_controller
+running symlink_data
+symbolically linking /rov_ws/build/rov_position_controller/resource/rov_position_controller -> /rov_ws/install/rov_position_controller/share/ament_index/resource_index/packages
+symbolically linking /rov_ws/build/rov_position_controller/package.xml -> /rov_ws/install/rov_position_controller/share/rov_position_controller

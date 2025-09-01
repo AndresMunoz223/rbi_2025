@@ -1,0 +1,44 @@
+[1.638s] Invoking command in '/abb_ws/src/abb_path_controller': PYTHONPATH=/abb_ws/build/abb_path_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/abb_ws/install/abb_path_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/abb_path_controller build --build-base /abb_ws/build/abb_path_controller/build install --record /abb_ws/build/abb_path_controller/install.log --single-version-externally-managed install_data
+[1.909s] running egg_info
+[1.909s] creating ../../build/abb_path_controller/abb_path_controller.egg-info
+[1.910s] writing ../../build/abb_path_controller/abb_path_controller.egg-info/PKG-INFO
+[1.910s] writing dependency_links to ../../build/abb_path_controller/abb_path_controller.egg-info/dependency_links.txt
+[1.910s] writing entry points to ../../build/abb_path_controller/abb_path_controller.egg-info/entry_points.txt
+[1.910s] writing requirements to ../../build/abb_path_controller/abb_path_controller.egg-info/requires.txt
+[1.911s] writing top-level names to ../../build/abb_path_controller/abb_path_controller.egg-info/top_level.txt
+[1.911s] writing manifest file '../../build/abb_path_controller/abb_path_controller.egg-info/SOURCES.txt'
+[1.914s] reading manifest file '../../build/abb_path_controller/abb_path_controller.egg-info/SOURCES.txt'
+[1.915s] writing manifest file '../../build/abb_path_controller/abb_path_controller.egg-info/SOURCES.txt'
+[1.915s] running build
+[1.915s] running build_py
+[1.915s] creating /abb_ws/build/abb_path_controller/build
+[1.915s] creating /abb_ws/build/abb_path_controller/build/lib
+[1.915s] creating /abb_ws/build/abb_path_controller/build/lib/abb_path_controller
+[1.915s] copying abb_path_controller/abb_path_generator.py -> /abb_ws/build/abb_path_controller/build/lib/abb_path_controller
+[1.916s] copying abb_path_controller/__init__.py -> /abb_ws/build/abb_path_controller/build/lib/abb_path_controller
+[1.916s] copying abb_path_controller/abb_path_controller.py -> /abb_ws/build/abb_path_controller/build/lib/abb_path_controller
+[1.916s] running install
+[1.917s] running install_lib
+[1.917s] creating /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller
+[1.918s] copying /abb_ws/build/abb_path_controller/build/lib/abb_path_controller/abb_path_generator.py -> /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller
+[1.918s] copying /abb_ws/build/abb_path_controller/build/lib/abb_path_controller/__init__.py -> /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller
+[1.918s] copying /abb_ws/build/abb_path_controller/build/lib/abb_path_controller/abb_path_controller.py -> /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller
+[1.918s] byte-compiling /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller/abb_path_generator.py to abb_path_generator.cpython-310.pyc
+[1.919s] byte-compiling /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller/__init__.py to __init__.cpython-310.pyc
+[1.919s] byte-compiling /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller/abb_path_controller.py to abb_path_controller.cpython-310.pyc
+[1.920s] running install_data
+[1.920s] creating /abb_ws/install/abb_path_controller/share/ament_index
+[1.920s] creating /abb_ws/install/abb_path_controller/share/ament_index/resource_index
+[1.920s] creating /abb_ws/install/abb_path_controller/share/ament_index/resource_index/packages
+[1.920s] copying resource/abb_path_controller -> /abb_ws/install/abb_path_controller/share/ament_index/resource_index/packages
+[1.920s] copying package.xml -> /abb_ws/install/abb_path_controller/share/abb_path_controller
+[1.921s] creating /abb_ws/install/abb_path_controller/share/abb_path_controller/launch
+[1.921s] creating /abb_ws/install/abb_path_controller/share/abb_path_controller/descriptions
+[1.921s] creating /abb_ws/install/abb_path_controller/share/abb_path_controller/config
+[1.921s] running install_egg_info
+[1.923s] Copying ../../build/abb_path_controller/abb_path_controller.egg-info to /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb_path_controller-0.0.0-py3.10.egg-info
+[1.923s] running install_scripts
+[1.948s] Installing abb_path_controller script to /abb_ws/install/abb_path_controller/lib/abb_path_controller
+[1.948s] Installing abb_path_generator script to /abb_ws/install/abb_path_controller/lib/abb_path_controller
+[1.949s] writing list of installed files to '/abb_ws/build/abb_path_controller/install.log'
+[1.974s] Invoked command in '/abb_ws/src/abb_path_controller' returned '0': PYTHONPATH=/abb_ws/build/abb_path_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/abb_ws/install/abb_path_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/abb_path_controller build --build-base /abb_ws/build/abb_path_controller/build install --record /abb_ws/build/abb_path_controller/install.log --single-version-externally-managed install_data

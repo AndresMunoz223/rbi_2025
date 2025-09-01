@@ -1,0 +1,3 @@
+Invoking command in '/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_controllers -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_controllers
+Invoked command in '/rov_ws/build/rov_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_controllers -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_controllers
+Invoking command in '/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rov_ws/build/rov_controllers -- -j12 -l12

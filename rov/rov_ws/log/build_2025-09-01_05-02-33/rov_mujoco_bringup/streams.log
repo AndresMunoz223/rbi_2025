@@ -1,0 +1,24 @@
+[0.403s] Invoking command in '/rov_ws/build/rov_mujoco_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rov_ws/build/rov_mujoco_bringup -- -j12 -l12
+[1.556s] Invoked command in '/rov_ws/build/rov_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rov_ws/build/rov_mujoco_bringup -- -j12 -l12
+[1.563s] Invoking command in '/rov_ws/build/rov_mujoco_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /rov_ws/build/rov_mujoco_bringup
+[1.580s] -- Install configuration: ""
+[1.581s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//config
+[1.581s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//config/rov_controllers.yaml
+[1.581s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//launch
+[1.581s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//launch/rov_bringup_launch.launch.xml
+[1.581s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_bringup
+[1.581s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_bringup
+[1.581s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/ament_prefix_path.sh
+[1.582s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/ament_prefix_path.dsv
+[1.582s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/path.sh
+[1.583s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/path.dsv
+[1.583s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.bash
+[1.583s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.sh
+[1.583s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.zsh
+[1.583s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.dsv
+[1.584s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.dsv
+[1.584s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/ament_index/resource_index/packages/rov_mujoco_bringup
+[1.584s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/cmake/rov_mujoco_bringupConfig.cmake
+[1.584s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/cmake/rov_mujoco_bringupConfig-version.cmake
+[1.584s] -- Installing: /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.xml
+[1.592s] Invoked command in '/rov_ws/build/rov_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /rov_ws/build/rov_mujoco_bringup

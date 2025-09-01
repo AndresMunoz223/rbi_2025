@@ -1,0 +1,19 @@
+[2.402s] Invoking command in '/rov_ws/build/rov_attitude_controller': PYTHONPATH=/rov_ws/build/rov_attitude_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rov_ws/build/rov_attitude_controller/build --no-deps symlink_data --force
+[2.866s] running develop
+[3.087s] running egg_info
+[3.087s] writing rov_attitude_controller.egg-info/PKG-INFO
+[3.087s] writing dependency_links to rov_attitude_controller.egg-info/dependency_links.txt
+[3.087s] writing entry points to rov_attitude_controller.egg-info/entry_points.txt
+[3.088s] writing requirements to rov_attitude_controller.egg-info/requires.txt
+[3.088s] writing top-level names to rov_attitude_controller.egg-info/top_level.txt
+[3.091s] reading manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'
+[3.092s] writing manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'
+[3.094s] running build_ext
+[3.094s] Creating /rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov-attitude-controller.egg-link (link to .)
+[3.096s] Installing rov_attitude_controller script to /rov_ws/install/rov_attitude_controller/lib/rov_attitude_controller
+[3.096s] 
+[3.096s] Installed /rov_ws/build/rov_attitude_controller
+[3.097s] running symlink_data
+[3.097s] symbolically linking /rov_ws/build/rov_attitude_controller/resource/rov_attitude_controller -> /rov_ws/install/rov_attitude_controller/share/ament_index/resource_index/packages
+[3.097s] symbolically linking /rov_ws/build/rov_attitude_controller/package.xml -> /rov_ws/install/rov_attitude_controller/share/rov_attitude_controller
+[3.145s] Invoked command in '/rov_ws/build/rov_attitude_controller' returned '0': PYTHONPATH=/rov_ws/build/rov_attitude_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rov_ws/build/rov_attitude_controller/build --no-deps symlink_data --force

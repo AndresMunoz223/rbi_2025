@@ -13,17 +13,16 @@ set(MUJOCO_LIB_DIR ${CMAKE_SOURCE_DIR}/../../mujoco)
 set(MUJOCO_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/../../mujoco/include/mujoco)
 set(MUJOCO_INCLUDE_DIR_2 ${CMAKE_SOURCE_DIR}/../../mujoco/include)
 
-include_directories(include ${MUJOCO_INCLUDE_DIR})
-include_directories(${MUJOCO_INCLUDE_DIR_2})
 
+include_directories(${MUJOCO_INCLUDE_DIR_2})
 link_directories(${MUJOCO_LIB_DIR}/lib)
+include_directories(include ${MUJOCO_INCLUDE_DIR})
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(GLFW REQUIRED glfw3)
 
 include_directories(${GLFW_INCLUDE_DIRS})
 link_directories(${GLFW_LIBRARY_DIRS})
-
 
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_lifecycle REQUIRED)
@@ -32,16 +31,11 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(hardware_interface REQUIRED)  # <--- Add this line
 
+
 add_library(
   scara_mujoco_sim
   SHARED
   src/mujoco_sim_interface.cpp
-)
-
-# Link MuJoCo and GLFW here
-target_link_libraries(scara_mujoco_sim
-  mujoco
-  ${GLFW_LIBRARIES}
 )
 
 set_target_properties(scara_mujoco_sim PROPERTIES
@@ -49,9 +43,12 @@ set_target_properties(scara_mujoco_sim PROPERTIES
   INSTALL_RPATH "${MUJOCO_LIB_DIR}/lib"
 )
 
-pluginlib_export_plugin_description_file(hardware_interface scara_hardware_interface.xml)
+target_link_libraries(scara_mujoco_sim
+  mujoco
+  ${GLFW_LIBRARIES}
+)
 
-install(TARGETS ${PROJECT_NAME}
+install(TARGETS scara_mujoco_sim
   DESTINATION lib
 )
 
@@ -60,10 +57,10 @@ install(DIRECTORY include
 )
 
 ament_export_libraries(
-  ${PROJECT_NAME}
+  scara_mujoco_sim
 )
 
-ament_target_dependencies(${PROJECT_NAME}
+ament_target_dependencies(scara_mujoco_sim
   rclcpp
   rclcpp_lifecycle
   pluginlib
@@ -80,5 +77,7 @@ ament_export_dependencies(
   geometry_msgs
   hardware_interface
 )
+
+pluginlib_export_plugin_description_file(hardware_interface scara_hardware_interface.xml)
 
 ament_package()

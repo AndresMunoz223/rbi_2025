@@ -4,6 +4,3 @@ source;share/abb_mujoco_python/hook/pythonpath.sh
 source;share/abb_mujoco_python/hook/ament_prefix_path.ps1
 source;share/abb_mujoco_python/hook/ament_prefix_path.dsv
 source;share/abb_mujoco_python/hook/ament_prefix_path.sh
-source;../../build/abb_mujoco_python/share/abb_mujoco_python/hook/pythonpath_develop.ps1
-source;../../build/abb_mujoco_python/share/abb_mujoco_python/hook/pythonpath_develop.dsv
-source;../../build/abb_mujoco_python/share/abb_mujoco_python/hook/pythonpath_develop.sh

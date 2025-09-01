@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_gz_description
+CMAKE_SOURCE_DIR = /abb_ws/src/abb_gz_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_description
+CMAKE_BINARY_DIR = /abb_ws/build/abb_gz_description
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_gz_description /home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_gz_description /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_description /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_description /home/eia/repo/rbi_2025_2/abb/abb_ws/build/abb_gz_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /abb_ws/build/abb_gz_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /abb_ws/src/abb_gz_description /abb_ws/src/abb_gz_description /abb_ws/build/abb_gz_description /abb_ws/build/abb_gz_description /abb_ws/build/abb_gz_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

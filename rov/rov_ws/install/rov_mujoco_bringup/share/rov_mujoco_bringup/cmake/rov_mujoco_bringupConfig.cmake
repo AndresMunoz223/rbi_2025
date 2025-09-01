@@ -1,1 +1,1 @@
-/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_mujoco_bringup/ament_cmake_core/rov_mujoco_bringupConfig.cmake
+/rov_ws/build/rov_mujoco_bringup/ament_cmake_core/rov_mujoco_bringupConfig.cmake

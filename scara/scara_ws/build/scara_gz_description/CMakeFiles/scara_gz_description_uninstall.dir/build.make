@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_gz_description
+CMAKE_SOURCE_DIR = /scara_ws/src/scara_gz_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description
+CMAKE_BINARY_DIR = /scara_ws/build/scara_gz_description
 
 # Utility rule file for scara_gz_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/scara_gz_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/scara_gz_description_uninstall.dir/progress.make
 
 CMakeFiles/scara_gz_description_uninstall:
-	/usr/bin/cmake -P /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /scara_ws/build/scara_gz_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 scara_gz_description_uninstall: CMakeFiles/scara_gz_description_uninstall
 scara_gz_description_uninstall: CMakeFiles/scara_gz_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/scara_gz_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/scara_gz_description_uninstall.dir/clean
 
 CMakeFiles/scara_gz_description_uninstall.dir/depend:
-	cd /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_gz_description /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_gz_description /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_gz_description/CMakeFiles/scara_gz_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /scara_ws/build/scara_gz_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /scara_ws/src/scara_gz_description /scara_ws/src/scara_gz_description /scara_ws/build/scara_gz_description /scara_ws/build/scara_gz_description /scara_ws/build/scara_gz_description/CMakeFiles/scara_gz_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/scara_gz_description_uninstall.dir/depend
 

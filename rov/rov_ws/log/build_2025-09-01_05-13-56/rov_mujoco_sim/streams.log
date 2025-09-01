@@ -1,0 +1,74 @@
+[0.414s] Invoking command in '/rov_ws/build/rov_mujoco_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_mujoco_sim -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_mujoco_sim
+[1.260s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.260s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.261s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.261s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.261s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.261s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.261s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.261s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.261s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.262s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.262s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.262s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.262s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.262s] -- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.352s] -- Configuring done
+[1.401s] -- Generating done
+[1.413s] -- Build files have been written to: /rov_ws/build/rov_mujoco_sim
+[1.633s] Invoked command in '/rov_ws/build/rov_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_mujoco_sim -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_mujoco_sim
+[1.635s] Invoking command in '/rov_ws/build/rov_mujoco_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --build /rov_ws/build/rov_mujoco_sim -- -j12 -l12
+[1.707s] [35m[1mConsolidate compiler generated dependencies of target rov_mujoco_sim_direct[0m
+[1.707s] [35m[1mConsolidate compiler generated dependencies of target rov_mujoco_sim[0m
+[1.733s] [ 50%] Built target rov_mujoco_sim_direct
+[1.741s] [ 75%] [32mBuilding CXX object CMakeFiles/rov_mujoco_sim.dir/src/mujoco_sim_interface.cpp.o[0m
+[5.271s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.272s]                  from [01m[K/rov_ws/src/rov_mujoco_sim/include/rov_sim/mujoco_sim_interface.hpp:20[m[K,
+[5.273s]                  from [01m[K/rov_ws/src/rov_mujoco_sim/src/mujoco_sim_interface.cpp:1[m[K:
+[5.273s] [01m[K/rov_ws/src/rov_mujoco_sim/src/mujoco_sim_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn rov_simulator_layer::RovSimulatorInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[5.273s] [01m[K/rov_ws/src/rov_mujoco_sim/src/mujoco_sim_interface.cpp:27:52:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-security-Wformat-security]8;;[m[K]
+[5.273s]    27 |         RCLCPP_INFO(rclcpp::get_logger("rov sim"), [01;35m[Kerr_string[m[K);
+[5.273s]       |                                                    [01;35m[K^~~~~~~~~~[m[K
+[6.809s] [100%] [32m[1mLinking CXX shared library librov_mujoco_sim.so[0m
+[7.017s] [100%] Built target rov_mujoco_sim
+[7.029s] Invoked command in '/rov_ws/build/rov_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --build /rov_ws/build/rov_mujoco_sim -- -j12 -l12
+[7.031s] Invoking command in '/rov_ws/build/rov_mujoco_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --install /rov_ws/build/rov_mujoco_sim
+[7.038s] -- Install configuration: ""
+[7.039s] -- Execute custom install script
+[7.039s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim//rov_hardware_interface.xml
+[7.039s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/lib/librov_mujoco_sim.so
+[7.040s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/include/include/rov_sim/mujoco_interface.hpp
+[7.040s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/include/include/rov_sim/mujoco_sim_interface.hpp
+[7.040s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/library_path.sh
+[7.040s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/library_path.dsv
+[7.040s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/lib/rov_mujoco_sim/rov_mujoco_sim_direct
+[7.041s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_sim
+[7.041s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_sim
+[7.041s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/ament_prefix_path.sh
+[7.041s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/ament_prefix_path.dsv
+[7.041s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/path.sh
+[7.042s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/path.dsv
+[7.042s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/local_setup.bash
+[7.042s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/local_setup.sh
+[7.042s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/local_setup.zsh
+[7.042s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/local_setup.dsv
+[7.042s] -- Symlinking: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.dsv
+[7.051s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/ament_index/resource_index/packages/rov_mujoco_sim
+[7.051s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rov_mujoco_sim
+[7.051s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/cmake/ament_cmake_export_libraries-extras.cmake
+[7.051s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.051s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/cmake/rov_mujoco_simConfig.cmake
+[7.051s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/cmake/rov_mujoco_simConfig-version.cmake
+[7.052s] -- Up-to-date symlink: /rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.xml
+[7.054s] Invoked command in '/rov_ws/build/rov_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --install /rov_ws/build/rov_mujoco_sim

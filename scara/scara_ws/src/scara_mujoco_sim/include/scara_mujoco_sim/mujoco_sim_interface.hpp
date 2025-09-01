@@ -25,7 +25,7 @@
 //! Ros2 control stuff....
 #include "hardware_interface/system_interface.hpp" //! -> system for simplicity.
 
-char filename[] = "/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_sim/description/scara.xml";
+char filename[] = "/scara_ws/src/scara_mujoco_sim/description/scara.xml";
 
 namespace scara_simulator_layer {
 

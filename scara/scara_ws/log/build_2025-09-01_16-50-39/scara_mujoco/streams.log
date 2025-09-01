@@ -1,0 +1,21 @@
+[0.901s] Invoking command in '/scara_ws/src/scara_mujoco': PYTHONPATH=/scara_ws/build/scara_mujoco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/scara_ws/install/scara_mujoco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_mujoco build --build-base /scara_ws/build/scara_mujoco/build install --record /scara_ws/build/scara_mujoco/install.log --single-version-externally-managed install_data
+[1.125s] running egg_info
+[1.126s] writing ../../build/scara_mujoco/scara_mujoco.egg-info/PKG-INFO
+[1.126s] writing dependency_links to ../../build/scara_mujoco/scara_mujoco.egg-info/dependency_links.txt
+[1.126s] writing entry points to ../../build/scara_mujoco/scara_mujoco.egg-info/entry_points.txt
+[1.127s] writing requirements to ../../build/scara_mujoco/scara_mujoco.egg-info/requires.txt
+[1.127s] writing top-level names to ../../build/scara_mujoco/scara_mujoco.egg-info/top_level.txt
+[1.128s] reading manifest file '../../build/scara_mujoco/scara_mujoco.egg-info/SOURCES.txt'
+[1.129s] writing manifest file '../../build/scara_mujoco/scara_mujoco.egg-info/SOURCES.txt'
+[1.129s] running build
+[1.129s] running build_py
+[1.129s] running install
+[1.130s] running install_lib
+[1.131s] running install_data
+[1.131s] running install_egg_info
+[1.132s] removing '/scara_ws/install/scara_mujoco/lib/python3.10/site-packages/scara_mujoco-0.0.0-py3.10.egg-info' (and everything under it)
+[1.133s] Copying ../../build/scara_mujoco/scara_mujoco.egg-info to /scara_ws/install/scara_mujoco/lib/python3.10/site-packages/scara_mujoco-0.0.0-py3.10.egg-info
+[1.133s] running install_scripts
+[1.152s] Installing scara_sim_mujoco script to /scara_ws/install/scara_mujoco/lib/scara_mujoco
+[1.152s] writing list of installed files to '/scara_ws/build/scara_mujoco/install.log'
+[1.174s] Invoked command in '/scara_ws/src/scara_mujoco' returned '0': PYTHONPATH=/scara_ws/build/scara_mujoco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/scara_ws/install/scara_mujoco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_mujoco build --build-base /scara_ws/build/scara_mujoco/build install --record /scara_ws/build/scara_mujoco/install.log --single-version-externally-managed install_data
