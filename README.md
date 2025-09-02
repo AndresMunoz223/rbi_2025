@@ -7,7 +7,7 @@ This repository recalls my little journy inside ros2 development stack, specific
 | ABB     | Serial Manipulator 6 DOF (6R)          | - Ros2 Humble<br />- ros2_control + controllers<br />- gazebo ignition | - Trajectory planning<br />- Motion control<br />- Hardware interfaces<br />- Task oriented routines |        |
 | SCARA   | Serial Manipulator 4 DOF (2RPR)        | - Ros2 Humble<br />- ros2_control + controllers<br />- gazebo ignition | - Trajectory planning<br />- Motion control<br />- Hardware interfaces<br />- Task oriented routines |        |
 | AGV-EIA | Mecanum wheeled mobile robot           | - Ros2 Humble                                                          | - Obstacle avoidance<br />- Live mapping and navigation                                              |        |
-| ROV-EIA | Underactuated underwater vehicle 5 DOF | - Ros2 Humble<br />- ros2_control + controllers                        | - Trajectory planning in 3D<br />- Motion control in 6 DOF<br />- 3D SLAM and Navigation             |        |
+| ROV-EIA | Underactuated underwater vehicle 5 DOF | - Ros2 Humble<br />- ros2_control + controllers                        | - Trajectory planning in 3D<br />- Motion control in 5 DOF<br />- 3D SLAM and Navigation             |        |
 
 
 # ABB IRB140 robot
@@ -16,6 +16,8 @@ This repository recalls my little journy inside ros2 development stack, specific
 
 # SCARA robot
 <img src="media/Scara.png" width="600" height="480"/>
+
+# ROV robot
 
 
 

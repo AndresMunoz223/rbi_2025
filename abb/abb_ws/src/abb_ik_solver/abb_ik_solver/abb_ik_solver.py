@@ -5,7 +5,51 @@ from geometry_msgs.msg import PoseStamped
 import numpy as np
 from icecream import ic
 
-#! Usé chatg para esta función, la verdad la pude haber importado de Otro paquete, pero la vddad no era tan relevante en el momento. :|
+
+class ABBKinematics():
+    def __init__(self, dh_matrix : np.array):
+        self.dh_matrix = dh_matrix
+
+#! Basic transformations
+
+    def x_translation(self, x : float) -> np.array:
+        return np.array([[1, 0, 0, x],
+                         [0, 1, 0, 0],
+                         [0, 0, 1, 0],
+                         [0, 0, 0, 1]])
+
+    def x_rotation(self, alpha : float) -> np.array:
+        return np.array([[1,             0,              0, 0],
+                         [0, np.cos(alpha), -np.sin(alpha), 0],
+                         [0, np.sin(alpha),  np.cos(alpha), 0],
+                         [0,             0,              0, 1]])
+    
+    def z_translation(self, z : float) -> np.array:
+        return np.array([[1, 0, 0, 0],
+                         [0, 1, 0, 0],
+                         [0, 0, 1, z],
+                         [0, 0, 0, 1]])
+    
+    def z_rotation(self, theta: float) -> np.array:
+        return np.array([[np.cos(alpha),-np.sin(alpha), 0, 0],
+                         [np.sin(alpha), np.cos(alpha), 0, 0],
+                         [            0,             0, 0, 0],
+                         [            0,             0, 0, 1]])
+
+#! ------------------------
+
+    def get_fk(self, link_index : int):
+        current_origin = np.array([[0.], [0.], [0.], [0.]])
+        for i in range(link_index):
+            current_origin = x_translation(self.dh_matrix[link_index][0])*x_rotation(self.dh_matrix[link_index][1])*z_translation(self.dh_matrix[link_index][2])*z_rotation(self.dh_matrix[link_index][3])
+        return current_origin
+    
+    def get_ik(self):
+        pass
+
+
+
+
 def quat_to_euler(q):
     """
     Convert a quaternion [x, y, z, w] into Euler angles (roll, pitch, yaw).
@@ -35,33 +79,24 @@ def quat_to_euler(q):
 
     return roll, pitch, yaw
 
-
 class IkSolverABB():
-    def __init__(self, l1, l2, thetha_1_bounds=[62, -62], thetha_2_bounds=[100, -100], z_bounds=[0.3, 0]):
-        self.l1 = l1
-        self.l2 = l2
-        self.l3 = l3
-        self.theta_1_bounds = thetha_1_bounds
-        self.theta_2_bounds = thetha_2_bounds
-        ic(f"Robot configured with : {self.l1, self.l2, self.theta_1_bounds, self.theta_2_bounds}")
+    def __init__(self, dh_parameters : np.array):
+        self.dh_parameters = dh_parameters
         
-        #!Note for yo, pues, yo hago esta chimbada. Implemente los bound check de z, no se le olvide :)
-
+        
     def solve_for_pose(self, pose : np.array):
         pass
 
 class IkSolverNode(Node):
     def __init__(self):
         super().__init__("ik_solver_node")
-        self.declare_parameter("link_1_lenght", 0.210)
-        self.declare_parameter("link_2_lenght", 0.250)
-        self.declare_parameter("link_3_lenght", 0.250)
-        self.declare_parameter("link_4_lenght", 0.250)
-        self.declare_parameter("link_5_lenght", 0.250)
+        self.dh_params = np.array([[  0,       0, 1.202,   0],
+                                   [ 90, 0.06988,     0,  90],
+                                   [  0,   0.362,     0,  90],
+                                   [  0,   0.380,     0, 180],
+                                   [-90,       0,     0, 180],
+                                   [-90,       0, 0.065, 180]])
         
-        l1_lenght = self.get_parameter("link_1_lenght").get_parameter_value().double_value
-        l2_lenght = self.get_parameter("link_2_lenght").get_parameter_value().double_value
-        self.ik_solver = IkSolverScara(l1=l1_lenght, l2=l2_lenght)
         
         self.pose_subs = self.create_subscription(PoseStamped, "/goal_pose", self.goal_pose_callback, 10)
         self.joint_pub = self.create_publisher(Float64MultiArray, "/arm_joints_controller/commands", 10)
