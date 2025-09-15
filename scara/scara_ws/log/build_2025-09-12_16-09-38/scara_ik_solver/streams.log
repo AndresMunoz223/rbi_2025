@@ -1,0 +1,17 @@
+[8.781s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build --no-deps symlink_data
+[10.115s] running develop
+[11.111s] running egg_info
+[11.112s] writing scara_ik_solver.egg-info/PKG-INFO
+[11.113s] writing dependency_links to scara_ik_solver.egg-info/dependency_links.txt
+[11.113s] writing entry points to scara_ik_solver.egg-info/entry_points.txt
+[11.114s] writing requirements to scara_ik_solver.egg-info/requires.txt
+[11.114s] writing top-level names to scara_ik_solver.egg-info/top_level.txt
+[11.120s] reading manifest file 'scara_ik_solver.egg-info/SOURCES.txt'
+[11.123s] writing manifest file 'scara_ik_solver.egg-info/SOURCES.txt'
+[11.296s] running build_ext
+[11.297s] Creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages/scara-ik-solver.egg-link (link to .)
+[11.300s] Installing scara_ik_solver script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/scara_ik_solver
+[11.301s] 
+[11.302s] Installed /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver
+[11.302s] running symlink_data
+[11.440s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_ik_solver/build --no-deps symlink_data

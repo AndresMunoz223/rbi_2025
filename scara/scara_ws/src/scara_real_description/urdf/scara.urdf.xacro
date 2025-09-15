@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot name="scara" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="scara_description.xacro" />
+
+
+<ros2_control name="Scara" type="system">
+  <hardware>
+    <plugin>scara_hardware_layer/ScaraHardwareInterface</plugin>
+  </hardware>
+
+  <joint name="joint_0">
+    <command_interface name="position" />
+    <state_interface name="position" />
+  </joint>
+
+  <joint name="joint_1">
+    <command_interface name="position" />
+    <state_interface name="position" />
+  </joint>
+
+  <joint name="joint_2">
+    <command_interface name="position" />
+    <state_interface name="position" />
+  </joint>
+
+  <joint name="joint_3">
+    <command_interface name="position" />
+    <state_interface name="position" />
+  </joint>
+</ros2_control>
+
+</robot>

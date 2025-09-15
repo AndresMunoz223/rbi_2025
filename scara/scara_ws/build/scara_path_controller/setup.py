@@ -1,0 +1,1 @@
+/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_path_controller/setup.py

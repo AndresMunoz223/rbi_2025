@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+config/heart_path.txt
+config/path.txt
+config/path_square.txt
+premade_path_publisher/__init__.py
+premade_path_publisher/premade_path_publisher.py
+premade_path_publisher.egg-info/PKG-INFO
+premade_path_publisher.egg-info/SOURCES.txt
+premade_path_publisher.egg-info/dependency_links.txt
+premade_path_publisher.egg-info/entry_points.txt
+premade_path_publisher.egg-info/requires.txt
+premade_path_publisher.egg-info/top_level.txt
+premade_path_publisher.egg-info/zip-safe
+resource/premade_path_publisher

@@ -1,0 +1,17 @@
+[8.684s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_controller': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_controller/build --no-deps symlink_data
+[10.072s] running develop
+[11.082s] running egg_info
+[11.082s] writing scara_path_controller.egg-info/PKG-INFO
+[11.083s] writing dependency_links to scara_path_controller.egg-info/dependency_links.txt
+[11.084s] writing entry points to scara_path_controller.egg-info/entry_points.txt
+[11.085s] writing requirements to scara_path_controller.egg-info/requires.txt
+[11.085s] writing top-level names to scara_path_controller.egg-info/top_level.txt
+[11.092s] reading manifest file 'scara_path_controller.egg-info/SOURCES.txt'
+[11.095s] writing manifest file 'scara_path_controller.egg-info/SOURCES.txt'
+[11.284s] running build_ext
+[11.285s] Creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_controller/lib/python3.10/site-packages/scara-path-controller.egg-link (link to .)
+[11.287s] Installing scara_path_controller script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_controller/lib/scara_path_controller
+[11.288s] 
+[11.290s] Installed /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_controller
+[11.291s] running symlink_data
+[11.441s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_controller' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_controller/build --no-deps symlink_data

@@ -1,1 +1,1 @@
-/scara_ws/install/scara_mujoco_sim:/scara_ws/install/scara_mujoco_description:/scara_ws/install/scara_mujoco_bringup:/scara_ws/install/scara_mujoco:/scara_ws/install/scara_ik_solver:/scara_ws/install/scara_hardware_interface:/scara_ws/install/scara_gz_description:/scara_ws/install/scara_gz_bringup:/opt/ros/humble
+/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/scara_mujoco_sim

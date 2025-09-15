@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/scara_path_controller
+scara_path_controller/__init__.py
+scara_path_controller/scara_path_controller.py
+scara_path_controller.egg-info/PKG-INFO
+scara_path_controller.egg-info/SOURCES.txt
+scara_path_controller.egg-info/dependency_links.txt
+scara_path_controller.egg-info/entry_points.txt
+scara_path_controller.egg-info/requires.txt
+scara_path_controller.egg-info/top_level.txt
+scara_path_controller.egg-info/zip-safe

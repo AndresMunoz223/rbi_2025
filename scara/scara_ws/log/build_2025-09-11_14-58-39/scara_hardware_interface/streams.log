@@ -1,0 +1,10 @@
+[0.418s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface -- -j12 -l12
+[1.765s] [ 50%] [32m[1mLinking CXX shared library libscara_hardware_interface.so[0m
+[1.766s] /usr/bin/ld: /usr/local/lib/libCppLinuxSerial.a(SerialPort.cpp.o): warning: relocation against `_ZTIN2mn14CppLinuxSerial9ExceptionE' in read-only section `.text'
+[1.767s] /usr/bin/ld: /usr/local/lib/libCppLinuxSerial.a(SerialPort.cpp.o): relocation R_X86_64_PC32 against symbol `_ZN2mn14CppLinuxSerial9ExceptionD1Ev' can not be used when making a shared object; recompile with -fPIC
+[1.767s] /usr/bin/ld: final link failed: bad value
+[1.768s] collect2: error: ld returned 1 exit status
+[1.768s] gmake[2]: *** [CMakeFiles/scara_hardware_interface.dir/build.make:288: libscara_hardware_interface.so] Error 1
+[1.768s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/scara_hardware_interface.dir/all] Error 2
+[1.768s] gmake: *** [Makefile:146: all] Error 2
+[1.785s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface -- -j12 -l12

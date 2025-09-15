@@ -1,0 +1,3 @@
+[console_scripts]
+scara_path_controller = scara_path_controller.scara_path_controller:main
+

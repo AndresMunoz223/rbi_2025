@@ -1,0 +1,7 @@
+/usr/bin/ld: /usr/local/lib/libCppLinuxSerial.a(SerialPort.cpp.o): warning: relocation against `_ZTIN2mn14CppLinuxSerial9ExceptionE' in read-only section `.text'
+/usr/bin/ld: /usr/local/lib/libCppLinuxSerial.a(SerialPort.cpp.o): relocation R_X86_64_PC32 against symbol `_ZN2mn14CppLinuxSerial9ExceptionD1Ev' can not be used when making a shared object; recompile with -fPIC
+/usr/bin/ld: final link failed: bad value
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/scara_hardware_interface.dir/build.make:288: libscara_hardware_interface.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/scara_hardware_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

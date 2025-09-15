@@ -1,0 +1,28 @@
+[2.886s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/build --no-deps symlink_data
+[3.494s] running develop
+[3.867s] running egg_info
+[3.867s] creating scara_mujoco_python_sim.egg-info
+[3.867s] writing scara_mujoco_python_sim.egg-info/PKG-INFO
+[3.868s] writing dependency_links to scara_mujoco_python_sim.egg-info/dependency_links.txt
+[3.868s] writing entry points to scara_mujoco_python_sim.egg-info/entry_points.txt
+[3.868s] writing requirements to scara_mujoco_python_sim.egg-info/requires.txt
+[3.868s] writing top-level names to scara_mujoco_python_sim.egg-info/top_level.txt
+[3.868s] writing manifest file 'scara_mujoco_python_sim.egg-info/SOURCES.txt'
+[3.872s] reading manifest file 'scara_mujoco_python_sim.egg-info/SOURCES.txt'
+[3.872s] writing manifest file 'scara_mujoco_python_sim.egg-info/SOURCES.txt'
+[3.924s] running build_ext
+[3.924s] Creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/lib/python3.10/site-packages/scara-mujoco-python-sim.egg-link (link to .)
+[3.925s] Installing scara_mujoco_python_sim script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/lib/scara_mujoco_python_sim
+[3.925s] 
+[3.925s] Installed /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim
+[3.926s] running symlink_data
+[3.926s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/ament_index
+[3.926s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/ament_index/resource_index
+[3.926s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/ament_index/resource_index/packages
+[3.926s] symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/resource/scara_mujoco_python_sim -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/ament_index/resource_index/packages
+[3.926s] symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/package.xml -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/scara_mujoco_python_sim
+[3.926s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/scara_mujoco_python_sim/launch
+[3.927s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/scara_mujoco_python_sim/descriptions
+[3.927s] symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/descriptions/basic_scenario.xml -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/scara_mujoco_python_sim/descriptions
+[3.927s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/scara_mujoco_python_sim/config
+[3.971s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/build --no-deps symlink_data

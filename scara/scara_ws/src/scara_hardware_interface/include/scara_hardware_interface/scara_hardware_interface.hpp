@@ -18,6 +18,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "eigen3/Eigen/Dense"
+#include "std_msgs/msg/float32_multi_array.hpp"
 
 #include <CppLinuxSerial/SerialPort.hpp>
 
@@ -26,10 +27,15 @@
 
 using namespace mn::CppLinuxSerial;
 
+using FloatArray32 = std_msgs::msg::Float32MultiArray;
+
+
+
 namespace scara_hardware_layer {
 
 class ScaraHardwareInterface : public hardware_interface::SystemInterface
 {
+   
     public:
 
     ~ScaraHardwareInterface();
@@ -53,26 +59,14 @@ class ScaraHardwareInterface : public hardware_interface::SystemInterface
     
     std::vector<hardware_interface::CommandInterface>
         export_command_interfaces() override;
-
-    void
-        start_controllers();
-
-    void
-        controller_thread();
-
     void    
         cleanup();
 
     private:
-
-
-    std::array<double, 4> joint_positions_{};
-    std::array<double, 4> actuator_commands_{};
-    std::array<double, 4> joint_position_targets_{};
-    SerialPort serial_port_;
-    std::string delimiter = "|";
-
-    std::thread simulation_thread_;
+        std::array<double, 4> joint_positions_;
+        std::array<double, 4> joint_position_targets_;
+        SerialPort serial_port_;
+        std::string delimiter = "|";
 
     //! --------------------------------------------
 

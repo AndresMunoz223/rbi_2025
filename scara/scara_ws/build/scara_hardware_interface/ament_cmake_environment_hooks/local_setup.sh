@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/scara_ws/install/scara_hardware_interface"}
+: ${AMENT_CURRENT_PREFIX:="/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \
@@ -152,6 +152,7 @@ fi
 
 # list all environment hooks of this package
 ament_append_value AMENT_ENVIRONMENT_HOOKS "$AMENT_CURRENT_PREFIX/share/scara_hardware_interface/environment/ament_prefix_path.sh"
+ament_append_value AMENT_ENVIRONMENT_HOOKS "$AMENT_CURRENT_PREFIX/share/scara_hardware_interface/environment/library_path.sh"
 ament_append_value AMENT_ENVIRONMENT_HOOKS "$AMENT_CURRENT_PREFIX/share/scara_hardware_interface/environment/path.sh"
 
 # source all shell-specific environment hooks of this package

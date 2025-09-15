@@ -1,0 +1,17 @@
+[3.130s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/build --no-deps symlink_data
+[3.618s] running develop
+[4.000s] running egg_info
+[4.000s] writing premade_path_publisher.egg-info/PKG-INFO
+[4.001s] writing dependency_links to premade_path_publisher.egg-info/dependency_links.txt
+[4.001s] writing entry points to premade_path_publisher.egg-info/entry_points.txt
+[4.001s] writing requirements to premade_path_publisher.egg-info/requires.txt
+[4.001s] writing top-level names to premade_path_publisher.egg-info/top_level.txt
+[4.004s] reading manifest file 'premade_path_publisher.egg-info/SOURCES.txt'
+[4.005s] writing manifest file 'premade_path_publisher.egg-info/SOURCES.txt'
+[4.068s] running build_ext
+[4.069s] Creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/lib/python3.10/site-packages/premade-path-publisher.egg-link (link to .)
+[4.070s] Installing premade_path_publisher script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/lib/premade_path_publisher
+[4.070s] 
+[4.070s] Installed /home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher
+[4.071s] running symlink_data
+[4.138s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/build --no-deps symlink_data

@@ -9,6 +9,11 @@
     <plugin>gz_ros2_control/GazeboSimSystem</plugin>
   </hardware>
 
+  <joint name="joint_0">
+    <command_interface name="position" />
+    <state_interface name="position" />
+  </joint>
+
   <joint name="joint_1">
     <command_interface name="position" />
     <state_interface name="position" />
@@ -23,17 +28,19 @@
     <command_interface name="position" />
     <state_interface name="position" />
   </joint>
-
-  <joint name="joint_4">
-    <command_interface name="position" />
-    <state_interface name="position" />
-  </joint>
 </ros2_control>
 
 <gazebo>
   <plugin name="gz_ros2_control::GazeboSimROS2ControlPlugin" filename="libgz_ros2_control-system.so">
   <parameters>$(find scara_gz_bringup)/config/controllers.yaml</parameters>
   </plugin>
+</gazebo>
+
+<gazebo reference="joint_0">
+  <ros2_control>
+    <command_interface>position</command_interface>
+    <state_interface>position</state_interface>
+  </ros2_control>
 </gazebo>
 
 <gazebo reference="joint_1">
@@ -51,13 +58,6 @@
 </gazebo>
 
 <gazebo reference="joint_3">
-  <ros2_control>
-    <command_interface>position</command_interface>
-    <state_interface>position</state_interface>
-  </ros2_control>
-</gazebo>
-
-<gazebo reference="joint_4">
   <ros2_control>
     <command_interface>position</command_interface>
     <state_interface>position</state_interface>

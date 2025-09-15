@@ -35,4 +35,12 @@
 
     <node pkg="scara_ik_solver" exec="scara_ik_solver"/>
 
+    <node pkg="scara_path_controller" exec="scara_path_controller"/>
+
+    <node pkg="scara_path_generator" exec="scara_path_generator"/>
+
+    <node pkg="premade_path_publisher" exec="premade_path_publisher"/>
+
+    <!-- <node pkg="scara_tf_generator" exec="scara_tf_generator"/> -->
+    
 </launch>

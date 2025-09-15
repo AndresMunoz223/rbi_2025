@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target scara_hardware_interface[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libscara_hardware_interface.so[0m
+[100%] Built target scara_hardware_interface

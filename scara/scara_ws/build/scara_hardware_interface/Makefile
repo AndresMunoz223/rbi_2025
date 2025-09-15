@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /scara_ws/src/scara_hardware_interface
+CMAKE_SOURCE_DIR = /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /scara_ws/build/scara_hardware_interface
+CMAKE_BINARY_DIR = /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /scara_ws/build/scara_hardware_interface/CMakeFiles /scara_ws/build/scara_hardware_interface//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface/CMakeFiles /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /scara_ws/build/scara_hardware_interface/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -197,6 +197,43 @@ scara_hardware_interface_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scara_hardware_interface_uninstall.dir/build.make CMakeFiles/scara_hardware_interface_uninstall.dir/build
 .PHONY : scara_hardware_interface_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named scara_hardware_interface
+
+# Build rule for target.
+scara_hardware_interface: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scara_hardware_interface
+.PHONY : scara_hardware_interface
+
+# fast build rule for target.
+scara_hardware_interface/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scara_hardware_interface.dir/build.make CMakeFiles/scara_hardware_interface.dir/build
+.PHONY : scara_hardware_interface/fast
+
+src/scara_hardware_interface.o: src/scara_hardware_interface.cpp.o
+.PHONY : src/scara_hardware_interface.o
+
+# target to build an object file
+src/scara_hardware_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scara_hardware_interface.dir/build.make CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o
+.PHONY : src/scara_hardware_interface.cpp.o
+
+src/scara_hardware_interface.i: src/scara_hardware_interface.cpp.i
+.PHONY : src/scara_hardware_interface.i
+
+# target to preprocess a source file
+src/scara_hardware_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scara_hardware_interface.dir/build.make CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.i
+.PHONY : src/scara_hardware_interface.cpp.i
+
+src/scara_hardware_interface.s: src/scara_hardware_interface.cpp.s
+.PHONY : src/scara_hardware_interface.s
+
+# target to generate assembly for a file
+src/scara_hardware_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scara_hardware_interface.dir/build.make CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.s
+.PHONY : src/scara_hardware_interface.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... scara_hardware_interface_uninstall"
 	@echo "... uninstall"
+	@echo "... scara_hardware_interface"
+	@echo "... src/scara_hardware_interface.o"
+	@echo "... src/scara_hardware_interface.i"
+	@echo "... src/scara_hardware_interface.s"
 .PHONY : help
 
 

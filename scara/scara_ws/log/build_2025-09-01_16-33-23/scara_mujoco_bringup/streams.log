@@ -1,1 +1,0 @@
-[0.412s] Invoking command in '/scara_ws/build/scara_mujoco_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /scara_ws/build/scara_mujoco_bringup -- -j12 -l12

@@ -1,0 +1,25 @@
+[0.041s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_real_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_real_description -- -j12 -l12
+[0.575s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_real_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_real_description -- -j12 -l12
+[0.577s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_real_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_real_description
+[0.588s] -- Install configuration: ""
+[0.588s] -- Execute custom install script
+[0.589s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description//urdf/common_properties.xacro
+[0.589s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description//urdf/scara.urdf.xacro
+[0.589s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description//urdf/scara_description.xacro
+[0.590s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description//launch/display.launch.xml
+[0.590s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/ament_index/resource_index/package_run_dependencies/scara_real_description
+[0.590s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/ament_index/resource_index/parent_prefix_path/scara_real_description
+[0.591s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description/environment/ament_prefix_path.sh
+[0.591s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description/environment/ament_prefix_path.dsv
+[0.591s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description/environment/path.sh
+[0.592s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description/environment/path.dsv
+[0.592s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description/local_setup.bash
+[0.592s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description/local_setup.sh
+[0.593s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description/local_setup.zsh
+[0.593s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description/local_setup.dsv
+[0.593s] -- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description/package.dsv
+[0.607s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/ament_index/resource_index/packages/scara_real_description
+[0.609s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description/cmake/scara_real_descriptionConfig.cmake
+[0.609s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description/cmake/scara_real_descriptionConfig-version.cmake
+[0.609s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_real_description/share/scara_real_description/package.xml
+[0.613s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_real_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_real_description

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/scara_path_generator
+scara_path_generator/__init__.py
+scara_path_generator/scara_path_generator.py
+scara_path_generator.egg-info/PKG-INFO
+scara_path_generator.egg-info/SOURCES.txt
+scara_path_generator.egg-info/dependency_links.txt
+scara_path_generator.egg-info/entry_points.txt
+scara_path_generator.egg-info/requires.txt
+scara_path_generator.egg-info/top_level.txt
+scara_path_generator.egg-info/zip-safe

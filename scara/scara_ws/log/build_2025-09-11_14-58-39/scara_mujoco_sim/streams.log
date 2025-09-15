@@ -1,0 +1,4 @@
+[1.078s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim -- -j12 -l12
+[1.745s] [100%] Built target scara_mujoco_sim
+[1.786s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim -- -j12 -l12
+[1.788s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_sim

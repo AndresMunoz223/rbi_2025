@@ -1,0 +1,57 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface
+[35m[1mConsolidate compiler generated dependencies of target scara_hardware_interface[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o[0m
+[01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn scara_hardware_layer::ScaraHardwareInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:28:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+   28 |     }catch(Exception [01;35m[Ke[m[K){
+      |                      [01;35m[K^[m[K
+[01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn scara_hardware_layer::ScaraHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:49:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+   49 |     }catch(Exception [01;35m[Ke[m[K){
+      |                      [01;35m[K^[m[K
+[01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type scara_hardware_layer::ScaraHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:84:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+   84 |     }catch(Exception [01;35m[Ke[m[K){
+      |                      [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX shared library libscara_hardware_interface.so[0m
+[100%] Built target scara_hardware_interface
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface//scara_hardware_interface.xml
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/lib/libscara_hardware_interface.so
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/include/include/scara_hardware_interface/scara_hardware_interface.hpp
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/environment/library_path.sh
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/environment/library_path.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/ament_index/resource_index/package_run_dependencies/scara_hardware_interface
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/ament_index/resource_index/parent_prefix_path/scara_hardware_interface
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/environment/ament_prefix_path.sh
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/environment/ament_prefix_path.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/environment/path.sh
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/environment/path.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/local_setup.bash
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/local_setup.sh
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/local_setup.zsh
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/local_setup.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.dsv
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/ament_index/resource_index/packages/scara_hardware_interface
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/scara_hardware_interface
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/cmake/scara_hardware_interfaceConfig.cmake
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/cmake/scara_hardware_interfaceConfig-version.cmake
+-- Symlinking: /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface/share/scara_hardware_interface/package.xml

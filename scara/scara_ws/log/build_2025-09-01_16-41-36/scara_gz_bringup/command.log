@@ -1,3 +1,0 @@
-Invoking command in '/scara_ws/build/scara_gz_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /scara_ws/build/scara_gz_bringup -- -j12 -l12
-Invoked command in '/scara_ws/build/scara_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /scara_ws/build/scara_gz_bringup -- -j12 -l12
-Invoking command in '/scara_ws/build/scara_gz_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /scara_ws/build/scara_gz_bringup

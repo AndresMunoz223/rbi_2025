@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating scara_mujoco_python_sim.egg-info
+writing scara_mujoco_python_sim.egg-info/PKG-INFO
+writing dependency_links to scara_mujoco_python_sim.egg-info/dependency_links.txt
+writing entry points to scara_mujoco_python_sim.egg-info/entry_points.txt
+writing requirements to scara_mujoco_python_sim.egg-info/requires.txt
+writing top-level names to scara_mujoco_python_sim.egg-info/top_level.txt
+writing manifest file 'scara_mujoco_python_sim.egg-info/SOURCES.txt'
+reading manifest file 'scara_mujoco_python_sim.egg-info/SOURCES.txt'
+writing manifest file 'scara_mujoco_python_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/lib/python3.10/site-packages/scara-mujoco-python-sim.egg-link (link to .)
+Installing scara_mujoco_python_sim script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/lib/scara_mujoco_python_sim
+
+Installed /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim
+running symlink_data
+creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/ament_index
+creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/ament_index/resource_index
+creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/ament_index/resource_index/packages
+symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/resource/scara_mujoco_python_sim -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/ament_index/resource_index/packages
+symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/package.xml -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/scara_mujoco_python_sim
+creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/scara_mujoco_python_sim/launch
+creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/scara_mujoco_python_sim/descriptions
+symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/descriptions/basic_scenario.xml -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/scara_mujoco_python_sim/descriptions
+creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/share/scara_mujoco_python_sim/config

@@ -1,0 +1,27 @@
+[2.879s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator/build --no-deps symlink_data
+[3.542s] running develop
+[4.016s] running egg_info
+[4.016s] creating scara_path_generator.egg-info
+[4.017s] writing scara_path_generator.egg-info/PKG-INFO
+[4.017s] writing dependency_links to scara_path_generator.egg-info/dependency_links.txt
+[4.017s] writing entry points to scara_path_generator.egg-info/entry_points.txt
+[4.017s] writing requirements to scara_path_generator.egg-info/requires.txt
+[4.018s] writing top-level names to scara_path_generator.egg-info/top_level.txt
+[4.018s] writing manifest file 'scara_path_generator.egg-info/SOURCES.txt'
+[4.021s] reading manifest file 'scara_path_generator.egg-info/SOURCES.txt'
+[4.022s] writing manifest file 'scara_path_generator.egg-info/SOURCES.txt'
+[4.100s] running build_ext
+[4.100s] Creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/lib/python3.10/site-packages/scara-path-generator.egg-link (link to .)
+[4.101s] Installing scara_path_generator script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/lib/scara_path_generator
+[4.101s] 
+[4.101s] Installed /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator
+[4.102s] running symlink_data
+[4.102s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/share/ament_index
+[4.102s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/share/ament_index/resource_index
+[4.102s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/share/ament_index/resource_index/packages
+[4.102s] symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator/resource/scara_path_generator -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/share/ament_index/resource_index/packages
+[4.102s] symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator/package.xml -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/share/scara_path_generator
+[4.102s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/share/scara_path_generator/launch
+[4.103s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/share/scara_path_generator/descriptions
+[4.103s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/share/scara_path_generator/config
+[4.138s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator/build --no-deps symlink_data

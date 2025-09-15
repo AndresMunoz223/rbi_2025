@@ -2,23 +2,6 @@
 
 namespace scara_hardware_layer {
 
-//! General function --> Stack overflow, toy cansado, ta tarde :/
-
-std::vector<std::string> split(std::string s, std::string delimiter) {
-    size_t pos_start = 0, pos_end, delim_len = delimiter.length();
-    std::string token;
-    std::vector<std::string> res;
-
-    while ((pos_end = s.find(delimiter, pos_start)) != std::string::npos) {
-        token = s.substr (pos_start, pos_end - pos_start);
-        pos_start = pos_end + delim_len;
-        res.push_back(token);
-    }
-
-    res.push_back (s.substr (pos_start));
-    return res;
-}
-
 
 hardware_interface::CallbackReturn ScaraHardwareInterface::on_init(const hardware_interface::HardwareInfo &info){
     
@@ -29,6 +12,7 @@ hardware_interface::CallbackReturn ScaraHardwareInterface::on_init(const hardwar
     info_ = info;
 
     RCLCPP_INFO(rclcpp::get_logger("scara_hardware_abstraction"), "I STARTED");
+    
     return hardware_interface::CallbackReturn::SUCCESS;
 }
 
@@ -37,8 +21,13 @@ hardware_interface::CallbackReturn ScaraHardwareInterface::on_configure
 
     (void)previus_state;
 
+    joint_position_targets_[0] = 0.;
+    joint_position_targets_[1] = 0.;
+    joint_position_targets_[2] = 0.;
+    joint_position_targets_[3] = 0.;
+
     try {
-    serial_port_ = SerialPort("/dev/ttyUSB0", BaudRate::B_115200, NumDataBits::EIGHT, Parity::NONE, NumStopBits::ONE);
+    serial_port_ = SerialPort("/dev/ttyUSB1", BaudRate::B_115200, NumDataBits::EIGHT, Parity::NONE, NumStopBits::ONE);
 	serial_port_.SetTimeout(100); // Block for up to 100ms to receive data
 	serial_port_.Open();
     }catch(Exception e){
@@ -75,22 +64,12 @@ hardware_interface::return_type ScaraHardwareInterface::read
     
     (void)time;
     (void)period;
-    std::vector<double> linear_vel =  {0., 0., 0.};
 
-    std::string readData;
-	serial_port_.Read(readData);
-
-
-    std::vector<std::string> joint_pos = split(readData,delimiter);
-
-    joint_positions_[0] = std::stod(joint_pos[0]);
-    joint_positions_[1] = std::stod(joint_pos[1]);
-    joint_positions_[2] = std::stod(joint_pos[2]);
-    joint_positions_[3] = std::stod(joint_pos[3]);
-
-    // joint_positions_[0] = ;
-
-
+    joint_positions_[0] = joint_position_targets_[0];
+    joint_positions_[1] = joint_position_targets_[1];
+    joint_positions_[2] = joint_position_targets_[2];
+    joint_positions_[3] = joint_position_targets_[3];
+ 
 
     return hardware_interface::return_type::OK;
 }
@@ -101,10 +80,11 @@ hardware_interface::return_type ScaraHardwareInterface::write
     (void)time;
     (void)period;
 
-    std::string writeData = std::to_string(actuator_commands_[0]) + "|" +
-    std::to_string(actuator_commands_[1]) + "|" + 
-    std::to_string(actuator_commands_[2]) + "|" + 
-    std::to_string(actuator_commands_[3]);
+    std::string writeData = std::to_string(joint_position_targets_[0]*180/M_PI) + "|" +
+    std::to_string(joint_position_targets_[1]*180/M_PI) + "|" + 
+    std::to_string(joint_position_targets_[2]) + "\n";
+
+    RCLCPP_INFO(rclcpp::get_logger("scara_sim"), writeData.c_str());
 
     try{
         serial_port_.Write(writeData);
@@ -122,7 +102,7 @@ ScaraHardwareInterface::export_state_interfaces()
     std::vector<hardware_interface::StateInterface> state_interfaces;
     for (size_t i = 0; i < 4; ++i) {
         state_interfaces.emplace_back(
-            "joint_positions_" + std::to_string(i+1),
+            "joint_" + std::to_string(i),
             "position",
             &joint_positions_[i] // You need to define this array
         );
@@ -136,7 +116,7 @@ ScaraHardwareInterface::export_command_interfaces()
     std::vector<hardware_interface::CommandInterface> command_interfaces;
     for (size_t i = 0; i < 4; ++i) {
         command_interfaces.emplace_back(
-            "thruster_joint_" + std::to_string(i+1),
+            "joint_" + std::to_string(i),
             "position",
             &joint_position_targets_[i] // You need to define this array
         );
@@ -148,11 +128,7 @@ ScaraHardwareInterface::~ScaraHardwareInterface(){
     this->cleanup();
 }
 
-void ScaraHardwareInterface::cleanup(){
-
-}
-
-this->simulation_thread_ = std::thread(&ScaraSimulatorInterface::sim_thread,this);
+void ScaraHardwareInterface::cleanup(){}
 
 }
 

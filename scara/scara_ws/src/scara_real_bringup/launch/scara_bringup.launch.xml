@@ -1,0 +1,35 @@
+<launch>
+    
+    <let name="urdf_path" 
+         value="$(find-pkg-share scara_real_description)/urdf/scara.urdf.xacro" />
+    <let name="rviz_config_path"
+         value="$(find-pkg-share scara_real_bringup)/config/scara_config.rviz" />
+
+     <node pkg="controller_manager" exec="ros2_control_node">
+        <param from="$(find-pkg-share scara_real_bringup)/config/controllers.yaml"/>
+        <param name="robot_description" value="$(command 'xacro $(var urdf_path)')" />
+    </node>
+
+    <node pkg="robot_state_publisher" exec="robot_state_publisher">
+        <param name="robot_description"
+               value="$(command 'xacro $(var urdf_path)')" />
+    </node>
+
+    <node pkg="controller_manager" exec="spawner" args="arm_joints_controller"/>
+
+    <node pkg="controller_manager" exec="spawner" args="joint_state_broadcaster"/>
+
+    <node pkg="scara_ik_solver" exec="scara_ik_solver"/>
+
+    <node pkg="scara_path_controller" exec="scara_path_controller"/>
+
+    <node pkg="scara_path_generator" exec="scara_path_generator"/>
+
+    <node pkg="premade_path_publisher" exec="premade_path_publisher"/>
+
+    <node pkg="rviz2" exec="rviz2" output="screen"
+          args="-d $(var rviz_config_path)" />
+
+    <!-- <node pkg="scara_tf_generator" exec="scara_tf_generator"/> -->
+    
+</launch>

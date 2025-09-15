@@ -1,0 +1,19 @@
+[01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn scara_hardware_layer::ScaraHardwareInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:28:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+   28 |     }catch(Exception [01;35m[Ke[m[K){
+      |                      [01;35m[K^[m[K
+[01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn scara_hardware_layer::ScaraHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:49:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+   49 |     }catch(Exception [01;35m[Ke[m[K){
+      |                      [01;35m[K^[m[K
+[01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type scara_hardware_layer::ScaraHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:84:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+   84 |     }catch(Exception [01;35m[Ke[m[K){
+      |                      [01;35m[K^[m[K
+/usr/bin/ld: /usr/local/lib/libCppLinuxSerial.a(SerialPort.cpp.o): warning: relocation against `_ZTIN2mn14CppLinuxSerial9ExceptionE' in read-only section `.text'
+/usr/bin/ld: /usr/local/lib/libCppLinuxSerial.a(SerialPort.cpp.o): relocation R_X86_64_PC32 against symbol `_ZN2mn14CppLinuxSerial9ExceptionD1Ev' can not be used when making a shared object; recompile with -fPIC
+/usr/bin/ld: final link failed: bad value
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/scara_hardware_interface.dir/build.make:287: libscara_hardware_interface.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/scara_hardware_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,6 +1,6 @@
 <library path="scara_hardware_interface">
-    <class name="scara_hardware_layer/ScaraSimulatorInterface"
-           type="scara_hardware_layer::ScaraSimulatorInterface"
+    <class name="scara_hardware_layer/ScaraHardwareInterface"
+           type="scara_hardware_layer::ScaraHardwareInterface"
            base_class_type="hardware_interface::SystemInterface">
            <description>
                 Hardware Interface for a 4 DOF Scara

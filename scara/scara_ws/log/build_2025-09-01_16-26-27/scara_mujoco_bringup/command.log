@@ -1,1 +1,0 @@
-Invoking command in '/scara_ws/build/scara_mujoco_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /scara_ws/src/scara_mujoco_bringup -DCMAKE_INSTALL_PREFIX=/scara_ws/install/scara_mujoco_bringup

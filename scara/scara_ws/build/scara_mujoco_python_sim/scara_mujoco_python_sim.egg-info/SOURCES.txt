@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+descriptions/basic_scenario.xml
+resource/scara_mujoco_python_sim
+scara_mujoco_python_sim/__init__.py
+scara_mujoco_python_sim/scara_mujoco_python_sim.py
+scara_mujoco_python_sim.egg-info/PKG-INFO
+scara_mujoco_python_sim.egg-info/SOURCES.txt
+scara_mujoco_python_sim.egg-info/dependency_links.txt
+scara_mujoco_python_sim.egg-info/entry_points.txt
+scara_mujoco_python_sim.egg-info/requires.txt
+scara_mujoco_python_sim.egg-info/top_level.txt
+scara_mujoco_python_sim.egg-info/zip-safe

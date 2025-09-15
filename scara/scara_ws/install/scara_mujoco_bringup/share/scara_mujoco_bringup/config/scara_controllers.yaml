@@ -1,11 +1,1 @@
-controller_manager:
-  ros__parameters:
-    update_rate: 50
-
-    forward_command_controller:
-      type: forward_command_controller/ForwardCommandController
-
-forward_command_controller:
-  ros__parameters:
-    joints: ["thruster_joint_1","thruster_joint_2", "thruster_joint_3","thruster_joint_4"]  
-    interface_name: "effort"
+/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_bringup/config/scara_controllers.yaml

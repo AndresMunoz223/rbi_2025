@@ -1,0 +1,17 @@
+[2.920s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator/build --no-deps symlink_data
+[3.545s] running develop
+[3.856s] running egg_info
+[3.856s] writing scara_path_generator.egg-info/PKG-INFO
+[3.856s] writing dependency_links to scara_path_generator.egg-info/dependency_links.txt
+[3.856s] writing entry points to scara_path_generator.egg-info/entry_points.txt
+[3.856s] writing requirements to scara_path_generator.egg-info/requires.txt
+[3.857s] writing top-level names to scara_path_generator.egg-info/top_level.txt
+[3.858s] reading manifest file 'scara_path_generator.egg-info/SOURCES.txt'
+[3.859s] writing manifest file 'scara_path_generator.egg-info/SOURCES.txt'
+[3.912s] running build_ext
+[3.912s] Creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/lib/python3.10/site-packages/scara-path-generator.egg-link (link to .)
+[3.913s] Installing scara_path_generator script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/lib/scara_path_generator
+[3.913s] 
+[3.913s] Installed /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator
+[3.913s] running symlink_data
+[3.965s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_path_generator/build --no-deps symlink_data

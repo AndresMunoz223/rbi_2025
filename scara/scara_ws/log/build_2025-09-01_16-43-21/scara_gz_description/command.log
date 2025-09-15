@@ -1,4 +1,0 @@
-Invoking command in '/scara_ws/build/scara_gz_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /scara_ws/build/scara_gz_description -- -j12 -l12
-Invoked command in '/scara_ws/build/scara_gz_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /scara_ws/build/scara_gz_description -- -j12 -l12
-Invoking command in '/scara_ws/build/scara_gz_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /scara_ws/build/scara_gz_description
-Invoked command in '/scara_ws/build/scara_gz_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /scara_ws/build/scara_gz_description

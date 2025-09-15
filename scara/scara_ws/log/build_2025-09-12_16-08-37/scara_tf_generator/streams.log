@@ -1,0 +1,17 @@
+[1.156s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_tf_generator': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_tf_generator/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_tf_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_tf_generator/build --no-deps symlink_data
+[1.639s] running develop
+[1.929s] running egg_info
+[1.929s] writing scara_tf_generator.egg-info/PKG-INFO
+[1.929s] writing dependency_links to scara_tf_generator.egg-info/dependency_links.txt
+[1.930s] writing entry points to scara_tf_generator.egg-info/entry_points.txt
+[1.930s] writing requirements to scara_tf_generator.egg-info/requires.txt
+[1.930s] writing top-level names to scara_tf_generator.egg-info/top_level.txt
+[1.933s] reading manifest file 'scara_tf_generator.egg-info/SOURCES.txt'
+[1.934s] writing manifest file 'scara_tf_generator.egg-info/SOURCES.txt'
+[1.981s] running build_ext
+[1.982s] Creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_tf_generator/lib/python3.10/site-packages/scara-tf-generator.egg-link (link to .)
+[1.983s] Installing scara_tf_generator script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_tf_generator/lib/scara_tf_generator
+[1.984s] 
+[1.984s] Installed /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_tf_generator
+[1.984s] running symlink_data
+[2.027s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_tf_generator' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_tf_generator/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_tf_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_tf_generator/build --no-deps symlink_data

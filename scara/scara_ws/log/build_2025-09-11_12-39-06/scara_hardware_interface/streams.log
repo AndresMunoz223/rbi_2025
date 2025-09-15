@@ -1,0 +1,61 @@
+[0.316s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_tf_generator:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_controller:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher:/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface
+[1.843s] -- The C compiler identification is GNU 11.4.0
+[1.843s] -- The CXX compiler identification is GNU 11.4.0
+[1.844s] -- Detecting C compiler ABI info
+[1.844s] -- Detecting C compiler ABI info - done
+[1.845s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.845s] -- Detecting C compile features
+[1.845s] -- Detecting C compile features - done
+[1.845s] -- Detecting CXX compiler ABI info
+[1.845s] -- Detecting CXX compiler ABI info - done
+[1.845s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.845s] -- Detecting CXX compile features
+[1.845s] -- Detecting CXX compile features - done
+[1.845s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.845s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.845s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.845s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.845s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.845s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.845s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.845s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.845s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.846s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.846s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.846s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.846s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.846s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.846s] -- Looking for pthread.h
+[1.846s] -- Looking for pthread.h - found
+[1.846s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.846s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.846s] -- Found Threads: TRUE  
+[1.846s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.846s] -- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.846s] -- Configuring done
+[1.846s] -- Generating done
+[1.846s] -- Build files have been written to: /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface
+[1.860s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_tf_generator:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_controller:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher:/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_hardware_interface
+[1.862s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_tf_generator:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_controller:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface -- -j12 -l12
+[1.937s] [ 50%] [32mBuilding CXX object CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o[0m
+[5.499s] [01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn scara_hardware_layer::ScaraHardwareInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[5.499s] [01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:28:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[5.500s]    28 |     }catch(Exception [01;35m[Ke[m[K){
+[5.500s]       |                      [01;35m[K^[m[K
+[5.501s] [01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn scara_hardware_layer::ScaraHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[5.501s] [01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:49:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[5.501s]    49 |     }catch(Exception [01;35m[Ke[m[K){
+[5.501s]       |                      [01;35m[K^[m[K
+[5.502s] [01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type scara_hardware_layer::ScaraHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.502s] [01m[K/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp:84:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[5.502s]    84 |     }catch(Exception [01;35m[Ke[m[K){
+[5.502s]       |                      [01;35m[K^[m[K
+[6.461s] [100%] [32m[1mLinking CXX shared library libscara_hardware_interface.so[0m
+[6.573s] /usr/bin/ld: /usr/local/lib/libCppLinuxSerial.a(SerialPort.cpp.o): warning: relocation against `_ZTIN2mn14CppLinuxSerial9ExceptionE' in read-only section `.text'
+[6.582s] /usr/bin/ld: /usr/local/lib/libCppLinuxSerial.a(SerialPort.cpp.o): relocation R_X86_64_PC32 against symbol `_ZN2mn14CppLinuxSerial9ExceptionD1Ev' can not be used when making a shared object; recompile with -fPIC
+[6.582s] /usr/bin/ld: final link failed: bad value
+[6.584s] collect2: error: ld returned 1 exit status
+[6.585s] gmake[2]: *** [CMakeFiles/scara_hardware_interface.dir/build.make:287: libscara_hardware_interface.so] Error 1
+[6.585s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/scara_hardware_interface.dir/all] Error 2
+[6.585s] gmake: *** [Makefile:146: all] Error 2
+[6.587s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_tf_generator:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_generator:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_path_controller:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_ik_solver:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface -- -j12 -l12

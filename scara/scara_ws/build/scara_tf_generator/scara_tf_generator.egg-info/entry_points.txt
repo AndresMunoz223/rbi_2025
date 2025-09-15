@@ -1,0 +1,3 @@
+[console_scripts]
+scara_tf_generator = scara_tf_generator.scara_tf_generator:main
+

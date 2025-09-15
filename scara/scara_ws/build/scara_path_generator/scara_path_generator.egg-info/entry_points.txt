@@ -1,0 +1,3 @@
+[console_scripts]
+scara_path_generator = scara_path_generator.scara_path_generator:main
+
