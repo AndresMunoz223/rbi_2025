@@ -1,0 +1,21 @@
+[2.283s] Invoking command in '/abb_ws/src/abb_ik_solver': PYTHONPATH=/abb_ws/build/abb_ik_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/abb_ws/install/abb_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/abb_ik_solver build --build-base /abb_ws/build/abb_ik_solver/build install --record /abb_ws/build/abb_ik_solver/install.log --single-version-externally-managed install_data
+[2.661s] running egg_info
+[2.662s] writing ../../build/abb_ik_solver/abb_ik_solver.egg-info/PKG-INFO
+[2.663s] writing dependency_links to ../../build/abb_ik_solver/abb_ik_solver.egg-info/dependency_links.txt
+[2.663s] writing entry points to ../../build/abb_ik_solver/abb_ik_solver.egg-info/entry_points.txt
+[2.663s] writing requirements to ../../build/abb_ik_solver/abb_ik_solver.egg-info/requires.txt
+[2.663s] writing top-level names to ../../build/abb_ik_solver/abb_ik_solver.egg-info/top_level.txt
+[2.667s] reading manifest file '../../build/abb_ik_solver/abb_ik_solver.egg-info/SOURCES.txt'
+[2.669s] writing manifest file '../../build/abb_ik_solver/abb_ik_solver.egg-info/SOURCES.txt'
+[2.669s] running build
+[2.669s] running build_py
+[2.670s] running install
+[2.670s] running install_lib
+[2.672s] running install_data
+[2.672s] running install_egg_info
+[2.675s] removing '/abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver-0.0.0-py3.10.egg-info' (and everything under it)
+[2.676s] Copying ../../build/abb_ik_solver/abb_ik_solver.egg-info to /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver-0.0.0-py3.10.egg-info
+[2.677s] running install_scripts
+[2.719s] Installing abb_ik_solver script to /abb_ws/install/abb_ik_solver/lib/abb_ik_solver
+[2.720s] writing list of installed files to '/abb_ws/build/abb_ik_solver/install.log'
+[2.759s] Invoked command in '/abb_ws/src/abb_ik_solver' returned '0': PYTHONPATH=/abb_ws/build/abb_ik_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/abb_ws/install/abb_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/abb_ik_solver build --build-base /abb_ws/build/abb_ik_solver/build install --record /abb_ws/build/abb_ik_solver/install.log --single-version-externally-managed install_data

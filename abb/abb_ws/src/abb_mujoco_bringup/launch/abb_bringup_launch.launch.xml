@@ -1,11 +1,8 @@
 <launch>
     <let name="urdf_path" 
          value="$(find-pkg-share abb_mujoco_description)/urdf/abb_description.urdf.xacro" />
-
-    <!-- <node pkg="robot_state_publisher" exec="robot_state_publisher">
-        <param name="robot_description"
-               value="$(command 'xacro $(var urdf_path)')" />
-    </node> -->
+    <let name="rviz_config_path"
+         value="$(find-pkg-share abb_mujoco_bringup)/config/rviz_config.rviz" />
 
     <node pkg="controller_manager" exec="ros2_control_node">
         <param from="$(find-pkg-share abb_mujoco_bringup)/config/abb_controllers.yaml"/>
@@ -21,5 +18,8 @@
     <node pkg="abb_path_generator" exec="abb_path_generator"/>
 
     <node pkg="abb_path_controller" exec="abb_path_controller"/>
+
+    <node pkg="rviz2" exec="rviz2" output="screen" 
+          args="-d $(var rviz_config_path)" />
 
 </launch>

@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/abb_path_generator/abb_path_generator.egg-info
+writing ../../build/abb_path_generator/abb_path_generator.egg-info/PKG-INFO
+writing dependency_links to ../../build/abb_path_generator/abb_path_generator.egg-info/dependency_links.txt
+writing entry points to ../../build/abb_path_generator/abb_path_generator.egg-info/entry_points.txt
+writing requirements to ../../build/abb_path_generator/abb_path_generator.egg-info/requires.txt
+writing top-level names to ../../build/abb_path_generator/abb_path_generator.egg-info/top_level.txt
+writing manifest file '../../build/abb_path_generator/abb_path_generator.egg-info/SOURCES.txt'
+reading manifest file '../../build/abb_path_generator/abb_path_generator.egg-info/SOURCES.txt'
+writing manifest file '../../build/abb_path_generator/abb_path_generator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /abb_ws/build/abb_path_generator/build
+creating /abb_ws/build/abb_path_generator/build/lib
+creating /abb_ws/build/abb_path_generator/build/lib/abb_path_generator
+copying abb_path_generator/abb_path_generator.py -> /abb_ws/build/abb_path_generator/build/lib/abb_path_generator
+copying abb_path_generator/__init__.py -> /abb_ws/build/abb_path_generator/build/lib/abb_path_generator
+running install
+running install_lib
+creating /abb_ws/install/abb_path_generator/lib/python3.10/site-packages/abb_path_generator
+copying /abb_ws/build/abb_path_generator/build/lib/abb_path_generator/abb_path_generator.py -> /abb_ws/install/abb_path_generator/lib/python3.10/site-packages/abb_path_generator
+copying /abb_ws/build/abb_path_generator/build/lib/abb_path_generator/__init__.py -> /abb_ws/install/abb_path_generator/lib/python3.10/site-packages/abb_path_generator
+byte-compiling /abb_ws/install/abb_path_generator/lib/python3.10/site-packages/abb_path_generator/abb_path_generator.py to abb_path_generator.cpython-310.pyc
+byte-compiling /abb_ws/install/abb_path_generator/lib/python3.10/site-packages/abb_path_generator/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /abb_ws/install/abb_path_generator/share/ament_index
+creating /abb_ws/install/abb_path_generator/share/ament_index/resource_index
+creating /abb_ws/install/abb_path_generator/share/ament_index/resource_index/packages
+copying resource/abb_path_generator -> /abb_ws/install/abb_path_generator/share/ament_index/resource_index/packages
+copying package.xml -> /abb_ws/install/abb_path_generator/share/abb_path_generator
+creating /abb_ws/install/abb_path_generator/share/abb_path_generator/launch
+creating /abb_ws/install/abb_path_generator/share/abb_path_generator/descriptions
+creating /abb_ws/install/abb_path_generator/share/abb_path_generator/config
+running install_egg_info
+Copying ../../build/abb_path_generator/abb_path_generator.egg-info to /abb_ws/install/abb_path_generator/lib/python3.10/site-packages/abb_path_generator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing abb_path_generator script to /abb_ws/install/abb_path_generator/lib/abb_path_generator
+writing list of installed files to '/abb_ws/build/abb_path_generator/install.log'

@@ -1,0 +1,11 @@
+[0.688s] Invoking command in '/abb_ws/build/abb_mujoco_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/abb_ws/install/abb_tf_generator:/abb_ws/install/abb_path_generator:/abb_ws/install/abb_path_controller:/abb_ws/install/abb_mujoco_python:/abb_ws/install/abb_ik_solver:/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_mujoco_sim -- -j12 -l12
+[1.639s] [35m[1mConsolidate compiler generated dependencies of target abb_mujoco_sim[0m
+[1.642s] [ 50%] [32mBuilding CXX object CMakeFiles/abb_mujoco_sim.dir/src/mujoco_sim_interface.cpp.o[0m
+[4.738s] [01m[K/abb_ws/src/abb_mujoco_sim/src/mujoco_sim_interface.cpp:[m[K In member function ‘[01m[Kvoid abb_simulator_layer::AbbSimulatorInterface::sim_thread()[m[K’:
+[4.738s] [01m[K/abb_ws/src/abb_mujoco_sim/src/mujoco_sim_interface.cpp:157:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K[[m[K’ token
+[4.738s]   157 |                 this->sim_data_object->[01;31m[K[[m[K0] = motor_commands_[0];
+[4.738s]       |                                        [01;31m[K^[m[K
+[5.854s] gmake[2]: *** [CMakeFiles/abb_mujoco_sim.dir/build.make:76: CMakeFiles/abb_mujoco_sim.dir/src/mujoco_sim_interface.cpp.o] Error 1
+[5.854s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/abb_mujoco_sim.dir/all] Error 2
+[5.854s] gmake: *** [Makefile:146: all] Error 2
+[5.857s] Invoked command in '/abb_ws/build/abb_mujoco_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/abb_ws/install/abb_tf_generator:/abb_ws/install/abb_path_generator:/abb_ws/install/abb_path_controller:/abb_ws/install/abb_mujoco_python:/abb_ws/install/abb_ik_solver:/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_mujoco_sim -- -j12 -l12

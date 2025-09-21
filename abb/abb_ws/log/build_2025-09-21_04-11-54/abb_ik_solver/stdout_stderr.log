@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing abb_ik_solver.egg-info/PKG-INFO
+writing dependency_links to abb_ik_solver.egg-info/dependency_links.txt
+writing entry points to abb_ik_solver.egg-info/entry_points.txt
+writing requirements to abb_ik_solver.egg-info/requires.txt
+writing top-level names to abb_ik_solver.egg-info/top_level.txt
+reading manifest file 'abb_ik_solver.egg-info/SOURCES.txt'
+writing manifest file 'abb_ik_solver.egg-info/SOURCES.txt'
+running build_ext
+Creating /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb-ik-solver.egg-link (link to .)
+Installing abb_ik_solver script to /abb_ws/install/abb_ik_solver/lib/abb_ik_solver
+
+Installed /abb_ws/build/abb_ik_solver
+running symlink_data
+symbolically linking /abb_ws/build/abb_ik_solver/resource/abb_ik_solver -> /abb_ws/install/abb_ik_solver/share/ament_index/resource_index/packages
+symbolically linking /abb_ws/build/abb_ik_solver/package.xml -> /abb_ws/install/abb_ik_solver/share/abb_ik_solver

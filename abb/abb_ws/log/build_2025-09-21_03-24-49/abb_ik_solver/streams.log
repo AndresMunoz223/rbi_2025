@@ -1,0 +1,40 @@
+[3.207s] Invoking command in '/abb_ws/src/abb_ik_solver': PYTHONPATH=/abb_ws/build/abb_ik_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/abb_ws/install/abb_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/abb_ik_solver build --build-base /abb_ws/build/abb_ik_solver/build install --record /abb_ws/build/abb_ik_solver/install.log --single-version-externally-managed install_data
+[3.600s] running egg_info
+[3.601s] creating ../../build/abb_ik_solver/abb_ik_solver.egg-info
+[3.601s] writing ../../build/abb_ik_solver/abb_ik_solver.egg-info/PKG-INFO
+[3.602s] writing dependency_links to ../../build/abb_ik_solver/abb_ik_solver.egg-info/dependency_links.txt
+[3.602s] writing entry points to ../../build/abb_ik_solver/abb_ik_solver.egg-info/entry_points.txt
+[3.602s] writing requirements to ../../build/abb_ik_solver/abb_ik_solver.egg-info/requires.txt
+[3.602s] writing top-level names to ../../build/abb_ik_solver/abb_ik_solver.egg-info/top_level.txt
+[3.603s] writing manifest file '../../build/abb_ik_solver/abb_ik_solver.egg-info/SOURCES.txt'
+[3.605s] reading manifest file '../../build/abb_ik_solver/abb_ik_solver.egg-info/SOURCES.txt'
+[3.606s] writing manifest file '../../build/abb_ik_solver/abb_ik_solver.egg-info/SOURCES.txt'
+[3.607s] running build
+[3.607s] running build_py
+[3.607s] creating /abb_ws/build/abb_ik_solver/build
+[3.607s] creating /abb_ws/build/abb_ik_solver/build/lib
+[3.608s] creating /abb_ws/build/abb_ik_solver/build/lib/abb_ik_solver
+[3.608s] copying abb_ik_solver/abb_ik_solver.py -> /abb_ws/build/abb_ik_solver/build/lib/abb_ik_solver
+[3.608s] copying abb_ik_solver/__init__.py -> /abb_ws/build/abb_ik_solver/build/lib/abb_ik_solver
+[3.608s] running install
+[3.609s] running install_lib
+[3.610s] creating /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver
+[3.610s] copying /abb_ws/build/abb_ik_solver/build/lib/abb_ik_solver/abb_ik_solver.py -> /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver
+[3.610s] copying /abb_ws/build/abb_ik_solver/build/lib/abb_ik_solver/__init__.py -> /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver
+[3.611s] byte-compiling /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver/abb_ik_solver.py to abb_ik_solver.cpython-310.pyc
+[3.614s] byte-compiling /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver/__init__.py to __init__.cpython-310.pyc
+[3.615s] running install_data
+[3.615s] creating /abb_ws/install/abb_ik_solver/share/ament_index
+[3.615s] creating /abb_ws/install/abb_ik_solver/share/ament_index/resource_index
+[3.615s] creating /abb_ws/install/abb_ik_solver/share/ament_index/resource_index/packages
+[3.615s] copying resource/abb_ik_solver -> /abb_ws/install/abb_ik_solver/share/ament_index/resource_index/packages
+[3.616s] copying package.xml -> /abb_ws/install/abb_ik_solver/share/abb_ik_solver
+[3.616s] creating /abb_ws/install/abb_ik_solver/share/abb_ik_solver/launch
+[3.616s] creating /abb_ws/install/abb_ik_solver/share/abb_ik_solver/descriptions
+[3.616s] creating /abb_ws/install/abb_ik_solver/share/abb_ik_solver/config
+[3.616s] running install_egg_info
+[3.619s] Copying ../../build/abb_ik_solver/abb_ik_solver.egg-info to /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver-0.0.0-py3.10.egg-info
+[3.620s] running install_scripts
+[3.652s] Installing abb_ik_solver script to /abb_ws/install/abb_ik_solver/lib/abb_ik_solver
+[3.653s] writing list of installed files to '/abb_ws/build/abb_ik_solver/install.log'
+[3.694s] Invoked command in '/abb_ws/src/abb_ik_solver' returned '0': PYTHONPATH=/abb_ws/build/abb_ik_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/abb_ws/install/abb_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/abb_ik_solver build --build-base /abb_ws/build/abb_ik_solver/build install --record /abb_ws/build/abb_ik_solver/install.log --single-version-externally-managed install_data

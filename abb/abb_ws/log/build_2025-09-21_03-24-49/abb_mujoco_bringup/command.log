@@ -1,0 +1,6 @@
+Invoking command in '/abb_ws/build/abb_mujoco_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /abb_ws/src/abb_mujoco_bringup -DCMAKE_INSTALL_PREFIX=/abb_ws/install/abb_mujoco_bringup
+Invoked command in '/abb_ws/build/abb_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /abb_ws/src/abb_mujoco_bringup -DCMAKE_INSTALL_PREFIX=/abb_ws/install/abb_mujoco_bringup
+Invoking command in '/abb_ws/build/abb_mujoco_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_mujoco_bringup -- -j12 -l12
+Invoked command in '/abb_ws/build/abb_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_mujoco_bringup -- -j12 -l12
+Invoking command in '/abb_ws/build/abb_mujoco_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /abb_ws/build/abb_mujoco_bringup
+Invoked command in '/abb_ws/build/abb_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /abb_ws/build/abb_mujoco_bringup

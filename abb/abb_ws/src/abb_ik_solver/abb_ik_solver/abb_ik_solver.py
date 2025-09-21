@@ -243,21 +243,21 @@ class IkSolverNode(Node):
         msg = Float32MultiArray()
         
         # #! Mujoco
-        # msg.data = [self.goal_positions[0][0],
-        #                   self.goal_positions[1][0],
-        #                   self.goal_positions[2][0],
-        #                   self.goal_positions[3][0],
-        #                   self.goal_positions[4][0],
-        #                   self.goal_positions[5][0]]
+        msg.data = [self.goal_positions[0][0],
+                          self.goal_positions[1][0],
+                          self.goal_positions[2][0],
+                          self.goal_positions[3][0],
+                          self.goal_positions[4][0],
+                          self.goal_positions[5][0]]
 
 
         # ! GZ
-        msg.data = [self.goal_positions[0][0],
-                          -self.goal_positions[1][0],
-                          -self.goal_positions[2][0],
-                          self.goal_positions[3][0],
-                          -self.goal_positions[4][0],
-                          self.goal_positions[5][0]]
+        # msg.data = [self.goal_positions[0][0],
+        #                   -self.goal_positions[1][0],
+        #                   -self.goal_positions[2][0],
+        #                   self.goal_positions[3][0],
+        #                   -self.goal_positions[4][0],
+        #                   self.goal_positions[5][0]]
 
         ic(msg.data)
 

@@ -22,6 +22,8 @@ Inside the robot's side cabinet, an arrange of components can be found, among th
 
 <img src="media/scara_cabinet.png" width="400" height="480"/>
 
+<img src="media/Scara_robot.png" width="700" height="480"/>
+
 ## Esp32 Circuit
 
 The esp32 circuit inside the cabbinet uses the CAN interface to command the Servomotors through the CANopen protocol. It configures and comands the servomotor with read-write instructions.
@@ -34,3 +36,58 @@ The esp32 circuit inside the cabbinet uses the CAN interface to command the Serv
 | 2          | 0.210  | 0           | 0     | 0         |
 | 3          | 0.250  | 0           | 0     | 0         |
 | 4          | 0      | 0           | 0     | 0         |
+
+# Simulating the SCARA on MuJoCo / Gazebo
+
+# MuJoCo Simulator
+
+---
+
+The ROS2 structure is ment to be run inside a docker container by using vscode *[dev containers](https://code.visualstudio.com/docs/devcontainers/containers)* tools.
+
+To run the simulation, reopen the rov_ws folder inside a dev container and build the simulator:
+
+```shell
+colcon build 
+```
+
+Then:
+
+```shell
+ros2 launch scara_mujoco_bringup scara_bringup_launch.launch.xml
+```
+
+With the following listed ros2_control hardware interfaces and controllers:
+
+<img src="media/active_controller.png" width="500" height="28"/>
+
+<img src="media/active_interfaces.png" width="400" height="150"/>
+
+## Testing simulations
+
+Once the simulator has started, you can interact with the rober by posting msgs into the `/goal_pose topic`.
+
+To try it out in terminal, manually publish the goal pose:
+
+```shell
+ros2 topic pub /goal_pose geometry_msgs/msg/PoseStamped "{
+  header: {
+    stamp: {sec: 0, nanosec: 0},
+    frame_id: 'world'
+  },
+  pose: {
+    position: {x: 0.7, y: 0.0, z: 0.6},
+    orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}
+  }
+}" --once
+```
+
+Once the node structure recieves the msg, the following should happen on rviz2, as the simulator advances:
+
+<img src="media/rviz_view.png" width="600" height="400"/>
+
+In the rviz2 visualization, the generated path trajectory is displayed in green. the respective coordinate system transformations will also be displayed on screen and the tool motion will be shown in the `/tf` tree.
+
+<img src="media/rviz_view_description.png" width="500" height="400"/>
+
+Using the Gazebo simulator

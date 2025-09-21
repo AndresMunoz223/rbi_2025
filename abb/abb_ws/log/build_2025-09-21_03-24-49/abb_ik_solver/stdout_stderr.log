@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/abb_ik_solver/abb_ik_solver.egg-info
+writing ../../build/abb_ik_solver/abb_ik_solver.egg-info/PKG-INFO
+writing dependency_links to ../../build/abb_ik_solver/abb_ik_solver.egg-info/dependency_links.txt
+writing entry points to ../../build/abb_ik_solver/abb_ik_solver.egg-info/entry_points.txt
+writing requirements to ../../build/abb_ik_solver/abb_ik_solver.egg-info/requires.txt
+writing top-level names to ../../build/abb_ik_solver/abb_ik_solver.egg-info/top_level.txt
+writing manifest file '../../build/abb_ik_solver/abb_ik_solver.egg-info/SOURCES.txt'
+reading manifest file '../../build/abb_ik_solver/abb_ik_solver.egg-info/SOURCES.txt'
+writing manifest file '../../build/abb_ik_solver/abb_ik_solver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /abb_ws/build/abb_ik_solver/build
+creating /abb_ws/build/abb_ik_solver/build/lib
+creating /abb_ws/build/abb_ik_solver/build/lib/abb_ik_solver
+copying abb_ik_solver/abb_ik_solver.py -> /abb_ws/build/abb_ik_solver/build/lib/abb_ik_solver
+copying abb_ik_solver/__init__.py -> /abb_ws/build/abb_ik_solver/build/lib/abb_ik_solver
+running install
+running install_lib
+creating /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver
+copying /abb_ws/build/abb_ik_solver/build/lib/abb_ik_solver/abb_ik_solver.py -> /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver
+copying /abb_ws/build/abb_ik_solver/build/lib/abb_ik_solver/__init__.py -> /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver
+byte-compiling /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver/abb_ik_solver.py to abb_ik_solver.cpython-310.pyc
+byte-compiling /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /abb_ws/install/abb_ik_solver/share/ament_index
+creating /abb_ws/install/abb_ik_solver/share/ament_index/resource_index
+creating /abb_ws/install/abb_ik_solver/share/ament_index/resource_index/packages
+copying resource/abb_ik_solver -> /abb_ws/install/abb_ik_solver/share/ament_index/resource_index/packages
+copying package.xml -> /abb_ws/install/abb_ik_solver/share/abb_ik_solver
+creating /abb_ws/install/abb_ik_solver/share/abb_ik_solver/launch
+creating /abb_ws/install/abb_ik_solver/share/abb_ik_solver/descriptions
+creating /abb_ws/install/abb_ik_solver/share/abb_ik_solver/config
+running install_egg_info
+Copying ../../build/abb_ik_solver/abb_ik_solver.egg-info to /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing abb_ik_solver script to /abb_ws/install/abb_ik_solver/lib/abb_ik_solver
+writing list of installed files to '/abb_ws/build/abb_ik_solver/install.log'

@@ -5,6 +5,7 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
+        - /TF1
       Splitter Ratio: 0.5014244914054871
     Tree Height: 678
   - Class: rviz_common/Selection
@@ -116,7 +117,7 @@ Visualization Manager:
       Name: TF
       Show Arrows: true
       Show Axes: true
-      Show Names: false
+      Show Names: true
       Tree:
         world_0:
           link1:
@@ -207,18 +208,18 @@ Visualization Manager:
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.037901490926742554
-        Y: -0.5721339583396912
-        Z: 0.08101912587881088
+        X: 0.08845309168100357
+        Y: -0.502379834651947
+        Z: 0.055682890117168427
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.5953982472419739
+      Pitch: 0.3853982090950012
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.4803972244262695
+      Yaw: 1.3453973531723022
     Saved: ~
 Window Geometry:
   Displays:

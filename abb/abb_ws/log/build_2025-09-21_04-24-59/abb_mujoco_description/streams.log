@@ -1,0 +1,24 @@
+[0.336s] Invoking command in '/abb_ws/build/abb_mujoco_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/abb_ws/install/abb_tf_generator:/abb_ws/install/abb_path_generator:/abb_ws/install/abb_path_controller:/abb_ws/install/abb_mujoco_python:/abb_ws/install/abb_ik_solver:/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_mujoco_description -- -j12 -l12
+[1.483s] Invoked command in '/abb_ws/build/abb_mujoco_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/abb_ws/install/abb_tf_generator:/abb_ws/install/abb_path_generator:/abb_ws/install/abb_path_controller:/abb_ws/install/abb_mujoco_python:/abb_ws/install/abb_ik_solver:/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_mujoco_description -- -j12 -l12
+[1.487s] Invoking command in '/abb_ws/build/abb_mujoco_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/abb_ws/install/abb_tf_generator:/abb_ws/install/abb_path_generator:/abb_ws/install/abb_path_controller:/abb_ws/install/abb_mujoco_python:/abb_ws/install/abb_ik_solver:/opt/ros/humble /usr/bin/cmake --install /abb_ws/build/abb_mujoco_description
+[1.535s] -- Install configuration: ""
+[1.541s] -- Execute custom install script
+[1.543s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description//urdf/MUJOCO_LOG.TXT
+[1.544s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description//urdf/abb_description.urdf.xacro
+[1.544s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description//launch/display.launch.xml
+[1.545s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/ament_index/resource_index/package_run_dependencies/abb_mujoco_description
+[1.545s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/ament_index/resource_index/parent_prefix_path/abb_mujoco_description
+[1.545s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description/environment/ament_prefix_path.sh
+[1.545s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description/environment/ament_prefix_path.dsv
+[1.545s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description/environment/path.sh
+[1.545s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description/environment/path.dsv
+[1.545s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description/local_setup.bash
+[1.545s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description/local_setup.sh
+[1.545s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description/local_setup.zsh
+[1.546s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description/local_setup.dsv
+[1.546s] -- Symlinking: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description/package.dsv
+[1.549s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/ament_index/resource_index/packages/abb_mujoco_description
+[1.550s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description/cmake/abb_mujoco_descriptionConfig.cmake
+[1.550s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description/cmake/abb_mujoco_descriptionConfig-version.cmake
+[1.551s] -- Up-to-date symlink: /abb_ws/install/abb_mujoco_description/share/abb_mujoco_description/package.xml
+[1.636s] Invoked command in '/abb_ws/build/abb_mujoco_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/abb_ws/install/abb_tf_generator:/abb_ws/install/abb_path_generator:/abb_ws/install/abb_path_controller:/abb_ws/install/abb_mujoco_python:/abb_ws/install/abb_ik_solver:/opt/ros/humble /usr/bin/cmake --install /abb_ws/build/abb_mujoco_description

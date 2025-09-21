@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/abb_ik_solver/abb_ik_solver.egg-info/PKG-INFO
+writing dependency_links to ../../build/abb_ik_solver/abb_ik_solver.egg-info/dependency_links.txt
+writing entry points to ../../build/abb_ik_solver/abb_ik_solver.egg-info/entry_points.txt
+writing requirements to ../../build/abb_ik_solver/abb_ik_solver.egg-info/requires.txt
+writing top-level names to ../../build/abb_ik_solver/abb_ik_solver.egg-info/top_level.txt
+reading manifest file '../../build/abb_ik_solver/abb_ik_solver.egg-info/SOURCES.txt'
+writing manifest file '../../build/abb_ik_solver/abb_ik_solver.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/abb_ik_solver/abb_ik_solver.egg-info to /abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb_ik_solver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing abb_ik_solver script to /abb_ws/install/abb_ik_solver/lib/abb_ik_solver
+writing list of installed files to '/abb_ws/build/abb_ik_solver/install.log'

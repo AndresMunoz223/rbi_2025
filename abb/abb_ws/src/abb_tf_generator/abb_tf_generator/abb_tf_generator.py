@@ -15,7 +15,7 @@ dh_params = np.array([[   0,        0, 0.342,     0],
                       [   0,    0.362,     0,    0],
                       [  90,       0,    0.380,   0],
                       [ -90,        0,     0,    0],
-                      [  90,         0, 0.165,   90]], dtype=float)
+                      [  90,         0, 0.25,   90]], dtype=float)
 
 DEG_TO_RAD = np.pi/180
 
@@ -69,7 +69,7 @@ class IkSolverScara():
         self.prev_theta_2 = 1.
         ic(f"Robot configured with : {self.l1, self.l2, self.theta_1_bounds, self.theta_2_bounds}")
         
-        #!Note for yo, pues, yo hago esta chimbada. Implemente los bound check de z, no se le olvide :)
+        #!Implemente los bound check de z, no se le olvide :)
 
     def solve_for_pose(self, pose : np.array):
         x = pose[0][0]
@@ -264,7 +264,7 @@ class JointToTFNode(Node):
 
         t.transform.translation.x = float(transform[0][3])
         t.transform.translation.y = float(transform[1][3])
-        t.transform.translation.z = float(transform[2][3]) + 0.05 #! Compensate the initial elevation
+        t.transform.translation.z = float(transform[2][3]) #! Compensate the initial elevation
         t.transform.rotation.x = float(q[0])
         t.transform.rotation.y = float(q[1])
         t.transform.rotation.z = float(q[2])

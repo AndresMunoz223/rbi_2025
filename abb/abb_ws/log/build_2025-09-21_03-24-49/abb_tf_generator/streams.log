@@ -1,0 +1,40 @@
+[3.171s] Invoking command in '/abb_ws/src/abb_tf_generator': PYTHONPATH=/abb_ws/build/abb_tf_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/abb_ws/install/abb_tf_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/abb_tf_generator build --build-base /abb_ws/build/abb_tf_generator/build install --record /abb_ws/build/abb_tf_generator/install.log --single-version-externally-managed install_data
+[3.714s] running egg_info
+[3.715s] creating ../../build/abb_tf_generator/abb_tf_generator.egg-info
+[3.716s] writing ../../build/abb_tf_generator/abb_tf_generator.egg-info/PKG-INFO
+[3.717s] writing dependency_links to ../../build/abb_tf_generator/abb_tf_generator.egg-info/dependency_links.txt
+[3.717s] writing entry points to ../../build/abb_tf_generator/abb_tf_generator.egg-info/entry_points.txt
+[3.717s] writing requirements to ../../build/abb_tf_generator/abb_tf_generator.egg-info/requires.txt
+[3.718s] writing top-level names to ../../build/abb_tf_generator/abb_tf_generator.egg-info/top_level.txt
+[3.719s] writing manifest file '../../build/abb_tf_generator/abb_tf_generator.egg-info/SOURCES.txt'
+[3.721s] reading manifest file '../../build/abb_tf_generator/abb_tf_generator.egg-info/SOURCES.txt'
+[3.722s] writing manifest file '../../build/abb_tf_generator/abb_tf_generator.egg-info/SOURCES.txt'
+[3.722s] running build
+[3.722s] running build_py
+[3.723s] creating /abb_ws/build/abb_tf_generator/build
+[3.723s] creating /abb_ws/build/abb_tf_generator/build/lib
+[3.723s] creating /abb_ws/build/abb_tf_generator/build/lib/abb_tf_generator
+[3.723s] copying abb_tf_generator/abb_tf_generator.py -> /abb_ws/build/abb_tf_generator/build/lib/abb_tf_generator
+[3.723s] copying abb_tf_generator/__init__.py -> /abb_ws/build/abb_tf_generator/build/lib/abb_tf_generator
+[3.724s] running install
+[3.724s] running install_lib
+[3.726s] creating /abb_ws/install/abb_tf_generator/lib/python3.10/site-packages/abb_tf_generator
+[3.726s] copying /abb_ws/build/abb_tf_generator/build/lib/abb_tf_generator/abb_tf_generator.py -> /abb_ws/install/abb_tf_generator/lib/python3.10/site-packages/abb_tf_generator
+[3.726s] copying /abb_ws/build/abb_tf_generator/build/lib/abb_tf_generator/__init__.py -> /abb_ws/install/abb_tf_generator/lib/python3.10/site-packages/abb_tf_generator
+[3.727s] byte-compiling /abb_ws/install/abb_tf_generator/lib/python3.10/site-packages/abb_tf_generator/abb_tf_generator.py to abb_tf_generator.cpython-310.pyc
+[3.733s] byte-compiling /abb_ws/install/abb_tf_generator/lib/python3.10/site-packages/abb_tf_generator/__init__.py to __init__.cpython-310.pyc
+[3.733s] running install_data
+[3.733s] creating /abb_ws/install/abb_tf_generator/share/ament_index
+[3.733s] creating /abb_ws/install/abb_tf_generator/share/ament_index/resource_index
+[3.733s] creating /abb_ws/install/abb_tf_generator/share/ament_index/resource_index/packages
+[3.733s] copying resource/abb_tf_generator -> /abb_ws/install/abb_tf_generator/share/ament_index/resource_index/packages
+[3.734s] copying package.xml -> /abb_ws/install/abb_tf_generator/share/abb_tf_generator
+[3.734s] creating /abb_ws/install/abb_tf_generator/share/abb_tf_generator/launch
+[3.734s] creating /abb_ws/install/abb_tf_generator/share/abb_tf_generator/descriptions
+[3.734s] creating /abb_ws/install/abb_tf_generator/share/abb_tf_generator/config
+[3.734s] running install_egg_info
+[3.738s] Copying ../../build/abb_tf_generator/abb_tf_generator.egg-info to /abb_ws/install/abb_tf_generator/lib/python3.10/site-packages/abb_tf_generator-0.0.0-py3.10.egg-info
+[3.739s] running install_scripts
+[3.782s] Installing abb_tf_generator script to /abb_ws/install/abb_tf_generator/lib/abb_tf_generator
+[3.782s] writing list of installed files to '/abb_ws/build/abb_tf_generator/install.log'
+[3.814s] Invoked command in '/abb_ws/src/abb_tf_generator' returned '0': PYTHONPATH=/abb_ws/build/abb_tf_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/abb_ws/install/abb_tf_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/abb_tf_generator build --build-base /abb_ws/build/abb_tf_generator/build install --record /abb_ws/build/abb_tf_generator/install.log --single-version-externally-managed install_data
