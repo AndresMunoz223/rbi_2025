@@ -54,3 +54,4 @@ RUN sudo apt install ros-humble-gz-ros2-control -y
 
 ENV IGN_GAZEBO_RESOURCE_PATH="/abb_ws/install/abb_gz_description/share"
 
+RUN sudo apt install terminator -y

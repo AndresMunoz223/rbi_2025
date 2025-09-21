@@ -9,32 +9,32 @@
     <plugin>gz_ros2_control/GazeboSimSystem</plugin>
   </hardware>
 
-  <joint name="joint_1">
+  <joint name="position_joint_0">
     <command_interface name="position" />
     <state_interface name="position" />
   </joint>
 
-  <joint name="joint_2">
+  <joint name="position_joint_1">
     <command_interface name="position" />
     <state_interface name="position" />
   </joint>
 
-  <joint name="joint_3">
+  <joint name="position_joint_2">
     <command_interface name="position" />
     <state_interface name="position" />
   </joint>
 
-  <joint name="joint_4">
+  <joint name="position_joint_3">
     <command_interface name="position" />
     <state_interface name="position" />
   </joint>
 
-  <joint name="joint_5">
+  <joint name="position_joint_4">
     <command_interface name="position" />
     <state_interface name="position" />
   </joint>
 
-  <joint name="joint_6">
+  <joint name="position_joint_5">
     <command_interface name="position" />
     <state_interface name="position" />
   </joint>
@@ -47,42 +47,42 @@
 </gazebo>
 
 
-<gazebo reference="joint_1">
+<gazebo reference="position_joint_0">
   <ros2_control>
     <command_interface>position</command_interface>
     <state_interface>position</state_interface>
   </ros2_control>
 </gazebo>
 
-<gazebo reference="joint_2">
+<gazebo reference="position_joint_1">
   <ros2_control>
     <command_interface>position</command_interface>
     <state_interface>position</state_interface>
   </ros2_control>
 </gazebo>
 
-<gazebo reference="joint_3">
+<gazebo reference="position_joint_2">
   <ros2_control>
     <command_interface>position</command_interface>
     <state_interface>position</state_interface>
   </ros2_control>
 </gazebo>
 
-<gazebo reference="joint_4">
+<gazebo reference="position_joint_3">
   <ros2_control>
     <command_interface>position</command_interface>
     <state_interface>position</state_interface>
   </ros2_control>
 </gazebo>
 
-<gazebo reference="joint_5">
+<gazebo reference="position_joint_4">
   <ros2_control>
     <command_interface>position</command_interface>
     <state_interface>position</state_interface>
   </ros2_control>
 </gazebo>
 
-<gazebo reference="joint_6">
+<gazebo reference="position_joint_5">
   <ros2_control>
     <command_interface>position</command_interface>
     <state_interface>position</state_interface>

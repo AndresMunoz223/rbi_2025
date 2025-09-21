@@ -1,0 +1,31 @@
+[0.066s] Invoking command in '/abb_ws/build/abb_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/abb_ws/install/abb_path_controller:/abb_ws/install/abb_mujoco_python:/abb_ws/install/abb_ik_solver:/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_controllers -- -j12 -l12
+[1.015s] [35m[1mConsolidate compiler generated dependencies of target abb_controllers[0m
+[1.015s] [100%] Built target abb_controllers
+[1.032s] Invoked command in '/abb_ws/build/abb_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/abb_ws/install/abb_path_controller:/abb_ws/install/abb_mujoco_python:/abb_ws/install/abb_ik_solver:/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_controllers -- -j12 -l12
+[1.033s] Invoking command in '/abb_ws/build/abb_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/abb_ws/install/abb_path_controller:/abb_ws/install/abb_mujoco_python:/abb_ws/install/abb_ik_solver:/opt/ros/humble /usr/bin/cmake --install /abb_ws/build/abb_controllers
+[1.061s] -- Install configuration: ""
+[1.062s] -- Execute custom install script
+[1.062s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers//abb_controller.xml
+[1.062s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/lib/libabb_controllers.so
+[1.062s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/include/include/abb_controllers/abb_forward_controller.hpp
+[1.062s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/environment/library_path.sh
+[1.063s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/environment/library_path.dsv
+[1.064s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/ament_index/resource_index/package_run_dependencies/abb_controllers
+[1.065s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/ament_index/resource_index/parent_prefix_path/abb_controllers
+[1.065s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/environment/ament_prefix_path.sh
+[1.065s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/environment/ament_prefix_path.dsv
+[1.065s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/environment/path.sh
+[1.065s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/environment/path.dsv
+[1.065s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/local_setup.bash
+[1.065s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/local_setup.sh
+[1.065s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/local_setup.zsh
+[1.066s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/local_setup.dsv
+[1.066s] -- Symlinking: /abb_ws/install/abb_controllers/share/abb_controllers/package.dsv
+[1.068s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/ament_index/resource_index/packages/abb_controllers
+[1.068s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/abb_controllers
+[1.068s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[1.069s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.069s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/cmake/abb_controllersConfig.cmake
+[1.069s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/cmake/abb_controllersConfig-version.cmake
+[1.069s] -- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/package.xml
+[1.124s] Invoked command in '/abb_ws/build/abb_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/abb_ws/install/abb_path_controller:/abb_ws/install/abb_mujoco_python:/abb_ws/install/abb_ik_solver:/opt/ros/humble /usr/bin/cmake --install /abb_ws/build/abb_controllers

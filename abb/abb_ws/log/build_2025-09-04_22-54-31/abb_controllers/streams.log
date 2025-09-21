@@ -1,0 +1,16 @@
+[0.073s] Invoking command in '/abb_ws/build/abb_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/abb_ws/install/abb_path_controller:/abb_ws/install/abb_mujoco_python:/abb_ws/install/abb_ik_solver:/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_controllers -- -j12 -l12
+[0.843s] [35m[1mConsolidate compiler generated dependencies of target abb_controllers[0m
+[0.844s] [ 50%] [32mBuilding CXX object CMakeFiles/abb_controllers.dir/src/abb_forward_controller.cpp.o[0m
+[3.144s] [01m[K/abb_ws/src/abb_controllers/src/abb_forward_controller.cpp:[m[K In constructor ‘[01m[Kabb_controller::ABBController::ABBController()[m[K’:
+[3.144s] [01m[K/abb_ws/src/abb_controllers/src/abb_forward_controller.cpp:8:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.144s]     8 |         for(int ii = 0; [01;35m[Kii < joint_desired_positions_.size()[m[K, ii++){
+[3.144s]       |                         [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.144s] [01m[K/abb_ws/src/abb_controllers/src/abb_forward_controller.cpp:8:28:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.145s] [01m[K/abb_ws/src/abb_controllers/src/abb_forward_controller.cpp:8:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[3.145s]     8 |         for(int ii = 0; ii < joint_desired_positions_.size(), ii++[01;31m[K)[m[K{
+[3.145s]       |                                                                   [01;31m[K^[m[K
+[3.145s]       |                                                                   [32m[K;[m[K
+[5.589s] gmake[2]: *** [CMakeFiles/abb_controllers.dir/build.make:76: CMakeFiles/abb_controllers.dir/src/abb_forward_controller.cpp.o] Error 1
+[5.589s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/abb_controllers.dir/all] Error 2
+[5.589s] gmake: *** [Makefile:146: all] Error 2
+[5.591s] Invoked command in '/abb_ws/build/abb_controllers' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/abb_ws/install/abb_path_controller:/abb_ws/install/abb_mujoco_python:/abb_ws/install/abb_ik_solver:/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_controllers -- -j12 -l12

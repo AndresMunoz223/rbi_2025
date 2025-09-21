@@ -1,0 +1,44 @@
+[0.050s] Invoking command in '/abb_ws/build/abb_gz_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /abb_ws/src/abb_gz_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/abb_ws/install/abb_gz_hardware
+[0.898s] -- The C compiler identification is GNU 11.4.0
+[0.898s] -- The CXX compiler identification is GNU 11.4.0
+[0.898s] -- Detecting C compiler ABI info
+[0.898s] -- Detecting C compiler ABI info - done
+[0.898s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.898s] -- Detecting C compile features
+[0.898s] -- Detecting C compile features - done
+[0.898s] -- Detecting CXX compiler ABI info
+[0.898s] -- Detecting CXX compiler ABI info - done
+[0.898s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.898s] -- Detecting CXX compile features
+[0.898s] -- Detecting CXX compile features - done
+[0.898s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.898s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.898s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.898s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.899s] -- Added test 'lint_cmake' to check CMake code style
+[0.899s] -- Added test 'xmllint' to check XML markup files
+[0.899s] -- Configuring done
+[0.899s] -- Generating done
+[0.899s] -- Build files have been written to: /abb_ws/build/abb_gz_hardware
+[0.918s] Invoked command in '/abb_ws/build/abb_gz_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /abb_ws/src/abb_gz_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/abb_ws/install/abb_gz_hardware
+[0.918s] Invoking command in '/abb_ws/build/abb_gz_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_gz_hardware -- -j12 -l12
+[0.962s] Invoked command in '/abb_ws/build/abb_gz_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_gz_hardware -- -j12 -l12
+[0.975s] Invoking command in '/abb_ws/build/abb_gz_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /abb_ws/build/abb_gz_hardware
+[0.985s] -- Install configuration: ""
+[0.985s] -- Execute custom install script
+[0.985s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/ament_index/resource_index/package_run_dependencies/abb_gz_hardware
+[0.996s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/ament_index/resource_index/parent_prefix_path/abb_gz_hardware
+[1.005s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/abb_gz_hardware/environment/ament_prefix_path.sh
+[1.016s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/abb_gz_hardware/environment/ament_prefix_path.dsv
+[1.028s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/abb_gz_hardware/environment/path.sh
+[1.037s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/abb_gz_hardware/environment/path.dsv
+[1.047s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/abb_gz_hardware/local_setup.bash
+[1.057s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/abb_gz_hardware/local_setup.sh
+[1.066s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/abb_gz_hardware/local_setup.zsh
+[1.077s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/abb_gz_hardware/local_setup.dsv
+[1.087s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/abb_gz_hardware/package.dsv
+[1.098s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/ament_index/resource_index/packages/abb_gz_hardware
+[1.108s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/abb_gz_hardware/cmake/abb_gz_hardwareConfig.cmake
+[1.118s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/abb_gz_hardware/cmake/abb_gz_hardwareConfig-version.cmake
+[1.128s] -- Symlinking: /abb_ws/install/abb_gz_hardware/share/abb_gz_hardware/package.xml
+[1.138s] Invoked command in '/abb_ws/build/abb_gz_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /abb_ws/build/abb_gz_hardware

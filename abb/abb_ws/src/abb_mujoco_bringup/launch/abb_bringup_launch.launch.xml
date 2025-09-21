@@ -12,10 +12,14 @@
         <param name="robot_description" value="$(command 'xacro $(var urdf_path)')" />
     </node>
 
-    <node pkg="controller_manager" exec="spawner" args="forward_command_controller"
-          name="spawner_forward_command_controller"
-          output="screen">
-        <param name="controller_manager_timeout" value="10"/>
-    </node>
+    <node pkg="controller_manager" exec="spawner" args="abb_controller"/>
+
+    <node pkg="abb_tf_generator" exec="abb_tf_generator"/>
+
+    <node pkg="abb_ik_solver" exec="abb_ik_solver"/>
+
+    <node pkg="abb_path_generator" exec="abb_path_generator"/>
+
+    <node pkg="abb_path_controller" exec="abb_path_controller"/>
 
 </launch>

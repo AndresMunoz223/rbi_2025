@@ -1,0 +1,17 @@
+[2.089s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver/build --no-deps symlink_data
+[2.449s] running develop
+[2.709s] running egg_info
+[2.709s] writing scara_general_ik_solver.egg-info/PKG-INFO
+[2.709s] writing dependency_links to scara_general_ik_solver.egg-info/dependency_links.txt
+[2.709s] writing entry points to scara_general_ik_solver.egg-info/entry_points.txt
+[2.709s] writing requirements to scara_general_ik_solver.egg-info/requires.txt
+[2.710s] writing top-level names to scara_general_ik_solver.egg-info/top_level.txt
+[2.711s] reading manifest file 'scara_general_ik_solver.egg-info/SOURCES.txt'
+[2.712s] writing manifest file 'scara_general_ik_solver.egg-info/SOURCES.txt'
+[2.758s] running build_ext
+[2.758s] Creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/lib/python3.10/site-packages/scara-general-ik-solver.egg-link (link to .)
+[2.759s] Installing scara_ik_solver script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/lib/scara_general_ik_solver
+[2.759s] 
+[2.759s] Installed /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver
+[2.759s] running symlink_data
+[2.820s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver/build --no-deps symlink_data

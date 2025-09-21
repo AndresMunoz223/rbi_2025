@@ -13,12 +13,14 @@ A brief showcase of the elements is presented as follows:
 | Servomotors          | 2       | BSH0551T32A2A     |
 | Servomotor Drivers   | 2       | LMX32             |
 | Stepper Motors       | 2       | Nema 23HS30-2804S |
-| CAN Interface Driver | 1       |                   |
+| CAN Interface Driver | 1       | TJA1050           |
 | Esp32                | 1       | WROOM32D          |
 
 # Robot cabinet and its structure
 
 Inside the robot's side cabinet, an arrange of components can be found, among them we have the main protection circuits, 12V power supplies, the stepper drivers, and the ESP32 circuit.
+
+<img src="media/scara_cabinet.png" width="400" height="480"/>
 
 ## Esp32 Circuit
 

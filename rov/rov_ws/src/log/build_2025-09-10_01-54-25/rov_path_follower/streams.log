@@ -1,0 +1,27 @@
+[1.874s] Invoking command in '/rov_ws/src/build/rov_path_follower': PYTHONPATH=/rov_ws/src/build/rov_path_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rov_ws/src/install/rov_path_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rov_ws/src/build/rov_path_follower/build --no-deps symlink_data
+[2.203s] running develop
+[2.427s] running egg_info
+[2.427s] creating rov_path_follower.egg-info
+[2.428s] writing rov_path_follower.egg-info/PKG-INFO
+[2.428s] writing dependency_links to rov_path_follower.egg-info/dependency_links.txt
+[2.428s] writing entry points to rov_path_follower.egg-info/entry_points.txt
+[2.428s] writing requirements to rov_path_follower.egg-info/requires.txt
+[2.428s] writing top-level names to rov_path_follower.egg-info/top_level.txt
+[2.428s] writing manifest file 'rov_path_follower.egg-info/SOURCES.txt'
+[2.431s] reading manifest file 'rov_path_follower.egg-info/SOURCES.txt'
+[2.432s] writing manifest file 'rov_path_follower.egg-info/SOURCES.txt'
+[2.434s] running build_ext
+[2.434s] Creating /rov_ws/src/install/rov_path_follower/lib/python3.10/site-packages/rov-path-follower.egg-link (link to .)
+[2.435s] Installing rov_path_follower script to /rov_ws/src/install/rov_path_follower/lib/rov_path_follower
+[2.435s] 
+[2.435s] Installed /rov_ws/src/build/rov_path_follower
+[2.436s] running symlink_data
+[2.436s] creating /rov_ws/src/install/rov_path_follower/share/ament_index
+[2.436s] creating /rov_ws/src/install/rov_path_follower/share/ament_index/resource_index
+[2.436s] creating /rov_ws/src/install/rov_path_follower/share/ament_index/resource_index/packages
+[2.436s] symbolically linking /rov_ws/src/build/rov_path_follower/resource/rov_path_follower -> /rov_ws/src/install/rov_path_follower/share/ament_index/resource_index/packages
+[2.436s] symbolically linking /rov_ws/src/build/rov_path_follower/package.xml -> /rov_ws/src/install/rov_path_follower/share/rov_path_follower
+[2.436s] creating /rov_ws/src/install/rov_path_follower/share/rov_path_follower/launch
+[2.436s] creating /rov_ws/src/install/rov_path_follower/share/rov_path_follower/descriptions
+[2.437s] creating /rov_ws/src/install/rov_path_follower/share/rov_path_follower/config
+[2.474s] Invoked command in '/rov_ws/src/build/rov_path_follower' returned '0': PYTHONPATH=/rov_ws/src/build/rov_path_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rov_ws/src/install/rov_path_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rov_ws/src/build/rov_path_follower/build --no-deps symlink_data

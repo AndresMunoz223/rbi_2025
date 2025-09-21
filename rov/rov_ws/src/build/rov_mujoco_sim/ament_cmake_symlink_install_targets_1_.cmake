@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/rov_ws/src/build/rov_mujoco_sim/rov_mujoco_sim_direct" "TARGETS" "rov_mujoco_sim_direct" "DESTINATION" "lib/rov_mujoco_sim")

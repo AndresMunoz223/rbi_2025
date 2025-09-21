@@ -82,41 +82,10 @@ class AbbSimulatorInterface : public hardware_interface::SystemInterface
     const std::string body_name = "hull_link";
     int hull_name_id;
 
-    std::array<double, 6> motor_efforts_{};
+    std::array<double, 6> motor_positions_{};
     std::array<double, 6> motor_commands_{};
 
-    std::vector<double> free_joint_pos = {0., 0., 0.};
-    Eigen::Quaterniond q;
-
-    double u_input_;
-    double z_input_;
-    double roll_input_;
-    double pitch_input_;
-    double yaw_input_;
     //! --------------------------------------------
-
-    Eigen::MatrixXd target_forces_to_actuator_map;
-    Eigen::MatrixXd target_accel_to_forces_map;
-    Eigen::MatrixXd set_point_to_accel_map;
-
-    double hull_inertia_xx = 0.;
-    double hull_inertia_yy = 0.;
-    double hull_inertia_zz = 0.;
-    double hull_mass = 0.;
-
-    double f_1 = 0.;
-    double f_2 = 0.;
-    double f_3 = 0.;
-    double f_4 = 0.;
-    double f_5 = 0.;
-    double f_6 = 0.;
-
-    double mu_x = 0.;
-    double mu_z = 0.;
-
-    double hull_lw = 0.;
-    double hull_ld = 0.;
-    double hull_lb = 0.;
 
 };
 

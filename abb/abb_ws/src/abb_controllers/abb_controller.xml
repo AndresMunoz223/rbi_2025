@@ -1,0 +1,9 @@
+<library path="abb_controllers">
+    <class name="abb_controller/ABBController"
+           type="abb_controller::ABBController"
+           base_class_type="controller_interface::ControllerInterface">
+           <description>
+                Forward controller for the ABB.
+           </description>
+    </class>
+</library>

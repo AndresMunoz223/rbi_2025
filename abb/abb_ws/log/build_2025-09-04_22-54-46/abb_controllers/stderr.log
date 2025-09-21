@@ -1,0 +1,4 @@
+[01m[K/abb_ws/src/abb_controllers/src/abb_forward_controller.cpp:[m[K In constructor ‘[01m[Kabb_controller::ABBController::ABBController()[m[K’:
+[01m[K/abb_ws/src/abb_controllers/src/abb_forward_controller.cpp:8:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+    8 |         for(int ii = 0; [01;35m[Kii < joint_desired_positions_.size()[m[K; ii++){
+      |                         [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

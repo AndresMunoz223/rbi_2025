@@ -1,0 +1,27 @@
+[2.701s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver/build --no-deps symlink_data
+[3.196s] running develop
+[3.591s] running egg_info
+[3.591s] creating scara_general_ik_solver.egg-info
+[3.591s] writing scara_general_ik_solver.egg-info/PKG-INFO
+[3.591s] writing dependency_links to scara_general_ik_solver.egg-info/dependency_links.txt
+[3.591s] writing entry points to scara_general_ik_solver.egg-info/entry_points.txt
+[3.591s] writing requirements to scara_general_ik_solver.egg-info/requires.txt
+[3.591s] writing top-level names to scara_general_ik_solver.egg-info/top_level.txt
+[3.592s] writing manifest file 'scara_general_ik_solver.egg-info/SOURCES.txt'
+[3.594s] reading manifest file 'scara_general_ik_solver.egg-info/SOURCES.txt'
+[3.594s] writing manifest file 'scara_general_ik_solver.egg-info/SOURCES.txt'
+[3.638s] running build_ext
+[3.638s] Creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/lib/python3.10/site-packages/scara-general-ik-solver.egg-link (link to .)
+[3.639s] Installing scara_ik_solver script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/lib/scara_general_ik_solver
+[3.639s] 
+[3.639s] Installed /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver
+[3.639s] running symlink_data
+[3.639s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/share/ament_index
+[3.640s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/share/ament_index/resource_index
+[3.640s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/share/ament_index/resource_index/packages
+[3.640s] symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver/resource/scara_general_ik_solver -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/share/ament_index/resource_index/packages
+[3.640s] symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver/package.xml -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/share/scara_general_ik_solver
+[3.640s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/share/scara_general_ik_solver/launch
+[3.640s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/share/scara_general_ik_solver/descriptions
+[3.640s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/share/scara_general_ik_solver/config
+[3.683s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_general_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_general_ik_solver/build --no-deps symlink_data

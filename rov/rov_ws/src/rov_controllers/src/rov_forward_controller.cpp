@@ -131,9 +131,6 @@ namespace rov_controller
         (void)time;
         (void)period;
 
-        // for(int ii = 0; ii < (int)command_interfaces_.size(); ii++){
-        //     (void)command_interfaces_[ii].set_value(2.);
-        // }
 
         Eigen::Matrix<double, 6, 1> input_vector = target_forces_to_actuator_map * target_accel_to_forces_map;
 
@@ -144,9 +141,7 @@ namespace rov_controller
                 input_vector(ii) = 0.;
             }
         }
-        // for (int i = 0; i < 6; ++i) {
-        //     RCLCPP_INFO(rclcpp::get_logger("rov_controller"), "Input vector[%d]: %f", i, input_vector(i));
-        // }
+
 
         (void)command_interfaces_[0].set_value(input_vector(0));
         (void)command_interfaces_[1].set_value(input_vector(1));
@@ -211,17 +206,6 @@ namespace rov_controller
 
         // Publish the complete IMU message
         imu_pub_->publish(imu_msg_);
-
-        // RCLCPP_INFO(rclcpp::get_logger("rov_x"),std::to_string(state_interfaces_[0].get_value()).c_str());
-        // RCLCPP_INFO(rclcpp::get_logger("rov_y"),std::to_string(state_interfaces_[1].get_value()).c_str());
-        // RCLCPP_INFO(rclcpp::get_logger("rov_z"),std::to_string(state_interfaces_[2].get_value()).c_str());
-        // RCLCPP_INFO(rclcpp::get_logger("rov_roll"),std::to_string(euler[2]*(180/M_PI)).c_str());
-        // RCLCPP_INFO(rclcpp::get_logger("rov_pitch"),std::to_string(euler[1]*(180/M_PI)).c_str());
-        // RCLCPP_INFO(rclcpp::get_logger("rov_yaw"),std::to_string(euler[0]*(180/M_PI)).c_str());
-        // RCLCPP_INFO(rclcpp::get_logger("rov_quat_w"), std::to_string(state_interfaces_[3].get_value()).c_str());
-        // RCLCPP_INFO(rclcpp::get_logger("rov_quat_x"), std::to_string(state_interfaces_[4].get_value()).c_str());
-        // RCLCPP_INFO(rclcpp::get_logger("rov_quat_y"), std::to_string(state_interfaces_[5].get_value()).c_str());
-        // RCLCPP_INFO(rclcpp::get_logger("rov_quat_z"), std::to_string(state_interfaces_[6].get_value()).c_str());
 
         return controller_interface::return_type::OK;
     }

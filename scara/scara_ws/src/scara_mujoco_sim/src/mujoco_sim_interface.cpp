@@ -31,15 +31,15 @@ hardware_interface::CallbackReturn ScaraSimulatorInterface::on_configure
         this->sim_data_object = mj_makeData(this->sim_model_object);
     }
 
-        //! Getting the body id
-    hull_name_id = mj_name2id(sim_model_object, mjOBJ_BODY, body_name.c_str());
+    this->joint_position_targets_[0] = 0.;
+    this->joint_position_targets_[1] = 0.;
+    this->joint_position_targets_[2] = 0.;
+    this->joint_position_targets_[3] = 0.;
 
-    this->thruster_efforts_[0] = 0.;
-    this->thruster_efforts_[1] = 0.;
-    this->thruster_efforts_[2] = 0.;
-    this->thruster_efforts_[3] = 0.;
-    this->thruster_efforts_[4] = 0.;
-    this->thruster_efforts_[5] = 0.;
+    this->joint_positions_[0] = 0.;
+    this->joint_positions_[1] = 0.;
+    this->joint_positions_[2] = 0.;
+    this->joint_positions_[3] = 0.;
 
     RCLCPP_INFO(rclcpp::get_logger("scara_sim"), "I CONFIG");
     return hardware_interface::CallbackReturn::SUCCESS;
@@ -66,15 +66,6 @@ hardware_interface::return_type ScaraSimulatorInterface::read
     
     (void)time;
     (void)period;
-    std::vector<double> linear_vel =  {0., 0., 0.};
-
-    free_joint_pos[0] = 0.;
-    free_joint_pos[1] = 0.;
-    free_joint_pos[2] = 0.;
-    q.x() = 0.;
-    q.y() = 0.;
-    q.z() = 0.;
-    q.w() = 0.;
 
     return hardware_interface::return_type::OK;
 }
@@ -84,20 +75,6 @@ hardware_interface::return_type ScaraSimulatorInterface::write
     
     (void)time;
     (void)period;
-
-    // this->sim_data_object->ctrl[0] = thruster_commands_[0];
-    // this->sim_data_object->ctrl[1] = thruster_commands_[1];
-    // this->sim_data_object->ctrl[2] = thruster_commands_[2];
-    // this->sim_data_object->ctrl[3] = thruster_commands_[3];
-    // this->sim_data_object->ctrl[4] = thruster_commands_[4];
-    // this->sim_data_object->ctrl[5] = thruster_commands_[5];
-
-    // target_accel_to_forces_map << (hull_mass/2)*u_input_ + mu_x,
-    //                                     0,
-    //                             (hull_mass/6)*z_input_ + mu_z,
-    //                         (hull_lw*hull_inertia_xx/8)*roll_input_,
-    //                         (hull_ld*hull_inertia_yy/8)*pitch_input_,
-    //                         (hull_lb*hull_inertia_zz/8)*yaw_input_;
 
     return hardware_interface::return_type::OK;
 
@@ -109,9 +86,9 @@ ScaraSimulatorInterface::export_state_interfaces()
     std::vector<hardware_interface::StateInterface> state_interfaces;
     for (size_t i = 0; i < 4; ++i) {
         state_interfaces.emplace_back(
-            "thruster_joint_" + std::to_string(i+1),
-            "effort",
-            &thruster_efforts_[i] // You need to define this array
+            "joint_" + std::to_string(i),
+            "position",
+            &joint_positions_[i] // You need to define this array
         );
     }
     return state_interfaces;
@@ -123,9 +100,9 @@ ScaraSimulatorInterface::export_command_interfaces()
     std::vector<hardware_interface::CommandInterface> command_interfaces;
     for (size_t i = 0; i < 4; ++i) {
         command_interfaces.emplace_back(
-            "thruster_joint_" + std::to_string(i+1),
-            "effort",
-            &thruster_commands_[i] // You need to define this array
+            "joint_" + std::to_string(i),
+            "position",
+            &joint_position_targets_[i] // You need to define this array
         );
     }
     return command_interfaces;
@@ -139,12 +116,11 @@ void ScaraSimulatorInterface::sim_thread(){
                 mju_error("Could not initialize GLFW");
 
             // create window, make OpenGL context current, request v-sync
-            window = glfwCreateWindow(1244, 700, "Demo", NULL, NULL);
+            window = glfwCreateWindow(1244, 700, "Scara Simulation", NULL, NULL);
             glfwMakeContextCurrent(window);
             glfwSwapInterval(1);
 
             // initialize visualization data structures
-
             mjv_defaultCamera(&this->sim_cam);
             mjv_defaultOption(&this->sim_opt);
             mjv_defaultScene(&this->sim_scn);
@@ -160,9 +136,6 @@ void ScaraSimulatorInterface::sim_thread(){
                 this->sim_cam.trackbodyid = body_id;
             }
 
-            // Eigen::VectorXd input_vector = target_accel_to_forces_map * target_forces_to_actuator_map;
-
-
             while( !glfwWindowShouldClose(window) && !sim_stop_flag){   
                 mjtNum simstart = this->sim_data_object->time;
                 while( this->sim_data_object->time - simstart < 1.0/60.0 ){
@@ -174,10 +147,15 @@ void ScaraSimulatorInterface::sim_thread(){
         
                 //! Control stuff ------------------------------
 
-                this->sim_data_object->ctrl[0] = thruster_commands_[0];
-                this->sim_data_object->ctrl[1] = thruster_commands_[1];
-                this->sim_data_object->ctrl[2] = thruster_commands_[2];
-                this->sim_data_object->ctrl[3] = thruster_commands_[3];
+                this->sim_data_object->qpos[0] = joint_position_targets_[0];
+                this->sim_data_object->qpos[1] = joint_position_targets_[1];
+                this->sim_data_object->qpos[2] = joint_position_targets_[2];
+                this->sim_data_object->qpos[3] = joint_position_targets_[3];
+
+                this->joint_positions_[0] = this->sim_data_object->qpos[0];
+                this->joint_positions_[1] = this->sim_data_object->qpos[1];
+                this->joint_positions_[2] = this->sim_data_object->qpos[2];
+                this->joint_positions_[3] = this->sim_data_object->qpos[3];
 
                 //! ------------------------------------------
 

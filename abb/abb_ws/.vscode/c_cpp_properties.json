@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/eia/.local/lib/python3.10/site-packages/mujoco/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/eia/repo/rbi_2025_2/abb/abb_ws/src/abb_controllers/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}

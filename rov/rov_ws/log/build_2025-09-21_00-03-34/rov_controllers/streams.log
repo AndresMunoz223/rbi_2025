@@ -1,0 +1,30 @@
+[0.337s] Invoking command in '/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --build /rov_ws/build/rov_controllers -- -j12 -l12
+[0.953s] [100%] Built target rov_controllers
+[1.260s] Invoked command in '/rov_ws/build/rov_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --build /rov_ws/build/rov_controllers -- -j12 -l12
+[1.261s] Invoking command in '/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --install /rov_ws/build/rov_controllers
+[1.281s] -- Install configuration: ""
+[1.282s] -- Execute custom install script
+[1.282s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers//rov_controller.xml
+[1.282s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/lib/librov_controllers.so
+[1.282s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/include/include/rov_controllers/rov_forward_controller.hpp
+[1.282s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/environment/library_path.sh
+[1.283s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/environment/library_path.dsv
+[1.283s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/ament_index/resource_index/package_run_dependencies/rov_controllers
+[1.283s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/ament_index/resource_index/parent_prefix_path/rov_controllers
+[1.283s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/environment/ament_prefix_path.sh
+[1.283s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/environment/ament_prefix_path.dsv
+[1.283s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/environment/path.sh
+[1.283s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/environment/path.dsv
+[1.283s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/local_setup.bash
+[1.283s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/local_setup.sh
+[1.283s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/local_setup.zsh
+[1.283s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/local_setup.dsv
+[1.283s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/package.dsv
+[1.287s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/ament_index/resource_index/packages/rov_controllers
+[1.288s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/rov_controllers
+[1.288s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[1.288s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.288s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/cmake/rov_controllersConfig.cmake
+[1.288s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/cmake/rov_controllersConfig-version.cmake
+[1.289s] -- Up-to-date symlink: /rov_ws/install/rov_controllers/share/rov_controllers/package.xml
+[1.317s] Invoked command in '/rov_ws/build/rov_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/rov_ws/install/rov_position_controller:/rov_ws/install/rov_path_generator:/rov_ws/install/rov_path_follower:/rov_ws/install/rov_attitude_controller:/opt/ros/humble /usr/bin/cmake --install /rov_ws/build/rov_controllers

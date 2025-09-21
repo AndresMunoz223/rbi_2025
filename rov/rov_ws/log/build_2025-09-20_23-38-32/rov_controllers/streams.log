@@ -1,0 +1,73 @@
+[0.372s] Invoking command in '/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_controllers
+[1.109s] -- The C compiler identification is GNU 11.4.0
+[1.109s] -- The CXX compiler identification is GNU 11.4.0
+[1.109s] -- Detecting C compiler ABI info
+[1.109s] -- Detecting C compiler ABI info - done
+[1.109s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.109s] -- Detecting C compile features
+[1.109s] -- Detecting C compile features - done
+[1.109s] -- Detecting CXX compiler ABI info
+[1.109s] -- Detecting CXX compiler ABI info - done
+[1.109s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.110s] -- Detecting CXX compile features
+[1.110s] -- Detecting CXX compile features - done
+[1.110s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.110s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.110s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.110s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.110s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.110s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.110s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.110s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.110s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.159s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.163s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.256s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.286s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.331s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.340s] -- Looking for pthread.h
+[1.405s] -- Looking for pthread.h - found
+[1.406s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.479s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.479s] -- Found Threads: TRUE  
+[1.561s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.592s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.626s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.646s] -- Found controller_interface: 2.51.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.798s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.974s] -- Configuring done
+[2.012s] -- Generating done
+[2.019s] -- Build files have been written to: /rov_ws/build/rov_controllers
+[2.032s] Invoked command in '/rov_ws/build/rov_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rov_ws/install/rov_controllers
+[2.033s] Invoking command in '/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rov_ws/build/rov_controllers -- -j12 -l12
+[2.093s] [ 50%] [32mBuilding CXX object CMakeFiles/rov_controllers.dir/src/rov_forward_controller.cpp.o[0m
+[18.214s] [100%] [32m[1mLinking CXX shared library librov_controllers.so[0m
+[18.970s] [100%] Built target rov_controllers
+[18.982s] Invoked command in '/rov_ws/build/rov_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rov_ws/build/rov_controllers -- -j12 -l12
+[18.983s] Invoking command in '/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /rov_ws/build/rov_controllers
+[18.989s] -- Install configuration: ""
+[18.989s] -- Execute custom install script
+[18.990s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers//rov_controller.xml
+[18.998s] -- Symlinking: /rov_ws/install/rov_controllers/lib/librov_controllers.so
+[19.005s] -- Symlinking: /rov_ws/install/rov_controllers/include/include/rov_controllers/rov_forward_controller.hpp
+[19.011s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/environment/library_path.sh
+[19.017s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/environment/library_path.dsv
+[19.024s] -- Symlinking: /rov_ws/install/rov_controllers/share/ament_index/resource_index/package_run_dependencies/rov_controllers
+[19.031s] -- Symlinking: /rov_ws/install/rov_controllers/share/ament_index/resource_index/parent_prefix_path/rov_controllers
+[19.037s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/environment/ament_prefix_path.sh
+[19.044s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/environment/ament_prefix_path.dsv
+[19.053s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/environment/path.sh
+[19.059s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/environment/path.dsv
+[19.066s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/local_setup.bash
+[19.073s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/local_setup.sh
+[19.080s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/local_setup.zsh
+[19.086s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/local_setup.dsv
+[19.093s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/package.dsv
+[19.100s] -- Symlinking: /rov_ws/install/rov_controllers/share/ament_index/resource_index/packages/rov_controllers
+[19.106s] -- Symlinking: /rov_ws/install/rov_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/rov_controllers
+[19.113s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[19.119s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.126s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/cmake/rov_controllersConfig.cmake
+[19.132s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/cmake/rov_controllersConfig-version.cmake
+[19.139s] -- Symlinking: /rov_ws/install/rov_controllers/share/rov_controllers/package.xml
+[19.148s] Invoked command in '/rov_ws/build/rov_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /rov_ws/build/rov_controllers

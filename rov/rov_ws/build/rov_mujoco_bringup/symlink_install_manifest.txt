@@ -1,4 +1,5 @@
 /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//config/rov_controllers.yaml
+/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//config/rviz_config.rviz
 /rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup//launch/rov_bringup_launch.launch.xml
 /rov_ws/install/rov_mujoco_bringup/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_bringup
 /rov_ws/install/rov_mujoco_bringup/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_bringup

@@ -21,7 +21,7 @@
     <camera name="fixed" pos="0 -1.5 2." euler="45 0 0"/>
 
     <!--  Abb base-->
-    <body name="abb_base" pos="0 0 0.05" euler = "0 0 -60">
+    <body name="abb_base" pos="0 0 0.05" euler = "0 0 0">
         <geom name="abb_base_geom" type="box" size="0.3 0.3 0.05" rgba="1 0 0 1"/>
 
         <!-- first Joint -->
@@ -55,8 +55,8 @@
                             <joint name="fifth_joint" type="hinge"/>
 
                             <!-- Sixth Joint -->
-                            <body name="sixth_joint_body" pos="0 0.065 0" euler = "-90 0 180">
-                                <geom name="sixth_joint_geom" type="cylinder" size="0.02 0.05" rgba="0 0 1 1" pos="0 0 0.05"/>
+                            <body name="sixth_joint_body" pos="0 0.25 0" euler = "-90 0 180">
+                                <geom name="sixth_joint_geom" type="cylinder" size="0.02 0.05" rgba="0 0 1 1" pos="0 0 -0.05"/>
                                 <joint name="sixth_joint" type="hinge"/>
                             </body>
                         </body>
@@ -69,12 +69,12 @@
   </worldbody>
 
     <actuator>
-        <position name="J_1" joint="first_joint" kp="500" />
-        <position name="J_2" joint="second_joint" kp="500"/>
-        <position name="J_3" joint="third_joint" kp="5000" />
-        <position name="J_4" joint="fourth_joint" kp="500"/>
-        <position name="J_5" joint="fifth_joint" kp="500" />
-        <position name="J_6" joint="sixth_joint" kp="500" />
+        <position name="J_1" joint="first_joint" kp="1000" />
+        <position name="J_2" joint="second_joint" kp="1000"/>
+        <position name="J_3" joint="third_joint" kp="10000" />
+        <position name="J_4" joint="fourth_joint" kp="1000"/>
+        <position name="J_5" joint="fifth_joint" kp="1000" />
+        <position name="J_6" joint="sixth_joint" kp="1000" />
 
         <!-- <motor name="first_motor" joint="first_joint" gear="100"/>
         <motor name="second_motor" joint="second_joint" gear="100" />

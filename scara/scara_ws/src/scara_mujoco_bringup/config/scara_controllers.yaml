@@ -2,10 +2,14 @@ controller_manager:
   ros__parameters:
     update_rate: 50
 
-    forward_command_controller:
+    arm_joints_controller:
       type: forward_command_controller/ForwardCommandController
 
-forward_command_controller:
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+arm_joints_controller:
   ros__parameters:
-    joints: ["thruster_joint_1","thruster_joint_2", "thruster_joint_3","thruster_joint_4"]  
-    interface_name: "effort"
+    publish_rate: 50.0
+    joints: ["joint_0", "joint_1", "joint_2", "joint_3"]
+    interface_name: "position"

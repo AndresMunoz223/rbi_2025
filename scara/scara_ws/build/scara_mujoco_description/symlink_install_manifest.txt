@@ -1,5 +1,6 @@
 /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description//urdf/common_properties.xacro
-/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description//urdf/scara_description.urdf.xacro
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description//urdf/scara.urdf.xacro
+/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description//urdf/scara_description.xacro
 /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/scara_mujoco_description//launch/display.launch.xml
 /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/ament_index/resource_index/package_run_dependencies/scara_mujoco_description
 /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description/share/ament_index/resource_index/parent_prefix_path/scara_mujoco_description

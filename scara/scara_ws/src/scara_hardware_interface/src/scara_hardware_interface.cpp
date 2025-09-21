@@ -27,7 +27,7 @@ hardware_interface::CallbackReturn ScaraHardwareInterface::on_configure
     joint_position_targets_[3] = 0.;
 
     try {
-    serial_port_ = SerialPort("/dev/ttyUSB1", BaudRate::B_115200, NumDataBits::EIGHT, Parity::NONE, NumStopBits::ONE);
+    serial_port_ = SerialPort("/dev/ttyUSB0", BaudRate::B_115200, NumDataBits::EIGHT, Parity::NONE, NumStopBits::ONE);
 	serial_port_.SetTimeout(100); // Block for up to 100ms to receive data
 	serial_port_.Open();
     }catch(Exception e){

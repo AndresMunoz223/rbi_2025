@@ -9,12 +9,16 @@ from tf2_ros import Buffer, TransformListener
 from tf2_ros import LookupException, ConnectivityException, ExtrapolationException
 from icecream import ic
 
+import time
+
+from geometry_msgs.msg import PoseStamped
+
 class PathController(Node):
     def __init__(self):
         super().__init__("position_controller_node")
 
         self.path_subs = self.create_subscription(Path, "/abb/cmd_path", self.path_sub_callback, 10)
-        self.cmd_vel_pub = self.create_publisher(Float64MultiArray, "/arm_joints_controller/commands", 10)
+        self.pose_pub = self.create_publisher(PoseStamped, "/abb/path/goal_pose", 10)
         self.odom_timer = self.create_timer(0.1, self.get_robot_pose)
 
         self.tf_buffer = Buffer()
@@ -28,12 +32,34 @@ class PathController(Node):
     def path_sub_callback(self, msg : Path):
         self.path = msg.poses
 
+        for poses in self.path:
+            
+            msg = PoseStamped()
+            msg.header.stamp = self.get_clock().now().to_msg()
+            msg.header.frame_id = "world_0"
+
+            msg.pose.position.x = float(poses.pose.position.x)
+            msg.pose.position.y = float(poses.pose.position.y)
+            msg.pose.position.z = float(poses.pose.position.z)
+
+            msg.pose.orientation.x = 0.
+            msg.pose.orientation.y = 0.
+            msg.pose.orientation.z = 0.
+            msg.pose.orientation.w = 1.
+
+            self.pose_pub.publish(msg)
+            self.get_logger().info(f'Publishing pose: {msg}')
+            
+            time.sleep(0.1)
+
+        
+
     def get_robot_pose(self):
         try:
             now = rclpy.time.Time()
             transformation = self.tf_buffer.lookup_transform(
-                "odom",
-                "base_link",
+                "world_0",
+                "tool",
                 now,
                 timeout=rclpy.duration.Duration(seconds=0.5)
             )
@@ -42,9 +68,7 @@ class PathController(Node):
             self.get_logger().warn("TF tree failed")
             pass
 
-    def position_controller_post(self):
-        pass
-    #! Si está a un epsilon de la posición deseada, seguir con el siguiente punto.
+        
 
 def main():
 

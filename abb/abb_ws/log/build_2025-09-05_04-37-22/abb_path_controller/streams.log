@@ -1,0 +1,18 @@
+[1.645s] Invoking command in '/abb_ws/build/abb_path_controller': PYTHONPATH=/abb_ws/build/abb_path_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/abb_ws/install/abb_path_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /abb_ws/build/abb_path_controller/build --no-deps symlink_data
+[1.907s] running develop
+[2.055s] running egg_info
+[2.055s] writing abb_path_controller.egg-info/PKG-INFO
+[2.055s] writing dependency_links to abb_path_controller.egg-info/dependency_links.txt
+[2.055s] writing entry points to abb_path_controller.egg-info/entry_points.txt
+[2.055s] writing requirements to abb_path_controller.egg-info/requires.txt
+[2.056s] writing top-level names to abb_path_controller.egg-info/top_level.txt
+[2.059s] reading manifest file 'abb_path_controller.egg-info/SOURCES.txt'
+[2.059s] writing manifest file 'abb_path_controller.egg-info/SOURCES.txt'
+[2.062s] running build_ext
+[2.062s] Creating /abb_ws/install/abb_path_controller/lib/python3.10/site-packages/abb-path-controller.egg-link (link to .)
+[2.063s] Installing abb_path_controller script to /abb_ws/install/abb_path_controller/lib/abb_path_controller
+[2.063s] Installing abb_path_generator script to /abb_ws/install/abb_path_controller/lib/abb_path_controller
+[2.063s] 
+[2.063s] Installed /abb_ws/build/abb_path_controller
+[2.064s] running symlink_data
+[2.108s] Invoked command in '/abb_ws/build/abb_path_controller' returned '0': PYTHONPATH=/abb_ws/build/abb_path_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/abb_ws/install/abb_path_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /abb_ws/build/abb_path_controller/build --no-deps symlink_data

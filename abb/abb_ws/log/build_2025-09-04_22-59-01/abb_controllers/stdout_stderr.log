@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target abb_controllers[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/abb_controllers.dir/src/abb_forward_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libabb_controllers.so[0m
+[100%] Built target abb_controllers
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers//abb_controller.xml
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/lib/libabb_controllers.so
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/include/include/abb_controllers/abb_forward_controller.hpp
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/environment/library_path.sh
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/environment/library_path.dsv
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/ament_index/resource_index/package_run_dependencies/abb_controllers
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/ament_index/resource_index/parent_prefix_path/abb_controllers
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/environment/path.sh
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/environment/path.dsv
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/local_setup.bash
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/local_setup.sh
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/local_setup.zsh
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/local_setup.dsv
+-- Symlinking: /abb_ws/install/abb_controllers/share/abb_controllers/package.dsv
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/ament_index/resource_index/packages/abb_controllers
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/abb_controllers
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/cmake/abb_controllersConfig.cmake
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/cmake/abb_controllersConfig-version.cmake
+-- Up-to-date symlink: /abb_ws/install/abb_controllers/share/abb_controllers/package.xml

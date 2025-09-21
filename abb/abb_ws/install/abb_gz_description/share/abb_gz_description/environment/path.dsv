@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/abb_ws/build/abb_gz_description/ament_cmake_environment_hooks/path.dsv

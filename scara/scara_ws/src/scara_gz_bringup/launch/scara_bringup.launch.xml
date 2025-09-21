@@ -33,7 +33,7 @@
     <node pkg="rviz2" exec="rviz2" output="screen"
           args="-d $(var rviz_config_path)" />
 
-    <node pkg="scara_ik_solver" exec="scara_ik_solver"/>
+    <node pkg="scara_general_ik_solver" exec="scara_ik_solver"/>
 
     <node pkg="scara_path_controller" exec="scara_path_controller"/>
 

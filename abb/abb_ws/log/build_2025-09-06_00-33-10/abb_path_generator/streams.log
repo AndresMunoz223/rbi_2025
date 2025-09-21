@@ -1,0 +1,17 @@
+[1.445s] Invoking command in '/abb_ws/build/abb_path_generator': PYTHONPATH=/abb_ws/build/abb_path_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/abb_ws/install/abb_path_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /abb_ws/build/abb_path_generator/build --no-deps symlink_data
+[1.672s] running develop
+[1.810s] running egg_info
+[1.811s] writing abb_path_generator.egg-info/PKG-INFO
+[1.811s] writing dependency_links to abb_path_generator.egg-info/dependency_links.txt
+[1.811s] writing entry points to abb_path_generator.egg-info/entry_points.txt
+[1.811s] writing requirements to abb_path_generator.egg-info/requires.txt
+[1.811s] writing top-level names to abb_path_generator.egg-info/top_level.txt
+[1.813s] reading manifest file 'abb_path_generator.egg-info/SOURCES.txt'
+[1.814s] writing manifest file 'abb_path_generator.egg-info/SOURCES.txt'
+[1.816s] running build_ext
+[1.816s] Creating /abb_ws/install/abb_path_generator/lib/python3.10/site-packages/abb-path-generator.egg-link (link to .)
+[1.817s] Installing abb_path_generator script to /abb_ws/install/abb_path_generator/lib/abb_path_generator
+[1.817s] 
+[1.817s] Installed /abb_ws/build/abb_path_generator
+[1.817s] running symlink_data
+[1.857s] Invoked command in '/abb_ws/build/abb_path_generator' returned '0': PYTHONPATH=/abb_ws/build/abb_path_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/abb_ws/install/abb_path_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /abb_ws/build/abb_path_generator/build --no-deps symlink_data

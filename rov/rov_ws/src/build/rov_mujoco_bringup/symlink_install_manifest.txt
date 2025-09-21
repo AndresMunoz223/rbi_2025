@@ -1,0 +1,17 @@
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup//config/rov_controllers.yaml
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup//launch/rov_bringup_launch.launch.xml
+/rov_ws/src/install/rov_mujoco_bringup/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_bringup
+/rov_ws/src/install/rov_mujoco_bringup/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_bringup
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/ament_prefix_path.sh
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/ament_prefix_path.dsv
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/path.sh
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup/environment/path.dsv
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.bash
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.sh
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.zsh
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup/local_setup.dsv
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.dsv
+/rov_ws/src/install/rov_mujoco_bringup/share/ament_index/resource_index/packages/rov_mujoco_bringup
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup/cmake/rov_mujoco_bringupConfig.cmake
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup/cmake/rov_mujoco_bringupConfig-version.cmake
+/rov_ws/src/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.xml

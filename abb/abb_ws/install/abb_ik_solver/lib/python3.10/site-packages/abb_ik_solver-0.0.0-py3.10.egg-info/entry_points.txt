@@ -1,3 +1,0 @@
-[console_scripts]
-abb_ik_solver = abb_ik_solver.abb_ik_solver:main
-

@@ -3,22 +3,16 @@
 #include <unistd.h>
 #include <math.h>
 
-#include "freertos/FreeRTOS.h" //! RTOS FOR THE WIIIN
-#include "freertos/task.h" //! Task included
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
 #include "driver/gpio.h"
 #include "driver/ledc.h"
-#include "driver/twai.h"
-#include "driver/uart.h"
-
 #include "esp_log.h"
 #include "esp_system.h"
-#include <esp_timer.h>
-#include <string.h>
-#include <stdio.h>
 
-
-#define UART_PORT_NUM UART_NUM_0 
-#define BUF_SIZE (1024)
+#include "math.h"
+#include "driver/uart.h"
+#include "driver/twai.h"
 
 #define TX_GPIO_NUM                     GPIO_NUM_21
 #define RX_GPIO_NUM                     GPIO_NUM_22
@@ -28,15 +22,46 @@
 #define SDO_ID_DRIVER_1                 0x603
 #define SDO_ID_DRIVER_2                 0x602
 #define NMT_START_STOP_ID               0x0
-
 #define R_PDO1_ID_DRIVER_1              0x203
 #define R_PDO1_ID_DRIVER_2              0x202
-
 #define R_PDO2_ID_DRIVER_1              0x303
 #define R_PDO2_ID_DRIVER_2              0x302
 
-#define TORQUE_MODE_ID 4
-uint8_t start_op_mode_torque[8] = {0x2F,0x60,0x60,0x00,TORQUE_MODE_ID,0x00,0x00,0x00};
+#define GPIO_DIR_CONTROL GPIO_NUM_25   // Pin para salida digital 1 o 0
+#define PWM_OUTPUT_PIN GPIO_NUM_27    // Pin para salida PWM
+#define GPIO_DIR_CONTROL2 GPIO_NUM_33   // Pin para salida digital 1 o 0
+#define PWM_OUTPUT_PIN2 GPIO_NUM_26    // Pin para salida PWM
+#define SENSOR GPIO_NUM_14    // Pin para sensor de proximidad
+#define SENSOR_IR_B1 GPIO_NUM_19
+#define SENSOR_IR_B2 GPIO_NUM_18
+
+// Definiciones de PWM
+#define PWM_FREQUENCY 5000   // Frecuencia de 5 kHz
+#define PWM_FREQUENCY2 1000   // Frecuencia de 1 kHz
+#define PWM_DUTY_CYCLE 50    // Ciclo de trabajo al 50%
+
+#define UART_PORT_NUM      UART_NUM_0
+#define UART_BAUD_RATE     115200
+#define UART_BUF_SIZE      1024
+
+
+#define Convertion_1_angle_mot 1.
+
+
+void uart_init() {
+    uart_config_t uart_config = {
+        .baud_rate = UART_BAUD_RATE,
+        .data_bits = UART_DATA_8_BITS,
+        .parity = UART_PARITY_DISABLE,
+        .stop_bits = UART_STOP_BITS_1,
+        .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
+        .source_clk = UART_SCLK_APB,
+    };
+    uart_driver_install(UART_PORT_NUM, UART_BUF_SIZE * 2, 0, 0, NULL, 0);
+    uart_param_config(UART_PORT_NUM, &uart_config);
+    uart_set_pin(UART_PORT_NUM, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
+}
+
 
 uint8_t positive_end[8] = {0x2B,0x06,0x30,0x10,0x02,0x00,0x00,0x00};
 uint8_t negative_end[8] = {0x2B,0x06,0x30,0x0F,0x02,0x00,0x00,0x00};
@@ -49,9 +74,7 @@ uint8_t nmt_start[2] = {0x01,0x00};
 uint8_t rpdo2_1[6] = {0x00,0x00,0x00,0x00,0x00,0x00};
 uint8_t rpdo2_2[6] = {0x06,0x00,0x00,0x00,0x00,0x00};
 uint8_t rpdo2_3[6] = {0x0F,0x00,0x00,0x00,0x00,0x00};
-
 uint8_t start_op_mode_pos[8] = {0x2F,0x60,0x60,0x00,0x01,0x00,0x00,0x00};
-
 uint8_t velocity_search_limit[8] = {0x23,0x99,0x60,0x01,0xBC,0x02,0x00,0x00};
 uint8_t velocity_move_away[8] = {0x23,0x99,0x60,0x02,0x64,0x00,0x00,0x00};
 uint8_t rpdo1_1[2] = {0x00,0x00};
@@ -68,56 +91,24 @@ union IntToBytes {
     unsigned char bytes[4];
 };
 
+union IntToBytes m1_ang;
+union IntToBytes m2_ang;
+int conv_rel_paces_angle1 = 3600; // paces/1 grade
+int conv_rel_paces_angle2 = 4480; // paces/1 grade
+float conv_rel_paces_angle3 = 1.42;
+int conv_rel_paces_cm = 793; // paces/1 cm
+float pos_m4 = 25.4; //cm
+float pos_m1 = 0; //grados
+float pos_m2 = 0; //grados
+float pos_m3 = 0; //grados
 
-uint8_t nmt_start_d1[2] = {0x01, 0x03}; // Start node 3
-uint8_t nmt_start_d2[2] = {0x01, 0x02}; // Start node 2
-
-twai_message_t heartbeat_msg = {
-    .identifier = 0x702,  // 0x700 + node ID (Node 2 => 0x702)
-    .data_length_code = 1,
-    .data = {0x05},       // 0x05 = "Operational"
-    .extd = 0, .rtr = 0
-};
-
-
-// CONFIG_USB_CONSOLE = 115200;
-// Definiciones de pines
-
-#define GPIO_DIR_CONTROL GPIO_NUM_25   // Pin para salida digital 1 o 0
-#define PWM_OUTPUT_PIN GPIO_NUM_27    // Pin para salida PWM
-#define GPIO_DIR_CONTROL2 GPIO_NUM_33   // Pin para salida digital 1 o 0
-#define PWM_OUTPUT_PIN2 GPIO_NUM_26    // Pin para salida PWM
-#define SENSOR GPIO_NUM_14    // Pin para sensor de proximidad
-#define SENSOR_IR_B1 GPIO_NUM_19
-#define SENSOR_IR_B2 GPIO_NUM_18
-
-// Definiciones de PWM
-#define PWM_FREQUENCY 5000   // Frecuencia de 5 kHz
-#define PWM_FREQUENCY2 1000   // Frecuencia de 1 kHz
-#define PWM_DUTY_CYCLE 50    // Ciclo de trabajo al 50%
+float motor_1_angle_applied = 0.0f;
+float motor_2_angle_applied = 0.0f;
+float motor_3_angle_applied = 0.0f;
 
 static const twai_general_config_t g_config = TWAI_GENERAL_CONFIG_DEFAULT(TX_GPIO_NUM, RX_GPIO_NUM, TWAI_MODE_NORMAL);
 static const twai_timing_config_t t_config = TWAI_TIMING_CONFIG_50KBITS();
 static const twai_filter_config_t f_config = TWAI_FILTER_CONFIG_ACCEPT_ALL();
-
-float torque1 = 0.;
-float torque2 = 0.;
-
-float z_position = 0.;
-float yaw_position = 0.;
-
-
-int32_t prev_pose1 = 0.;
-int32_t prev_pose2 = 0.;
-
-int32_t pos1 = 0.;
-int32_t pos2 = 0.;
-
-int32_t curr_pos2 = 0.;
-int32_t curr_pos1 = 0.;
-
-int32_t delta1 = 0.;
-int32_t delta2 = 0.;
 
 static twai_message_t sdo_message = {
     // Message type and format settings
@@ -145,19 +136,6 @@ static twai_message_t r_pdo2_message = {
     .data = {1, 2, 3, 4, 5, 6},
 };
 
-static twai_message_t r_pdo1_message = {
-    // Message type and format settings
-    .extd = 0,                // Standard Format message (11-bit ID)
-    .rtr = 0,                 // Send a data frame
-    .ss = 0,                  // Not single shot
-    .self = 0,                // Not a self reception request
-    .dlc_non_comp = 0,        // DLC is less than 8
-    // Message ID and payload
-    .identifier = R_PDO1_ID_DRIVER_1,   // COB-ID, funcion + id del nodo al que va dirigido el mensaje
-    .data_length_code = 2,
-    .data = {1, 2},
-};
-
 static twai_message_t nmt_ss_message = {
     // Message type and format settings
     .extd = 0,                // Standard Format message (11-bit ID)
@@ -178,112 +156,52 @@ void send_can_message(twai_message_t type_message, int identifier, uint8_t* mess
         type_message.data[i] = message[i];
     }
     twai_transmit(&type_message, portMAX_DELAY);
-    if (receive){
-		twai_message_t rx_msg;
-		twai_receive(&rx_msg, portMAX_DELAY);
-		uint64_t data = 0;
-		if (rx_msg.identifier != ID_ESP32){
-			for (int i = 0; i < rx_msg.data_length_code; i++) {
-				data |= ((uint64_t)rx_msg.data[i] << (i * 8));
-			}
-		}
-    }
+
+    // vTaskDelay(pdMS_TO_TICKS(10));
+
+    // twai_clear_receive_queue();
+    // twai_clear_transmit_queue();
+
 }
 
-void set_motor_torque(int driver, float torque_percent) {
-    // Convert percentage to value (100.0% = 1000)
-    int torque_value = (int)(torque_percent * 10.0f);
-    
-    // Ensure within safe limits (-3000 to +3000)
-    if(torque_value < -3000) torque_value = -3000;
-    if(torque_value > 3000) torque_value = 3000;
-    
-    // Prepare torque bytes (little-endian)
-    uint8_t torque_bytes[2] = {
-        torque_value & 0xFF,
-        (torque_value >> 8) & 0xFF
-    };
-    
-    // Build SDO message
-    uint8_t set_torque[8] = {
-        0x2B,           // Write 2-byte command
-        0x71, 0x60,     // Object 6071h (Target Torque)
-        0x00,           // Subindex 0
-        torque_bytes[0], // Low byte
-        torque_bytes[1], // High byte
-        0x00,           // Padding
-        0x00            // Padding
-    };
-    
-    // Send to appropriate driver
-    if (driver == 1) {
-        send_can_message(sdo_message, SDO_ID_DRIVER_1, set_torque, 1);
-    } else if (driver == 2) {
-        send_can_message(sdo_message, SDO_ID_DRIVER_2, set_torque, 1);
-    }
+void move_motor_can(int driver, union IntToBytes angle)
+{
+	uint8_t start_move[6] = {0x5F,0x00,angle.bytes[0],angle.bytes[1],angle.bytes[2],angle.bytes[3]};
+	uint8_t new_setpoint[6] = {0x4F,0x00,angle.bytes[0],angle.bytes[1],angle.bytes[2],angle.bytes[3]};
+	if (driver == 1){
+
+		send_can_message(r_pdo2_message, R_PDO2_ID_DRIVER_1, new_setpoint, 1);
+		send_can_message(r_pdo2_message, R_PDO2_ID_DRIVER_1, start_move, 1);
+	}
+	else if (driver == 2)
+	{
+		send_can_message(r_pdo2_message, R_PDO2_ID_DRIVER_2, new_setpoint, 1);
+		send_can_message(r_pdo2_message, R_PDO2_ID_DRIVER_2, start_move, 1);
+	}
+	else
+	{
+		ESP_LOGI(TAG, "Incorrect driver, must use 1 or 2");
+	}
 }
 
-void init_torque_mode(int driver) {
+void set_pwm_duty_cycle(int duty) {
+    ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0, duty);
+    ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0);
+}
 
-    
-    if (driver == 1) {
-        // Set torque mode for driver 1
-        send_can_message(sdo_message, SDO_ID_DRIVER_1, start_op_mode_torque, 1);
-        vTaskDelay(pdMS_TO_TICKS(100));
-        send_can_message(nmt_ss_message, NMT_START_STOP_ID, nmt_start, 0);
-        // Enable drive
-        send_can_message(r_pdo1_message, R_PDO1_ID_DRIVER_1, rpdo1_1, 0);
-        send_can_message(r_pdo1_message, R_PDO1_ID_DRIVER_1, rpdo1_2, 0);
-        send_can_message(r_pdo1_message, R_PDO1_ID_DRIVER_1, rpdo1_3, 1);
-    }
-    else if (driver == 2) {
-
-        // Set torque mode for driver 2
-        send_can_message(sdo_message, SDO_ID_DRIVER_2, start_op_mode_torque, 1);
-        vTaskDelay(pdMS_TO_TICKS(100));
-        send_can_message(sdo_message, SDO_ID_DRIVER_2, negative_end, 1);
-        vTaskDelay(pdMS_TO_TICKS(100));
-        send_can_message(sdo_message, SDO_ID_DRIVER_2, positive_end, 1);
-        vTaskDelay(pdMS_TO_TICKS(100));
-        send_can_message(nmt_ss_message, NMT_START_STOP_ID, nmt_start, 0);
-        vTaskDelay(pdMS_TO_TICKS(100));
-        send_can_message(r_pdo1_message, R_PDO1_ID_DRIVER_2, rpdo1_1, 0);
-        vTaskDelay(pdMS_TO_TICKS(50));
-        send_can_message(r_pdo1_message, R_PDO1_ID_DRIVER_2, rpdo1_2, 0);
-        vTaskDelay(pdMS_TO_TICKS(50));
-        send_can_message(r_pdo1_message, R_PDO1_ID_DRIVER_2, rpdo1_3, 1);
+void control_pwm_cycles2(int paces) {
+    if (paces < 0) {
+        gpio_set_level(GPIO_DIR_CONTROL2, 0);
+        paces = paces*-1;
     }
     else {
-        ESP_LOGE(TAG, "Invalid motor number");
+        gpio_set_level(GPIO_DIR_CONTROL2, 1);
     }
-}
+    
+    set_pwm_duty_cycle2(PWM_DUTY_CYCLE * 1023 / 100);  // Establecer ciclo de trabajo
+    vTaskDelay(pdMS_TO_TICKS(1000*paces/PWM_FREQUENCY2));
 
-int32_t read_encoder_position(int driver) {
-    uint8_t sdo_read_request[8] = {0x40, 0x64, 0x60, 0x00, 0x00, 0x00, 0x00, 0x00};
-    uint32_t sdo_response_id = (driver == 1) ? 0x583 : 0x582; // T_SDO COB-ID for response
-
-    twai_status_info_t status;
-    twai_get_status_info(&status);
-    while (status.msgs_to_tx > 0) { // Wait for pending messages
-        twai_get_status_info(&status);
-    }
-
-
-    // Retry up to 3 times
-    for (int retry = 0; retry < 2; retry++) {
-        send_can_message(sdo_message, (driver == 1) ? SDO_ID_DRIVER_1 : SDO_ID_DRIVER_2, sdo_read_request, false);
-
-        twai_message_t rx_msg;
-        if (twai_receive(&rx_msg, pdMS_TO_TICKS(100)) == ESP_OK) {
-            if (rx_msg.identifier == sdo_response_id && rx_msg.data[0] == 0x43) {
-                int32_t position = (rx_msg.data[7] << 24) | (rx_msg.data[6] << 16) | 
-                                  (rx_msg.data[5] << 8)  | rx_msg.data[4];
-                return position;
-            }
-        }
-        // vTaskDelay(pdMS_TO_TICKS(10)); // Small delay between retries
-    }
-    return 2.; // Error after retries
+    set_pwm_duty_cycle2(0);  
 }
 
 void init_gpio(void) {
@@ -351,138 +269,177 @@ void init_pwm(void) {
     ledc_channel_config(&pwm_channel_2);
 }
 
-void print_task(void *pv) {
-    
-    uint8_t data[BUF_SIZE];
-    const char* delimiter = "|";
+void uart_thread_(void *args){
+
+    printf("Init_UART");
+
+    static char rx_line_buffer[UART_BUF_SIZE];
+    static int line_buffer_index = 0;
+
+    uint8_t *data = (uint8_t *)malloc(UART_BUF_SIZE);
+    char *token;
+    char *rest;
+    char *endptr;
+
+    float motor_1_angle = 0.0f;
+    float motor_2_angle = 0.0f;
+    float motor_3_angle = 0.0f;
 
     while(1){
-        // printf("%f|%f|%f|%f|%f\n", pos1*1., pos2*1., torque1, torque2, esp_timer_get_time()*1. / 1000000);
+
+        // printf("UartStuff");
+
+        // Read data from the UART buffer
+        int rx_bytes = uart_read_bytes(UART_PORT_NUM, data, UART_BUF_SIZE, 10 / portTICK_PERIOD_MS);
         
-        int len = uart_read_bytes(UART_PORT_NUM, data, BUF_SIZE, 20 / portTICK_PERIOD_MS);
-        if (len > 0) {
-            data[len] = '\0'; // Null-terminate the received data
-            // ESP_LOGI("SERIAL_READ", "Received: %f", (data[0] - '0')*10 + (data[1] - '0')*1 + (data[3] - '0')*0.1 + (data[4] - '0')*00.1);
-            // ESP_LOGI("SERIAL_READ", "Received: %f", (data[6] - '0')*10 + (data[7] - '0')*1 + (data[9] - '0')*0.1 + (data[10] - '0')*00.1);
-            // ESP_LOGI("SERIAL_READ", "Received: %f", (data[12] - '0')*10 + (data[13] - '0')*1 + (data[15] - '0')*0.1 + (data[16] - '0')*00.1);
-            // ESP_LOGI("SERIAL_READ", "Received: %f", (data[18] - '0')*10 + (data[19] - '0')*1 + (data[21] - '0')*0.1 + (data[22] - '0')*00.1);
-            
-            torque1 = (data[0] - '0')*10 + (data[1] - '0')*1 + (data[3] - '0')*0.1 + (data[4] - '0')*00.1;
-            torque2 = (data[6] - '0')*10 + (data[7] - '0')*1 + (data[9] - '0')*0.1 + (data[10] - '0')*00.1;
-            z_position = (data[12] - '0')*10 + (data[13] - '0')*1 + (data[15] - '0')*0.1 + (data[16] - '0')*00.1;
-            yaw_position = (data[18] - '0')*10 + (data[19] - '0')*1 + (data[21] - '0')*0.1 + (data[22] - '0')*00.1;
+        if (rx_bytes > 0) {
 
-            ESP_LOGI("SERIAL_READ", "Received: %f", torque1);
-            ESP_LOGI("SERIAL_READ", "Received: %f", torque2);
-            ESP_LOGI("SERIAL_READ", "Received: %f", z_position);
-            ESP_LOGI("SERIAL_READ", "Received: %f", yaw_position);
+            for (int i = 0; i < rx_bytes; i++) {
+                char ch = data[i];
 
-            // ESP_LOGI("SERIAL_READ", "Received: %c", data[4]);
-            // ESP_LOGI("SERIAL_READ", "Received: %c", data[5]);
 
+                rx_line_buffer[line_buffer_index++] = ch;
+
+
+                if (ch == '\n' || line_buffer_index >= UART_BUF_SIZE - 1) {
+                    rx_line_buffer[line_buffer_index - 1] = '\0'; // Null-terminate the string
+
+                    rest = rx_line_buffer;
+
+                    token = strtok_r(rest, "|", &rest);
+                    if (token != NULL) {
+                        motor_1_angle = strtof(token, &endptr);
+                        
+                        if (-62.0 <= motor_1_angle && motor_1_angle <= 62.0){
+                                motor_1_angle_applied = motor_1_angle;
+                        }
+                        if (*endptr != '\0') {
+                            printf("Error getting motor 1 angle: %s\n", token);
+                        }
+                    }
+
+
+                    token = strtok_r(rest, "|", &rest);
+                    if (token != NULL) {
+                        motor_2_angle = strtof(token, &endptr);
+
+                        if (-100.0 <= motor_2_angle && motor_2_angle <= 100.0){
+                               motor_2_angle_applied = motor_2_angle;
+                        }
+
+                        if (*endptr != '\0') {
+                            printf("Error getting motor 2 angle: %s\n", token);
+                        }
+                    }
+
+                    // token = strtok_r(rest, "\n", &rest);
+                    if (token != NULL) {
+
+                        motor_3_angle = strtof(token, &endptr);
+                        if (0.0 <= motor_3_angle && motor_3_angle <= 360.0){
+                                motor_3_angle_applied = motor_3_angle;
+                        }
+
+                        if (*endptr != '\0') {
+                            printf("Conversion error for pressure: %s\n", token);
+                        }
+                    }
+
+                    line_buffer_index = 0;
+                }
+            }
         }
 
-        vTaskDelay(pdMS_TO_TICKS(20));
-    }
-}
-
-void torque_task(void *pv) {
-
-    // const float amplitude1 = 13.0;
-    // const float amplitude2 = 13.0;
-    // const float period_ms_1 = 7000;
-    // const float period_ms_2 = 7000;
-    // float time = 0.0;
-    // const TickType_t delay_ms = 100;
-
-    while (1) {
-        // torque1 = amplitude1 * sin(2 * M_PI * time / period_ms_1);
-        // torque2 = amplitude2 * sin(2 * M_PI * time / period_ms_2);
-        
-        // set_motor_torque(1, torque1);
-        // set_motor_torque(2, torque2);
-
-        // time += delay_ms;
         vTaskDelay(pdMS_TO_TICKS(100));
+
     }
+
 }
 
-void encoder_task(void *pv) {
-    while (1) {
-        curr_pos2 = read_encoder_position(2);
-        curr_pos1 = read_encoder_position(1);
-        if (curr_pos1 == 2. || curr_pos2 == 2.){
-            continue;
-        }
-        delta1 = curr_pos1 - prev_pose1;
-        delta2 = curr_pos2 - prev_pose2;
+void scara_actuation_taks_(void *args){
 
-        if (delta1 > 3600/2){
-            delta1 -= 3600;
-        }else if(delta1 < -3600/2){
-            delta1 += 3600;
-        }
-        if (delta2 > 3600/2){
-            delta2 -= 3600;
-        }else if(delta2 < -3600/2){
-            delta2 += 3600;
-        }
-        pos1 += delta1;
-        pos2 += delta2;
-        prev_pose1 = curr_pos1;
-        prev_pose2 = curr_pos2;
-        vTaskDelay(2);
+
+    send_can_message(sdo_message, SDO_ID_DRIVER_2, activate_rpdo2_d2, 1);
+    send_can_message(sdo_message, SDO_ID_DRIVER_2, set_accel, 1);
+    send_can_message(sdo_message, SDO_ID_DRIVER_2, set_decel, 1);
+    send_can_message(sdo_message, SDO_ID_DRIVER_2, target_vel, 1);
+    send_can_message(nmt_ss_message, NMT_START_STOP_ID, nmt_start, 0);
+    send_can_message(r_pdo2_message, R_PDO2_ID_DRIVER_2, rpdo2_1, 0);
+    send_can_message(sdo_message, SDO_ID_DRIVER_2, negative_end, 1);
+    send_can_message(sdo_message, SDO_ID_DRIVER_2, positive_end, 1);
+    send_can_message(r_pdo2_message, R_PDO2_ID_DRIVER_2, rpdo2_2, 0);
+    send_can_message(r_pdo2_message, R_PDO2_ID_DRIVER_2, rpdo2_3, 1);
+    send_can_message(sdo_message, SDO_ID_DRIVER_2, start_op_mode_pos, 1);
+
+    send_can_message(sdo_message, SDO_ID_DRIVER_1, activate_rpdo2_d1, 1);
+    send_can_message(sdo_message, SDO_ID_DRIVER_1, set_accel, 1);
+    send_can_message(sdo_message, SDO_ID_DRIVER_1, set_decel, 1);
+    send_can_message(sdo_message, SDO_ID_DRIVER_1, target_vel, 1);
+    send_can_message(nmt_ss_message, NMT_START_STOP_ID, nmt_start, 0);
+    send_can_message(r_pdo2_message, R_PDO2_ID_DRIVER_1, rpdo2_1, 0);
+    send_can_message(sdo_message, SDO_ID_DRIVER_1, negative_end, 1);
+    send_can_message(sdo_message, SDO_ID_DRIVER_1, positive_end, 1);
+    send_can_message(r_pdo2_message, R_PDO2_ID_DRIVER_1, rpdo2_2, 0);
+    send_can_message(r_pdo2_message, R_PDO2_ID_DRIVER_1, rpdo2_3, 1);
+    send_can_message(sdo_message, SDO_ID_DRIVER_1, start_op_mode_pos, 1);
+
+
+    while(1){
+
+	// Driver 2
+    if (-100.0 <= motor_2_angle_applied && motor_2_angle_applied <= 100.0){
+        m2_ang.num = (int)round(conv_rel_paces_angle2*(motor_2_angle_applied - pos_m2));//conv_rel_paces_angle2*
+        pos_m2 = motor_2_angle_applied;
+	    move_motor_can(2, m2_ang);
+    }        
+
+    if (-62.0 <= motor_1_angle_applied && motor_1_angle_applied <= 62.0){
+        m1_ang.num = (int)round(Convertion_1_angle_mot*conv_rel_paces_angle1*(motor_1_angle_applied - pos_m1));//conv_rel_paces_angle1*
+        pos_m1 = motor_1_angle_applied;
+	    move_motor_can(1, m1_ang);
     }
+
+    if (0.0 <= motor_3_angle_applied && motor_3_angle_applied <= 360.0){
+        int paces_m3 = (int)round(conv_rel_paces_angle3*(motor_3_angle_applied - pos_m3));
+        pos_m3 = motor_3_angle_applied;
+        control_pwm_cycles2(paces_m3);
+    }
+
+    vTaskDelay(pdMS_TO_TICKS(30));
+
+    }
+    ESP_ERROR_CHECK(twai_stop());
+	
 }
 
-void app_main() {
+void app_main(void)
+{
 
-    //! Setting up UART
-    uart_config_t uart_config = {
-        .baud_rate = 115200,
-        .data_bits = UART_DATA_8_BITS,
-        .parity = UART_PARITY_DISABLE,
-        .stop_bits = UART_STOP_BITS_1,
-        .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
-        .source_clk = UART_SCLK_APB,
-    };
-    uart_driver_install(UART_PORT_NUM, BUF_SIZE * 2, 0, 0, NULL, 0);
-    uart_param_config(UART_PORT_NUM, &uart_config);
-
-
-    vTaskDelay(pdMS_TO_TICKS(3000));
+	for (int i = 3; i > 0; i--) {
+        printf("Program starting in %d\n", i);
+        vTaskDelay(pdMS_TO_TICKS(1000));
+    }
     init_gpio();
     init_pwm();
-    
-    // Initialize CAN
+    set_pwm_duty_cycle(0); 
+
+    set_pwm_duty_cycle(PWM_DUTY_CYCLE * 1023 / 100);  // Establecer ciclo de trabajo
+
     ESP_ERROR_CHECK(twai_driver_install(&g_config, &t_config, &f_config));
+    ESP_LOGI(TAG, "Driver installed");
     ESP_ERROR_CHECK(twai_start());
+    ESP_LOGI(TAG, "Driver started");
+
+    uart_init();
+
+    printf(" I did it");
+    ESP_LOGI(TAG, "I did it");   
+
+    xTaskCreatePinnedToCore(scara_actuation_taks_,"scara_task",4098,NULL,1, NULL, 0);
+    xTaskCreatePinnedToCore(uart_thread_,"uart_task",4098,NULL,1, NULL, 0);
     
-    // Initialize motors
-    init_torque_mode(1);
-    vTaskDelay(pdMS_TO_TICKS(100));
-    init_torque_mode(2);
-    
-    // Send initial heartbeat
-    twai_transmit(&heartbeat_msg, portMAX_DELAY);
-    
-    // Clear any pending CAN messages
-    twai_status_info_t status_info;
-    do {
-        twai_get_status_info(&status_info);
-        vTaskDelay(pdMS_TO_TICKS(100));
-    } while (status_info.msgs_to_tx > 0);
-    
-    ESP_LOGI(TAG, "System ready");
-    
-    set_motor_torque(1, 0.);
-    set_motor_torque(2, 0.);
-    
-    // Create tasks (ONCE, not in a loop)
-    xTaskCreatePinnedToCore(torque_task, "torque", 4096, NULL, 3, NULL,1);  // Higher priority
-    xTaskCreatePinnedToCore(encoder_task, "encoder", 4096*4, NULL, 2, NULL,1);
-    xTaskCreatePinnedToCore(print_task, "print", 4096, NULL, 1, NULL,0);
-    
-    // Let the tasks run - no while(1) needed here
-    vTaskDelay(portMAX_DELAY);
+
 }
+
+
+

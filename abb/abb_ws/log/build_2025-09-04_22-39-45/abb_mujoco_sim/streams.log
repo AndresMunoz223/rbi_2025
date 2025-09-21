@@ -1,0 +1,75 @@
+[0.573s] Invoking command in '/abb_ws/build/abb_mujoco_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /abb_ws/src/abb_mujoco_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/abb_ws/install/abb_mujoco_sim
+[0.870s] -- The C compiler identification is GNU 11.4.0
+[0.870s] -- The CXX compiler identification is GNU 11.4.0
+[0.871s] -- Detecting C compiler ABI info
+[0.871s] -- Detecting C compiler ABI info - done
+[0.871s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.871s] -- Detecting C compile features
+[0.871s] -- Detecting C compile features - done
+[0.871s] -- Detecting CXX compiler ABI info
+[0.881s] -- Detecting CXX compiler ABI info - done
+[0.891s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.891s] -- Detecting CXX compile features
+[0.891s] -- Detecting CXX compile features - done
+[0.893s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.094s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.180s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.218s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.219s] -- Checking for module 'glfw3'
+[1.233s] --   Found glfw3, version 3.3.6
+[1.266s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.319s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.326s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.337s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.452s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.456s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.550s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.591s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.664s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.679s] -- Looking for pthread.h
+[1.748s] -- Looking for pthread.h - found
+[1.749s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.817s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.818s] -- Found Threads: TRUE  
+[1.875s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.896s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.932s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.947s] -- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.127s] -- Configuring done
+[2.149s] -- Generating done
+[2.153s] -- Build files have been written to: /abb_ws/build/abb_mujoco_sim
+[2.160s] Invoked command in '/abb_ws/build/abb_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /abb_ws/src/abb_mujoco_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/abb_ws/install/abb_mujoco_sim
+[2.161s] Invoking command in '/abb_ws/build/abb_mujoco_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_mujoco_sim -- -j12 -l12
+[2.206s] [ 50%] [32mBuilding CXX object CMakeFiles/abb_mujoco_sim.dir/src/mujoco_sim_interface.cpp.o[0m
+[6.453s] [100%] [32m[1mLinking CXX shared library libabb_mujoco_sim.so[0m
+[6.649s] [100%] Built target abb_mujoco_sim
+[6.660s] Invoked command in '/abb_ws/build/abb_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /abb_ws/build/abb_mujoco_sim -- -j12 -l12
+[6.662s] Invoking command in '/abb_ws/build/abb_mujoco_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /abb_ws/build/abb_mujoco_sim
+[6.669s] -- Install configuration: ""
+[6.670s] -- Execute custom install script
+[6.670s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim//abb_hardware_interface.xml
+[6.680s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/lib/libabb_mujoco_sim.so
+[6.690s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/include/include/abb_mujoco_sim/mujoco_sim_interface.hpp
+[6.699s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/library_path.sh
+[6.706s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/library_path.dsv
+[6.713s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/ament_index/resource_index/package_run_dependencies/abb_mujoco_sim
+[6.721s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/ament_index/resource_index/parent_prefix_path/abb_mujoco_sim
+[6.728s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/ament_prefix_path.sh
+[6.735s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/ament_prefix_path.dsv
+[6.742s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/path.sh
+[6.749s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/environment/path.dsv
+[6.756s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/local_setup.bash
+[6.763s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/local_setup.sh
+[6.770s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/local_setup.zsh
+[6.778s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/local_setup.dsv
+[6.785s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/package.dsv
+[6.792s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/ament_index/resource_index/packages/abb_mujoco_sim
+[6.800s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/abb_mujoco_sim
+[6.807s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/cmake/ament_cmake_export_libraries-extras.cmake
+[6.814s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.821s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/cmake/abb_mujoco_simConfig.cmake
+[6.829s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/cmake/abb_mujoco_simConfig-version.cmake
+[6.836s] -- Symlinking: /abb_ws/install/abb_mujoco_sim/share/abb_mujoco_sim/package.xml
+[6.844s] Invoked command in '/abb_ws/build/abb_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /abb_ws/build/abb_mujoco_sim
