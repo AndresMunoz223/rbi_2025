@@ -11,7 +11,23 @@ You'll find among the contents of this folder:
 * All CAD files and auxiliary information for manufacturing.
 * Test, callibration, and major activities performed.
 
-# Setting up simulations
+# Robot overall structure
+
+The robot
+
+# Simulating the ROV - AUV on MuJoCo
+
+The ROV-AUV simulator was built over ROS2, in integration with MuJoCo by ros2_control hardware interfaces.
+
+The generated node structure is shown bellow:
+
+<img src="media/ros2_node_structure.png" width="800" height="240"/>
+
+Inside the node structure, two main componens are to be highlighted, `attitude_controller` and `path_follower` nodes. Both nodes handle the lower and highter level control tasks, stabilizing the system and commanding it to follow the desired path. The necessary information for control tasks is sent by the `/imu` topic and `/tf` .
+
+For further description on the control proposal go [here](docs/CONTROL.md "control description").
+
+---
 
 The ROS2 structure is ment to be run inside a docker container by using vscode *[dev containers](https://code.visualstudio.com/docs/devcontainers/containers)* tools.
 
@@ -54,6 +70,13 @@ ros2 topic pub /goal_pose geometry_msgs/msg/PoseStamped "{
     orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}
   }
 }" --once
+
 ```
 
-# Robot proposed structure
+Once the node structure recieves the msg, the following should happen on rviz2, as the simulator advances:
+
+<img src="media/rviz_view.png" width="700" height="400"/>
+
+In the rviz2 visualization, the generated path trajectory is displayed in green, as the traversed path generates with red color. the respective coordinate system transformations will also be displayed on screen.
+
+<img src="media/rviz_view_description.png" width="500" height="400"/>
