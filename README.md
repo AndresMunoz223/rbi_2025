@@ -17,4 +17,6 @@ This repository recalls my little journy inside ros2 development stack, specific
 
 <img src="media/Scara_robot.png" width="600" height="480"/>
 
-# ROV robot (WIP)
+# ROV-AUV robot (WIP)
+
+<img src="media/electronics_testing.jpeg" width="600" height="480"/>
