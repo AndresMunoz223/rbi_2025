@@ -82,7 +82,7 @@ hardware_interface::return_type ScaraHardwareInterface::write
 
     std::string writeData = std::to_string(joint_position_targets_[0]*180/M_PI) + "|" +
     std::to_string(joint_position_targets_[1]*180/M_PI) + "|" + 
-    std::to_string(joint_position_targets_[2]) + "\n";
+    std::to_string(joint_position_targets_[2]*180/M_PI) + std::to_string(joint_position_targets_[3]) + "\n";
 
     RCLCPP_INFO(rclcpp::get_logger("scara_sim"), writeData.c_str());
 

@@ -97,7 +97,8 @@ int conv_rel_paces_angle1 = 3600; // paces/1 grade
 int conv_rel_paces_angle2 = 4480; // paces/1 grade
 float conv_rel_paces_angle3 = 1.42;
 int conv_rel_paces_cm = 793; // paces/1 cm
-float pos_m4 = 25.4; //cm
+
+float pos_m4 = 0; //cm
 float pos_m1 = 0; //grados
 float pos_m2 = 0; //grados
 float pos_m3 = 0; //grados
@@ -105,6 +106,10 @@ float pos_m3 = 0; //grados
 float motor_1_angle_applied = 0.0f;
 float motor_2_angle_applied = 0.0f;
 float motor_3_angle_applied = 0.0f;
+float motor_4_angle_applied = 0.0f;
+
+int z_update_flag = -1;
+int theta_update_flag = -1;
 
 static const twai_general_config_t g_config = TWAI_GENERAL_CONFIG_DEFAULT(TX_GPIO_NUM, RX_GPIO_NUM, TWAI_MODE_NORMAL);
 static const twai_timing_config_t t_config = TWAI_TIMING_CONFIG_50KBITS();
@@ -189,6 +194,24 @@ void set_pwm_duty_cycle(int duty) {
     ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0);
 }
 
+void set_pwm_duty_cycle2(int duty) {
+    ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1, duty);
+    ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1);
+}
+
+void control_pwm_cycles(int paces) {
+    if (paces < 0) {
+        gpio_set_level(GPIO_DIR_CONTROL, 0);
+        paces = paces*-1;
+    }
+    else {
+        gpio_set_level(GPIO_DIR_CONTROL, 1);
+    }
+    set_pwm_duty_cycle(PWM_DUTY_CYCLE * 1023 / 100);  // Establecer ciclo de trabajo
+    vTaskDelay(pdMS_TO_TICKS(1000*paces/PWM_FREQUENCY));
+    set_pwm_duty_cycle(0);                            // Poner ciclo de trabajo a 0
+}
+
 void control_pwm_cycles2(int paces) {
     if (paces < 0) {
         gpio_set_level(GPIO_DIR_CONTROL2, 0);
@@ -200,7 +223,6 @@ void control_pwm_cycles2(int paces) {
     
     set_pwm_duty_cycle2(PWM_DUTY_CYCLE * 1023 / 100);  // Establecer ciclo de trabajo
     vTaskDelay(pdMS_TO_TICKS(1000*paces/PWM_FREQUENCY2));
-
     set_pwm_duty_cycle2(0);  
 }
 
@@ -284,6 +306,7 @@ void uart_thread_(void *args){
     float motor_1_angle = 0.0f;
     float motor_2_angle = 0.0f;
     float motor_3_angle = 0.0f;
+    float motor_4_angle = 0.0f;
 
     while(1){
 
@@ -332,18 +355,36 @@ void uart_thread_(void *args){
                         }
                     }
 
-                    // token = strtok_r(rest, "\n", &rest);
+                    token = strtok_r(rest, "|", &rest);
                     if (token != NULL) {
 
                         motor_3_angle = strtof(token, &endptr);
                         if (0.0 <= motor_3_angle && motor_3_angle <= 360.0){
                                 motor_3_angle_applied = motor_3_angle;
+                                z_update_flag = 1;
+                                // printf("Recieved %f", motor_1_angle_applied);
                         }
 
                         if (*endptr != '\0') {
                             printf("Conversion error for pressure: %s\n", token);
                         }
                     }
+
+                    token = strtok_r(rest, "\n", &rest);
+                    if (token != NULL) {
+
+                        motor_4_angle = strtof(token, &endptr);
+                        if (0.0 <= motor_4_angle && motor_4_angle <= 360.0){
+                                motor_4_angle_applied = motor_4_angle;
+                                theta_update_flag = 1;
+                                // printf("Recieved %f", motor_4_angle_applied);
+                        }
+
+                        if (*endptr != '\0') {
+                            printf("CEP: %s\n", token);
+                        }
+                    }
+                    
 
                     line_buffer_index = 0;
                 }
@@ -355,6 +396,38 @@ void uart_thread_(void *args){
     }
 
 }
+
+void stepper_actuation_task_(void *args){
+
+    while(1){
+    if(z_update_flag == 1){
+        if (0.0 <= motor_3_angle_applied && motor_3_angle_applied <= 25.4){
+                int paces_m3 = (int)round(conv_rel_paces_cm*(motor_3_angle_applied - pos_m3));
+                pos_m3 = motor_3_angle_applied;
+                control_pwm_cycles(paces_m3);   
+            }
+            printf("I've 3 stepped : %f \n", pos_m3);
+            z_update_flag = -1;
+    }else{
+        set_pwm_duty_cycle(0);  
+    }
+
+    if(theta_update_flag == 1){
+        if (0.0 <= motor_4_angle_applied && motor_4_angle_applied <= 360.0){
+                int paces_m4 = (int)round(conv_rel_paces_angle3*(motor_4_angle_applied - pos_m4));
+                pos_m4 = motor_4_angle_applied;
+                control_pwm_cycles2(paces_m4);   
+            }
+            printf("I've 4 stepped : %f \n", pos_m4);
+            z_update_flag = -1;
+    }else{
+        set_pwm_duty_cycle(0);  
+    }
+    }
+    vTaskDelay(pdMS_TO_TICKS(30));
+
+}
+
 
 void scara_actuation_taks_(void *args){
 
@@ -399,11 +472,6 @@ void scara_actuation_taks_(void *args){
 	    move_motor_can(1, m1_ang);
     }
 
-    if (0.0 <= motor_3_angle_applied && motor_3_angle_applied <= 360.0){
-        int paces_m3 = (int)round(conv_rel_paces_angle3*(motor_3_angle_applied - pos_m3));
-        pos_m3 = motor_3_angle_applied;
-        control_pwm_cycles2(paces_m3);
-    }
 
     vTaskDelay(pdMS_TO_TICKS(30));
 
@@ -422,8 +490,7 @@ void app_main(void)
     init_gpio();
     init_pwm();
     set_pwm_duty_cycle(0); 
-
-    set_pwm_duty_cycle(PWM_DUTY_CYCLE * 1023 / 100);  // Establecer ciclo de trabajo
+    set_pwm_duty_cycle2(0); 
 
     ESP_ERROR_CHECK(twai_driver_install(&g_config, &t_config, &f_config));
     ESP_LOGI(TAG, "Driver installed");
@@ -435,10 +502,10 @@ void app_main(void)
     printf(" I did it");
     ESP_LOGI(TAG, "I did it");   
 
+    xTaskCreatePinnedToCore(stepper_actuation_task_,"stepper_task",4098,NULL,1, NULL, 1);
     xTaskCreatePinnedToCore(scara_actuation_taks_,"scara_task",4098,NULL,1, NULL, 0);
     xTaskCreatePinnedToCore(uart_thread_,"uart_task",4098,NULL,1, NULL, 0);
     
-
 }
 
 
