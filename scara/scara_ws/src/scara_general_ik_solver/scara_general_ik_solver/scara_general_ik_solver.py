@@ -89,7 +89,7 @@ class IkSolverScara():
     def solve_for_pose(self, pose : np.array):
         x = pose[0][0]
         y = pose[1][0]
-        z = pose[2][0] - 0.254
+        z = pose[2][0]
         phi = pose[3][0]
         
         r = np.sqrt(np.power(x,2) + np.power(y,2))
@@ -110,6 +110,9 @@ class IkSolverScara():
         # ic(pose)
         
         _, _, yaw = self.rotation_matrix_to_euler(pose[0:3,0:3])
+
+        if (y > 0.007):
+            z = z - 0.003
 
         # theta_1_delta = self.prev_theta_1 - theta_1
         # theta_2_delta = self.prev_theta_2 - theta_2

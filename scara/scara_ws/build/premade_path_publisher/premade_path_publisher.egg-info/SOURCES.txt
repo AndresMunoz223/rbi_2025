@@ -2,7 +2,7 @@ package.xml
 setup.cfg
 setup.py
 config/heart_path.txt
-config/path.txt
+config/path_spiral.txt
 config/path_square.txt
 premade_path_publisher/__init__.py
 premade_path_publisher/premade_path_publisher.py

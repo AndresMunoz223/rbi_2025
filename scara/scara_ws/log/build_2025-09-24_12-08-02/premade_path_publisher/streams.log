@@ -1,0 +1,30 @@
+[3.322s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/build --no-deps symlink_data
+[3.860s] running develop
+[4.210s] running egg_info
+[4.210s] creating premade_path_publisher.egg-info
+[4.210s] writing premade_path_publisher.egg-info/PKG-INFO
+[4.210s] writing dependency_links to premade_path_publisher.egg-info/dependency_links.txt
+[4.214s] writing entry points to premade_path_publisher.egg-info/entry_points.txt
+[4.214s] writing requirements to premade_path_publisher.egg-info/requires.txt
+[4.214s] writing top-level names to premade_path_publisher.egg-info/top_level.txt
+[4.214s] writing manifest file 'premade_path_publisher.egg-info/SOURCES.txt'
+[4.214s] reading manifest file 'premade_path_publisher.egg-info/SOURCES.txt'
+[4.215s] writing manifest file 'premade_path_publisher.egg-info/SOURCES.txt'
+[4.277s] running build_ext
+[4.277s] Creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/lib/python3.10/site-packages/premade-path-publisher.egg-link (link to .)
+[4.278s] Installing premade_path_publisher script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/lib/premade_path_publisher
+[4.279s] 
+[4.279s] Installed /home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher
+[4.279s] running symlink_data
+[4.279s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/share/ament_index
+[4.279s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/share/ament_index/resource_index
+[4.279s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/share/ament_index/resource_index/packages
+[4.280s] symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/resource/premade_path_publisher -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/share/ament_index/resource_index/packages
+[4.280s] symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/package.xml -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/share/premade_path_publisher
+[4.280s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/share/premade_path_publisher/launch
+[4.280s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/share/premade_path_publisher/descriptions
+[4.280s] creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/share/premade_path_publisher/config
+[4.280s] symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/config/path_square.txt -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/share/premade_path_publisher/config
+[4.281s] symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/config/heart_path.txt -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/share/premade_path_publisher/config
+[4.281s] symbolically linking /home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/config/path_spiral.txt -> /home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/share/premade_path_publisher/config
+[4.343s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/premade_path_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/premade_path_publisher/build --no-deps symlink_data

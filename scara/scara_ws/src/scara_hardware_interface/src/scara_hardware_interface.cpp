@@ -68,7 +68,7 @@ hardware_interface::return_type ScaraHardwareInterface::read
     joint_positions_[0] = joint_position_targets_[0];
     joint_positions_[1] = joint_position_targets_[1];
     joint_positions_[2] = joint_position_targets_[2];
-    joint_positions_[3] = joint_position_targets_[3];
+    joint_positions_[3] = joint_position_targets_[3] - 0.254;
  
 
     return hardware_interface::return_type::OK;
@@ -82,8 +82,10 @@ hardware_interface::return_type ScaraHardwareInterface::write
 
     std::string writeData = std::to_string(joint_position_targets_[0]*180/M_PI) + "|" +
     std::to_string(joint_position_targets_[1]*180/M_PI) + "|" + 
-    std::to_string(joint_position_targets_[2]*180/M_PI) + std::to_string(joint_position_targets_[3]) + "\n";
+    std::to_string(0.1) + "|" + std::to_string(joint_position_targets_[3]*100) + "\n";
 
+
+    //-joint_position_targets_[2]*0*180/M_PI
     RCLCPP_INFO(rclcpp::get_logger("scara_sim"), writeData.c_str());
 
     try{

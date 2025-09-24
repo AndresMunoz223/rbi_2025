@@ -1,0 +1,17 @@
+[10.440s] Invoking command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/build --no-deps symlink_data
+[12.807s] running develop
+[14.487s] running egg_info
+[14.488s] writing scara_mujoco_python_sim.egg-info/PKG-INFO
+[14.489s] writing dependency_links to scara_mujoco_python_sim.egg-info/dependency_links.txt
+[14.490s] writing entry points to scara_mujoco_python_sim.egg-info/entry_points.txt
+[14.490s] writing requirements to scara_mujoco_python_sim.egg-info/requires.txt
+[14.491s] writing top-level names to scara_mujoco_python_sim.egg-info/top_level.txt
+[14.501s] reading manifest file 'scara_mujoco_python_sim.egg-info/SOURCES.txt'
+[14.504s] writing manifest file 'scara_mujoco_python_sim.egg-info/SOURCES.txt'
+[14.680s] running build_ext
+[14.681s] Creating /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/lib/python3.10/site-packages/scara-mujoco-python-sim.egg-link (link to .)
+[14.684s] Installing scara_mujoco_python_sim script to /home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/lib/scara_mujoco_python_sim
+[14.685s] 
+[14.685s] Installed /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim
+[14.686s] running symlink_data
+[14.811s] Invoked command in '/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_python_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_python_sim/build --no-deps symlink_data

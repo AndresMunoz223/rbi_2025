@@ -358,21 +358,6 @@ void uart_thread_(void *args){
                     token = strtok_r(rest, "|", &rest);
                     if (token != NULL) {
 
-                        motor_3_angle = strtof(token, &endptr);
-                        if (0.0 <= motor_3_angle && motor_3_angle <= 360.0){
-                                motor_3_angle_applied = motor_3_angle;
-                                z_update_flag = 1;
-                                // printf("Recieved %f", motor_1_angle_applied);
-                        }
-
-                        if (*endptr != '\0') {
-                            printf("Conversion error for pressure: %s\n", token);
-                        }
-                    }
-
-                    token = strtok_r(rest, "\n", &rest);
-                    if (token != NULL) {
-
                         motor_4_angle = strtof(token, &endptr);
                         if (0.0 <= motor_4_angle && motor_4_angle <= 360.0){
                                 motor_4_angle_applied = motor_4_angle;
@@ -382,6 +367,21 @@ void uart_thread_(void *args){
 
                         if (*endptr != '\0') {
                             printf("CEP: %s\n", token);
+                        }
+                    }
+                    
+                    token = strtok_r(rest, "\n", &rest);
+                    if (token != NULL) {
+
+                        motor_3_angle = strtof(token, &endptr);
+                        if (-1.0 <= motor_3_angle && motor_3_angle <= 25.4){
+                                motor_3_angle_applied = motor_3_angle;
+                                z_update_flag = 1;
+                                // printf("Recieved %f", motor_1_angle_applied);
+                        }
+
+                        if (*endptr != '\0') {
+                            printf("Conversion error for pressure: %s\n", token);
                         }
                     }
                     
@@ -401,7 +401,7 @@ void stepper_actuation_task_(void *args){
 
     while(1){
     if(z_update_flag == 1){
-        if (0.0 <= motor_3_angle_applied && motor_3_angle_applied <= 25.4){
+        if (-1.0 <= motor_3_angle_applied && motor_3_angle_applied <= 25.4){
                 int paces_m3 = (int)round(conv_rel_paces_cm*(motor_3_angle_applied - pos_m3));
                 pos_m3 = motor_3_angle_applied;
                 control_pwm_cycles(paces_m3);   
@@ -419,12 +419,14 @@ void stepper_actuation_task_(void *args){
                 control_pwm_cycles2(paces_m4);   
             }
             printf("I've 4 stepped : %f \n", pos_m4);
-            z_update_flag = -1;
+            theta_update_flag = -1;
     }else{
-        set_pwm_duty_cycle(0);  
+        set_pwm_duty_cycle2(0);  
     }
+
+    vTaskDelay(pdMS_TO_TICKS(50));
     }
-    vTaskDelay(pdMS_TO_TICKS(30));
+
 
 }
 
