@@ -21,6 +21,7 @@ add_library(
   ${PROJECT_NAME}
   SHARED
   src/rov_forward_controller.cpp
+  src/rov_hardware_controller.cpp
 )
 
 ament_target_dependencies(${PROJECT_NAME} rclcpp rclcpp_lifecycle pluginlib std_msgs geometry_msgs controller_interface tf2_ros)

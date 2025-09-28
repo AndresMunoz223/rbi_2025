@@ -1,0 +1,43 @@
+[2.705s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_real_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description
+[2.783s] -- The C compiler identification is GNU 11.4.0
+[2.909s] -- The CXX compiler identification is GNU 11.4.0
+[2.920s] -- Detecting C compiler ABI info
+[3.047s] -- Detecting C compiler ABI info - done
+[3.079s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.084s] -- Detecting C compile features
+[3.084s] -- Detecting C compile features - done
+[3.096s] -- Detecting CXX compiler ABI info
+[3.296s] -- Detecting CXX compiler ABI info - done
+[3.381s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.381s] -- Detecting CXX compile features
+[3.382s] -- Detecting CXX compile features - done
+[3.393s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.833s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.050s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.320s] -- Configuring done
+[4.328s] -- Generating done
+[4.331s] -- Build files have been written to: /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description
+[4.348s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake /home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_real_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description
+[4.349s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description -- -j12 -l12
+[5.589s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description -- -j12 -l12
+[5.590s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description
+[5.608s] -- Install configuration: ""
+[5.608s] -- Execute custom install script
+[5.609s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description//urdf/rov_description.urdf.xacro
+[5.626s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description//launch/display.launch.xml
+[5.642s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/ament_index/resource_index/package_run_dependencies/rov_real_description
+[5.657s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/ament_index/resource_index/parent_prefix_path/rov_real_description
+[5.675s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/environment/ament_prefix_path.sh
+[5.693s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/environment/ament_prefix_path.dsv
+[5.705s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/environment/path.sh
+[5.718s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/environment/path.dsv
+[5.734s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/local_setup.bash
+[5.753s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/local_setup.sh
+[5.759s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/local_setup.zsh
+[5.777s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/local_setup.dsv
+[5.793s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.dsv
+[5.810s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/ament_index/resource_index/packages/rov_real_description
+[5.826s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/cmake/rov_real_descriptionConfig.cmake
+[5.842s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/cmake/rov_real_descriptionConfig-version.cmake
+[5.862s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.xml
+[5.911s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description

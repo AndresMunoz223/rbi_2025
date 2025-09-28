@@ -1,3 +1,0 @@
-[console_scripts]
-rov_attitude_controller = rov_attitude_controller.rov_attitude_controller:main
-

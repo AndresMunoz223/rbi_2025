@@ -114,16 +114,6 @@ class IkSolverScara():
         if (y > 0.007):
             z = z - 0.003
 
-        # theta_1_delta = self.prev_theta_1 - theta_1
-        # theta_2_delta = self.prev_theta_2 - theta_2
-        # if np.abs(theta_1_delta) >= 10*DEG_TO_RAD or np.abs(theta_2_delta) >= 10*DEG_TO_RAD :
-        #     ic(theta_1_delta/DEG_TO_RAD)
-        #     ic(theta_2_delta/DEG_TO_RAD)
-
-        
-        # self.prev_theta_1 = theta_1
-        # self.prev_theta_2 = theta_2
-
 
         return np.array([[theta_1], [theta_2], [phi - yaw], [z]])
 

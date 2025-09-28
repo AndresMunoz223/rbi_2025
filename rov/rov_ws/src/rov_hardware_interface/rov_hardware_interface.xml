@@ -1,0 +1,9 @@
+<library path="rov_hardware_interface">
+    <class name="rov_hardware_layer/RovHardwareInterface"
+           type="rov_hardware_layer::RovHardwareInterface"
+           base_class_type="hardware_interface::SystemInterface">
+           <description>
+                Hardware Interface for a 5 DOF ROV 
+           </description>
+    </class>
+</library>

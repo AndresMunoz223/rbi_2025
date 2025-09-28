@@ -1,0 +1,17 @@
+[3.240s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/direct_control': PYTHONPATH=/home/eia/repo/rbi_2025_2/rov/rov_ws/build/direct_control/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/rov/rov_ws/build/direct_control/build --no-deps symlink_data
+[3.909s] running develop
+[4.244s] running egg_info
+[4.244s] writing direct_control.egg-info/PKG-INFO
+[4.245s] writing dependency_links to direct_control.egg-info/dependency_links.txt
+[4.245s] writing entry points to direct_control.egg-info/entry_points.txt
+[4.245s] writing requirements to direct_control.egg-info/requires.txt
+[4.245s] writing top-level names to direct_control.egg-info/top_level.txt
+[4.248s] reading manifest file 'direct_control.egg-info/SOURCES.txt'
+[4.249s] writing manifest file 'direct_control.egg-info/SOURCES.txt'
+[4.303s] running build_ext
+[4.303s] Creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control/lib/python3.10/site-packages/direct-control.egg-link (link to .)
+[4.304s] Installing direct_control script to /home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control/lib/direct_control
+[4.304s] 
+[4.304s] Installed /home/eia/repo/rbi_2025_2/rov/rov_ws/build/direct_control
+[4.304s] running symlink_data
+[4.385s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/direct_control' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/rov/rov_ws/build/direct_control/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/rov/rov_ws/build/direct_control/build --no-deps symlink_data

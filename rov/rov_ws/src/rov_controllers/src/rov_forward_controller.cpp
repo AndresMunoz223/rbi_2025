@@ -7,11 +7,11 @@ namespace rov_controller
     {
 
         target_forces_to_actuator_map << 1, 1, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0,
-            0, 0, 1, 1, 1, 1,
-            0, 0, 1, 1, -1, -1,
-            0, 0, 1, -1, 1, -1,
-            1, -1, 0, 0, 0, 0;
+                                        0, 0, 0, 0, 0, 0,
+                                        0, 0, 1, 1, 1, 1,
+                                        0, 0, 1, 1, -1, -1,
+                                        0, 0, 1, -1, 1, -1,
+                                        1, -1, 0, 0, 0, 0;
 
         target_forces_to_actuator_map = target_forces_to_actuator_map.completeOrthogonalDecomposition().pseudoInverse();
 

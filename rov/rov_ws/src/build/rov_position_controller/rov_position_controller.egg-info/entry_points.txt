@@ -1,3 +1,0 @@
-[console_scripts]
-rov_position_controller = rov_position_controller.rov_position_controller:main
-

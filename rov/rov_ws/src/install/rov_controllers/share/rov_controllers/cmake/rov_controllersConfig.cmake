@@ -1,1 +1,0 @@
-/rov_ws/src/build/rov_controllers/ament_cmake_core/rov_controllersConfig.cmake

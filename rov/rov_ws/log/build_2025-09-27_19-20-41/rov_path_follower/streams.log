@@ -1,0 +1,27 @@
+[4.225s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower': PYTHONPATH=/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower/build --no-deps symlink_data
+[5.573s] running develop
+[5.702s] running egg_info
+[5.702s] creating rov_path_follower.egg-info
+[5.702s] writing rov_path_follower.egg-info/PKG-INFO
+[5.702s] writing dependency_links to rov_path_follower.egg-info/dependency_links.txt
+[5.702s] writing entry points to rov_path_follower.egg-info/entry_points.txt
+[5.704s] writing requirements to rov_path_follower.egg-info/requires.txt
+[5.704s] writing top-level names to rov_path_follower.egg-info/top_level.txt
+[5.704s] writing manifest file 'rov_path_follower.egg-info/SOURCES.txt'
+[5.707s] reading manifest file 'rov_path_follower.egg-info/SOURCES.txt'
+[5.709s] writing manifest file 'rov_path_follower.egg-info/SOURCES.txt'
+[5.800s] running build_ext
+[5.801s] Creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/lib/python3.10/site-packages/rov-path-follower.egg-link (link to .)
+[5.801s] Installing rov_path_follower script to /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/lib/rov_path_follower
+[5.802s] 
+[5.802s] Installed /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower
+[5.802s] running symlink_data
+[5.803s] creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/ament_index
+[5.803s] creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/ament_index/resource_index
+[5.803s] creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/ament_index/resource_index/packages
+[5.803s] symbolically linking /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower/resource/rov_path_follower -> /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/ament_index/resource_index/packages
+[5.803s] symbolically linking /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower/package.xml -> /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/rov_path_follower
+[5.803s] creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/launch
+[5.803s] creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/descriptions
+[5.803s] creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/config
+[5.917s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_path_follower/build --no-deps symlink_data

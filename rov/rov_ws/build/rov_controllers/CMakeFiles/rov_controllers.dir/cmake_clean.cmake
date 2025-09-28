@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rov_controllers.dir/src/rov_forward_controller.cpp.o"
   "CMakeFiles/rov_controllers.dir/src/rov_forward_controller.cpp.o.d"
+  "CMakeFiles/rov_controllers.dir/src/rov_hardware_controller.cpp.o"
+  "CMakeFiles/rov_controllers.dir/src/rov_hardware_controller.cpp.o.d"
   "librov_controllers.pdb"
   "librov_controllers.so"
 )

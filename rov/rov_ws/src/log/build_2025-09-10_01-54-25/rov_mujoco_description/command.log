@@ -1,6 +1,0 @@
-Invoking command in '/rov_ws/src/build/rov_mujoco_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_mujoco_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rov_ws/src/install/rov_mujoco_description
-Invoked command in '/rov_ws/src/build/rov_mujoco_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rov_ws/src/rov_mujoco_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rov_ws/src/install/rov_mujoco_description
-Invoking command in '/rov_ws/src/build/rov_mujoco_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rov_ws/src/build/rov_mujoco_description -- -j12 -l12
-Invoked command in '/rov_ws/src/build/rov_mujoco_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rov_ws/src/build/rov_mujoco_description -- -j12 -l12
-Invoking command in '/rov_ws/src/build/rov_mujoco_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /rov_ws/src/build/rov_mujoco_description
-Invoked command in '/rov_ws/src/build/rov_mujoco_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /rov_ws/src/build/rov_mujoco_description

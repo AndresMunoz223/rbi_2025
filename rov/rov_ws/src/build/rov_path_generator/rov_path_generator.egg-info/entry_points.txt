@@ -1,3 +1,0 @@
-[console_scripts]
-rov_path_generator = rov_path_generator.rov_path_generator:main
-

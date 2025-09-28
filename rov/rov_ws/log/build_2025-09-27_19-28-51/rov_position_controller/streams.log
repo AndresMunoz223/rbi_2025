@@ -1,0 +1,17 @@
+[3.339s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_position_controller': PYTHONPATH=/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_position_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_position_controller/build --no-deps symlink_data
+[4.006s] running develop
+[4.325s] running egg_info
+[4.325s] writing rov_position_controller.egg-info/PKG-INFO
+[4.325s] writing dependency_links to rov_position_controller.egg-info/dependency_links.txt
+[4.325s] writing entry points to rov_position_controller.egg-info/entry_points.txt
+[4.325s] writing requirements to rov_position_controller.egg-info/requires.txt
+[4.325s] writing top-level names to rov_position_controller.egg-info/top_level.txt
+[4.327s] reading manifest file 'rov_position_controller.egg-info/SOURCES.txt'
+[4.328s] writing manifest file 'rov_position_controller.egg-info/SOURCES.txt'
+[4.377s] running build_ext
+[4.377s] Creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller/lib/python3.10/site-packages/rov-position-controller.egg-link (link to .)
+[4.378s] Installing rov_position_controller script to /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller/lib/rov_position_controller
+[4.378s] 
+[4.378s] Installed /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_position_controller
+[4.378s] running symlink_data
+[4.441s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_position_controller' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_position_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_position_controller/build --no-deps symlink_data

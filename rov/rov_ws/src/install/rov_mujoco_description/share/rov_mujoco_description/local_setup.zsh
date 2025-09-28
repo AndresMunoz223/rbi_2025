@@ -1,1 +1,0 @@
-/rov_ws/src/build/rov_mujoco_description/ament_cmake_environment_hooks/local_setup.zsh

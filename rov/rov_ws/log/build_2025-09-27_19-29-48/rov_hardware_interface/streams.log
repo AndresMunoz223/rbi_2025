@@ -1,0 +1,45 @@
+[0.948s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_hardware_interface -- -j12 -l12
+[2.382s] [35m[1mConsolidate compiler generated dependencies of target rov_hardware_interface[0m
+[2.383s] [ 50%] [32mBuilding CXX object CMakeFiles/rov_hardware_interface.dir/src/rov_hardware_interface.cpp.o[0m
+[4.780s] [01m[K/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_hardware_interface/src/rov_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn rov_hardware_layer::RovHardwareInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[4.781s] [01m[K/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_hardware_interface/src/rov_hardware_interface.cpp:34:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[4.781s]    34 |     }catch(Exception [01;35m[Ke[m[K){
+[4.781s]       |                      [01;35m[K^[m[K
+[4.782s] [01m[K/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_hardware_interface/src/rov_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn rov_hardware_layer::RovHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[4.782s] [01m[K/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_hardware_interface/src/rov_hardware_interface.cpp:55:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[4.782s]    55 |     }catch(Exception [01;35m[Ke[m[K){
+[4.782s]       |                      [01;35m[K^[m[K
+[4.784s] [01m[K/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_hardware_interface/src/rov_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rov_hardware_layer::RovHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.784s] [01m[K/home/eia/repo/rbi_2025_2/rov/rov_ws/src/rov_hardware_interface/src/rov_hardware_interface.cpp:98:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[4.784s]    98 |     }catch(Exception [01;35m[Ke[m[K){
+[4.784s]       |                      [01;35m[K^[m[K
+[5.864s] [100%] [32m[1mLinking CXX shared library librov_hardware_interface.so[0m
+[6.015s] [100%] Built target rov_hardware_interface
+[6.028s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_hardware_interface -- -j12 -l12
+[6.030s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_hardware_interface
+[6.037s] -- Install configuration: ""
+[6.038s] -- Execute custom install script
+[6.038s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface//rov_hardware_interface.xml
+[6.038s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/lib/librov_hardware_interface.so
+[6.038s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/include/include/rov_hardware_interface/rov_hardware_interface.hpp
+[6.039s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/environment/library_path.sh
+[6.039s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/environment/library_path.dsv
+[6.039s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/ament_index/resource_index/package_run_dependencies/rov_hardware_interface
+[6.039s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/ament_index/resource_index/parent_prefix_path/rov_hardware_interface
+[6.039s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/environment/ament_prefix_path.sh
+[6.039s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/environment/ament_prefix_path.dsv
+[6.040s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/environment/path.sh
+[6.040s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/environment/path.dsv
+[6.040s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/local_setup.bash
+[6.040s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/local_setup.sh
+[6.040s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/local_setup.zsh
+[6.040s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/local_setup.dsv
+[6.040s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/package.dsv
+[6.049s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/ament_index/resource_index/packages/rov_hardware_interface
+[6.049s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rov_hardware_interface
+[6.049s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[6.049s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.049s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/cmake/rov_hardware_interfaceConfig.cmake
+[6.049s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/cmake/rov_hardware_interfaceConfig-version.cmake
+[6.049s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/package.xml
+[6.052s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_hardware_interface
