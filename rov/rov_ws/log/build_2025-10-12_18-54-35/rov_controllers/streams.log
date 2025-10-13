@@ -1,0 +1,31 @@
+[1.449s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_controllers -- -j12 -l12
+[3.613s] [100%] Built target rov_controllers
+[3.666s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_controllers -- -j12 -l12
+[3.672s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_controllers
+[3.727s] -- Install configuration: ""
+[3.728s] -- Execute custom install script
+[3.728s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers//rov_controller.xml
+[3.728s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/lib/librov_controllers.so
+[3.729s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/include/include/rov_controllers/rov_forward_controller.hpp
+[3.729s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/include/include/rov_controllers/rov_hardware_controller.hpp
+[3.731s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/environment/library_path.sh
+[3.731s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/environment/library_path.dsv
+[3.731s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/ament_index/resource_index/package_run_dependencies/rov_controllers
+[3.732s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/ament_index/resource_index/parent_prefix_path/rov_controllers
+[3.733s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/environment/ament_prefix_path.sh
+[3.733s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/environment/ament_prefix_path.dsv
+[3.733s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/environment/path.sh
+[3.734s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/environment/path.dsv
+[3.734s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/local_setup.bash
+[3.737s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/local_setup.sh
+[3.738s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/local_setup.zsh
+[3.738s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/local_setup.dsv
+[3.738s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.dsv
+[3.759s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/ament_index/resource_index/packages/rov_controllers
+[3.762s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/rov_controllers
+[3.763s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[3.763s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.764s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/cmake/rov_controllersConfig.cmake
+[3.765s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/cmake/rov_controllersConfig-version.cmake
+[3.765s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.xml
+[4.013s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_controllers

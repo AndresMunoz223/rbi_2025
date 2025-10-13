@@ -1,0 +1,17 @@
+[7.329s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_attitude_controller': PYTHONPATH=/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_attitude_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_attitude_controller/build --no-deps symlink_data
+[8.504s] running develop
+[9.229s] running egg_info
+[9.232s] writing rov_attitude_controller.egg-info/PKG-INFO
+[9.233s] writing dependency_links to rov_attitude_controller.egg-info/dependency_links.txt
+[9.234s] writing entry points to rov_attitude_controller.egg-info/entry_points.txt
+[9.234s] writing requirements to rov_attitude_controller.egg-info/requires.txt
+[9.235s] writing top-level names to rov_attitude_controller.egg-info/top_level.txt
+[9.235s] reading manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'
+[9.237s] writing manifest file 'rov_attitude_controller.egg-info/SOURCES.txt'
+[9.332s] running build_ext
+[9.332s] Creating /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages/rov-attitude-controller.egg-link (link to .)
+[9.334s] Installing rov_attitude_controller script to /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller/lib/rov_attitude_controller
+[9.334s] 
+[9.335s] Installed /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_attitude_controller
+[9.335s] running symlink_data
+[9.442s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_attitude_controller' returned '0': PYTHONPATH=/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_attitude_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_attitude_controller/build --no-deps symlink_data

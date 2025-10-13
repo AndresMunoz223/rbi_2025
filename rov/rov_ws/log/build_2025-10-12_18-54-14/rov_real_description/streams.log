@@ -1,0 +1,23 @@
+[3.904s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description -- -j12 -l12
+[4.140s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description -- -j12 -l12
+[4.150s] Invoking command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description
+[4.348s] -- Install configuration: ""
+[4.349s] -- Execute custom install script
+[4.349s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description//urdf/rov_description.urdf.xacro
+[4.350s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description//launch/display.launch.xml
+[4.350s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/ament_index/resource_index/package_run_dependencies/rov_real_description
+[4.351s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/ament_index/resource_index/parent_prefix_path/rov_real_description
+[4.351s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/environment/ament_prefix_path.sh
+[4.352s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/environment/ament_prefix_path.dsv
+[4.352s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/environment/path.sh
+[4.353s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/environment/path.dsv
+[4.353s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/local_setup.bash
+[4.354s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/local_setup.sh
+[4.354s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/local_setup.zsh
+[4.355s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/local_setup.dsv
+[4.355s] -- Symlinking: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.dsv
+[4.356s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/ament_index/resource_index/packages/rov_real_description
+[4.357s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/cmake/rov_real_descriptionConfig.cmake
+[4.357s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/cmake/rov_real_descriptionConfig-version.cmake
+[4.357s] -- Up-to-date symlink: /home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.xml
+[4.664s] Invoked command in '/home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/repo/rbi_2025_2/rov/rov_ws/build/rov_real_description
