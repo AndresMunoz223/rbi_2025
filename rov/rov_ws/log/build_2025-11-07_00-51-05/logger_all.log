@@ -1,0 +1,1368 @@
+[0.174s] DEBUG:colcon:Command line arguments: ['/home/eia/.local/bin/colcon', 'build', '--symlink-install']
+[0.174s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74e813852920>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74e8138140d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74e8138140d0>>, mixin_verb=('build',))
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.416s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eia/rbi_2025/rov/rov_ws'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/bin/mujoco_plugin) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extensions ['cmake', 'python']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'cmake'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'python'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extensions ['python_setup_py']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extensions ['cmake', 'python']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'cmake'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'python'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extensions ['python_setup_py']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco) by extension 'python_setup_py'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental) by extension 'python_setup_py'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'ros'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extensions ['cmake', 'python']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'cmake'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'python'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extensions ['python_setup_py']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd) by extension 'python_setup_py'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'ros'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extensions ['cmake', 'python']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/include/mujoco/experimental/usd/mjcPhysics) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extensions ['cmake', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/lib) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'ros'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extensions ['cmake', 'python']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'cmake'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'python'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extensions ['python_setup_py']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model) by extension 'python_setup_py'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'ros'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extensions ['cmake', 'python']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'cmake'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'python'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extensions ['python_setup_py']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/adhesion) by extension 'python_setup_py'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'ros'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extensions ['cmake', 'python']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'cmake'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'python'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extensions ['python_setup_py']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/balloons) by extension 'python_setup_py'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'ros'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extensions ['cmake', 'python']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'cmake'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'python'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extensions ['python_setup_py']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/car) by extension 'python_setup_py'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'ros'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extensions ['cmake', 'python']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'cmake'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'python'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extensions ['python_setup_py']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards) by extension 'python_setup_py'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'ros'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extensions ['cmake', 'python']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'cmake'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'python'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extensions ['python_setup_py']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cards/assets) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'ros'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extensions ['cmake', 'python']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'cmake'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'python'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extensions ['python_setup_py']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/cube/assets) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'ros'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extensions ['cmake', 'python']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex) by extension 'python_setup_py'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/flex/asset) by extension 'python_setup_py'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'ros'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extensions ['cmake', 'python']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'cmake'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'python'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extensions ['python_setup_py']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/hammock) by extension 'python_setup_py'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extensions ['cmake', 'python']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'cmake'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'python'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extensions ['python_setup_py']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/humanoid) by extension 'python_setup_py'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extensions ['cmake', 'python']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'cmake'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'python'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extensions ['python_setup_py']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/mug) by extension 'python_setup_py'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'ros'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extensions ['cmake', 'python']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'cmake'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'python'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extensions ['python_setup_py']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'ros'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extensions ['cmake', 'python']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'cmake'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'python'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extensions ['python_setup_py']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/actuator) by extension 'python_setup_py'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'ros'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extensions ['cmake', 'python']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'cmake'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'python'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extensions ['python_setup_py']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/elasticity) by extension 'python_setup_py'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'cmake'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'python'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf) by extension 'python_setup_py'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'ros'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extensions ['cmake', 'python']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'cmake'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'python'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extensions ['python_setup_py']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sdf/asset) by extension 'python_setup_py'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'ros'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extensions ['cmake', 'python']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'cmake'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'python'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extensions ['python_setup_py']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/plugin/sensor) by extension 'python_setup_py'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'ros'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extensions ['cmake', 'python']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'cmake'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'python'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extensions ['python_setup_py']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate) by extension 'python_setup_py'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extensions ['cmake', 'python']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'cmake'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'python'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extensions ['python_setup_py']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/replicate/asset) by extension 'python_setup_py'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extensions ['cmake', 'python']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'cmake'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'python'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extensions ['python_setup_py']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/slider_crank) by extension 'python_setup_py'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'ros'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extensions ['cmake', 'python']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'cmake'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'python'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extensions ['python_setup_py']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/model/tendon_arm) by extension 'python_setup_py'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'ros'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extensions ['cmake', 'python']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample) by extension 'python_setup_py'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'ros'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extensions ['cmake', 'python']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'cmake'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'python'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extensions ['python_setup_py']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/sample/cmake) by extension 'python_setup_py'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'ros'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extensions ['cmake', 'python']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'cmake'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'python'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extensions ['python_setup_py']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate) by extension 'python_setup_py'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'ros'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extensions ['cmake', 'python']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco/simulate/cmake) by extension 'python_setup_py'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_control) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_control) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_control) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_control) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_control) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_control) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_control) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_control) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_control) by extension 'ros'
+[0.468s] DEBUG:colcon.colcon_core.package_identification:Package 'src/direct_control' with type 'ros.ament_python' and name 'direct_control'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_attitude_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_attitude_controller) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_attitude_controller) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_attitude_controller) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_attitude_controller) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_attitude_controller) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_attitude_controller) by extension 'colcon_meta'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_attitude_controller) by extensions ['ros']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_attitude_controller) by extension 'ros'
+[0.469s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_attitude_controller' with type 'ros.ament_python' and name 'rov_attitude_controller'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_controllers) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_controllers) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_controllers) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_controllers) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_controllers) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_controllers) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_controllers) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_controllers) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_controllers' with type 'ros.ament_cmake' and name 'rov_controllers'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_hardware_interface) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_hardware_interface) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_hardware_interface) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_hardware_interface) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_hardware_interface) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_hardware_interface) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_hardware_interface) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_hardware_interface) by extension 'ros'
+[0.472s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_hardware_interface' with type 'ros.ament_cmake' and name 'rov_hardware_interface'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_bringup) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_bringup) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_bringup) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_bringup) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_bringup) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_bringup) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_bringup) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_bringup) by extension 'ros'
+[0.473s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_mujoco_bringup' with type 'ros.ament_cmake' and name 'rov_mujoco_bringup'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_description) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_description) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_description) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_description) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_description) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_description) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_description) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_description) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_description) by extension 'ros'
+[0.474s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_mujoco_description' with type 'ros.ament_cmake' and name 'rov_mujoco_description'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_sim) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_sim) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_sim) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_sim) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_sim) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_sim) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_sim) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_mujoco_sim) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_mujoco_sim' with type 'ros.ament_cmake' and name 'rov_mujoco_sim'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_follower) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_follower) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_follower) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_follower) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_follower) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_follower) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_follower) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_follower) by extension 'ros'
+[0.483s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_path_follower' with type 'ros.ament_python' and name 'rov_path_follower'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_generator) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_generator) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_generator) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_generator) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_generator) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_generator) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_generator) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_generator) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_path_generator) by extension 'ros'
+[0.484s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_path_generator' with type 'ros.ament_python' and name 'rov_path_generator'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_position_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_position_controller) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_position_controller) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_position_controller) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_position_controller) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_position_controller) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_position_controller) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_position_controller) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_position_controller) by extension 'ros'
+[0.485s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_position_controller' with type 'ros.ament_python' and name 'rov_position_controller'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_bringup) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_bringup) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_bringup) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_bringup) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_bringup) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_bringup) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_bringup) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_bringup) by extension 'ros'
+[0.487s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_real_bringup' with type 'ros.ament_cmake' and name 'rov_real_bringup'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_description) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_description) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_description) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_description) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_description) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_description) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_description) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_description) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_real_description) by extension 'ros'
+[0.488s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_real_description' with type 'ros.ament_cmake' and name 'rov_real_description'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visualization' with type 'ros.ament_python' and name 'visualization'
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.514s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 460 installed packages in /opt/ros/humble
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'direct_control' build argument 'cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'direct_control' build argument 'cmake_target' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'direct_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'direct_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'direct_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'direct_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'direct_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'direct_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'direct_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.567s] DEBUG:colcon.colcon_core.verb:Building package 'direct_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/direct_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/direct_control', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/direct_control', 'symlink_install': True, 'test_result_base': None}
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_attitude_controller' build argument 'cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_attitude_controller' build argument 'cmake_target' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_attitude_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_attitude_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_attitude_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_attitude_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_attitude_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_attitude_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_attitude_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.568s] DEBUG:colcon.colcon_core.verb:Building package 'rov_attitude_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/rov_attitude_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/rov_attitude_controller', 'symlink_install': True, 'test_result_base': None}
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_controllers' build argument 'cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_controllers' build argument 'cmake_target' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'rov_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.569s] DEBUG:colcon.colcon_core.verb:Building package 'rov_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/rov_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/rov_controllers', 'symlink_install': True, 'test_result_base': None}
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.569s] DEBUG:colcon.colcon_core.verb:Building package 'rov_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/rov_hardware_interface', 'symlink_install': True, 'test_result_base': None}
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_bringup' build argument 'cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_bringup' build argument 'cmake_target' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.570s] DEBUG:colcon.colcon_core.verb:Building package 'rov_mujoco_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/rov_mujoco_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_description' build argument 'cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_description' build argument 'cmake_target' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.570s] DEBUG:colcon.colcon_core.verb:Building package 'rov_mujoco_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/rov_mujoco_description', 'symlink_install': True, 'test_result_base': None}
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_sim' build argument 'cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_sim' build argument 'cmake_target' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_mujoco_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.571s] DEBUG:colcon.colcon_core.verb:Building package 'rov_mujoco_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/rov_mujoco_sim', 'symlink_install': True, 'test_result_base': None}
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_path_follower' build argument 'cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_path_follower' build argument 'cmake_target' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_path_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_path_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_path_follower' build argument 'cmake_clean_first' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_path_follower' build argument 'cmake_force_configure' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_path_follower' build argument 'ament_cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_path_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'rov_path_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.571s] DEBUG:colcon.colcon_core.verb:Building package 'rov_path_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/rov_path_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/rov_path_follower', 'symlink_install': True, 'test_result_base': None}
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_path_generator' build argument 'cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_path_generator' build argument 'cmake_target' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_path_generator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_path_generator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_path_generator' build argument 'cmake_clean_first' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_path_generator' build argument 'cmake_force_configure' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_path_generator' build argument 'ament_cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_path_generator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_path_generator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.572s] DEBUG:colcon.colcon_core.verb:Building package 'rov_path_generator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/rov_path_generator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/rov_path_generator', 'symlink_install': True, 'test_result_base': None}
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_position_controller' build argument 'cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_position_controller' build argument 'cmake_target' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_position_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_position_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_position_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_position_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_position_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_position_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'rov_position_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.572s] DEBUG:colcon.colcon_core.verb:Building package 'rov_position_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/rov_position_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/rov_position_controller', 'symlink_install': True, 'test_result_base': None}
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_bringup' build argument 'cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_bringup' build argument 'cmake_target' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.573s] DEBUG:colcon.colcon_core.verb:Building package 'rov_real_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/rov_real_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/rov_real_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_description' build argument 'cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_description' build argument 'cmake_target' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'rov_real_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'rov_real_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'rov_real_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.574s] DEBUG:colcon.colcon_core.verb:Building package 'rov_real_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/rov_real_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/rov_real_description', 'symlink_install': True, 'test_result_base': None}
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_target' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.574s] DEBUG:colcon.colcon_core.verb:Building package 'visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eia/rbi_2025/rov/rov_ws/build/visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eia/rbi_2025/rov/rov_ws/install/visualization', 'merge_install': False, 'path': '/home/eia/rbi_2025/rov/rov_ws/src/visualization', 'symlink_install': True, 'test_result_base': None}
+[0.574s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.575s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.575s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/direct_control' with build type 'ament_python'
+[0.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('direct_control', 'ament_prefix_path')
+[0.579s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/hook/ament_prefix_path.ps1'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/hook/ament_prefix_path.dsv'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/hook/ament_prefix_path.sh'
+[0.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.584s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_attitude_controller' with build type 'ament_python'
+[0.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_attitude_controller', 'ament_prefix_path')
+[0.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/hook/ament_prefix_path.ps1'
+[0.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/hook/ament_prefix_path.dsv'
+[0.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/hook/ament_prefix_path.sh'
+[0.586s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.586s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.588s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_controllers' with build type 'ament_cmake'
+[0.589s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_controllers'
+[0.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.591s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_hardware_interface' with build type 'ament_cmake'
+[0.592s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_hardware_interface'
+[0.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.594s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_mujoco_bringup' with build type 'ament_cmake'
+[0.595s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_mujoco_bringup'
+[0.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.595s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.597s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_mujoco_description' with build type 'ament_cmake'
+[0.597s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_mujoco_description'
+[0.597s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.600s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_mujoco_sim' with build type 'ament_cmake'
+[0.600s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_mujoco_sim'
+[0.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.603s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_path_follower' with build type 'ament_python'
+[0.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_path_follower', 'ament_prefix_path')
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/hook/ament_prefix_path.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/hook/ament_prefix_path.dsv'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/hook/ament_prefix_path.sh'
+[0.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.608s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_path_generator' with build type 'ament_python'
+[0.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_path_generator', 'ament_prefix_path')
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/hook/ament_prefix_path.ps1'
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/hook/ament_prefix_path.dsv'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/hook/ament_prefix_path.sh'
+[0.609s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.609s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.612s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_position_controller' with build type 'ament_python'
+[0.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_position_controller', 'ament_prefix_path')
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/share/rov_position_controller/hook/ament_prefix_path.ps1'
+[0.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/share/rov_position_controller/hook/ament_prefix_path.dsv'
+[0.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/share/rov_position_controller/hook/ament_prefix_path.sh'
+[0.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.616s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_real_bringup' with build type 'ament_cmake'
+[0.616s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_real_bringup'
+[0.616s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.616s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.619s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_real_description' with build type 'ament_cmake'
+[0.619s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_real_description'
+[0.619s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.619s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.039s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eia/rbi_2025/rov/rov_ws/src/direct_control'
+[1.039s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.039s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.440s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_attitude_controller'
+[1.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_controllers -- -j12 -l12
+[1.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface -- -j12 -l12
+[1.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_bringup -- -j12 -l12
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_description -- -j12 -l12
+[1.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim -- -j12 -l12
+[1.868s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_path_follower'
+[1.869s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.266s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_path_generator'
+[2.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.671s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eia/rbi_2025/rov/rov_ws/src/rov_position_controller'
+[2.671s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_real_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_real_bringup -- -j12 -l12
+[2.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_real_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_real_description -- -j12 -l12
+[2.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_description -- -j12 -l12
+[2.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_description
+[2.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_bringup -- -j12 -l12
+[2.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_bringup
+[2.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface -- -j12 -l12
+[2.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface
+[2.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_controllers -- -j12 -l12
+[2.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_controllers
+[2.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim -- -j12 -l12
+[2.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim
+[2.727s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_mujoco_description)
+[2.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_description
+[2.738s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description' for CMake module files
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description' for CMake config files
+[2.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_mujoco_description', 'cmake_prefix_path')
+[2.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/hook/cmake_prefix_path.ps1'
+[2.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/hook/cmake_prefix_path.dsv'
+[2.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/hook/cmake_prefix_path.sh'
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/bin'
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/lib/pkgconfig/rov_mujoco_description.pc'
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/lib/python3.10/site-packages'
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/bin'
+[2.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/package.ps1'
+[2.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/package.dsv'
+[2.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/package.sh'
+[2.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/package.bash'
+[2.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/package.zsh'
+[2.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/colcon-core/packages/rov_mujoco_description)
+[2.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_mujoco_description)
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description' for CMake module files
+[2.751s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description' for CMake config files
+[2.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_mujoco_description', 'cmake_prefix_path')
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/hook/cmake_prefix_path.ps1'
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/hook/cmake_prefix_path.dsv'
+[2.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/hook/cmake_prefix_path.sh'
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/bin'
+[2.754s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/lib/pkgconfig/rov_mujoco_description.pc'
+[2.754s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/lib/python3.10/site-packages'
+[2.754s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/bin'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/package.ps1'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/package.dsv'
+[2.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/package.sh'
+[2.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/package.bash'
+[2.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/rov_mujoco_description/package.zsh'
+[2.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_description/share/colcon-core/packages/rov_mujoco_description)
+[2.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_real_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_real_bringup -- -j12 -l12
+[2.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_real_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_real_bringup
+[2.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_real_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_real_description -- -j12 -l12
+[2.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_real_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_real_description
+[2.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_mujoco_bringup)
+[2.764s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup' for CMake module files
+[2.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_bringup
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup' for CMake config files
+[2.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_mujoco_bringup', 'cmake_prefix_path')
+[2.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/hook/cmake_prefix_path.ps1'
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/hook/cmake_prefix_path.dsv'
+[2.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/hook/cmake_prefix_path.sh'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/bin'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/lib/pkgconfig/rov_mujoco_bringup.pc'
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/lib/python3.10/site-packages'
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/bin'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.ps1'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.dsv'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.sh'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.bash'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.zsh'
+[2.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/colcon-core/packages/rov_mujoco_bringup)
+[2.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_mujoco_bringup)
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup' for CMake module files
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup' for CMake config files
+[2.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_mujoco_bringup', 'cmake_prefix_path')
+[2.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/hook/cmake_prefix_path.ps1'
+[2.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/hook/cmake_prefix_path.dsv'
+[2.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/hook/cmake_prefix_path.sh'
+[2.777s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/bin'
+[2.777s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/lib/pkgconfig/rov_mujoco_bringup.pc'
+[2.777s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/lib/python3.10/site-packages'
+[2.778s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/bin'
+[2.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.ps1'
+[2.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.dsv'
+[2.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.sh'
+[2.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.bash'
+[2.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/rov_mujoco_bringup/package.zsh'
+[2.781s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_bringup/share/colcon-core/packages/rov_mujoco_bringup)
+[2.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_hardware_interface)
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface' for CMake module files
+[2.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface
+[2.784s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface' for CMake config files
+[2.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_hardware_interface', 'cmake_prefix_path')
+[2.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/hook/cmake_prefix_path.ps1'
+[2.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/hook/cmake_prefix_path.dsv'
+[2.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/hook/cmake_prefix_path.sh'
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/lib'
+[2.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_hardware_interface', 'ld_library_path_lib')
+[2.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/hook/ld_library_path_lib.ps1'
+[2.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/hook/ld_library_path_lib.dsv'
+[2.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/hook/ld_library_path_lib.sh'
+[2.789s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/bin'
+[2.790s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/lib/pkgconfig/rov_hardware_interface.pc'
+[2.790s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/lib/python3.10/site-packages'
+[2.790s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/bin'
+[2.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/package.ps1'
+[2.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/package.dsv'
+[2.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/package.sh'
+[2.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/package.bash'
+[2.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/package.zsh'
+[2.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/colcon-core/packages/rov_hardware_interface)
+[2.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_hardware_interface)
+[2.795s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface' for CMake module files
+[2.796s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface' for CMake config files
+[2.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_hardware_interface', 'cmake_prefix_path')
+[2.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/hook/cmake_prefix_path.ps1'
+[2.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/hook/cmake_prefix_path.dsv'
+[2.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/hook/cmake_prefix_path.sh'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/lib'
+[2.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_hardware_interface', 'ld_library_path_lib')
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/hook/ld_library_path_lib.ps1'
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/hook/ld_library_path_lib.dsv'
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/hook/ld_library_path_lib.sh'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/bin'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/lib/pkgconfig/rov_hardware_interface.pc'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/lib/python3.10/site-packages'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/bin'
+[2.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/package.ps1'
+[2.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/package.dsv'
+[2.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/package.sh'
+[2.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/package.bash'
+[2.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/rov_hardware_interface/package.zsh'
+[2.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_hardware_interface/share/colcon-core/packages/rov_hardware_interface)
+[2.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_controllers)
+[2.807s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers' for CMake module files
+[2.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_controllers
+[2.808s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers' for CMake config files
+[2.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_controllers', 'cmake_prefix_path')
+[2.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/hook/cmake_prefix_path.ps1'
+[2.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/hook/cmake_prefix_path.dsv'
+[2.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/hook/cmake_prefix_path.sh'
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/lib'
+[2.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_controllers', 'ld_library_path_lib')
+[2.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/hook/ld_library_path_lib.ps1'
+[2.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/hook/ld_library_path_lib.dsv'
+[2.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/hook/ld_library_path_lib.sh'
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/bin'
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/lib/pkgconfig/rov_controllers.pc'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/lib/python3.10/site-packages'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/bin'
+[2.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.ps1'
+[2.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.dsv'
+[2.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.sh'
+[2.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.bash'
+[2.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.zsh'
+[2.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/colcon-core/packages/rov_controllers)
+[2.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_controllers)
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers' for CMake module files
+[2.820s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers' for CMake config files
+[2.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_controllers', 'cmake_prefix_path')
+[2.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/hook/cmake_prefix_path.ps1'
+[2.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/hook/cmake_prefix_path.dsv'
+[2.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/hook/cmake_prefix_path.sh'
+[2.823s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/lib'
+[2.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_controllers', 'ld_library_path_lib')
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/hook/ld_library_path_lib.ps1'
+[2.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/hook/ld_library_path_lib.dsv'
+[2.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/hook/ld_library_path_lib.sh'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/bin'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/lib/pkgconfig/rov_controllers.pc'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/lib/python3.10/site-packages'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/bin'
+[2.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.ps1'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.dsv'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.sh'
+[2.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.bash'
+[2.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/rov_controllers/package.zsh'
+[2.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_controllers/share/colcon-core/packages/rov_controllers)
+[2.831s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eia/rbi_2025/rov/rov_ws/src/visualization' with build type 'ament_python'
+[2.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization', 'ament_prefix_path')
+[2.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/hook/ament_prefix_path.ps1'
+[2.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/hook/ament_prefix_path.dsv'
+[2.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/hook/ament_prefix_path.sh'
+[2.834s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.834s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_mujoco_sim)
+[2.839s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim' for CMake module files
+[2.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim
+[2.845s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim' for CMake config files
+[2.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_mujoco_sim', 'cmake_prefix_path')
+[2.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/hook/cmake_prefix_path.ps1'
+[2.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/hook/cmake_prefix_path.dsv'
+[2.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/hook/cmake_prefix_path.sh'
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/lib'
+[2.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_mujoco_sim', 'ld_library_path_lib')
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/hook/ld_library_path_lib.ps1'
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/hook/ld_library_path_lib.dsv'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/hook/ld_library_path_lib.sh'
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/bin'
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/lib/pkgconfig/rov_mujoco_sim.pc'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/lib/python3.10/site-packages'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/bin'
+[2.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.ps1'
+[2.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.dsv'
+[2.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.sh'
+[2.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.bash'
+[2.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.zsh'
+[2.856s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/colcon-core/packages/rov_mujoco_sim)
+[2.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_mujoco_sim)
+[2.857s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim' for CMake module files
+[2.858s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim' for CMake config files
+[2.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_mujoco_sim', 'cmake_prefix_path')
+[2.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/hook/cmake_prefix_path.ps1'
+[2.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/hook/cmake_prefix_path.dsv'
+[2.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/hook/cmake_prefix_path.sh'
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/lib'
+[2.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_mujoco_sim', 'ld_library_path_lib')
+[2.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/hook/ld_library_path_lib.ps1'
+[2.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/hook/ld_library_path_lib.dsv'
+[2.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/hook/ld_library_path_lib.sh'
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/bin'
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/lib/pkgconfig/rov_mujoco_sim.pc'
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/lib/python3.10/site-packages'
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/bin'
+[2.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.ps1'
+[2.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.dsv'
+[2.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.sh'
+[2.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.bash'
+[2.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.zsh'
+[2.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/colcon-core/packages/rov_mujoco_sim)
+[2.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_real_bringup)
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup' for CMake module files
+[2.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_real_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_real_bringup
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup' for CMake config files
+[2.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_real_bringup', 'cmake_prefix_path')
+[2.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/hook/cmake_prefix_path.ps1'
+[2.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/hook/cmake_prefix_path.dsv'
+[2.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/hook/cmake_prefix_path.sh'
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/bin'
+[2.874s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/lib/pkgconfig/rov_real_bringup.pc'
+[2.874s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/lib/python3.10/site-packages'
+[2.874s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/bin'
+[2.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.ps1'
+[2.875s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.dsv'
+[2.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.sh'
+[2.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.bash'
+[2.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.zsh'
+[2.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/colcon-core/packages/rov_real_bringup)
+[2.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_real_bringup)
+[2.878s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup' for CMake module files
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup' for CMake config files
+[2.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_real_bringup', 'cmake_prefix_path')
+[2.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/hook/cmake_prefix_path.ps1'
+[2.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/hook/cmake_prefix_path.dsv'
+[2.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/hook/cmake_prefix_path.sh'
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/bin'
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/lib/pkgconfig/rov_real_bringup.pc'
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/lib/python3.10/site-packages'
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/bin'
+[2.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.ps1'
+[2.884s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.dsv'
+[2.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.sh'
+[2.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.bash'
+[2.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/rov_real_bringup/package.zsh'
+[2.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_real_bringup/share/colcon-core/packages/rov_real_bringup)
+[2.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_real_description)
+[2.887s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description' for CMake module files
+[2.888s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description' for CMake config files
+[2.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_real_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_real_description
+[2.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_real_description', 'cmake_prefix_path')
+[2.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/hook/cmake_prefix_path.ps1'
+[2.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/hook/cmake_prefix_path.dsv'
+[2.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/hook/cmake_prefix_path.sh'
+[2.890s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/bin'
+[2.890s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/lib/pkgconfig/rov_real_description.pc'
+[2.891s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/lib/python3.10/site-packages'
+[2.891s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/bin'
+[2.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.ps1'
+[2.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.dsv'
+[2.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.sh'
+[2.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.bash'
+[2.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.zsh'
+[2.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/colcon-core/packages/rov_real_description)
+[2.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_real_description)
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description' for CMake module files
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description' for CMake config files
+[2.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_real_description', 'cmake_prefix_path')
+[2.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/hook/cmake_prefix_path.ps1'
+[2.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/hook/cmake_prefix_path.dsv'
+[2.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/hook/cmake_prefix_path.sh'
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/bin'
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/lib/pkgconfig/rov_real_description.pc'
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/lib/python3.10/site-packages'
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/bin'
+[2.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.ps1'
+[2.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.dsv'
+[2.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.sh'
+[2.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.bash'
+[2.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/rov_real_description/package.zsh'
+[2.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description/share/colcon-core/packages/rov_real_description)
+[3.555s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eia/rbi_2025/rov/rov_ws/src/visualization'
+[3.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_position_controller': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/rov_position_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/rov_position_controller/build --no-deps symlink_data
+[3.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/direct_control': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/direct_control/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/direct_control/build --no-deps symlink_data
+[3.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_path_follower': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/rov_path_follower/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/rov_path_follower/build --no-deps symlink_data
+[3.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_attitude_controller': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/rov_attitude_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/rov_attitude_controller/build --no-deps symlink_data
+[3.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_path_generator': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/rov_path_generator/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/rov_path_generator/build --no-deps symlink_data
+[4.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/visualization': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/visualization/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/visualization/build --no-deps symlink_data
+[4.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('direct_control', 'pythonpath_develop')
+[4.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/build/direct_control/share/direct_control/hook/pythonpath_develop.ps1'
+[4.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/direct_control' returned '0': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/direct_control/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/direct_control/build --no-deps symlink_data
+[4.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/build/direct_control/share/direct_control/hook/pythonpath_develop.dsv'
+[4.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/build/direct_control/share/direct_control/hook/pythonpath_develop.sh'
+[4.498s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/direct_control' for CMake module files
+[4.499s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/direct_control' for CMake config files
+[4.501s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/lib'
+[4.501s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/bin'
+[4.501s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/lib/pkgconfig/direct_control.pc'
+[4.502s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/lib/python3.10/site-packages'
+[4.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('direct_control', 'pythonpath')
+[4.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/hook/pythonpath.ps1'
+[4.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/hook/pythonpath.dsv'
+[4.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/hook/pythonpath.sh'
+[4.505s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/bin'
+[4.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(direct_control)
+[4.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/package.ps1'
+[4.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/package.dsv'
+[4.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/package.sh'
+[4.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/package.bash'
+[4.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/direct_control/share/direct_control/package.zsh'
+[4.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/direct_control/share/colcon-core/packages/direct_control)
+[4.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_position_controller', 'pythonpath_develop')
+[4.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_position_controller' returned '0': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/rov_position_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/rov_position_controller/build --no-deps symlink_data
+[4.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/build/rov_position_controller/share/rov_position_controller/hook/pythonpath_develop.ps1'
+[4.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/build/rov_position_controller/share/rov_position_controller/hook/pythonpath_develop.dsv'
+[4.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/build/rov_position_controller/share/rov_position_controller/hook/pythonpath_develop.sh'
+[4.515s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller' for CMake module files
+[4.516s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller' for CMake config files
+[4.517s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/lib'
+[4.517s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/bin'
+[4.517s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/lib/pkgconfig/rov_position_controller.pc'
+[4.517s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/lib/python3.10/site-packages'
+[4.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_position_controller', 'pythonpath')
+[4.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/share/rov_position_controller/hook/pythonpath.ps1'
+[4.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/share/rov_position_controller/hook/pythonpath.dsv'
+[4.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/share/rov_position_controller/hook/pythonpath.sh'
+[4.519s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/bin'
+[4.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_position_controller)
+[4.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/share/rov_position_controller/package.ps1'
+[4.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/share/rov_position_controller/package.dsv'
+[4.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/share/rov_position_controller/package.sh'
+[4.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/share/rov_position_controller/package.bash'
+[4.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/share/rov_position_controller/package.zsh'
+[4.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_position_controller/share/colcon-core/packages/rov_position_controller)
+[4.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_attitude_controller', 'pythonpath_develop')
+[4.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/build/rov_attitude_controller/share/rov_attitude_controller/hook/pythonpath_develop.ps1'
+[4.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/build/rov_attitude_controller/share/rov_attitude_controller/hook/pythonpath_develop.dsv'
+[4.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_attitude_controller' returned '0': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/rov_attitude_controller/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/rov_attitude_controller/build --no-deps symlink_data
+[4.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/build/rov_attitude_controller/share/rov_attitude_controller/hook/pythonpath_develop.sh'
+[4.526s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller' for CMake module files
+[4.527s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller' for CMake config files
+[4.527s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib'
+[4.528s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/bin'
+[4.528s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/pkgconfig/rov_attitude_controller.pc'
+[4.528s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/lib/python3.10/site-packages'
+[4.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_attitude_controller', 'pythonpath')
+[4.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/hook/pythonpath.ps1'
+[4.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/hook/pythonpath.dsv'
+[4.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/hook/pythonpath.sh'
+[4.530s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/bin'
+[4.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_attitude_controller)
+[4.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/package.ps1'
+[4.531s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/package.dsv'
+[4.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/package.sh'
+[4.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/package.bash'
+[4.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/rov_attitude_controller/package.zsh'
+[4.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_attitude_controller/share/colcon-core/packages/rov_attitude_controller)
+[4.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_path_follower', 'pythonpath_develop')
+[4.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/build/rov_path_follower/share/rov_path_follower/hook/pythonpath_develop.ps1'
+[4.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_path_follower' returned '0': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/rov_path_follower/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/rov_path_follower/build --no-deps symlink_data
+[4.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/build/rov_path_follower/share/rov_path_follower/hook/pythonpath_develop.dsv'
+[4.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/build/rov_path_follower/share/rov_path_follower/hook/pythonpath_develop.sh'
+[4.537s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower' for CMake module files
+[4.537s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower' for CMake config files
+[4.538s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/lib'
+[4.538s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/bin'
+[4.538s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/lib/pkgconfig/rov_path_follower.pc'
+[4.538s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/lib/python3.10/site-packages'
+[4.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_path_follower', 'pythonpath')
+[4.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/hook/pythonpath.ps1'
+[4.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/hook/pythonpath.dsv'
+[4.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/hook/pythonpath.sh'
+[4.540s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/bin'
+[4.540s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_path_follower)
+[4.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/package.ps1'
+[4.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/package.dsv'
+[4.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/package.sh'
+[4.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/package.bash'
+[4.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/share/rov_path_follower/package.zsh'
+[4.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_path_follower/share/colcon-core/packages/rov_path_follower)
+[4.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_path_generator', 'pythonpath_develop')
+[4.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/build/rov_path_generator/share/rov_path_generator/hook/pythonpath_develop.ps1'
+[4.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/build/rov_path_generator/share/rov_path_generator/hook/pythonpath_develop.dsv'
+[4.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_path_generator' returned '0': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/rov_path_generator/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/rov_path_generator/build --no-deps symlink_data
+[4.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/build/rov_path_generator/share/rov_path_generator/hook/pythonpath_develop.sh'
+[4.545s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator' for CMake module files
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator' for CMake config files
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/lib'
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/bin'
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/lib/pkgconfig/rov_path_generator.pc'
+[4.547s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/lib/python3.10/site-packages'
+[4.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_path_generator', 'pythonpath')
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/hook/pythonpath.ps1'
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/hook/pythonpath.dsv'
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/hook/pythonpath.sh'
+[4.548s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/bin'
+[4.548s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_path_generator)
+[4.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/package.ps1'
+[4.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/package.dsv'
+[4.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/package.sh'
+[4.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/package.bash'
+[4.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/share/rov_path_generator/package.zsh'
+[4.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/rov_path_generator/share/colcon-core/packages/rov_path_generator)
+[5.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization', 'pythonpath_develop')
+[5.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/build/visualization/share/visualization/hook/pythonpath_develop.ps1'
+[5.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/visualization' returned '0': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/visualization/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/visualization/build --no-deps symlink_data
+[5.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/build/visualization/share/visualization/hook/pythonpath_develop.dsv'
+[5.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/build/visualization/share/visualization/hook/pythonpath_develop.sh'
+[5.009s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/visualization' for CMake module files
+[5.009s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/visualization' for CMake config files
+[5.010s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/visualization/lib'
+[5.010s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/visualization/bin'
+[5.010s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/visualization/lib/pkgconfig/visualization.pc'
+[5.010s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/visualization/lib/python3.10/site-packages'
+[5.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization', 'pythonpath')
+[5.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/hook/pythonpath.ps1'
+[5.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/hook/pythonpath.dsv'
+[5.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/hook/pythonpath.sh'
+[5.011s] Level 1:colcon.colcon_core.environment:checking '/home/eia/rbi_2025/rov/rov_ws/install/visualization/bin'
+[5.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization)
+[5.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/package.ps1'
+[5.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/package.dsv'
+[5.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/package.sh'
+[5.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/package.bash'
+[5.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/package.zsh'
+[5.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eia/rbi_2025/rov/rov_ws/install/visualization/share/colcon-core/packages/visualization)
+[5.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.014s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.020s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.020s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.020s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.033s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.034s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eia/rbi_2025/rov/rov_ws/install/local_setup.ps1'
+[5.035s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eia/rbi_2025/rov/rov_ws/install/_local_setup_util_ps1.py'
+[5.037s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eia/rbi_2025/rov/rov_ws/install/setup.ps1'
+[5.039s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eia/rbi_2025/rov/rov_ws/install/local_setup.sh'
+[5.040s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eia/rbi_2025/rov/rov_ws/install/_local_setup_util_sh.py'
+[5.040s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eia/rbi_2025/rov/rov_ws/install/setup.sh'
+[5.042s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eia/rbi_2025/rov/rov_ws/install/local_setup.bash'
+[5.043s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eia/rbi_2025/rov/rov_ws/install/setup.bash'
+[5.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eia/rbi_2025/rov/rov_ws/install/local_setup.zsh'
+[5.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eia/rbi_2025/rov/rov_ws/install/setup.zsh'

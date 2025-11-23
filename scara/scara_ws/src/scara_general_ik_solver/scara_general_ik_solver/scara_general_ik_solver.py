@@ -89,7 +89,7 @@ class IkSolverScara():
     def solve_for_pose(self, pose : np.array):
         x = pose[0][0]
         y = pose[1][0]
-        z = pose[2][0]
+        z = pose[2][0] - 0.24
         phi = pose[3][0]
         
         r = np.sqrt(np.power(x,2) + np.power(y,2))

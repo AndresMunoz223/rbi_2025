@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target rov_mujoco_sim_direct[0m
+[35m[1mConsolidate compiler generated dependencies of target rov_mujoco_sim[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rov_mujoco_sim_direct.dir/src/mujoco_interface.cpp.o[0m
+[ 75%] Built target rov_mujoco_sim
+[100%] [32m[1mLinking CXX executable rov_mujoco_sim_direct[0m

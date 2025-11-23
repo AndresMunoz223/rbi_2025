@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/abb_ik_solver/abb_ik_solver.egg-info/PKG-INFO
-../../build/abb_ik_solver/abb_ik_solver.egg-info/SOURCES.txt
-../../build/abb_ik_solver/abb_ik_solver.egg-info/dependency_links.txt
-../../build/abb_ik_solver/abb_ik_solver.egg-info/entry_points.txt
-../../build/abb_ik_solver/abb_ik_solver.egg-info/requires.txt
-../../build/abb_ik_solver/abb_ik_solver.egg-info/top_level.txt
-../../build/abb_ik_solver/abb_ik_solver.egg-info/zip-safe
 abb_ik_solver/__init__.py
 abb_ik_solver/abb_ik_solver.py
 abb_ik_solver.egg-info/PKG-INFO

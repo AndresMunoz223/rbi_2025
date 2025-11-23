@@ -1,1 +1,1 @@
-/abb_ws/build/abb_controllers/ament_cmake_core/abb_controllersConfig.cmake
+/home/eia/rbi_2025/abb/abb_ws/build/abb_controllers/ament_cmake_core/abb_controllersConfig.cmake

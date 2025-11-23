@@ -1,1 +1,1 @@
-/abb_ws/build/abb_controllers/ament_cmake_environment_hooks/local_setup.bash
+/home/eia/rbi_2025/abb/abb_ws/build/abb_controllers/ament_cmake_environment_hooks/local_setup.bash

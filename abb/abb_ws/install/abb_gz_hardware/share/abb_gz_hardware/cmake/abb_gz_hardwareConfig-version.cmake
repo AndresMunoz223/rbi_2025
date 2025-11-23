@@ -1,1 +1,1 @@
-/abb_ws/build/abb_gz_hardware/ament_cmake_core/abb_gz_hardwareConfig-version.cmake
+/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_core/abb_gz_hardwareConfig-version.cmake

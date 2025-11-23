@@ -4,7 +4,7 @@
 
 using std::placeholders::_1;
 
-char filename[] = "/rov_ws/src/rov_mujoco_sim/description/rov.xml";
+char filename[] = "/home/eia/rbi_2025/rov/rov_ws/src/rov_mujoco_sim/description/rov.xml";
 
 class RovSimulator : public rclcpp::Node
 {

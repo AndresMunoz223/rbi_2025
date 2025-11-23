@@ -1,1 +1,1 @@
-/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_sim/include/scara_mujoco_sim/mujoco_sim_interface.hpp
+/home/eia/rbi_2025/scara/scara_ws/src/scara_mujoco_sim/include/scara_mujoco_sim/mujoco_sim_interface.hpp

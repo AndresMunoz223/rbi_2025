@@ -1,1 +1,1 @@
-/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface/ament_cmake_core/scara_hardware_interfaceConfig-version.cmake
+/home/eia/rbi_2025/scara/scara_ws/build/scara_hardware_interface/ament_cmake_core/scara_hardware_interfaceConfig-version.cmake

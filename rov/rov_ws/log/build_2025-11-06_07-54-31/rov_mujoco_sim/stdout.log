@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target rov_mujoco_sim_direct[0m
+[ 25%] [32m[1mLinking CXX executable rov_mujoco_sim_direct[0m
+[ 75%] Built target rov_mujoco_sim
+[100%] Built target rov_mujoco_sim_direct
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim//rov_hardware_interface.xml
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/lib/librov_mujoco_sim.so
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/include/include/rov_sim/mujoco_interface.hpp
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/include/include/rov_sim/mujoco_sim_interface.hpp
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/library_path.sh
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/library_path.dsv
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/lib/rov_mujoco_sim/rov_mujoco_sim_direct
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_sim
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_sim
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/ament_prefix_path.sh
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/ament_prefix_path.dsv
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/path.sh
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/path.dsv
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/local_setup.bash
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/local_setup.sh
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/local_setup.zsh
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/local_setup.dsv
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.dsv
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/ament_index/resource_index/packages/rov_mujoco_sim
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rov_mujoco_sim
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/cmake/rov_mujoco_simConfig.cmake
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/cmake/rov_mujoco_simConfig-version.cmake
+-- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.xml

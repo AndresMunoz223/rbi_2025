@@ -1,0 +1,1 @@
+[2.362s] Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_real_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_real_description -- -j12 -l12

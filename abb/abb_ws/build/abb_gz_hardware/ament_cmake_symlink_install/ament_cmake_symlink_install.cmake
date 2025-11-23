@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/abb_ws/install/abb_gz_hardware/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/eia/rbi_2025/abb/abb_ws/install/abb_gz_hardware/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/abb_ws/install/abb_gz_hardware/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/eia/rbi_2025/abb/abb_ws/install/abb_gz_hardware/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/abb_ws/install/abb_gz_hardware/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/eia/rbi_2025/abb/abb_ws/install/abb_gz_hardware/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/abb_ws/install/abb_gz_hardware/${destination}")
+      set(destination "/home/eia/rbi_2025/abb/abb_ws/install/abb_gz_hardware/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,44 +310,44 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/abb_gz_hardware" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/abb_gz_hardware" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/abb_gz_hardware" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/abb_gz_hardware" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/abb_gz_hardware" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/abb_gz_hardware" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/abb_gz_hardware" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/abb_gz_hardware" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/abb_gz_hardware/environment")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/abb_gz_hardware/environment")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/abb_gz_hardware/environment")
 
-# install(FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/abb_gz_hardware/environment")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/abb_gz_hardware/environment")
+# install(FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/abb_gz_hardware/environment")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/abb_gz_hardware/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/abb_gz_hardware/environment")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/abb_gz_hardware/environment")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/abb_gz_hardware/environment")
 
-# install(FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/abb_gz_hardware/environment")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/abb_gz_hardware/environment")
+# install(FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/abb_gz_hardware/environment")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/abb_gz_hardware/environment")
 
-# install(FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/abb_gz_hardware")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/abb_gz_hardware")
+# install(FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/abb_gz_hardware")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/abb_gz_hardware")
 
-# install(FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/abb_gz_hardware")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/abb_gz_hardware")
+# install(FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/abb_gz_hardware")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/abb_gz_hardware")
 
-# install(FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/abb_gz_hardware")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/abb_gz_hardware")
+# install(FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/abb_gz_hardware")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/abb_gz_hardware")
 
-# install(FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/abb_gz_hardware")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/abb_gz_hardware")
+# install(FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/abb_gz_hardware")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/abb_gz_hardware")
 
-# install(FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/abb_gz_hardware")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/abb_gz_hardware")
+# install(FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/abb_gz_hardware")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/abb_gz_hardware")
 
-# install(FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_index/share/ament_index/resource_index/packages/abb_gz_hardware" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_index/share/ament_index/resource_index/packages/abb_gz_hardware" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_index/share/ament_index/resource_index/packages/abb_gz_hardware" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_index/share/ament_index/resource_index/packages/abb_gz_hardware" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_core/abb_gz_hardwareConfig.cmake" "/abb_ws/build/abb_gz_hardware/ament_cmake_core/abb_gz_hardwareConfig-version.cmake" "DESTINATION" "share/abb_gz_hardware/cmake")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/abb_ws/build/abb_gz_hardware/ament_cmake_core/abb_gz_hardwareConfig.cmake" "/abb_ws/build/abb_gz_hardware/ament_cmake_core/abb_gz_hardwareConfig-version.cmake" "DESTINATION" "share/abb_gz_hardware/cmake")
+# install(FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_core/abb_gz_hardwareConfig.cmake" "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_core/abb_gz_hardwareConfig-version.cmake" "DESTINATION" "share/abb_gz_hardware/cmake")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_core/abb_gz_hardwareConfig.cmake" "/home/eia/rbi_2025/abb/abb_ws/build/abb_gz_hardware/ament_cmake_core/abb_gz_hardwareConfig-version.cmake" "DESTINATION" "share/abb_gz_hardware/cmake")
 
-# install(FILES "/abb_ws/src/abb_gz_hardware/package.xml" "DESTINATION" "share/abb_gz_hardware")
-ament_cmake_symlink_install_files("/abb_ws/src/abb_gz_hardware" FILES "/abb_ws/src/abb_gz_hardware/package.xml" "DESTINATION" "share/abb_gz_hardware")
+# install(FILES "/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware/package.xml" "DESTINATION" "share/abb_gz_hardware")
+ament_cmake_symlink_install_files("/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware" FILES "/home/eia/rbi_2025/abb/abb_ws/src/abb_gz_hardware/package.xml" "DESTINATION" "share/abb_gz_hardware")

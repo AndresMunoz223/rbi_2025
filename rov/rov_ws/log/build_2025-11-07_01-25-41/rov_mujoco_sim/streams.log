@@ -1,0 +1,33 @@
+[0.840s] Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim -- -j12 -l12
+[2.039s] [ 50%] Built target rov_mujoco_sim_direct
+[2.039s] [100%] Built target rov_mujoco_sim
+[2.054s] Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim -- -j12 -l12
+[2.055s] Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim
+[2.082s] -- Install configuration: ""
+[2.082s] -- Execute custom install script
+[2.082s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim//rov_hardware_interface.xml
+[2.082s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/lib/librov_mujoco_sim.so
+[2.082s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/include/include/rov_sim/mujoco_interface.hpp
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/include/include/rov_sim/mujoco_sim_interface.hpp
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/library_path.sh
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/library_path.dsv
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/lib/rov_mujoco_sim/rov_mujoco_sim_direct
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/ament_index/resource_index/package_run_dependencies/rov_mujoco_sim
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/ament_index/resource_index/parent_prefix_path/rov_mujoco_sim
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/ament_prefix_path.sh
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/ament_prefix_path.dsv
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/path.sh
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/environment/path.dsv
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/local_setup.bash
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/local_setup.sh
+[2.083s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/local_setup.zsh
+[2.084s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/local_setup.dsv
+[2.084s] -- Symlinking: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.dsv
+[2.084s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/ament_index/resource_index/packages/rov_mujoco_sim
+[2.084s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rov_mujoco_sim
+[2.084s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/cmake/ament_cmake_export_libraries-extras.cmake
+[2.084s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.084s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/cmake/rov_mujoco_simConfig.cmake
+[2.084s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/cmake/rov_mujoco_simConfig-version.cmake
+[2.084s] -- Up-to-date symlink: /home/eia/rbi_2025/rov/rov_ws/install/rov_mujoco_sim/share/rov_mujoco_sim/package.xml
+[2.136s] Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eia/rbi_2025/rov/rov_ws/build/rov_mujoco_sim

@@ -1,0 +1,28 @@
+[2.506s] Invoking command in '/home/eia/rbi_2025/abb/abb_ws/build/abb_mujoco_python': PYTHONPATH=/home/eia/rbi_2025/abb/abb_ws/build/abb_mujoco_python/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/abb/abb_ws/build/abb_mujoco_python/build --no-deps symlink_data
+[2.870s] running develop
+[3.156s] running egg_info
+[3.156s] creating abb_mujoco_python.egg-info
+[3.157s] writing abb_mujoco_python.egg-info/PKG-INFO
+[3.157s] writing dependency_links to abb_mujoco_python.egg-info/dependency_links.txt
+[3.157s] writing entry points to abb_mujoco_python.egg-info/entry_points.txt
+[3.157s] writing requirements to abb_mujoco_python.egg-info/requires.txt
+[3.157s] writing top-level names to abb_mujoco_python.egg-info/top_level.txt
+[3.158s] writing manifest file 'abb_mujoco_python.egg-info/SOURCES.txt'
+[3.159s] reading manifest file 'abb_mujoco_python.egg-info/SOURCES.txt'
+[3.160s] writing manifest file 'abb_mujoco_python.egg-info/SOURCES.txt'
+[3.204s] running build_ext
+[3.205s] Creating /home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/lib/python3.10/site-packages/abb-mujoco-python.egg-link (link to .)
+[3.205s] Installing abb_sim_mujoco script to /home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/lib/abb_mujoco_python
+[3.205s] 
+[3.206s] Installed /home/eia/rbi_2025/abb/abb_ws/build/abb_mujoco_python
+[3.206s] running symlink_data
+[3.206s] creating /home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/share/ament_index
+[3.206s] creating /home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/share/ament_index/resource_index
+[3.206s] creating /home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/share/ament_index/resource_index/packages
+[3.206s] symbolically linking /home/eia/rbi_2025/abb/abb_ws/build/abb_mujoco_python/resource/abb_mujoco_python -> /home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/share/ament_index/resource_index/packages
+[3.206s] symbolically linking /home/eia/rbi_2025/abb/abb_ws/build/abb_mujoco_python/package.xml -> /home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/share/abb_mujoco_python
+[3.207s] creating /home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/share/abb_mujoco_python/launch
+[3.207s] creating /home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/share/abb_mujoco_python/descriptions
+[3.207s] symbolically linking /home/eia/rbi_2025/abb/abb_ws/build/abb_mujoco_python/descriptions/abb.xml -> /home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/share/abb_mujoco_python/descriptions
+[3.207s] creating /home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/share/abb_mujoco_python/config
+[3.251s] Invoked command in '/home/eia/rbi_2025/abb/abb_ws/build/abb_mujoco_python' returned '0': PYTHONPATH=/home/eia/rbi_2025/abb/abb_ws/build/abb_mujoco_python/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/abb/abb_ws/build/abb_mujoco_python/build --no-deps symlink_data

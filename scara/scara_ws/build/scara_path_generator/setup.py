@@ -1,1 +1,1 @@
-/home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_path_generator/setup.py
+/home/eia/rbi_2025/scara/scara_ws/src/scara_path_generator/setup.py

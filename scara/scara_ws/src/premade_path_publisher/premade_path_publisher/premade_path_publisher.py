@@ -60,7 +60,7 @@ class PathController(Node):
             self.get_logger().info(f"Published path with {len(path_msg.poses)} poses")
             self.publish_flag = 1
             
-        time.sleep(5)
+        time.sleep(2)
 
 
         

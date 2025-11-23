@@ -50,7 +50,7 @@ class PathController(Node):
             self.pose_pub.publish(msg)
             # self.get_logger().info(f'Publishing pose: {msg}')
             
-            time.sleep(0.7)        
+            time.sleep(0.1)        
 
     def get_robot_pose(self):
         try:

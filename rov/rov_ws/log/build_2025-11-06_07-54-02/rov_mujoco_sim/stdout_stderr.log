@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target rov_mujoco_sim_direct[0m
+[35m[1mConsolidate compiler generated dependencies of target rov_mujoco_sim[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rov_mujoco_sim_direct.dir/src/mujoco_interface.cpp.o[0m
+[ 75%] Built target rov_mujoco_sim
+[100%] [32m[1mLinking CXX executable rov_mujoco_sim_direct[0m
+gmake[2]: *** Deleting file 'rov_mujoco_sim_direct'
+gmake[2]: *** [CMakeFiles/rov_mujoco_sim_direct.dir/build.make:285: rov_mujoco_sim_direct] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rov_mujoco_sim_direct.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/rov_mujoco_sim_direct.dir/src/mujoco_interface.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rov_mujoco_sim.dir/src/mujoco_sim_interface.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library librov_mujoco_sim.so[0m
+[ 75%] Built target rov_mujoco_sim

@@ -1,0 +1,19 @@
+[2.573s] Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_real_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake /home/eia/rbi_2025/rov/rov_ws/src/rov_real_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eia/rbi_2025/rov/rov_ws/install/rov_real_description
+[2.648s] -- The C compiler identification is GNU 11.4.0
+[2.745s] -- The CXX compiler identification is GNU 11.4.0
+[2.757s] -- Detecting C compiler ABI info
+[2.866s] -- Detecting C compiler ABI info - done
+[2.884s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.885s] -- Detecting C compile features
+[2.885s] -- Detecting C compile features - done
+[2.891s] -- Detecting CXX compiler ABI info
+[3.021s] -- Detecting CXX compiler ABI info - done
+[3.040s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.041s] -- Detecting CXX compile features
+[3.041s] -- Detecting CXX compile features - done
+[3.047s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.488s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.571s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.742s] -- Configuring done
+[3.744s] -- Generating done
+[3.746s] -- Build files have been written to: /home/eia/rbi_2025/rov/rov_ws/build/rov_real_description

@@ -77,5 +77,31 @@
         "typeinfo": "cpp",
         "variant": "cpp"
     },
-    "cmake.sourceDirectory": "/abb_ws/src/abb_controllers"
+    "cmake.sourceDirectory": "/abb_ws/src/abb_controllers",
+    "python.autoComplete.extraPaths": [
+        "/abb_ws/build/abb_tf_generator",
+        "/home/eia/rbi_2025/abb/abb_ws/install/abb_tf_generator/lib/python3.10/site-packages",
+        "/abb_ws/build/abb_path_generator",
+        "/home/eia/rbi_2025/abb/abb_ws/install/abb_path_generator/lib/python3.10/site-packages",
+        "/abb_ws/build/abb_path_controller",
+        "/home/eia/rbi_2025/abb/abb_ws/install/abb_path_controller/lib/python3.10/site-packages",
+        "/abb_ws/build/abb_mujoco_python",
+        "/home/eia/rbi_2025/abb/abb_ws/install/abb_mujoco_python/lib/python3.10/site-packages",
+        "/abb_ws/build/abb_ik_solver",
+        "/home/eia/rbi_2025/abb/abb_ws/install/abb_ik_solver/lib/python3.10/site-packages",
+        "/home/eia/rbi_2025/scara/scara_ws/build/scara_tf_generator",
+        "/home/eia/rbi_2025/scara/scara_ws/install/scara_tf_generator/lib/python3.10/site-packages",
+        "/home/eia/rbi_2025/scara/scara_ws/build/scara_path_generator",
+        "/home/eia/rbi_2025/scara/scara_ws/install/scara_path_generator/lib/python3.10/site-packages",
+        "/home/eia/rbi_2025/scara/scara_ws/build/scara_path_controller",
+        "/home/eia/rbi_2025/scara/scara_ws/install/scara_path_controller/lib/python3.10/site-packages",
+        "/home/eia/rbi_2025/scara/scara_ws/build/scara_mujoco_python_sim",
+        "/home/eia/rbi_2025/scara/scara_ws/install/scara_mujoco_python_sim/lib/python3.10/site-packages",
+        "/home/eia/rbi_2025/scara/scara_ws/build/scara_general_ik_solver",
+        "/home/eia/rbi_2025/scara/scara_ws/install/scara_general_ik_solver/lib/python3.10/site-packages",
+        "/home/eia/rbi_2025/scara/scara_ws/build/premade_path_publisher",
+        "/home/eia/rbi_2025/scara/scara_ws/install/premade_path_publisher/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
 }

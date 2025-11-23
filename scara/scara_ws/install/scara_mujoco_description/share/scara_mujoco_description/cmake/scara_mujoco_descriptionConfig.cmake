@@ -1,1 +1,1 @@
-/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_description/ament_cmake_core/scara_mujoco_descriptionConfig.cmake
+/home/eia/rbi_2025/scara/scara_ws/build/scara_mujoco_description/ament_cmake_core/scara_mujoco_descriptionConfig.cmake

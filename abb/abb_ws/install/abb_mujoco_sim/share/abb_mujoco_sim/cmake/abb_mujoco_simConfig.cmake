@@ -1,1 +1,1 @@
-/abb_ws/build/abb_mujoco_sim/ament_cmake_core/abb_mujoco_simConfig.cmake
+/home/eia/rbi_2025/abb/abb_ws/build/abb_mujoco_sim/ament_cmake_core/abb_mujoco_simConfig.cmake

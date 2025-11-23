@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface
+CMAKE_SOURCE_DIR = /home/eia/rbi_2025/scara/scara_ws/src/scara_hardware_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface
+CMAKE_BINARY_DIR = /home/eia/rbi_2025/scara/scara_ws/build/scara_hardware_interface
 
 # Include any dependencies generated for this target.
 include CMakeFiles/scara_hardware_interface.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/scara_hardware_interface.dir/progress.make
 include CMakeFiles/scara_hardware_interface.dir/flags.make
 
 CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o: CMakeFiles/scara_hardware_interface.dir/flags.make
-CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o: /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp
+CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o: /home/eia/rbi_2025/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp
 CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o: CMakeFiles/scara_hardware_interface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o -MF CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o.d -o CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o -c /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eia/rbi_2025/scara/scara_ws/build/scara_hardware_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o -MF CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o.d -o CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.o -c /home/eia/rbi_2025/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp
 
 CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp > CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eia/rbi_2025/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp > CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.i
 
 CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp -o CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eia/rbi_2025/scara/scara_ws/src/scara_hardware_interface/src/scara_hardware_interface.cpp -o CMakeFiles/scara_hardware_interface.dir/src/scara_hardware_interface.cpp.s
 
 # Object files for target scara_hardware_interface
 scara_hardware_interface_OBJECTS = \
@@ -284,7 +284,7 @@ libscara_hardware_interface.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libscara_hardware_interface.so: /opt/ros/humble/lib/librcutils.so
 libscara_hardware_interface.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 libscara_hardware_interface.so: CMakeFiles/scara_hardware_interface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libscara_hardware_interface.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eia/rbi_2025/scara/scara_ws/build/scara_hardware_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libscara_hardware_interface.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scara_hardware_interface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -296,6 +296,6 @@ CMakeFiles/scara_hardware_interface.dir/clean:
 .PHONY : CMakeFiles/scara_hardware_interface.dir/clean
 
 CMakeFiles/scara_hardware_interface.dir/depend:
-	cd /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_hardware_interface /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface /home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_hardware_interface/CMakeFiles/scara_hardware_interface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eia/rbi_2025/scara/scara_ws/build/scara_hardware_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eia/rbi_2025/scara/scara_ws/src/scara_hardware_interface /home/eia/rbi_2025/scara/scara_ws/src/scara_hardware_interface /home/eia/rbi_2025/scara/scara_ws/build/scara_hardware_interface /home/eia/rbi_2025/scara/scara_ws/build/scara_hardware_interface /home/eia/rbi_2025/scara/scara_ws/build/scara_hardware_interface/CMakeFiles/scara_hardware_interface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/scara_hardware_interface.dir/depend
 

@@ -1,0 +1,16 @@
+[0.992s] Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface -- -j12 -l12
+[2.846s] [ 50%] [32mBuilding CXX object CMakeFiles/rov_hardware_interface.dir/src/rov_hardware_interface.cpp.o[0m
+[5.947s] [01m[K/home/eia/rbi_2025/rov/rov_ws/src/rov_hardware_interface/src/rov_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn rov_hardware_layer::RovHardwareInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[5.947s] [01m[K/home/eia/rbi_2025/rov/rov_ws/src/rov_hardware_interface/src/rov_hardware_interface.cpp:34:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[5.947s]    34 |     }catch(Exception [01;35m[Ke[m[K){
+[5.947s]       |                      [01;35m[K^[m[K
+[5.949s] [01m[K/home/eia/rbi_2025/rov/rov_ws/src/rov_hardware_interface/src/rov_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn rov_hardware_layer::RovHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[5.949s] [01m[K/home/eia/rbi_2025/rov/rov_ws/src/rov_hardware_interface/src/rov_hardware_interface.cpp:55:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[5.949s]    55 |     }catch(Exception [01;35m[Ke[m[K){
+[5.949s]       |                      [01;35m[K^[m[K
+[5.952s] [01m[K/home/eia/rbi_2025/rov/rov_ws/src/rov_hardware_interface/src/rov_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rov_hardware_layer::RovHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.952s] [01m[K/home/eia/rbi_2025/rov/rov_ws/src/rov_hardware_interface/src/rov_hardware_interface.cpp:98:22:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass mn::CppLinuxSerial::Exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[5.952s]    98 |     }catch(Exception [01;35m[Ke[m[K){
+[5.952s]       |                      [01;35m[K^[m[K
+[7.535s] [100%] [32m[1mLinking CXX shared library librov_hardware_interface.so[0m
+[7.749s] [100%] Built target rov_hardware_interface

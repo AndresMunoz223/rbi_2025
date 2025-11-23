@@ -1,0 +1,27 @@
+[1.425s] Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/visualization': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/visualization/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/visualization/build --no-deps symlink_data
+[1.859s] running develop
+[2.096s] running egg_info
+[2.096s] creating visualization.egg-info
+[2.096s] writing visualization.egg-info/PKG-INFO
+[2.096s] writing dependency_links to visualization.egg-info/dependency_links.txt
+[2.096s] writing entry points to visualization.egg-info/entry_points.txt
+[2.097s] writing requirements to visualization.egg-info/requires.txt
+[2.097s] writing top-level names to visualization.egg-info/top_level.txt
+[2.097s] writing manifest file 'visualization.egg-info/SOURCES.txt'
+[2.098s] reading manifest file 'visualization.egg-info/SOURCES.txt'
+[2.099s] writing manifest file 'visualization.egg-info/SOURCES.txt'
+[2.139s] running build_ext
+[2.139s] Creating /home/eia/rbi_2025/rov/rov_ws/install/visualization/lib/python3.10/site-packages/visualization.egg-link (link to .)
+[2.139s] Installing gui_node script to /home/eia/rbi_2025/rov/rov_ws/install/visualization/lib/visualization
+[2.140s] 
+[2.140s] Installed /home/eia/rbi_2025/rov/rov_ws/build/visualization
+[2.140s] running symlink_data
+[2.140s] creating /home/eia/rbi_2025/rov/rov_ws/install/visualization/share/ament_index
+[2.140s] creating /home/eia/rbi_2025/rov/rov_ws/install/visualization/share/ament_index/resource_index
+[2.140s] creating /home/eia/rbi_2025/rov/rov_ws/install/visualization/share/ament_index/resource_index/packages
+[2.140s] symbolically linking /home/eia/rbi_2025/rov/rov_ws/build/visualization/resource/visualization -> /home/eia/rbi_2025/rov/rov_ws/install/visualization/share/ament_index/resource_index/packages
+[2.140s] symbolically linking /home/eia/rbi_2025/rov/rov_ws/build/visualization/package.xml -> /home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization
+[2.140s] creating /home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/launch
+[2.140s] creating /home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/descriptions
+[2.140s] creating /home/eia/rbi_2025/rov/rov_ws/install/visualization/share/visualization/config
+[2.175s] Invoked command in '/home/eia/rbi_2025/rov/rov_ws/build/visualization' returned '0': PYTHONPATH=/home/eia/rbi_2025/rov/rov_ws/build/visualization/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/rov/rov_ws/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/rov/rov_ws/build/visualization/build --no-deps symlink_data

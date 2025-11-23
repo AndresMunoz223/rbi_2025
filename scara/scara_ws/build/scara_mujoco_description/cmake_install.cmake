@@ -1,8 +1,8 @@
-# Install script for directory: /home/eia/repo/rbi_2025_2/scara/scara_ws/src/scara_mujoco_description
+# Install script for directory: /home/eia/rbi_2025/scara/scara_ws/src/scara_mujoco_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/eia/repo/rbi_2025_2/scara/scara_ws/install/scara_mujoco_description")
+  set(CMAKE_INSTALL_PREFIX "/home/eia/rbi_2025/scara/scara_ws/install/scara_mujoco_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/eia/rbi_2025/scara/scara_ws/build/scara_mujoco_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/eia/repo/rbi_2025_2/scara/scara_ws/build/scara_mujoco_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/eia/rbi_2025/scara/scara_ws/build/scara_mujoco_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

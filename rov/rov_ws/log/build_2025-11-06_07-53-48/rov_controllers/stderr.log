@@ -1,0 +1,4 @@
+gmake[2]: *** [CMakeFiles/rov_controllers.dir/build.make:76: CMakeFiles/rov_controllers.dir/src/rov_forward_controller.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rov_controllers.dir/build.make:90: CMakeFiles/rov_controllers.dir/src/rov_hardware_controller.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rov_controllers.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

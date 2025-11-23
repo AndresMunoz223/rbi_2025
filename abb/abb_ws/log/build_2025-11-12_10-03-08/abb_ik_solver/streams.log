@@ -1,0 +1,17 @@
+[2.676s] Invoking command in '/home/eia/rbi_2025/abb/abb_ws/build/abb_ik_solver': PYTHONPATH=/home/eia/rbi_2025/abb/abb_ws/build/abb_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/abb/abb_ws/install/abb_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/abb/abb_ws/build/abb_ik_solver/build --no-deps symlink_data
+[3.087s] running develop
+[3.428s] running egg_info
+[3.429s] writing abb_ik_solver.egg-info/PKG-INFO
+[3.429s] writing dependency_links to abb_ik_solver.egg-info/dependency_links.txt
+[3.429s] writing entry points to abb_ik_solver.egg-info/entry_points.txt
+[3.429s] writing requirements to abb_ik_solver.egg-info/requires.txt
+[3.429s] writing top-level names to abb_ik_solver.egg-info/top_level.txt
+[3.432s] reading manifest file 'abb_ik_solver.egg-info/SOURCES.txt'
+[3.433s] writing manifest file 'abb_ik_solver.egg-info/SOURCES.txt'
+[3.480s] running build_ext
+[3.480s] Creating /home/eia/rbi_2025/abb/abb_ws/install/abb_ik_solver/lib/python3.10/site-packages/abb-ik-solver.egg-link (link to .)
+[3.482s] Installing abb_ik_solver script to /home/eia/rbi_2025/abb/abb_ws/install/abb_ik_solver/lib/abb_ik_solver
+[3.482s] 
+[3.482s] Installed /home/eia/rbi_2025/abb/abb_ws/build/abb_ik_solver
+[3.482s] running symlink_data
+[3.534s] Invoked command in '/home/eia/rbi_2025/abb/abb_ws/build/abb_ik_solver' returned '0': PYTHONPATH=/home/eia/rbi_2025/abb/abb_ws/build/abb_ik_solver/prefix_override:/home/eia/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/rbi_2025/abb/abb_ws/install/abb_ik_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eia/rbi_2025/abb/abb_ws/build/abb_ik_solver/build --no-deps symlink_data

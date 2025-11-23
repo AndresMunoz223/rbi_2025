@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/abb_controllers.dir/build.make:76: CMakeFiles/abb_controllers.dir/src/abb_forward_controller.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/abb_controllers.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

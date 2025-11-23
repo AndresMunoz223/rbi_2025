@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'rov_mujoco_sim_direct'
+gmake[2]: *** [CMakeFiles/rov_mujoco_sim_direct.dir/build.make:285: rov_mujoco_sim_direct] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rov_mujoco_sim_direct.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
