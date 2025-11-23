@@ -90,4 +90,9 @@ In the rviz2 visualization, the generated path trajectory is displayed in green.
 
 <img src="media/rviz_view_description.png" width="500" height="400"/>
 
+
+<video src="media/videos/scara_sim_showcase.webm" width="600" controls>
+  Your browser does not support the video tag.
+</video>
+
 Using the Gazebo simulator
