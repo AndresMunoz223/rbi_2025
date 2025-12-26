@@ -1,1 +1,0 @@
-/home/eia/rbi_2025/scara/scara_ws/build/scara_mujoco_sim/ament_cmake_core/scara_mujoco_simConfig-version.cmake

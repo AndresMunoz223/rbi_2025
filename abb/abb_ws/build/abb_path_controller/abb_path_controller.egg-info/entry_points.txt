@@ -1,4 +1,0 @@
-[console_scripts]
-abb_path_controller = abb_path_controller.abb_path_controller:main
-abb_path_generator = abb_path_controller.abb_path_generator:main
-

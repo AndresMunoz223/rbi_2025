@@ -96,3 +96,4 @@ In the rviz2 visualization, the generated path trajectory is displayed in green.
 </video>
 
 Using the Gazebo simulator
+

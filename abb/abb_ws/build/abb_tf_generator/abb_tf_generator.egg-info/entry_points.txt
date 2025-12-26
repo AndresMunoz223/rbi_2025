@@ -1,3 +1,0 @@
-[console_scripts]
-abb_tf_generator = abb_tf_generator.abb_tf_generator:main
-

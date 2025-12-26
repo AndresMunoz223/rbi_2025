@@ -1,1 +1,0 @@
-/home/eia/rbi_2025/rov/rov_ws/build/rov_real_description/ament_cmake_core/rov_real_descriptionConfig.cmake

@@ -1,1 +1,0 @@
-/home/eia/rbi_2025/abb/abb_ws/build/abb_mujoco_description/ament_cmake_environment_hooks/local_setup.bash

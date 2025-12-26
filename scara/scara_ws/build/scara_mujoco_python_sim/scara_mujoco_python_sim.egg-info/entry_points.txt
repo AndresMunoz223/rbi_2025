@@ -1,3 +1,0 @@
-[console_scripts]
-scara_mujoco_python_sim = scara_mujoco_python_sim.scara_mujoco_python_sim:main
-

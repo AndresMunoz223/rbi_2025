@@ -1,3 +1,0 @@
-[console_scripts]
-premade_path_publisher = premade_path_publisher.premade_path_publisher:main
-

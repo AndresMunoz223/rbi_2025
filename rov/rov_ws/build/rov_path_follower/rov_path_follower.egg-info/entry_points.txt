@@ -1,3 +1,0 @@
-[console_scripts]
-rov_path_follower = rov_path_follower.rov_path_follower:main
-

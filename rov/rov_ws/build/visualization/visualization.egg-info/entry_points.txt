@@ -1,3 +1,0 @@
-[console_scripts]
-gui_node = visualization.gui_node:main
-

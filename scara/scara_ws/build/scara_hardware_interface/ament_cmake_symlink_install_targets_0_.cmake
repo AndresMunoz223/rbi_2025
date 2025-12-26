@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/eia/rbi_2025/scara/scara_ws/build/scara_hardware_interface/libscara_hardware_interface.so" "TARGETS" "scara_hardware_interface" "DESTINATION" "lib")

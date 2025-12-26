@@ -1,3 +1,11 @@
-CRAI-bot/
-z_aux_repos/
+scara/scara_ws/build/
+scara/scara_ws/log/
+scara/scara_ws/install/
 
+rov/rov_ws/build/
+rov/rov_ws/log/
+rov/rov_ws/install/
+
+abb/abb_ws/build/
+abb/abb_ws/log/
+abb/abb_ws/install/

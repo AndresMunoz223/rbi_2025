@@ -1,1 +1,0 @@
-/home/eia/rbi_2025/scara/scara_ws/build/scara_real_bringup/ament_cmake_core/scara_real_bringupConfig-version.cmake

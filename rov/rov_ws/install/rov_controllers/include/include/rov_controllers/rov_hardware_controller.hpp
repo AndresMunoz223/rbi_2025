@@ -1,1 +1,0 @@
-/home/eia/rbi_2025/rov/rov_ws/src/rov_controllers/include/rov_controllers/rov_hardware_controller.hpp

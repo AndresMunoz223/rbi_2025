@@ -1,1 +1,0 @@
-[0.707s] Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_hardware_interface -- -j12 -l12

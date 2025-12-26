@@ -1,7 +1,0 @@
-[0.994s] Invoking command in '/home/eia/rbi_2025/rov/rov_ws/build/rov_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_position_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_generator:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_path_follower:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/rov_attitude_controller:/home/eia/repo/rbi_2025_2/rov/rov_ws/install/direct_control:/opt/ros/humble /usr/bin/cmake --build /home/eia/rbi_2025/rov/rov_ws/build/rov_controllers -- -j12 -l12
-[2.849s] [ 33%] [32mBuilding CXX object CMakeFiles/rov_controllers.dir/src/rov_forward_controller.cpp.o[0m
-[2.850s] [ 66%] [32mBuilding CXX object CMakeFiles/rov_controllers.dir/src/rov_hardware_controller.cpp.o[0m
-[12.152s] gmake[2]: *** [CMakeFiles/rov_controllers.dir/build.make:76: CMakeFiles/rov_controllers.dir/src/rov_forward_controller.cpp.o] Interrupt
-[12.153s] gmake[2]: *** [CMakeFiles/rov_controllers.dir/build.make:90: CMakeFiles/rov_controllers.dir/src/rov_hardware_controller.cpp.o] Interrupt
-[12.153s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rov_controllers.dir/all] Interrupt
-[12.153s] gmake: *** [Makefile:146: all] Interrupt

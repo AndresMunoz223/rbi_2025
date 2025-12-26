@@ -1,1 +1,0 @@
-/home/eia/rbi_2025/scara/scara_ws/build/scara_real_description/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,1 +1,0 @@
-/home/eia/rbi_2025/scara/scara_ws/build/scara_gz_description/ament_cmake_core/scara_gz_descriptionConfig-version.cmake
