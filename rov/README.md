@@ -2,7 +2,7 @@
 
 ## Description
 
-This folder contains the project files for the EIA's autonomous underwater vehicle.
+This folder contains the project files for the EIA's autonomous underwater vehicle project.
 
 You'll find among the contents of this folder:
 
@@ -38,7 +38,7 @@ The **Electronics&Devices BOM** is found bellow ***(STILL IN DEVELOPMENT)***:
 
 For a deeper sight into the design process and manufacturing , go [here](docs/DESIGN.md "design and manufacturing process").
 
-# Simulating the ROV - AUV on MuJoCo
+# Quickly Simulating the ROV - AUV on MuJoCo
 
 The ROV-AUV simulator was built over ROS2, in integration with MuJoCo by ros2_control hardware interfaces.
 
@@ -53,6 +53,7 @@ For further description on the control proposal go [here](docs/CONTROL.md "contr
 ---
 
 The ROS2 structure is ment to be run inside a docker container by using vscode *[dev containers](https://code.visualstudio.com/docs/devcontainers/containers)* tools.
+Take into account that the image ised for the project runs under the _64x86_ architecture, check your devices compatibility before continuing.
 
 To run the simulation, reopen the rov_ws folder inside a dev container and build the simulator:
 
@@ -63,6 +64,7 @@ colcon build
 Then:
 
 ```shell
+source install/setup.bash
 ros2 launch rov_mujoco_bringup rov_bringup_launch.launch.xml
 ```
 
@@ -96,6 +98,8 @@ ros2 topic pub /goal_pose geometry_msgs/msg/PoseStamped "{
 
 ```
 
+> The controller isn't _timestamp - frame id_ sensitive.
+
 Once the node structure recieves the msg, the following should happen on rviz2, as the simulator advances:
 
 <img src="media/rviz_view.png" width="700" height="400"/>
@@ -104,8 +108,10 @@ In the rviz2 visualization, the generated path trajectory is displayed in green,
 
 <img src="media/rviz_view_description.png" width="500" height="400"/>
 
-# System testing, assembling and tunning
+# System's current state
 
-On the system printing, assembling and tunning, the team is currently testing the PCB design output and corrobotating identified motor current curves.
+The current system's state its operational, with Integrated EKF attutude estimation (Derived from px4-ros), Current compsumption & Voltage level indication & open-loop control:
 
-<img src="media/manufacturing/electronics_testing.jpeg" width="550" height="400"/>
+<img src="media/operation/operation_tank_image_2.png" width="230" height="250"/>
+<img src="media/operation/operation_tank_image_1.png" width="230" height="250"/>
+

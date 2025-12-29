@@ -45,8 +45,7 @@ def quaternion_to_euler(qx, qy, qz, qw):
     return roll, pitch, yaw 
 
 class ControllerPID():
-    def __init__(self, kp, ki, kd, Ts=None): # use Ts in case of discrete controller
-        # cont. gains
+    def __init__(self, kp, ki, kd, Ts=None): 
         self.update_gains(kp, ki, kd, Ts)
         self.error = [0.0, 0.0, 0.0] #* ek, ek-1, ek-2
         self.uk = [0.0, 0.0] #* uk, uk-1
@@ -63,21 +62,18 @@ class ControllerPID():
     def setpoint(self, sp):
         self.sp = sp
 
-    ## discrete control law
-    def get_discr_u(self, y): # y is the measured variable
-        # compute error and control signal
+   
+    def get_discr_u(self, y): 
         self.error[0] = self.sp - y
         self.uk[0] = self.q0*self.error[0] + self.q1*self.error[1] + self.q2*self.error[2] + self.uk[1]
         
         if isnan(self.uk[0]):
             self.uk[0] = 0.0
 
-        # update register variables
         self.uk[1] = self.uk[0]
         self.error[1] = self.error[0]
         self.error[2] = self.error[1]
 
-        # send control signal
         return self.uk[0] 
     
 
