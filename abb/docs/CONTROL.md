@@ -1,0 +1,1 @@
+# Kinematics of a 6 DOF serial manipulator

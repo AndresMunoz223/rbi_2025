@@ -9,7 +9,6 @@ You'll find among the contents of this folder:
 * PCB Related files for the electronics manufacturing and set-up.
 * All related simulation files, including the whole ROS2 structure interfacing with MuJoCo.
 * All CAD files and auxiliary information for manufacturing.
-* Test, callibration, and major activities performed.
 
 # Robot overall structure
 
@@ -25,7 +24,7 @@ The robot is proposed as a 6 thruster underwater vehicle, with direct actuation 
 
 The desing was created over a 4 inch PVC pipe hull for simplycity and impermeabilization effectiveness.
 
-The **Electronics&Devices BOM** is found bellow ***(STILL IN DEVELOPMENT)***:
+The **Devices BOM** is found bellow:
 
 | Function                                          | Element                         | Qtty | Lik                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Status                   |
 | ------------------------------------------------- | ------------------------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
@@ -36,7 +35,9 @@ The **Electronics&Devices BOM** is found bellow ***(STILL IN DEVELOPMENT)***:
 | Vertical thruster control                         | Project PCB                     | 1    | ----                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Available at institution |
 | Vehicle operation                                 | Generic joystick                | 1    | [Amazon](https://www.amazon.com/-/es/Logitech-mando-de-videojuegos-F710/dp/B0041RR0TW/ref=sr_1_14?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1S16ASHA95NDL&dib=eyJ2IjoiMSJ9.mUC39JhTS6TyENepJEJKEjEK2aW5ANayaJs6hq8vS2qrmusYbSWx8wMBE1uEGE5Ka5Pfs3J7ZXUfZNQHlV8HFG-yN5IPTMt8G87A3qeAHJlYJxULv0Yr6rFs2MNqhkekkU7fLIXC5nsdWMg7byAzVVds2VONbQD1vLACWjHumyBEF3I12ng7d4ABH1UD-CQyvsqOH9G1O-3xLGBWMqXqgAYtAX9zPgGM24vE4XEJhSA.6hITrj1MzvVGE1PEdJMXxPXX429YDozCocd67T9Jcsg&dib_tag=se&keywords=Logitech%2Bjoystick&qid=1758676427&sprefix=logitech%2Bjoystick%2Caps%2C187&sr=8-14&th=1 "Controller")                                                           | Available at institution |
 
-For a deeper sight into the design process and manufacturing , go [here](docs/DESIGN.md "design and manufacturing process").
+> For a deeper sight into the manufacturing side, go [here](docs/MANUFACTURING.md "design and manufacturing process").
+
+> For a deeper sight into the custom PCB side, go [here](docs/ELECTRONICS.md "design and manufacturing process").
 
 # Quickly Simulating the ROV - AUV on MuJoCo
 
@@ -48,7 +49,7 @@ The generated node structure is shown bellow:
 
 Inside the node structure, two main componens are to be highlighted, `attitude_controller` and `path_follower` nodes. Both nodes handle the lower and highter level control tasks, stabilizing the system and commanding it to follow the desired path. The necessary information for control tasks is sent by the `/imu` topic and `/tf` .
 
-For further description on the control proposal go [here](docs/CONTROL.md "control description").
+> For further description on the control proposal go [here](docs/CONTROL.md "control description").
 
 ---
 
@@ -110,7 +111,7 @@ In the rviz2 visualization, the generated path trajectory is displayed in green,
 
 # System's current state
 
-The current system's state its operational, with Integrated EKF attutude estimation (Derived from px4-ros), Current compsumption & Voltage level indication & open-loop control:
+The current system's state its operational, with Integrated EKF attitude estimation (Derived from px4-ros), Current consumption & Voltage level indication & open-loop control.
 
 <img src="media/operation/operation_tank_image_2.png" width="230" height="250"/>
 <img src="media/operation/operation_tank_image_1.png" width="230" height="250"/>

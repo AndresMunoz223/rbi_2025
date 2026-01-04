@@ -2,13 +2,13 @@
 
 # Definition
 
-An SCARA robot (Selective-Compliance Articulated), is a disctinct type of robot manipulator widely used in the industry. The SCARA robot usually takes the configuration of a 2RP manipulator, used for pick and place tasks. Theese kind of robots rely in repeatability and acuracy on their movements.
+An SCARA robot (Selective-Compliance Articulated), is a distinct type of robot manipulator widely used in the industry. The SCARA robot usually takes the configuration of a 2RP manipulator, used for pick and place tasks. These kind of robots rely in repeatability and accuracy on their movements.
 
 In the EIA's University an SCARA robot sits at student's disposition, it uses 2 Servomotors *Schneider BSH0551T32A2A*, along with 2 *Schneider LMX32* drivers to interface with them. For its 3rd and fourth DOFS, the SCARA uses 2 *Nema 23HS30-2804S* stepper motors, connected with gears and a rack-pinion mechanism to achieve the translation and rotation of the end-effector.
 
 A brief showcase of the elements is presented as follows:
 
-| Element              | Ammount | Refference        |
+| Element              | Amount | Refference        |
 | -------------------- | ------- | ----------------- |
 | Servomotors          | 2       | BSH0551T32A2A     |
 | Servomotor Drivers   | 2       | LMX32             |

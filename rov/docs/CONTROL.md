@@ -2,27 +2,29 @@
 
 ## ROV - AUV simplified model
 
-Considering that the system behaves as a 6 DOF body, the necessary description for its behavior its extracted from a simplified dynamic model, proposed as follows:
+Before taking into consideration any dynamic-related aspect of the ROV system, we can consider the device as a black-box model:
 
 <img src="../media/control/Diagrama_Caja_Negra.png" height="180"/>
 
 > Fig.1 Black box diagram of the system
  
-It was desired to arrange the actuators on the system so the final structure has 5 DOF directly actuated, conveniently dividing the system into a QuadCopter-Like and Differential-thrust systems.
+Considering the resources available, it was decided to arrange the actuators on the system so the final structure has 5 DOF directly actuated, conveniently dividing the system into a QuadCopter-Like and Differential-thrust systems, which greatly simplifies the control strategy.
+
+First, we enumerate the actuators and define a local reference frame to operate under.
 
 <img src="../media/control/rov_diagram.png" height="280"/>
 
 > Fig.2 Simple body diagram
 
-Simplifying the system in this way makes the control task straightforward.
+In this sense, we will make some assumptions, such as uniform behavior among motors with a $\tau_{motor} << \tau_{system}$.
 
 ## Position controller
 
 ### Further simplifications
 
-Considering that the motors response its way faster than the overalls system's dynamics, they can be considered as having no dynamics, effectively becoming a pass-through system converting input unto thrusts. 
+Considering that the motors response its way faster than the overalls system's dynamics, they can be considered as having _no dynamics_, effectively becoming a pass-through system converting input unto thrusts.
 
-By using the previously shown motor configuration, we can set a linear map between the desired body forces and torques, and the actuation.
+By using the previously shown motor configuration, we can set a linear map between the desired body forces and torques, and the motor's thrust output.
 
 <img src="../media/control/forces_linear_map.png" height="120"/>
 
@@ -41,6 +43,17 @@ $$
 
 > Eq.1 Angular feedback policy
 
+So far so good, but considering that the angles $\phi$ and $\theta$ are measured against the global frame, we must find a way of measuring this state.
+
+Fortunately, by assuring smooth thrust inputs, we can use gravity's $\vec{g}$ to get these angles via the magnetometer and some basic trigonometry:
+
+$$
+\theta = atan_2(a_y,\sqrt{a_x^2 + a_z^2}) \\ 
+\phi = atan_2(-a_x,\sqrt{a_y^2 + a_z^2})
+$$
+
+> Eq. 2 global pitch and roll measurement eq
+
 This stabilizes the system, and by cascading this regulator with the differential inputs, we can achieve tele-operation quite easily. 
 
 It is to say, that depth follows the same dynamics, and its also controlled by a P controller of the form:
@@ -48,7 +61,7 @@ It is to say, that depth follows the same dynamics, and its also controlled by a
 $$
 F_z = (z_{ref}-z)k_3
 $$
-> Eq.2 Depth feedback policy
+> Eq.3 Depth feedback policy
 
 for this controller to be effective, we have to assume that the settling time for the angular regulation system is considerably lower than the depth regulator ($\tau_{\phi}, \tau_{\theta} << \tau_z$), else, we would have to deal with coupling on the dynamics.
 
@@ -72,7 +85,7 @@ x = \begin{bmatrix}
 $$
 
 
-> Eq 3. Simplified dynamics
+> Eq 4. Simplified dynamics
 
 With $\rho_1$ and $\rho_2$ as _fluid-geometry_ dependent constants. This drag ensures system stability, and actually helps us a lot with the type 2 system issue from before.
 
@@ -86,7 +99,7 @@ $$
 \psi_e = cos^{-1}(\vec{u_e} \cdot \vec{s}_b) / \pi
 $$
 
-> Eq.4 Relative error expression
+> Eq.5 Relative error expression
 
 and its sign with:
 
@@ -94,7 +107,7 @@ $$
 sign(\phi_e) = sign((R(-\phi)\vec{u_e})_y)
 $$
 
-> Eq.5 Relative error sign expression
+> Eq.6 Relative error sign expression
 
 This holds only in a 2D scenario, taking the z component directly to the depth regulator.
 
@@ -107,7 +120,7 @@ $$
 F_u = \frac{||\vec{r_e}||_2 k_2}{1 + T_\psi k_3}
 $$
 
-> Eq.6 Thrust and yaw feedback policies
+> Eq.7 Thrust and yaw feedback policies
 
 The little fraction trick its just to keep the linear and angular actions for interfering with each other.
 
@@ -125,5 +138,22 @@ As the radius increases, the ROV response gets smoothed, and naturally softens t
 
 This method offers adjustable trajectory tracking, letting us decide between tight path following vs loose but smooth, the only downside for this method is that convergence its only guaranteed for the final point in the trajectory. 
 
+Another consideration for this method is that as the euclidean distance is the differential drive thrust input, the device's thrust is made dependent on the search radius. The search radius and the thrust could be made independent by normalizing the heading vector and selecting the thrust a downscaled version of the distance, or a piece-wise function of it $k_2 = \frac{f(\vec{r_e})}{||\vec{r_e}||_2}$.
+
+# Planning strategy
+
+For planning, a Greedy BFS algorithm was used to find the shortest path from point $A$ to $B$. There is, however no problem with the GBFS completeness as an algorithm, as there is no current obstacles nor map, meaning that the solution of the distance problem its trivial, and GBFS will converge to it. 
+
+On the current implementation, it is possible to traverse the environment using as cost function the euclidean distance $||\cdot||_2$, or the Manhattan distance $||\cdot||_1$.
+
+# Implementation
+
+To implement the controllers on-board, the following devices were used:
+
+<img src="../media/control/block_diagram_robot.png" height="180"/>
+
+Among the previous control proposals, the only ones implemented in hardware (due to schedule limitations) were the stabilization the controllers, by the feedback provided by an $mpu 6250$ off the shelve IMU. In the integration, its worth mentioning that a pixhawk PX4 is also present, but its capabilities were not used for the controller implementation. 
+
+The node controller structure was executed at $10Hz$ , making the subsequent callbacks execute at that frequency. 
 
 

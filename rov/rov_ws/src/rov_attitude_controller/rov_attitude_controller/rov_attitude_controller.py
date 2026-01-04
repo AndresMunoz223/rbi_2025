@@ -21,10 +21,6 @@ if not hasattr(np, "float"):
     np.float = float
 
 def quaternion_to_euler(qx, qy, qz, qw):
-    """
-    Convert quaternion (x, y, z, w) into Euler angles (roll, pitch, yaw).
-
-    """
     # Roll (x-axis rotation)
     sinr_cosp = 2.0 * (qw * qx + qy * qz)
     cosr_cosp = 1.0 - 2.0 * (qx * qx + qy * qy)
