@@ -43,3 +43,14 @@ RUN sudo apt-get install libglfw3-dev libglfw3 -y
 
 RUN sudo apt install python3-pip -y
 RUN pip install icecream
+
+# Build and install CppLinuxSerial with PIC enabled for ROS 2 compatibility
+RUN git clone https://github.com/gbmhunter/CppLinuxSerial.git /tmp/CppLinuxSerial \
+    && cd /tmp/CppLinuxSerial \
+    && mkdir build \
+    && cd build \
+    && cmake .. -DCMAKE_POSITION_INDEPENDENT_CODE=ON \
+    && make -j$(nproc) \
+    && sudo make install \
+    && cd / \
+    && rm -rf /tmp/CppLinuxSerial

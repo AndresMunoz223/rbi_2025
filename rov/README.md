@@ -22,7 +22,9 @@ The robot is proposed as a 6 thruster underwater vehicle, with direct actuation 
 
 <img src="media/CAD_view_4.png" width="380" height="260"/>
 
-The desing was created over a 4 inch PVC pipe hull for simplycity and impermeabilization effectiveness.
+> Fig.1-4 Perspective views on the ROV proposed structure (Perspective + Orthogonal)
+
+The design was created over a 4 inch PVC pipe hull for simplicity and impermeabilization effectiveness.
 
 The **Devices BOM** is found bellow:
 
@@ -46,6 +48,8 @@ The ROV-AUV simulator was built over ROS2, in integration with MuJoCo by ros2_co
 The generated node structure is shown bellow:
 
 <img src="media/ros2_node_structure.png" width="800" height="240"/>
+
+> Fig.5 simulation node structure
 
 Inside the node structure, two main componens are to be highlighted, `attitude_controller` and `path_follower` nodes. Both nodes handle the lower and highter level control tasks, stabilizing the system and commanding it to follow the desired path. The necessary information for control tasks is sent by the `/imu` topic and `/tf` .
 
@@ -73,11 +77,15 @@ The expected result should be:
 
 <img src="media/simulator_main_screen.png" width="400" height="240"/>
 
+> Fig.6 MuJoCo simulator view
+
 With the following listed ros2_control hardware interfaces and controllers:
 
 <img src="media/active_controller.png" width="400" height="18"/>
 
 <img src="media/active_interfaces.png" width="400" height="350"/>
+
+> Fig.7-8 Active interfaces and controllers during simulation
 
 ## Testing simulations
 
@@ -105,9 +113,13 @@ Once the node structure recieves the msg, the following should happen on rviz2, 
 
 <img src="media/rviz_view.png" width="700" height="400"/>
 
+> Fig.9 Rviz simulator view
+
 In the rviz2 visualization, the generated path trajectory is displayed in green, as the traversed path generates with red color. the respective coordinate system transformations will also be displayed on screen.
 
 <img src="media/rviz_view_description.png" width="500" height="400"/>
+
+> Fig.10 Rviz simulator view descroption
 
 # System's current state
 
@@ -115,4 +127,6 @@ The current system's state its operational, with Integrated EKF attitude estimat
 
 <img src="media/operation/operation_tank_image_2.png" width="230" height="250"/>
 <img src="media/operation/operation_tank_image_1.png" width="230" height="250"/>
+
+> Fig.11-12 Delivered prototype structure
 

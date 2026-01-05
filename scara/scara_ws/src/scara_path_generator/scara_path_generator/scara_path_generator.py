@@ -27,7 +27,7 @@ class Astar3DNode(Node):
         
         self.current_position = np.array([[0./self.map_x_resolution], [0./self.map_y_resolution], [0./self.map_z_resolution]], dtype=int)    
 
-        self.flag = 0.;
+        self.flag = None;
         self.generated_map = None
         self.map_region = None
         
@@ -100,6 +100,8 @@ class Astar3DNode(Node):
         self.goal_pose = np.array([[msg.pose.position.x], [msg.pose.position.y], [msg.pose.position.z]])
         ic(self.goal_pose, self.current_position)
         
+        self.flag = 1.
+        
         if self.goal_pose is not None and self.current_position is not None and self.flag is not None:
             
             
@@ -137,7 +139,6 @@ class Astar3DNode(Node):
 
             path = path - self.safe_zone_astar
             
-            ic
             for ii in range(3):
                 if error_pose[ii][0] < 0:
                     path[ii] = -path[ii]
@@ -171,7 +172,7 @@ class Astar3DNode(Node):
             
             self.flag = None;
                         
-            self.ax.scatter(x, y, z, c="r", marker="o")
+            # self.ax.scatter(x, y, z, c="r", marker="o")
             # plt.show()
             
 

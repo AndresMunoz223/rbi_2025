@@ -52,6 +52,17 @@ RUN sudo apt-get update -y
 RUN sudo apt-get install ignition-fortress -y
 RUN sudo apt install ros-humble-gz-ros2-control -y
 
+# Build and install CppLinuxSerial with PIC enabled for ROS 2 compatibility
+RUN git clone https://github.com/gbmhunter/CppLinuxSerial.git /tmp/CppLinuxSerial \
+    && cd /tmp/CppLinuxSerial \
+    && mkdir build \
+    && cd build \
+    && cmake .. -DCMAKE_POSITION_INDEPENDENT_CODE=ON \
+    && make -j$(nproc) \
+    && sudo make install \
+    && cd / \
+    && rm -rf /tmp/CppLinuxSerial
+
 # RUN cd 
 # RUN sudo mkdir repos && cd repos
 # RUN sudo git clone https://github.com/gbmhunter/CppLinuxSerial.git

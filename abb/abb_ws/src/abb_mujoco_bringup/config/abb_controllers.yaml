@@ -5,6 +5,9 @@ controller_manager:
     abb_controller:
       type: abb_controller/ABBController
 
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
 abb_controller:
   ros__parameters:
     joints: ["position_joint_0","position_joint_1", "position_joint_2","position_joint_3","position_joint_4","position_joint_5"]  

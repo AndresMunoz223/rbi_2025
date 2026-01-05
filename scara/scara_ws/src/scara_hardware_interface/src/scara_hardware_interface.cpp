@@ -30,7 +30,7 @@ hardware_interface::CallbackReturn ScaraHardwareInterface::on_configure
     serial_port_ = SerialPort("/dev/ttyUSB0", BaudRate::B_115200, NumDataBits::EIGHT, Parity::NONE, NumStopBits::ONE);
 	serial_port_.SetTimeout(100); // Block for up to 100ms to receive data
 	serial_port_.Open();
-    }catch(Exception e){
+    }catch(Exception& e){
         RCLCPP_INFO(rclcpp::get_logger("scara_sim"), "Failed to config the serial port");
         return hardware_interface::CallbackReturn::FAILURE;
     }
@@ -51,7 +51,7 @@ hardware_interface::CallbackReturn ScaraHardwareInterface::on_deactivate
     
     try{
     serial_port_.Close();
-    }catch(Exception e){
+    }catch(Exception& e){
     RCLCPP_INFO(rclcpp::get_logger("scara_hardware_abstraction"), "Failed to config the serial port");   
     }
     
@@ -90,7 +90,7 @@ hardware_interface::return_type ScaraHardwareInterface::write
 
     try{
         serial_port_.Write(writeData);
-    }catch(Exception e){
+    }catch(Exception& e){
          RCLCPP_INFO(rclcpp::get_logger("scara_hardware_abstraction"), "Failed to write to serial port");   
     }
 

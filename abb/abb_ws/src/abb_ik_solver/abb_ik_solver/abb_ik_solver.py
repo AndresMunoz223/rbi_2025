@@ -187,22 +187,18 @@ def quat_to_euler(q):
     """
     x, y, z, w = q
 
-    # Normalize
     norm = np.linalg.norm([x, y, z, w])
     if norm == 0:
         raise ValueError("Zero-norm quaternion is invalid.")
     x, y, z, w = x / norm, y / norm, z / norm, w / norm
 
-    # Roll (x-axis rotation)
     sinr_cosp = 2 * (w * x + y * z)
     cosr_cosp = 1 - 2 * (x * x + y * y)
     roll = np.arctan2(sinr_cosp, cosr_cosp)
 
-    # Pitch (y-axis rotation)
     sinp = 2 * (w * y - z * x)
     pitch = np.arcsin(np.clip(sinp, -1, 1))
 
-    # Yaw (z-axis rotation)
     siny_cosp = 2 * (w * z + x * y)
     cosy_cosp = 1 - 2 * (y * y + z * z)
     yaw = np.arctan2(siny_cosp, cosy_cosp)
@@ -217,11 +213,21 @@ class IkSolverNode(Node):
         self.solver = ABBKinematics(dh_matrix=self.dh_params)
         self.goal_pose = None
 
+        self.declare_parameter('gz_sim', False)
+        self.declare_parameter('mj_sim', False)
+        self.declare_parameter('tool_angle_rad', [0., np.pi/2, 0.])
+        
+        self.gz_mode = self.get_parameter('gz_sim').value
+        self.mj_mode = self.get_parameter('mj_sim').value
+        
+        self.tool_orientation = self.get_parameter('tool_angle_rad').value
+
         # self.pose_subs = self.create_subscription(Float64MultiArray, "/ABBController/current_joint_pos", self.data_subs_callback, 10)        
         self.pose_subs = self.create_subscription(PoseStamped, "/abb/path/goal_pose", self.goal_pose_callback, 10)
         self.joint_pub = self.create_publisher(Float32MultiArray, "/ABBController/desired_joint_pos", 10)
-        
         self.current_pose = None
+        
+        
     
     def goal_pose_callback(self, msg : PoseStamped):
         
@@ -230,11 +236,11 @@ class IkSolverNode(Node):
         #! We'll later worry about the orientation
         desired_pose = np.array([[msg.pose.position.x],
                                  [msg.pose.position.y],
-                                 [msg.pose.position.z],
+                                 [msg.pose.position.z - 0.05], #Offset as R1 is 5cm over the table.
                                  
-                                 [0/DEG_TO_RAD],
-                                 [np.pi/2/DEG_TO_RAD],
-                                 [0*yaw/DEG_TO_RAD]])
+                                 [self.tool_orientation[0]/DEG_TO_RAD],
+                                 [self.tool_orientation[1]/DEG_TO_RAD],
+                                 [self.tool_orientation[2]/DEG_TO_RAD]])
         
     
 
@@ -242,22 +248,25 @@ class IkSolverNode(Node):
         
         msg = Float32MultiArray()
         
-        # #! Mujoco
-        msg.data = [self.goal_positions[0][0],
-                          self.goal_positions[1][0],
-                          self.goal_positions[2][0],
-                          self.goal_positions[3][0],
-                          self.goal_positions[4][0],
-                          self.goal_positions[5][0]]
+        ic(self.mj_mode)
+        if self.mj_mode == True:
+            #! Mujoco
+            msg.data = [self.goal_positions[0][0],
+                            self.goal_positions[1][0],
+                            self.goal_positions[2][0],
+                            self.goal_positions[3][0],
+                            self.goal_positions[4][0],
+                            self.goal_positions[5][0]]
 
 
-        # ! GZ
-        # msg.data = [self.goal_positions[0][0],
-        #                   -self.goal_positions[1][0],
-        #                   -self.goal_positions[2][0],
-        #                   self.goal_positions[3][0],
-        #                   -self.goal_positions[4][0],
-        #                   self.goal_positions[5][0]]
+        if self.gz_mode == True:
+            # ! GZ
+            msg.data = [self.goal_positions[0][0],
+                            self.goal_positions[1][0],
+                            self.goal_positions[2][0],
+                            -self.goal_positions[3][0],
+                            self.goal_positions[4][0],
+                            self.goal_positions[5][0]]
 
         ic(msg.data)
 

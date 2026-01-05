@@ -166,7 +166,7 @@ void AbbSimulatorInterface::sim_thread(){
                 motor_positions_[0] = this->sim_data_object->qpos[0];
                 motor_positions_[1] = this->sim_data_object->qpos[1];
                 motor_positions_[2] = this->sim_data_object->qpos[2];
-                motor_positions_[3] = this->sim_data_object->qpos[3];
+                motor_positions_[3] = -this->sim_data_object->qpos[3];
                 motor_positions_[4] = this->sim_data_object->qpos[4];
                 motor_positions_[5] = this->sim_data_object->qpos[5];
 

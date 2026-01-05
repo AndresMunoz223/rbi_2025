@@ -9,3 +9,5 @@ rov/rov_ws/install/
 abb/abb_ws/build/
 abb/abb_ws/log/
 abb/abb_ws/install/
+
+.vscod*

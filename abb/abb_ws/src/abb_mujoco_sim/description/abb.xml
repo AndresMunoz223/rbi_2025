@@ -69,12 +69,12 @@
   </worldbody>
 
     <actuator>
-        <position name="J_1" joint="first_joint" kp="1000" />
-        <position name="J_2" joint="second_joint" kp="1000"/>
-        <position name="J_3" joint="third_joint" kp="10000" />
-        <position name="J_4" joint="fourth_joint" kp="1000"/>
-        <position name="J_5" joint="fifth_joint" kp="1000" />
-        <position name="J_6" joint="sixth_joint" kp="1000" />
+        <position name="J_1" joint="first_joint" kp="2000" />
+        <position name="J_2" joint="second_joint" kp="7000"/>
+        <position name="J_3" joint="third_joint" kp="70000" />
+        <position name="J_4" joint="fourth_joint" kp="7000"/>
+        <position name="J_5" joint="fifth_joint" kp="7000" />
+        <position name="J_6" joint="sixth_joint" kp="7000" />
 
         <!-- <motor name="first_motor" joint="first_joint" gear="100"/>
         <motor name="second_motor" joint="second_joint" gear="100" />

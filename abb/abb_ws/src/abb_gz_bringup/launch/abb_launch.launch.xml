@@ -34,7 +34,9 @@
     
     <node pkg="controller_manager" exec="spawner" args="abb_controller"/>
 
-    <node pkg="abb_ik_solver" exec="abb_ik_solver"/>
+    <node pkg="abb_ik_solver" exec="abb_ik_solver">
+        <param name="gz_sim" value="true"/>
+    </node>
 
     <node pkg="abb_path_generator" exec="abb_path_generator"/>
 

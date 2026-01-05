@@ -24,7 +24,7 @@ hardware_interface::CallbackReturn RovSimulatorInterface::on_configure
     this->sim_model_object = mj_loadXML(filename, NULL, err_string, sizeof(err_string));
     if (!this->sim_model_object) {
         printf("MuJoCo load error: %s\n", err_string);
-        RCLCPP_INFO(rclcpp::get_logger("rov sim"), err_string);
+        RCLCPP_INFO(rclcpp::get_logger("rov sim"),"%s\n", err_string);
         RCLCPP_INFO(rclcpp::get_logger("rov sim"), "FAILED ");
 
         mj_deleteModel(this->sim_model_object);

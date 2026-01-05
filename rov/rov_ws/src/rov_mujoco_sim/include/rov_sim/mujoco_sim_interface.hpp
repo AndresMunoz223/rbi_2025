@@ -24,7 +24,7 @@
 //! Ros2 control stuff....
 #include "hardware_interface/system_interface.hpp" //! -> system for simplicity.
 
-char filename[] = "/home/eia/rbi_2025/rov/rov_ws/src/rov_mujoco_sim/description/rov.xml";
+char filename[] = "/rov_ws/src/rov_mujoco_sim/description/rov.xml";
 
 namespace rov_simulator_layer {
 

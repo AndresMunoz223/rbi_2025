@@ -1,194 +1,330 @@
-<?xml version="1.0" ?>
-<robot name="abb_irb140"
-       xmlns:xacro="http://ros.org/wiki/xacro">
-     
-    <xacro:include filename="common_properties.xacro" />
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="abb_robot">
 
-  <link name="base_link">
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/visual/base_link.stl"/>
-      </geometry>
-      <material name="abb_orange">
-        <color rgba="1 0.43 0 1"/>
-      </material>
-    </visual>
-    <collision>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/collision/base_link.stl"/>
-      </geometry>
-      <material name="yellow">
-        <color rgba="0 1 1 1"/>
-      </material>
-    </collision>
-    <xacro:box_inertia m="1000" x="0.5" y="0.5" z="0.5" o_xyz="0 0 0.2" o_rpy="0 0 0" />
-  </link>
-  <link name="link_1">
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/visual/link_1.stl"/>
-      </geometry>
-      <material name="abb_orange"/>
-    </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/collision/link_1.stl"/>
-      </geometry>
-      <material name="yellow"/>
-    </collision>
-    <xacro:cylinder_inertia m="1" r="0.15" l="0.5" o_xyz="0 0 0.25" o_rpy="0 0 0" />
-  </link>
-  <link name="link_2">
-    <visual>
-      <origin rpy="0 0 0" xyz="-0.28 0 -1.38"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/visual/link_2.stl"/>
-      </geometry>
-      <material name="abb_orange"/>
-    </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-0.28 0 -1.38"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/collision/link_2.stl"/>
-      </geometry>
-      <material name="yellow"/>
-    </collision>
-    <xacro:box_inertia m="1" x="1.42" y="0.2" z="0.2" o_xyz="0.71 0 0" o_rpy="0 0 0" />
-  </link>
-  <link name="link_3">
-    <visual>
-      <origin rpy="0 0 0" xyz="-0.28 0 -2.8"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/visual/link_3.stl"/>
-      </geometry>
-      <material name="abb_orange"/>
-    </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-0.28 0 -2.8"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/collision/link_3.stl"/>
-      </geometry>
-      <material name="yellow"/>
-    </collision>
-    <xacro:box_inertia m="1" x="1.49" y="0.15" z="0.15" o_xyz="0.745 0 0" o_rpy="0 0 0" />
-  </link>
-  <link name="link_4">
-    <visual>
-      <origin rpy="0 0 0" xyz="-0.28 0 -2.8"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/visual/link_4.stl"/>
-      </geometry>
-      <material name="abb_orange"/>
-    </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-0.28 0 -2.8"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/collision/link_4.stl"/>
-      </geometry>
-      <material name="yellow"/>
-    </collision>
-    <xacro:box_inertia m="1" x="0.1" y="0.1" z="0.1" o_xyz="0 0 0" o_rpy="0 0 0" />
-  </link>
-  <link name="link_5">
-    <visual>
-      <origin rpy="0 0 0" xyz="-1.77 0 -2.8"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/visual/link_5.stl"/>
-      </geometry>
-      <material name="abb_orange"/>
-    </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-1.77 0 -2.8"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/collision/link_5.stl"/>
-      </geometry>
-      <material name="yellow"/>
-    </collision>
-    <xacro:cylinder_inertia m="1" r="0.05" l="0.1" o_xyz="0 0 0" o_rpy="0 0 0" />
-  </link>
-  <link name="link_6">
-    <visual>
-      <origin rpy="0 0 0" xyz="-1.77 0 -2.8"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/visual/link_6.stl"/>
-      </geometry>
-      <material name="abb_orange"/>
-    </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-1.77 0 -2.8"/>
-      <geometry>
-        <mesh filename="package://abb_gz_description/meshes/irb140/collision/link_6.stl"/>
-      </geometry>
-      <material name="yellow"/>
-    </collision>
-    <xacro:cylinder_inertia m="1" r="0.03" l="0.05" o_xyz="0 0 0" o_rpy="0 0 0" />
-  </link>
-  <link name="tool"/>
+  <!-- Materials for visualization -->
+  <material name="red">
+    <color rgba="1 0 0 1"/>
+  </material>
+  
+  <material name="blue">
+    <color rgba="0 0 1 1"/>
+  </material>
 
+  <!-- Base link (world reference) -->
+  <link name="world_0"/>
+
+  <!-- ABB Base Link -->
+  <link name="abb_base">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.6 0.6 0.1"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.6 0.6 0.1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1000"/>
+      <inertia ixx="5.05" ixy="0.0" ixz="0.0" iyy="5.05" iyz="0.0" izz="10.0"/>
+    </inertial>
+  </link>
+
+  <joint name="world_to_base" type="fixed">
+    <parent link="world_0"/>
+    <child link="abb_base"/>
+    <origin xyz="0 0 0.05" rpy="0 0 0"/>
+  </joint>
+
+  <!-- First Joint Body -->
+  <link name="first_joint_body">
+    <visual>
+      <origin xyz="0 0 -0.245" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.3" length="0.08"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.245 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.6 0.2"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0.25 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.4 0.1 0.2"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.245" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.3" length="0.08"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.245 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.6 0.2"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0.25 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.4 0.1 0.2"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="10"/>
+      <inertia ixx="0.5" ixy="0.0" ixz="0.0" iyy="0.5" iyz="0.0" izz="0.8"/>
+    </inertial>
+  </link>
 
   <joint name="position_joint_0" type="revolute">
-    <origin rpy="0 0 0" xyz="0 0 0"/>
-    <parent link="base_link"/>
-    <child link="link_1"/>
+    <parent link="abb_base"/>
+    <child link="first_joint_body"/>
+    <origin xyz="0 0 0.342" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <limit effort="100" lower="-3.1416" upper="3.1416" velocity="2.618"/>
+    <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="2.0"/>
+    <dynamics damping="0.7" friction="0.0"/>
   </joint>
+
+  <!-- Second Joint Body -->
+  <link name="second_joint_body">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.4"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <visual>
+      <origin xyz="0.2 0 0.25" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.6 0.2 0.1"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.4"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.2 0 0.25" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.6 0.2 0.1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.2 0 0.25" rpy="0 0 0"/>
+      <mass value="8"/>
+      <inertia ixx="0.3" ixy="0.0" ixz="0.0" iyy="0.5" iyz="0.0" izz="0.4"/>
+    </inertial>
+  </link>
 
   <joint name="position_joint_1" type="revolute">
-    <origin rpy="0 0 0" xyz="0.28 0 1.38"/>
-    <parent link="link_1"/>
-    <child link="link_2"/>
-    <axis xyz="0 1 0"/>
-    <limit effort="100" lower="-1.7453" upper="1.9199" velocity="2.618"/>
+    <parent link="first_joint_body"/>
+    <child link="second_joint_body"/>
+    <origin xyz="0.06988 0 0" rpy="1.5708 -1.5708 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="2.0"/>
+    <dynamics damping="0.7" friction="0.0"/>
   </joint>
+
+  <!-- Third Joint Body -->
+  <link name="third_joint_body">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.4"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.4"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="5"/>
+      <inertia ixx="0.15" ixy="0.0" ixz="0.0" iyy="0.15" iyz="0.0" izz="0.05"/>
+    </inertial>
+  </link>
 
   <joint name="position_joint_2" type="revolute">
-    <origin rpy="0 0 0" xyz="0 0 1.42"/>
-    <parent link="link_2"/>
-    <child link="link_3"/>
-    <axis xyz="0 1 0"/>
-    <limit effort="100" lower="-1.0472" upper="1.1345" velocity="2.618"/>
+    <parent link="second_joint_body"/>
+    <child link="third_joint_body"/>
+    <origin xyz="0.362 0 0" rpy="0 0 3.14159"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="2.0"/>
+    <dynamics damping="0.7" friction="0.0"/>
   </joint>
+
+  <!-- Fourth Joint Body -->
+  <link name="fourth_joint_body">
+    <visual>
+      <origin xyz="0 0 0.155" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.08" length="0.2"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.155" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.08" length="0.2"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.155" rpy="0 0 0"/>
+      <mass value="3"/>
+      <inertia ixx="0.05" ixy="0.0" ixz="0.0" iyy="0.05" iyz="0.0" izz="0.02"/>
+    </inertial>
+  </link>
 
   <joint name="position_joint_3" type="revolute">
-    <origin rpy="0 0 0" xyz="0 0 0"/>
-    <parent link="link_3"/>
-    <child link="link_4"/>
-    <axis xyz="1 0 0"/>
-    <limit effort="100" lower="-3.49" upper="3.49" velocity="6.2832"/>
+    <parent link="third_joint_body"/>
+    <child link="fourth_joint_body"/>
+    <origin xyz="0 0.380 0" rpy="-1.5708 0 3.14159"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="2.0"/>
+    <dynamics damping="0.5" friction="0.0"/>
   </joint>
+
+  <!-- Fifth Joint Body -->
+  <link name="fifth_joint_body">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.2"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.2"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="2"/>
+      <inertia ixx="0.02" ixy="0.0" ixz="0.0" iyy="0.02" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
 
   <joint name="position_joint_4" type="revolute">
-    <origin rpy="0 0 0" xyz="1.49 0 0"/>
-    <parent link="link_4"/>
-    <child link="link_5"/>
-    <axis xyz="0 1 0"/>
-    <limit effort="100" lower="-2.0944" upper="2.0944" velocity="6.2832"/>
+    <parent link="fourth_joint_body"/>
+    <child link="fifth_joint_body"/>
+    <origin xyz="0 0 0" rpy="-1.5708 0 3.14159"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="2.0"/>
+    <dynamics damping="0.5" friction="0.0"/>
   </joint>
+
+  <!-- Sixth Joint Body (End Effector) -->
+  <link name="sixth_joint_body">
+    <visual>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.1"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <mass value="0.5"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.0005"/>
+    </inertial>
+  </link>
 
   <joint name="position_joint_5" type="revolute">
-    <origin rpy="0 0 0" xyz="0 0 0.02"/>
-    <parent link="link_5"/>
-    <child link="link_6"/>
-    <axis xyz="1 0 0"/>
-    <limit effort="100" lower="-6.9813" upper="6.9813" velocity="7.854"/>
+    <parent link="fifth_joint_body"/>
+    <child link="sixth_joint_body"/>
+    <origin xyz="0 0.25 0" rpy="-1.5708 0 3.14159"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="2.0"/>
+    <dynamics damping="0.3" friction="0.0"/>
   </joint>
 
-  <joint name="position_joint_5-end_effector" type="fixed">
-    <parent link="link_6"/>
+  <!-- End Effector Link (for TCP) -->
+  <link name="tool">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <joint name="tool_joint" type="fixed">
+    <parent link="sixth_joint_body"/>
     <child link="tool"/>
-    <origin rpy="0 1.57079632679 0" xyz="0.25 0 0"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
   </joint>
 
-  <link name="world_0"/>
-  <joint name="base_link-base" type="fixed">
-    <origin rpy="0 0 0" xyz="0 0 0"/>
-    <parent link="base_link"/>
-    <child link="world_0"/>
-  </joint>
+  <!-- Gazebo-specific tags -->
+  <gazebo reference="abb_base">
+    <material>Gazebo/Red</material>
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+    <self_collide>0</self_collide>
+  </gazebo>
+
+  <gazebo reference="first_joint_body">
+    <material>Gazebo/Blue</material>
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+  </gazebo>
+
+  <gazebo reference="second_joint_body">
+    <material>Gazebo/Blue</material>
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+  </gazebo>
+
+  <gazebo reference="third_joint_body">
+    <material>Gazebo/Blue</material>
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+  </gazebo>
+
+  <gazebo reference="fourth_joint_body">
+    <material>Gazebo/Blue</material>
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+  </gazebo>
+
+  <gazebo reference="fifth_joint_body">
+    <material>Gazebo/Blue</material>
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+  </gazebo>
+
+  <gazebo reference="sixth_joint_body">
+    <material>Gazebo/Blue</material>
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+  </gazebo>
+
 
 
 </robot>

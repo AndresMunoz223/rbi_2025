@@ -1,77 +1,182 @@
 <?xml version="1.0"?>
-<robot name="rover" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="abb_robot">
 
-  <!-- Main body -->
-  <link name="hull_link">
+  <!-- Materials for visualization -->
+  <material name="red">
+    <color rgba="1 0 0 1"/>
+  </material>
+  
+  <material name="blue">
+    <color rgba="0 0 1 1"/>
+  </material>
+  
+  <material name="grey">
+    <color rgba="0.5 0.5 0.5 1"/>
+  </material>
+
+  <!-- Base link (world reference) -->
+  <link name="world_0"/>
+
+  <!-- ABB Base Link -->
+  <link name="abb_base">
     <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.6 0.4 0.2"/>
+        <box size="0.6 0.6 0.1"/>
       </geometry>
-      <material name="blue">
-        <color rgba="0.1 0.1 0.8 1"/>
-      </material>
+      <material name="red"/>
     </visual>
-    <collision>
-      <geometry>
-        <box size="0.6 0.4 0.2"/>
-      </geometry>
-    </collision>
-    <inertial>
-      <mass value="10"/>
-      <origin xyz="0 0 0"/>
-      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
-    </inertial>
   </link>
 
-  <!-- Six thruster joints (effort controlled) -->
-  <!-- X, Y, Z, Roll, Pitch, Yaw -->
-  <joint name="thruster_joint_1" type="continuous">
-    <parent link="hull_link"/>
-    <child link="thruster_link_1"/>
-    <origin xyz="0.3 0 0" rpy="0 0 0"/>
-    <axis xyz="1 0 0"/>
+  <joint name="world_to_base" type="fixed">
+    <parent link="world_0"/>
+    <child link="abb_base"/>
+    <origin xyz="0 0 0.05" rpy="0 0 0"/>
   </joint>
-  <link name="thruster_link_1"/>
 
-  <joint name="thruster_joint_2" type="continuous">
-    <parent link="hull_link"/>
-    <child link="thruster_link_2"/>
-    <origin xyz="-0.3 0 0" rpy="0 0 0"/>
-    <axis xyz="0 1 0"/>
-  </joint>
-  <link name="thruster_link_2"/>
+  <!-- First Joint Body -->
+  <link name="first_joint_body">
+    <visual>
+      <origin xyz="0 0 -0.245" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.3" length="0.08"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.245 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.6 0.2"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0.25 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.4 0.1 0.2"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+  </link>
 
-  <joint name="thruster_joint_3" type="continuous">
-    <parent link="hull_link"/>
-    <child link="thruster_link_3"/>
-    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+  <joint name="position_joint_0" type="revolute">
+    <parent link="abb_base"/>
+    <child link="first_joint_body"/>
+    <origin xyz="0 0 0.342" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
+     <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="2.0"/>
   </joint>
-  <link name="thruster_link_3"/>
 
-  <joint name="thruster_joint_4" type="continuous">
-    <parent link="hull_link"/>
-    <child link="thruster_link_4"/>
-    <origin xyz="0 0.2 0" rpy="0 0 0"/>
-    <axis xyz="1 0 0"/>
-  </joint>
-  <link name="thruster_link_4"/>
+  <!-- Second Joint Body -->
+  <link name="second_joint_body">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.4"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <visual>
+      <origin xyz="0.2 0 0.25" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.6 0.2 0.1"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+  </link>
 
-  <joint name="thruster_joint_5" type="continuous">
-    <parent link="hull_link"/>
-    <child link="thruster_link_5"/>
-    <origin xyz="0 -0.2 0" rpy="0 0 0"/>
-    <axis xyz="0 1 0"/>
-  </joint>
-  <link name="thruster_link_5"/>
-
-  <joint name="thruster_joint_6" type="continuous">
-    <parent link="hull_link"/>
-    <child link="thruster_link_6"/>
-    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+  <joint name="position_joint_1" type="revolute">
+    <parent link="first_joint_body"/>
+    <child link="second_joint_body"/>
+    <origin xyz="0.06988 0 0" rpy="1.5708 -1.5708 0"/>
     <axis xyz="0 0 1"/>
+     <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="2.0"/>
   </joint>
-  <link name="thruster_link_6"/>
+
+  <!-- Third Joint Body -->
+  <link name="third_joint_body">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.4"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="position_joint_2" type="revolute">
+    <parent link="second_joint_body"/>
+    <child link="third_joint_body"/>
+    <origin xyz="0.362 0 0" rpy="0 0 3.14159"/>
+    <axis xyz="0 0 1"/>
+     <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="2.0"/>
+  </joint>
+
+  <!-- Fourth Joint Body -->
+  <link name="fourth_joint_body">
+    <visual>
+      <origin xyz="0 0 0.155" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.08" length="0.2"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="position_joint_3" type="revolute">
+    <parent link="third_joint_body"/>
+    <child link="fourth_joint_body"/>
+    <origin xyz="0 0.380 0" rpy="-1.5708 0 3.14159"/>
+    <axis xyz="0 0 1"/>
+     <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="2.0"/>
+  </joint>
+
+  <!-- Fifth Joint Body -->
+  <link name="fifth_joint_body">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.2"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="position_joint_4" type="revolute">
+    <parent link="fourth_joint_body"/>
+    <child link="fifth_joint_body"/>
+    <origin xyz="0 0 0" rpy="-1.5708 0 3.14159"/>
+    <axis xyz="0 0 1"/>
+     <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="2.0"/>
+  </joint>
+
+  <!-- Sixth Joint Body (End Effector) -->
+  <link name="sixth_joint_body">
+    <visual>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.1"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="position_joint_5" type="revolute">
+    <parent link="fifth_joint_body"/>
+    <child link="sixth_joint_body"/>
+    <origin xyz="0 0.25 0" rpy="-1.5708 0 3.14159"/>
+    <axis xyz="0 0 1"/>
+     <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="2.0"/>
+  </joint>
+
+  <!-- End Effector Link (for TCP) -->
+  <link name="tool"/>
+
+  <joint name="tool_joint" type="fixed">
+    <parent link="sixth_joint_body"/>
+    <child link="tool"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
 
   <!-- ros2_control tag for hardware interface -->
   <ros2_control name="abb_control" type="system">
